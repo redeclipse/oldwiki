@@ -1,0 +1,5 @@
+Windows
+----
+In-game, to take screenshots use F12. This captures your screenshot into "My Documents/My Games/RedEclipse/"
+
+You can also use the console command, /screenshot NAME  to label the image however you wish.
