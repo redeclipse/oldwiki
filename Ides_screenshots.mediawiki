@@ -1,0 +1,72 @@
+== 1.0 Ides Edition Screenshots ==
+
+{|style="font-size:90%"
+|''Click on thumbnails for larger images.''
+|}
+
+
+
+<h3>''Deathmatch''</h3>
+
+{|
+| [[File:Ides-deathmatch-1.png|192px|]]
+| [[File:Ides-deathmatch-2.png|192px|]]
+| [[File:Ides-deathmatch-3.png|192px|]]
+| [[File:Ides-deathmatch-4.png|192px|]]
+|-
+| [[File:Ides-deathmatch-5.png|192px|]]
+| [[File:Ides-deathmatch-6.png|192px|]]
+| [[File:Ides-deathmatch-7.png|192px|]]
+| [[File:Ides-deathmatch-8.png|192px|]]
+|}
+
+
+
+<h3>''Capture the Flag''</h3>
+
+{|
+| [[File:Ides-ctf-1.png|192px|]]
+| [[File:Ides-ctf-2.png|192px|]]
+| [[File:Ides-ctf-3.png|192px|]]
+| [[File:Ides-ctf-4.png|192px|]]
+|-
+| [[File:Ides-ctf-5.png|192px|]]
+| [[File:Ides-ctf-6.png|192px|]]
+| [[File:Ides-ctf-7.png|192px|]]
+| [[File:Ides-ctf-8.png|192px|]]
+|}
+
+
+
+<h3>''Defend the Flag''</h3>
+
+{|
+| [[File:Ides-defend-1.png|192px|]]
+| [[File:Ides-defend-2.png|192px|]]
+| [[File:Ides-defend-3.png|192px|]]
+|}
+
+
+
+<h3>''Bomber Ball''</h3>
+
+{|
+| [[File:Ides-bomber-1.png|192px|]]
+| [[File:Ides-bomber-2.png|192px|]]
+| [[File:Ides-bomber-3.png|192px|]]
+| [[File:Ides-bomber-4.png|192px|]]
+|-
+| [[File:Ides-bomber-5.png|192px|]]
+| [[File:Ides-bomber-6.png|192px|]]
+|}
+
+
+
+<h3>''Time Trial''</h3>
+
+{|
+| [[File:Ides-time-trial-1.png|192px|]]
+| [[File:Ides-time-trial-2.png|192px|]]
+| [[File:Ides-time-trial-3.png|192px|]]
+| [[File:Ides-time-trial-4.png|192px|]]
+|}
