@@ -1,0 +1,192 @@
+== Gameplay Controls ==
+
+<table cellspacing="10" style="width:100%">
+    <tr>
+      <td>W</td>
+      <td>Move Forward</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Sidestep Left</td>
+    </tr>
+    <tr>
+      <td>S</td>
+      <td>Move Backward</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>	Sidestep Right</td>
+    </tr>
+    <tr>
+      <td>Doubletap W/A/S/D</td>
+      <td>	Dodge</td>
+    </tr>
+    <tr>
+      <td>Left Mouse Button</td>
+      <td>	Primary Fire</td>
+    </tr>
+    <tr>
+      <td>Right Mouse Button</td>
+      <td>	Alternate Fire</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>	Pick Up Weapon</td>
+    </tr>
+    <tr>
+      <td>R</td>
+      <td>Reload</td>
+    </tr>
+    <tr>
+      <td>Scroll Wheel ''- or -''  1 2 3 4 Keys</td>
+      <td>	Change Weapon</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>	Grenade</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>	Throw Flag/Ball (Bomber Ball Mode)</td>
+    </tr>
+    <tr>
+      <td>Space Bar</td>
+      <td>	Jump</td>
+    </tr>
+    <tr>
+      <td>Space Bar (In Air)</td>
+      <td>	Double Jump</td>
+    </tr>
+    <tr>
+      <td>Space Bar + W/A/S/D (In Air) ''- or -'' Doubletap W/A/S/D (In Air)</td>
+      <td>	Impulse Dash </td>
+    </tr>
+    <tr>
+      <td>Q (In Air) (When Facing Parallel to Wall)</td>
+      <td>	Wall Run</td>
+    </tr>
+    <tr>
+      <td>Q (In Air) (When Facing Perpendicular to Wall)</td>
+      <td>	Wall Kick</td>
+    </tr>
+    <tr>
+      <td>Q (On Ground) (Near Opponent)</td>
+      <td>	Punch </td>
+    </tr>
+    <tr>
+      <td>Q (In Air) (Near Opponent)</td>
+      <td>Kick </td>
+    </tr>
+    <tr>
+      <td>Left Shift</td>
+      <td>Crouch</td>
+    </tr>
+    <tr>
+      <td>Left Shift (Hold after Impulsing until you hit the ground ''- or -'' Hold after Dodging)</td>
+      <td>Power Slide</td>
+    </tr>
+    <tr>
+      <td>Hold Jump while Crouched, release Crouch to initiate</td>
+      <td>Super Jump</td>
+    </tr>
+    <tr>
+      <td>Left Ctrl</td>
+      <td>Walk</td>
+    </tr>
+    <tr>
+      <td>K</td>
+      <td>	Suicide/Kamikaze (With Grenade)</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>	Voice Menu</td>
+    </tr>
+    <tr>
+      <td>, (Comma)</td>
+      <td>Choose Loadout Weapon (Arena Mode)</td>
+    </tr>
+    <tr>
+      <td>. (Period)</td>
+      <td>	Change Team</td>
+    </tr>
+    <tr>
+      <td>F2 - F3</td>
+      <td>	Vote Menu</td>
+    </tr>
+    <tr>
+      <td>Home</td>
+      <td>	Enter Spectate</td>
+    </tr>
+    <tr>
+      <td>End</td>
+      <td>	Exit Spectate</td>
+    </tr>
+    <tr>
+      <td>Tab</td>
+      <td>	Scoreboard</td>
+    </tr>
+    <tr>
+      <td>Escape</td>
+      <td>	Main Menu</td>
+    </tr>
+</table>
+
+== Tips ==
+
+* You are more accurate the less agile you are.
+* You regenerate Impulse Energy faster the less agile you are.
+* You can combo Impulse moves together by alternating between them and jumps.
+* You can wall kick / wall run up to three times before falling.
+ 
+<p>''Movement / Accuracy / Regen Hierarchy:''</p>
+<p>Crouching -> Walking -> Running -> Falling / Jumping / Swimming -> Impulsing / Dodging / Power Sliding / Super Jumping</p>
+
+== HUD ==
+[[File:Hud-annotated.png|704px|thumb|left|''Red Eclipse Heads-up Display'']]
+
+<table cellspacing="0" style="width:80%">
+    <tr>
+      <td>[[File:Hud-1.png|24px|left]]</td>
+      <td>Message Area</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-2.png|24px|left]]</td>
+      <td>Team Icon</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-3.png|24px|left]]</td>
+      <td>Special Kill Notification Area</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-4.png|24px|left]]</td>
+      <td>Crosshair Radar</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-5.png|24px|left]]</td>
+      <td>Obituary Notification Area</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-6.png|24px|left]]</td>
+      <td>Impulse Meter</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-7.png|24px|left]]</td>
+      <td>Health</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-8.png|24px|left]]</td>
+      <td>Objective Status</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-9.png|24px|left]]</td>
+      <td>Equipped Gun</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-10.png|24px|left]]</td>
+      <td>Holstered Guns</td>
+    </tr>
+    <tr>
+      <td>[[File:Hud-11.png|24px|left]]</td>
+      <td>Frame Rate Count</td>
+    </tr>
+</table>
