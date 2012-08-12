@@ -1,0 +1,53 @@
+== HEIGHT MAPPING ==
+
+'''Hints'''
+
+* This feature is not available when editing with other players.
+
+
+== Toggle Height Mapping Mode ==
+
+
+'''Left Alt Key''' or '''H''' key enables Height Mapping Mode (cursor becomes green)
+
+Left Click to Exit mode. Height Mapping is dependent on the Area Selected and the Grid Size (see Change Size of Grid [[Map::controls]])
+
+
+[[File:Kr1 heightmap 1 select.png]]
+
+
+
+== Select a brush ==
+
+You can cycle forwards and backwards through the brushes with
+ /selectbrush 1
+ /selectbrush -1
+In SVN (prospective 1.3) this is available via holding '''K''' and scrolling the '''mouse wheel'''
+
+A '''message''' should appear at the '''top left''' of your screen:
+
+
+[[File:Kr1 heightmap 2 selectbrush.png]]
+
+== Raise / Lower Terrain ==
+
+Place the cursor on a face and Scroll the Mouse Wheel.
+
+
+[[File:Kr1 heightmap 3 brush.png]]
+
+
+
+== Tipps & Tricks ==
+
+
+
+'''Natural Terrain example'''
+
+* Use standart-grid-size
+
+* Use circle 4-2-1 brush to paint some terrain
+
+* Use noise 25x25 brush to make the terrain looking more random
+
+* Smooth the terrain with smooth 5x5 brush
