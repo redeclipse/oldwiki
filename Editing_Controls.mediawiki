@@ -1,0 +1,140 @@
+== Basic Editing Kebinds ==
+
+{| border="1" cellpadding="5" cellspacing="0"
+|Toggle Walk / Edit Mode
+|F1 Key
+|-
+|Open Texture Palette
+|F2 Key
+|-
+|Open Edit Menu
+|F3 Key
+|-
+|Select Cube Face
+|Left Mouse Button
+|-
+|Add to Selection
+|Right Mouse Button
+|-
+|Select Corners
+|Middle Mouse Button
+|-
+|Deselect All
+|Spacebar
+|-
+|Change the Size of the Grid
+|Hold G Key + Mouse Scroll Wheel
+|-
+|Create / Destroy Cube
+|Mouse Scroll Wheel
+|-
+|Push / Pull Corner
+|Hold Q Key + Place Edit Cursor on Corner + Scroll Mouse Wheel
+|-
+|Push / Pull Selected Face
+|Hold F Key + Scroll Mouse Wheel
+|-
+|Undo
+|Z Key
+|-
+|Redo
+|I Key
+|-
+|Move Selected Area
+|Hold U key, pressing copies+deletes selection, releasing pastest selection into paste box 
+|-
+|Copy Selected Area
+|C Key
+|-
+|Paste Selected Area
+|V Key
+|-
+|Flip Selected Area
+|X Key
+|-
+|Rotate Selected Area Per Selected Face
+|Hold R Key + Mouse Scroll Wheel
+|-
+|Link Entities
+|L Key
+|-
+|Select All Entities Within Selection Area
+|N Key
+|-
+|Toggle Blank Geometry
+|K Key
+|-
+|Toggle Material Volumes
+|M Key
+|-
+|Toggle Fullbright
+|B Key
+|-
+|Toggle Edit Helper
+|Tab Key
+|-
+|Open Console 
+|Tilde Key (~), Forward Slash (/) or use the chat window (t)
+|-
+|Optimize Geometry (Remip)
+|F4 Key
+|-
+|Patch Existing Lightmap
+|F5 Key
+|-
+|Recalculate Lightmap Quick
+|F6 Key
+|-
+|Recalculate Lightmap Full
+|F7 Key
+|-
+|Save Map
+|F8 Key
+|-
+|Cycle Geometry Outline Color
+|F9 Key
+|-
+|Toggle Geometry Outlines On / Off
+|O Key
+|-
+|Open Console History
+|F11 Key (Page Up/Page Down keys Scroll History)
+|-
+|Take Screenshot
+|F12 Key (My Documents/my Games/Red Eclipse)
+|-
+|Quick Texture Menu (recent textures)
+|Hold Y key + Scroll Wheel
+|-
+|Grab Texture From Selected Face
+|J key
+|-
+|Apply Texture to Selected Faces
+|Click the large Texture Preview Thumbnail
+|-
+|Toggle ALL FACES texturing style style
+|0 (zero) Key
+|-
+|Toggle Texture Brush Modes
+|P Key 
+|}
+
+== Advanced Selecting ==
+
+{| border="1" cellpadding="5" cellspacing="0"
+|/entfind
+|selects all entities of a specific type within the map.
+ex: /entfind light all lights
+
+/entfind weapon 5 will select all of the weapon 5 entities within the map.
+|
+|-
+|/entfindinsel
+|selects all entities of a specific type within the selected area.
+ex: /entfindinsel light will select all light entities within the selected area
+|key N
+|-
+|/entcancel
+|deselects all entities while leaving area selected
+|key Home
+|}
