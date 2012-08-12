@@ -1,0 +1,23 @@
+== On Screen Indicators ==
+
+
+
+In the lower-right corner of your screen in editing mode, you'll see numerous text indicators giving you more information about your map. Here is a short description of each parameter. 
+
+* cube: the number of cubes in the current selection. Only the visible (leaf)cubes are counted.
+
+* fps: frames per second.
+
+* ond: number of cubes in the system. This includes parent cubes, copied cubes, and undos.
+
+* va: number of vertex arrays used to store vertecies in the map.
+
+* vtr: number of triangles currently being displayed. Will be a useful stat when culling is done.
+
+* vvt: number of vertecies currently being displayed. Again, useful when culling is done.
+
+* tri: number of triangles in the entire map.
+
+* wvt: number of vertecies in the entire map.
+
+* evt: misc rendering effects. stuff like particles displayed, or text written on screen.
