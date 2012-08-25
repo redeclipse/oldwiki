@@ -1,0 +1,13 @@
+{| border="1" class="wikitable sortable"
+! Name&nbsp;&&nbsp;Parameters
+! class="unsortable"|Description
+! Type(s)
+! class="unsortable"|Range
+! class="unsortable"|Default&nbsp;Value
+|- 
+| '''rotatemodefilter'''&nbsp;''<sum>''
+| determines the modes which can be selected when the server selects the next map, convenient to set using a sum of $modebit* vars (available: editing, deathmatch, capture, defend, bomber, trial) example: (+ $modebitediting $modebitdeathmatch)
+| integer
+| 0..G_ALL
+| G_LIMIT
+|}
