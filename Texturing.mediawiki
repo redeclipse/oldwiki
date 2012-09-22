@@ -1,0 +1,130 @@
+
+== ADVANCED TEXTURING ==
+
+
+
+<table cellspacing="10" style="width:100%">
+  
+<tr><td width="174">
+/gettex
+</td><td width="219">
+picks up the texture from the face currently selected. 
+Note: allfaces must of OFF
+</td></tr>
+
+<tr><td width="174">
+/vscale #
+</td><td width="219">
+creates a scaled version of the texture face selected
+Min: /vscale .125
+</td></tr>
+
+<tr><td width="174">
+/vrotate #
+</td><td width="219">
+creates a rotated or flipped version of the texture face selected
+Default: 1
+2: rotate 90 degrees
+3: rotate 180 degrees
+4: flipped along Z axis
+5: flipped along Y axis
+</td></tr>
+
+<tr><td width="174">
+/vcolor R G B
+</td><td width="219">
+creates a virtual texture slot with adjustable color from the texured face currently selected
+ex: /vcolor 1.0 0.2 0.2 will create a red version
+Default: 1.0 1.0 1.0 (100% 100% 100%)
+Min: 0.0 0.0 0.0 (0% 0% 0%)
+</td></tr>
+<tr><td width="174">
+/vpalette N V
+</td><td width="219">
+applies the colour from set N with id V from the builtin palette.
+
+Set "0" - Pulse Colours
+0: turn off all palette effects
+1: dark fire pulse colours
+2: bright fire pulse colours
+3: disco pulse colours (bomber-ball)
+
+Set "1" - Team Colours
+0/1/2/3: only enforced in teamplay games
+4/5/6/7: enforced at all times
+
+Set "2" - Weapon Colours
+0/1/2/3/4/5/6/7/8/9: only enforced when that weapon is able to spawn in the current game configuration
+10/11/12/13/14/15/16/17/18/19: enforced at all times
+</td></tr>
+
+<tr><td width="174">
+/vreset
+</td><td width="219">
+resets a vtexture to its original settings
+</td></tr>
+
+<tr><td width="174">
+/replace
+</td><td width="219">
+repeats the last texture change across the entire map
+Note: allfaces must be OFF
+</td></tr>
+
+
+<tr><td width="174">
+/vdelta vshaderparam specscale R G B
+</td><td width="219">
+adjusts the specularity color and brightness of a texture
+ex: /vdelta vshaderparam specscale 0.2 0.2 1.0 will make the texture shine blue
+ex: /vdelta vshaderparam specscale 0.02 0.02 0.02 will remove the shine
+</td></tr>
+
+<tr><td width="174">
+/vdelta vshaderparam parallaxscale R G B
+</td><td width="219">
+adjusts the 3d hightmap effect of a texture.
+</td></tr>
+
+<tr><td width="174">
+/vdelta vshaderparam glowcolor R G B
+</td><td width="219">
+adjusts the 3d glow color of a texture.
+</td></tr>
+
+
+<tr><td width="174">
+/texturecull
+</td><td width="219">
+removes all texures not used in the map from the maps .cfg
+</td></tr>
+
+<tr><td width="174">
+/setgrass
+</td><td width="219">
+the selected texture will use a specified image as grass across the map. (ex. /setgrass textures/grass.png)
+</td></tr>
+
+<tr><td width="174">
+/grasscolour 
+</td><td width="219">
+sets the color of grass as RGB values (ex. /grasscolour 100 255 100)
+</td></tr>
+
+<tr><td width="174">
+/grassheight
+</td><td width="219">
+sets the height of grass
+</td></tr>
+
+<tr><td width="174">
+/grassblend
+</td><td width="219">
+sets the transparency of grass
+</td></tr>
+
+<tr><td width="174">
+/grassdist
+</td><td width="219">
+sets the distance at which grass becomes visible
+</td></tr>
