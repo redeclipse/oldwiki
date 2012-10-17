@@ -1,0 +1,243 @@
+{|
+|+
+| <h2>'''Fist'''</h2> [[File:Melee.png|64px]]
+|-
+| ''Weapon Number''
+| 0
+|-
+| ''Weapon Color''
+| Gray
+|-
+| ''Summary''
+| For those who are too lazy to even bring a knife to a gun fight, or just like to bare-knuckle brawl against folks with actual weapons.
+|-
+| ''Primary Fire''
+| A quick punch.
+|-
+| ''Alternate Fire''
+| None
+|-
+| ''Note''
+| Only seen in Time-trial.
+
+|+
+| <h2>'''Pistol'''</h2> [[File:Pistol.png|64px]]
+|-
+| ''Weapon Number''
+| 1
+|-
+| ''Weapon Color''
+| Gray
+|-
+| ''Summary''
+| A robot's best friend and a helpful side arm to finish off baddies.
+|-
+| ''Clip''
+| 10 Bullets
+|-
+| ''Primary Fire''
+| Semi-automatic, quick rate of fire, fires one shot at a time. Remember to crouch for more accurate shots.
+|-
+| ''Alternate Fire''
+| Semi-automatic, fires a scattering of rouds that do very little damage. Lower rate of fire than primary. Intended to interrupt enemy health regeneration.
+|-
+|-
+| ''Note''
+| Does not spawn in maps. Default spawn weapon.
+
+|+
+| <h2>'''Sword'''</h2> [[File:Sword.png|64px]]
+|-
+| ''Weapon Number''
+| 2
+|-
+| ''Weapon Color''
+| Blue
+|-
+| ''Summary''
+| The one knife you will want to bring to a gun fight. This energy spewing shard of metal will serve you and all of your limb-chopping needs.
+|-
+| ''Clip''
+| None
+|-
+| ''Primary Fire''
+| "Automatic". A quick, horizontal swing. Induces bleeding. Has a short range, but a wide hitting arc.
+|-
+| ''Alternate Fire''
+| "Automatic". A slower, vertical swing. Induces bleeding and does massive damage. Has a longer range, but a very narrow hitting arc.
+|-
+
+|+
+| <h2>'''Shotgun'''</h2> [[File:Shotgun.png|64px]]
+|-
+| ''Weapon Number''
+| 3
+|-
+| ''Weapon Color''
+| Yellow
+|-
+| ''Summary''
+| Drop on by with this tube of flak and lay out your foes with a couple close shots, or lob a heated ball of metal their way and watch them scatter.
+|-
+| ''Clip''
+| 8 Shotgun Shells
+|-
+| ''Primary Fire''
+| Semi-automatic, fires off a quick buckshot. Auto-reload.
+|-
+| ''Alternate Fire''
+| Semi-automatic, lobs out a ball of flak, which splits into stray shards when hitting a surface. Aim for the ground in front of your enemy and hit them with the bounce of flak shards. Induces bleeding. Uses two shotgun shells. Auto-reload.
+|-
+
+|+
+| <h2>'''SMG'''</h2> [[File:Smg.png|64px]]
+|-
+| ''Weapon Number''
+| 4
+|-
+| ''Weapon Color''
+| Orange
+|-
+| ''Summary''
+| Pump the bad guys full of bullets quickly, accurately, efficiently, and of course, in style.
+|-
+| ''Clip''
+| 40 Bullets
+|-
+| ''Primary Fire''
+| Automatic. Fires off the clip in quick succession. Crouching for more accuracy is a good tactic.
+|-
+| ''Alternate Fire''
+| Automatic. Launches a ball of flak that explodes on impact or after a few seconds, launching flak in all directions. Uses 4 bullets.
+|-
+
+|+
+| <h2>'''Flamer'''</h2> [[File:Flamer.png|64px]]
+|-
+| ''Weapon Number''
+| 5
+|-
+| ''Weapon Color''
+| Red
+|-
+| ''Summary''
+| For the pyromaniacs and arsonists, here's a gun that will tickle your fancy. Bounce fireballs off the walls or shoot flames across the room, this one's bound to ruin someone's day.
+|-
+| ''Clip''
+| 25 Units of fuel per tank
+|-
+| ''Primary Fire''
+| "Automatic". Shoots out a medium distance, concentrated stream of flame. Induces burning.
+|-
+| ''Alternate Fire''
+| "Semi-automatic". Shoots out a fireball that will roll around bends and bounce off of level geometry. Hold down the button to shoot a bigger fireball. Induces burning.
+|-
+
+|+
+| <h2>'''Plasma'''</h2> [[File:Plasma.png|64px]]
+|-
+| ''Weapon Number''
+| 6
+|-
+| ''Weapon Color''
+| Turquoise
+|-
+| ''Summary''
+| Roll through the room with plasma shock balls or charge up this cannon and light it up with a vacuum-sucking, electric sphere of pure pwnage.
+|-
+| ''Clip''
+| 20 Charges per clip
+|-
+| ''Primary Fire''
+| Automatic. Shoots out a long range, high velocity, splash-damaging plasma ball.
+|-
+| ''Alternate Fire''
+| Semi-automatic. Shoots out a "Big Blue Ball", sucking in enemies close to it. Charge longer for a larger sphere.
+
+|+
+| <h2>'''Rifle'''</h2> [[File:Rifle.png|64px]]
+|-
+| ''Weapon Number''
+| 7
+|-
+| ''Weapon Color''
+| Purple
+|-
+| ''Summary''
+| A long-range, piercing-shot, purple nightmare to anyone out in the open smelling the roses. If you've got the aim, grab it and start sniping.
+|-
+| ''Clip''
+| 5 Beams per clip
+|-
+| ''Primary Fire''
+| Semi-automatic. Fires off an ultra long-range purple beam of energy. When opponents are further away, crouch for accuracy and lead your shots. Shoot at the ground for splash damage.
+|-
+| ''Alternate Fire''
+| Scope. Scroll the mouse wheel for different zoom levels. Zoomed shots do more damage and even penetrate multiple targets, but have no splash damage.
+
+|+
+| <h2>'''Grenade'''</h2> [[File:Grenade.png|64px]]
+|-
+| ''Weapon Number''
+| 8
+|-
+| ''Weapon Color''
+| Green
+|-
+| ''Summary''
+| The buddy of any pin-pulling SOB that steps into the arena.
+|-
+| ''Clip''
+| None. You can hold up to two grenades at a time.
+|-
+| ''Primary Fire''
+| Press to throw. Hold to charge, the longer you cook it the sooner explodes after being thrown. Your velocity affects its trajectory - lunge forward to throw further, or jump or fall for different effects. Causes burning. Press K to go "kamikaze".
+|-
+| ''Alternate Fire''
+| Press to throw. Hold to charge. Your velocity affects its trajectory - lunge forward to throw further, or jump or fall for different effects. Causes burning. Press K to go "kamikaze". Sticks to level geometry.
+
+|+
+| <h2>'''Rocket'''</h2> [[File:Rocket.png|64px]]
+|-
+| ''Weapon Number''
+| 9
+|-
+| ''Weapon Color''
+| Brown
+|-
+| ''Summary''
+| The most powerful beast of a weapon in the arena, and yet has the least ergonomically designed handle...
+|-
+| ''Clip''
+| 1 Rocket, does not reload.
+|-
+| ''Primary Fire''
+| Fires out a straight shot. Cook for a quicker explosion. Splash damage. Causes burning.
+|-
+| ''Alternate Fire''
+| Fires out a guided shot - look to aim the rocket through the air. Cook for a quicker explosion. Splash damage. Causes burning.
+|-
+| ''Note''
+| Spawn on the middle of the map.
+
+|+
+| <h2>'''Melee'''</h2> [[File:Melee.png|64px]]
+|-
+| ''Weapon Number''
+| None
+|-
+| ''Weapon Color''
+| None
+|-
+| ''Summary''
+| The only thing worse than an agile martial artist is a metal one that weighs a tonne.
+|-
+| ''Clip''
+| None
+|-
+| ''Punch''
+| Press Q on the ground to punch someone. You can hold any gun and can do this in any mode.
+|-
+| ''Kick''
+| Press Q in the air to kick someone, causing you to bounce higher into the air as a result. You can hold any gun and can do this in any mode.
+|}
