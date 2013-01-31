@@ -1,0 +1,887 @@
+This list only includes items for which a description has been written, and is therefore incomplete.
+
+This page was automatically generated from the source of Red Eclipse, please do not edit it manually.
+
+{| border="1" class="wikitable sortable"
+! Name&nbsp;&&nbsp;Parameters
+! class="unsortable"|Description
+! Type
+! class="unsortable"|Range
+! class="unsortable"|Default&nbsp;Value
+|-
+| '''<nowiki>aboveheadblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines the opacity of all abovehead* vars</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0.f..1.f</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>aboveheaddamage</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>shows amount of damage done to a player above their head</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>aboveheadeventsize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines the size of event icons above players' heads</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1000</nowiki>
+| <nowiki>3.f</nowiki>
+|-
+| '''<nowiki>aboveheadicons</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>detemines what type of actions displays icons above player (bitwise OR for affinities and weapons); 0 = none, 1+ = damage & kill events, 2 = affinity pickups, 4 = weapons pickups</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..7</nowiki>
+| <nowiki>5</nowiki>
+|-
+| '''<nowiki>aboveheadiconsize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines the size of icons handled by aboveheadicons</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1000</nowiki>
+| <nowiki>3.f</nowiki>
+|-
+| '''<nowiki>aboveheadnamesize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines the size of names for aboveheadnames</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1000</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>aboveheadnames</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>toggles the display of player names above their heads</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>aboveheadstatussize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines the size of player status controlled by aboveheadstatus</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1000</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>aboveheadstatus</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>toggles display of player status above players' heads, player status is dominating, dominated, death</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>aboveheadteam</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines how team icons are displayed above player heads; 0 = do not show, 1 = only teammates, 2 = all teams</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>adminpass</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets server admin password, if no password given, it will return the current password</nowiki>
+| <nowiki>engine string</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>""</nowiki>
+|-
+| '''<nowiki>aiforcegun</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>forces bots' weapon preference, if -1, bots have randomized weapon preferences</nowiki>
+| <nowiki>engine integer</nowiki>
+| <nowiki>-1..WEAP_MAX-1</nowiki>
+| <nowiki>-1</nowiki>
+|-
+| '''<nowiki>aipassive</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets ai to be passive, ie, non-hostile</nowiki>
+| <nowiki>engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>ambient</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>set colour and brightness of a uniform ambient light throughout the whole map</nowiki>
+| <nowiki>hex world engine integer</nowiki>
+| <nowiki>0..0xFFFFFF</nowiki>
+| <nowiki>0x191919</nowiki>
+|-
+| '''<nowiki>autoloadweap</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = auto-set loadout weapons</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>autoreloading</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = never, 1 = when empty, 2 = weapons that don't add a full clip, 3 = always (+1 zooming weaps too)</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..4</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>autosavebackups</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>make backups; 0 = off, 1 = single backup, 2 = named backup, 3/4 = same as 1/2 with move to "backups/"</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..4</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>autoshowscores</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>1 = when dead, 2 = also in spectv, 3 = and in waittv too</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>bloodsize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the size of blood splatter</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>1..1000</nowiki>
+| <nowiki>50</nowiki>
+|-
+| '''<nowiki>chatconblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the opacity of the chat console</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>chatconscale</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines the scaling of the chat console text</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>FVAR_NONZERO..FVAR_MAX</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>chatconsize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the amount of lines to show in the chat console, this does not include overflow lines</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..100</nowiki>
+| <nowiki>5</nowiki>
+|-
+| '''<nowiki>cloudfade</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>controls how the cloud layer fades around the edges</nowiki>
+| <nowiki>world engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.2f</nowiki>
+|-
+| '''<nowiki>cloudheight</nowiki>'''
+| <nowiki>set cloud placement; -1 = bottom of the skybox, 1 = top of the skybox</nowiki>
+| <nowiki>world engine float</nowiki>
+| <nowiki>-1..1</nowiki>
+| <nowiki>0.2f</nowiki>
+|-
+| '''<nowiki>cloudlayercolour</nowiki>''' ''<nowiki><red> <green> <blue></nowiki>''
+| <nowiki>controls the colour of the cloud layer</nowiki>
+| <nowiki>hex world engine integer</nowiki>
+| <nowiki>0..0xFFFFFF</nowiki>
+| <nowiki>0xFFFFFF</nowiki>
+|-
+| '''<nowiki>cloudlayer</nowiki>''' ''<nowiki><file></nowiki>''
+| <nowiki>loads a specified image to tile as a cloud layer</nowiki>
+| <nowiki>world engine string</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>""</nowiki>
+|-
+| '''<nowiki>cloudscale</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>controls the scale of the cloud layer</nowiki>
+| <nowiki>world engine float</nowiki>
+| <nowiki>0..64</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>cloudscrollx</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>controls the movement speed of the cloud layer on the x axis</nowiki>
+| <nowiki>world engine float</nowiki>
+| <nowiki>-16..16</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>cloudscrolly</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>controls the movement speed of the cloud layer on the y axis</nowiki>
+| <nowiki>world engine float</nowiki>
+| <nowiki>-16..16</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>commandscale</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines the scaling of the command and chat input text</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>FVAR_NONZERO..FVAR_MAX</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>conblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the opacity of the console, this does not include obituaries and affinity events! (flag, bomb)</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.6f</nowiki>
+|-
+| '''<nowiki>concenter</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>toggles alignment of console; 0 = console is in top left, 1 = console is centered</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>conscale</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines the scaling of the console text</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>FVAR_NONZERO..FVAR_MAX</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>consize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the amount of lines to show in the console, this does not include overflow lines</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..100</nowiki>
+| <nowiki>5</nowiki>
+|-
+| '''<nowiki>criticaltex</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines what image is used for the critical hit message</nowiki>
+| <nowiki>game-preloaded persistent engine texture</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>"textures/critical"</nowiki>
+|-
+| '''<nowiki>crosshairweapons</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = crosshair-specific weapons, 2 = also appy colour</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>crouchstyle</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = press and hold, 1 = double-tap toggle, 2 = toggle</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>cursorstyle</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = top left tracking, 1 = center</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>dashstyle</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = only with impulse, 1 = double tap</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>deathanim</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = hide player when dead, 1 = old death animation, 2 = ragdolls</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>deathcamstyle</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = no follow, 1 = follow attacker, 2 = follow self</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>deathfade</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = don't fade out dead players, 1 = fade them out</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>deathscale</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = don't scale out dead players, 1 = scale them out</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>dominatedtex</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines what image is used for the icon that appears over a player's head while dominating</nowiki>
+| <nowiki>game-preloaded persistent engine texture</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>"<grey>textures/dominated"</nowiki>
+|-
+| '''<nowiki>dominatetex</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines what image is used for the "dominating!" event icon</nowiki>
+| <nowiki>game-preloaded persistent engine texture</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>"textures/dominate"</nowiki>
+|-
+| '''<nowiki>dominatingtex</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines what image is used for the icon that appears over a player's head while being dominated</nowiki>
+| <nowiki>game-preloaded persistent engine texture</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>"<grey>textures/dominating"</nowiki>
+|-
+| '''<nowiki>dropwaypoints</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines if waypoints are dropped by players in game, defaults to 1; 0 = no waypoints are dropped, 1 = limited number of waypoints are dropped</nowiki>
+| <nowiki>engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>editradardist</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = use world size</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..VAR_MAX</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>editradarstyle</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = compass-sectional, 1 = compass-distance, 2 = screen-space, 3 = right-corner-positional</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>eventblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the opacity of event icons, (first blood, 2x, 3x, headshot, etc.)</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>eventiconfade</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets how long event icons should stay on screen</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>500..VAR_MAX</nowiki>
+| <nowiki>5000</nowiki>
+|-
+| '''<nowiki>eventoffset</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the offset for the event icons in your hud, negative values move it downward, positive values move it upward</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>-1..1</nowiki>
+| <nowiki>0.3f</nowiki>
+|-
+| '''<nowiki>eventscale</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the scale of event icons that appear in your hud</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>1e-4f..1000</nowiki>
+| <nowiki>2.5f</nowiki>
+|-
+| '''<nowiki>firstpersonfov</nowiki>''' ''<nowiki><angle></nowiki>''
+| <nowiki>determines the size of the field of view in first person mode</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>90..150</nowiki>
+| <nowiki>100</nowiki>
+|-
+| '''<nowiki>followaiming</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines aim direction when following a player 0 = don't aim, &1 = aim in thirdperson, &2 = aim in first person</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>followdead</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = never, 1 = in all but duel/survivor, 2 = always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>fullbright</nowiki>'''
+| <nowiki>hides lightmap for all textures if enabled</nowiki>
+| <nowiki>engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>fullconblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the opacity of the "full" console, this is when the console is open, and includes obituaries and affinity events. (flag, bomb) excluding those two elements, conblend takes precedence over this variable, yet only affects everything else</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>grassblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the opacity of grass</nowiki>
+| <nowiki>world engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>grasscolour</nowiki>''' ''<nowiki><red> <green> <blue></nowiki>''
+| <nowiki>sets the colour of grass</nowiki>
+| <nowiki>hex world engine integer</nowiki>
+| <nowiki>0..0xFFFFFF</nowiki>
+| <nowiki>0xFFFFFF</nowiki>
+|-
+| '''<nowiki>grassdist</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the distance at which grass becomes visible</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..10000</nowiki>
+| <nowiki>256</nowiki>
+|-
+| '''<nowiki>grassheight</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the height of grass</nowiki>
+| <nowiki>world engine integer</nowiki>
+| <nowiki>1..64</nowiki>
+| <nowiki>4</nowiki>
+|-
+| '''<nowiki>gravity</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>gravity</nowiki>
+| <nowiki>world engine float</nowiki>
+| <nowiki>0..1000</nowiki>
+| <nowiki>50.f</nowiki>
+|-
+| '''<nowiki>hasoctapaks</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>mega hack; try to find Cube 2, done after our own data so as to not clobber stuff</nowiki>
+| <nowiki>engine integer</nowiki>
+| <nowiki>1..0</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>healthbgtex</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines what image is used for the background of the healthbar</nowiki>
+| <nowiki>game-preloaded persistent engine texture</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>"<grey>textures/healthbg"</nowiki>
+|-
+| '''<nowiki>hudblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the opacity of the entire hud as a whole, this includes both consoles, mouse pointer, and inventory</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>hudsize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the size of the entire hud as a whole, this includes both consoles, menus, inventory, etc</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..VAR_MAX</nowiki>
+| <nowiki>2048</nowiki>
+|-
+| '''<nowiki>impulseaction</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines how impulse action works, 0 = off, 1 = impulse jump, 2 = impulse dash, 3 = both</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>3</nowiki>
+|-
+| '''<nowiki>impulsekick</nowiki>''' ''<nowiki><angle></nowiki>''
+| <nowiki>determines the minimum angle to switch between wall kick and run</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..180</nowiki>
+| <nowiki>150</nowiki>
+|-
+| '''<nowiki>impulsemethod</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines which impulse method to use, 0 = none, 1 = power jump, 2 = power slide, 3 = both</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>3</nowiki>
+|-
+| '''<nowiki>impulseroll</nowiki>''' ''<nowiki><angle></nowiki>''
+| <nowiki>determines the camera angle tilt when wallrunning</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..89</nowiki>
+| <nowiki>15</nowiki>
+|-
+| '''<nowiki>impulsetex</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines what image is used for the impulse meter</nowiki>
+| <nowiki>game-preloaded persistent engine texture</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>"<grey>textures/impulse"</nowiki>
+|-
+| '''<nowiki>intermmode</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines camera style in intermission; 0 = float, 1 = tv</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>inventorybgblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the opacity of the inventory background</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.25f</nowiki>
+|-
+| '''<nowiki>inventorybgskew</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>skew items inside by this much</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.05f</nowiki>
+|-
+| '''<nowiki>inventorybgspace</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>for aligning diagonals</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.05f</nowiki>
+|-
+| '''<nowiki>inventoryblend</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the opacity of the inventory</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>inventorycolour</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>toggles the colour of the weapon icons in the weapon bar; 0 = no colour at all, 1 = only weapon icon is coloured, 2 = both weapon icon and slot number are coloured</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>inventoryglow</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the size of the "glow" in the inventory, the "glow" is the splatter/explosion image behind inventory items</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.05f</nowiki>
+|-
+| '''<nowiki>inventoryhealth</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = text, 2 = bar, 3 = bar + text</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>3</nowiki>
+|-
+| '''<nowiki>inventoryhealthbarbottom</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>ends at this offset</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.0859375f</nowiki>
+|-
+| '''<nowiki>inventoryhealthbartop</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>starts from this offset</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.09375f</nowiki>
+|-
+| '''<nowiki>inventoryimpulsebarbottom</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>ends at this offset</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.0859375f</nowiki>
+|-
+| '''<nowiki>inventoryimpulsebartop</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>starts from this offset</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.171875f</nowiki>
+|-
+| '''<nowiki>inventoryimpulse</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets how the impulse meter is displayed; 0 = do not show at all, 1 = show textual percentage, 2 = show a bar meter</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>inventorysize</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the size of the inventory as a whole</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1000</nowiki>
+| <nowiki>0.06f</nowiki>
+|-
+| '''<nowiki>inventorystatus</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = text, 2 = icon, 3 = icon + tex</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>3</nowiki>
+|-
+| '''<nowiki>inventorytone</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the tone of various inventory elements; 0 = no colouring at all, 1 = uses the colour of your profile colour, 2 = uses team colour, this includes grey when you are neutral., 3 = uses team colour, but only for team games. when neutral, your profile colour is used., 4 = uses profile colour, but only for team games. when neutral, grey will be used</nowiki>
+| <nowiki>hex persistent engine integer</nowiki>
+| <nowiki>-CTONE_MAX..0xFFFFFF</nowiki>
+| <nowiki>-CTONE_TEAM-1</nowiki>
+|-
+| '''<nowiki>inventoryweapids</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets how to display the slot number of the weapons in the weapon bar; 0 = do not show, 1 = do show, 2 = unknown</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>kidmode</nowiki>''' ''<nowiki><bool></nowiki>''
+| <nowiki>enables or disables kid mode, which reduces blood and death effects somewhat; 1 = enable reduced gore, defaults to 0</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>lightprecision</nowiki>'''
+| <nowiki>set precision of lightmap, higher precision reduces quality and speeds up calclight</nowiki>
+| <nowiki>world engine integer</nowiki>
+| <nowiki>1..256</nowiki>
+| <nowiki>32</nowiki>
+|-
+| '''<nowiki>maptitle</nowiki>''' ''<nowiki><text></nowiki>''
+| <nowiki>sets the author message of the map</nowiki>
+| <nowiki>world engine string</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>""</nowiki>
+|-
+| '''<nowiki>maptitle</nowiki>''' ''<nowiki><text></nowiki>''
+| <nowiki>sets the title message of the map</nowiki>
+| <nowiki>world engine string</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>""</nowiki>
+|-
+| '''<nowiki>motionbluramt</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>used for override</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.5f</nowiki>
+|-
+| '''<nowiki>motionblurfx</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = on, 2 = override</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>motionblurmax</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>maximum</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.75f</nowiki>
+|-
+| '''<nowiki>motionblurmin</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>minimum</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0.0f</nowiki>
+|-
+| '''<nowiki>musicedit</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = no editing music, 1 = map music (or random if none), 2 = always random, 3 = map music (silence if none), 4-5 = same as 1-2 but pick new tracks when done</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>-1..5</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>musictype</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = no in-game music, 1 = map music (or random if none), 2 = always random, 3 = map music (silence if none), 4-5 = same as 1-2 but pick new tracks when done</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..5</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>muzzleflare</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = only other players, 2 = only thirdperson, 3 = all</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>muzzleflash</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = only other players, 2 = only thirdperson, 3 = all</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>3</nowiki>
+|-
+| '''<nowiki>noticescale</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>sets the size of the notices</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>1e-4f..1000</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>obitannounce</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = only focus, 2 = everyone</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>obitstyles</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki> 0 = no obituary styles, 1 = show sprees/dominations/etc</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>obitverbose</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = extremely simple, 1 = simplified per-weapon, 2 = regular messages</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>overlaydisplay</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = only firstperson and alive, 1 = only when alive, 2 = always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>radaraspect</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, else = (for radarstyle 0/1) radar forms an ellipse</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>radarcornerdist</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = use world size</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..VAR_MAX</nowiki>
+| <nowiki>512</nowiki>
+|-
+| '''<nowiki>radardamage</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = basic damage, 2 = with killer announce (+1 killer track, +2 and bots), 5 = verbose</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>radardist</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = use world size</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..VAR_MAX</nowiki>
+| <nowiki>512</nowiki>
+|-
+| '''<nowiki>radarplayerfilter</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = non-team, 2 = team, 3 = only in duel/survivor/edit</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>radarstyle</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = compass-sectional, 1 = compass-distance, 2 = screen-space, 3 = right-corner-positional</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>3</nowiki>
+|-
+| '''<nowiki>servertype</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>type of server, 1 = private (does not register with masterserver), 2 = public, 3 = dedicated</nowiki>
+| <nowiki>engine integer</nowiki>
+| <nowiki>1..3</nowiki>
+| <nowiki>3</nowiki>
+|-
+| '''<nowiki>showaiinfo</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines how much info is shown for bots; 0 = hide bot info, 1 = show bot joins/parts, 2 = show more verbose info</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>showcrosshair</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = on, 2 = blend depending on current accuracy level</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>showdamage</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>1 shows just damage texture, 2 blends as well</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>showentdir</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = only selected, 2 = always when editing, 3 = always in editmode</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>showlaptimes</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = only player, 2 = +humans, 3 = +bots</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..3</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>showmat</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>toggles the visibility of material volumes</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>showobituaries</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = off, 1 = only me, 2 = 1 + announcements, 3 = 2 + but dying bots, 4 = 3 + but bot vs bot, 5 = all</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..5</nowiki>
+| <nowiki>4</nowiki>
+|-
+| '''<nowiki>showpresence</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = never show join/leave, 1 = show only during game, 2 = show when connecting/disconnecting</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>showscoresdelay</nowiki>''' ''<nowiki><milliseconds></nowiki>''
+| <nowiki>otherwise use respawn delay</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..VAR_MAX</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>showteamchange</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = never show, 1 = show only when switching between, 2 = show when entering match too</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>showwaypoints</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>toggles the visibility of the path that connects waypoints, waypoints are always visible if they are being dropped</nowiki>
+| <nowiki>engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>skipgrenade</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>skip grenade; 0 = never, 1 = if numweaps > 1 (+2), 4 = if carry > 0 (+2), 7 = if carry > 0 and is offset (+2), 10 = always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..10</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>skipmelee</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>skip melee; 0 = never, 1 = if numweaps > 1 (+2), 4 = if carry > 0 (+2), 7 = if carry > 0 and is offset (+2), 10 = always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..10</nowiki>
+| <nowiki>7</nowiki>
+|-
+| '''<nowiki>skippistol</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>skip pistol; 0 = never, 1 = if numweaps > 1 (+2), 4 = if carry > 0 (+2), 7 = if carry > 0 and is offset (+2), 10 = always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..10</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>skipspawnweapon</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>skip spawnweapon; 0 = never, 1 = if numweaps > 1 (+1), 3 = if carry > 0 (+2), 6 = always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..6</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>skybox</nowiki>''' ''<nowiki><basepath></nowiki>''
+| <nowiki>loads a set of 6 images associated by name from the specified basepath; e.g. "skyboxes/gradient" will load gradient_{up,dn,lf,rt,bk,ft}.{png,jpg}</nowiki>
+| <nowiki>world engine string</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>""</nowiki>
+|-
+| '''<nowiki>skycolour</nowiki>''' ''<nowiki><red> <green> <blue></nowiki>''
+| <nowiki>changes the colour of the skybox</nowiki>
+| <nowiki>hex world engine integer</nowiki>
+| <nowiki>0..0xFFFFFF</nowiki>
+| <nowiki>0xFFFFFF</nowiki>
+|-
+| '''<nowiki>skylight</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>set colour and brightness of a uniform downwards-facing lightsource spanning the whole sky</nowiki>
+| <nowiki>hex world engine integer</nowiki>
+| <nowiki>0..0xFFFFFF</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>specmode</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = float, 1 = tv</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>spectvaiming</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines aim direction of spectv; 0 = aim in direction followed player is facing, 1 = aim in direction determined by spectv when dead, 2 = always aim in direction</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>2</nowiki>
+|-
+| '''<nowiki>spectvdead</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = never, 1 = in all but duel/survivor, 2 = always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>spectvrotate</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>rotate style, < 0 = absolute angle, 0 = scaled, > 0 = scaled with max angle</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>FVAR_MIN..FVAR_MAX</nowiki>
+| <nowiki>45</nowiki>
+|-
+| '''<nowiki>spinsky</nowiki>'''
+| <nowiki>controls the speed at which the skybox turns</nowiki>
+| <nowiki>world engine float</nowiki>
+| <nowiki>-720..720</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>sprintstyle</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = press and hold, 1 = double-tap toggle, 2 = toggle, 3-5 = same, but auto engage if impulsesprint == 0</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..5</nowiki>
+| <nowiki>3</nowiki>
+|-
+| '''<nowiki>underlaydisplay</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = only firstperson and alive, 1 = only when alive, 2 = always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..2</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>version</nowiki>''' ''<nowiki><version></nowiki>''
+| <nowiki>game version for scripts</nowiki>
+| <nowiki>engine integer</nowiki>
+| <nowiki>1..-1</nowiki>
+| <nowiki>RE_VERSION</nowiki>
+|-
+| '''<nowiki>waitmode</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = float, 1 = tv in duel/survivor, 2 = tv always</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>weapselectslot</nowiki>''' ''<nowiki><bool></nowiki>''
+| <nowiki>determines how weapons are selected using the number keys; 0 = by global weapon numbers, 1 = by temporary pickup slot numbers</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>1</nowiki>
+|-
+| '''<nowiki>yawsky</nowiki>'''
+| <nowiki>determines the placement of the skybox (move the sun's placement)</nowiki>
+| <nowiki>world engine integer</nowiki>
+| <nowiki>0..360</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>zoomdefault</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = last used, else defines default level</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..10</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>zoomscroll</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>0 = stop at min/max, 1 = go to opposite end</nowiki>
+| <nowiki>persistent engine integer</nowiki>
+| <nowiki>0..1</nowiki>
+| <nowiki>0</nowiki>
+|-
+| '''<nowiki>zoomsensitivity</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines aiming/look sensitivity while zoomed in with the rifle</nowiki>
+| <nowiki>persistent engine float</nowiki>
+| <nowiki>0..1000</nowiki>
+| <nowiki>0.65f</nowiki>
+|-
+| '''<nowiki>zoomtex</nowiki>''' ''<nowiki><value></nowiki>''
+| <nowiki>determines what image is used for the scope on the rifle</nowiki>
+| <nowiki>game-preloaded persistent engine texture</nowiki>
+| <nowiki>n/a</nowiki>
+| <nowiki>"textures/zoom"</nowiki>
+|}
