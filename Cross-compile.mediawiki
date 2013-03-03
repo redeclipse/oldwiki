@@ -1,0 +1,6 @@
+== For Windows from GNU/Linux ==
+* Install mingw-w64 or equivalent, on a Debian-like system, this can be done via
+ sudo apt-get install mingw-w64
+* Compile for x86 and amd64 using the commands
+ make -C src/ PLATFORM=CROSSMINGW clean install
+ make -C src/ PLATFORM=CROSSMINGW64 clean install
