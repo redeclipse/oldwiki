@@ -1,0 +1,54 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Oneiroi.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''Favorito''" Ponicki'''
+|-
+|'''Filename:''' ''oneiroi''
+|-
+| '''Release Date:''' Unknown
+|-
+|'''Recommended Modes:''' Deathmatch, Instagib, Jetpack
+|-
+|'''Size:''' Medium (4-8)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Space
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 3
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 3
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 3
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 3
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 7
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 9
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|}
+<!--
+=== Notes & Strategies ===
+
+* 
+-->
