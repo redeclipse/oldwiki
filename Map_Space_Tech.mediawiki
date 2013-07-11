@@ -1,0 +1,56 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Spacetech.png|thumb|center]|Map Preview]]
+|'''Author: "''T1''"'''
+|-
+|'''Filename:''' ''spacetech''
+|-
+| '''Release Date:''' 2010-06-03
+|-
+|'''Recommended Modes:''' Co-op, Deathmatch, Instagib
+|-
+|'''Size:''' Large (6-10)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Space
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 3
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 6
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|}
+
+=== Notes & Strategies ===
+
+* It is worth climbing up the pillar in the center, for there is a rocket there
+* Making use of the teleporters at the far ends of the lower platforms can throw off your enemies
+* The flamer can be acquired by impulse jumping from the platform adjacent to the pillar that looks towards the lower platforms
+* The center pillar can be climbed up from the ladders embedded on it. Do not waste your time bouncing against the wall!
