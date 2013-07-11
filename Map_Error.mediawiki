@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Error.png|thumb|center]|Map Preview]]
+|'''Author: "''blarg''"'''
+|-
+|'''Filename:''' ''error''
+|-
+| '''Release Date:''' 2011-01-11
+|-
+|'''Recommended Modes:''' Deathmatch, Duel
+|-
+|'''Size:''' Medium/Large (6-10)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Lava
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+
+This tight map lost none of it's Quake III charm when it was ported. Proving Grounds is reincarnated as Fatal Error. Boasting a convoluted layout and bright lighting, this old-timer proves it's always good to be back for seconds.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 0
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 1
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 1
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 0
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 6
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 2
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|}
+
+
+=== Notes & Strategies ===
+
+* Proving Grounds was originally seen in ''Quake III Arena''; in ''Quake Live'' there is a modified version, renamed ''"Proving Grounds II"''. 
+* The rocket spawns on the side of the pillar in the main room.
+* Popular for duel, Error is also suitable for fast-paced instagib matches.
