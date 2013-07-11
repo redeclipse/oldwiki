@@ -1,0 +1,53 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Starlibido.png|thumb|center]|Map Preview]]
+|'''Author: "''D.a.M.i.E.n.''"'''
+|-
+|'''Filename:''' ''starlibido''
+|-
+| '''Release Date:''' Unknown
+|-
+|'''Recommended Modes:''' Duel, Medieval
+|-
+|'''Size:''' Small (2-4)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Space
+|-
+|'''Rocket Spawn:''' No
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 2
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 2
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 0
+|}
+
+=== Notes & Strategies ===
+
+* Touching the fans means death. You can push your opponents towards them easily with weapons such as the SMG.
