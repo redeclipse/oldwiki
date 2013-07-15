@@ -1,0 +1,393 @@
+== A ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Ares.png|128px|link=Map Ares]]</center>
+<center>[[Map Ares|'''Ares''']]</center>
+|}
+
+== B ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Bath.png|128px|link=Map Bath]]</center>
+<center>[[Map Bath|'''Bath''']]</center>
+|<center>[[Image:Battlefield.png|128px|link=Map Battlefield]]</center>
+<center>[[Map Battlefield|'''Battlefield''']]</center>
+|<center>[[Image:Bloodlust.png|128px|link=Map Bloodlust]]</center>
+<center>[[Map Bloodlust|'''Bloodlust''']]</center>
+|<center>[[Image:Biolytic.png|128px|link=Map Biolytic]]</center>
+<center>[[Map Biolytic|'''Biolytic''']]</center>
+|}
+
+== C ==
+
+{| border="1" cellpadding="10"
+|<center>[[Image:Canals.png|128px|link=Map Canals]]</center>
+<center>[[Map Canals|'''Canals''']]</center>
+|<center>[[Image:Cargo.png|128px|link=Map Cargo]]</center>
+<center>[[Map Cargo|'''Cargo''']]</center>
+|<center>[[Image:Center.png|128px|link=Map Center]]</center>
+<center>[[Map Center|'''Center''']]</center>
+|<center>[[Image:Colony.png|128px|link=Map Colony]]</center>
+<center>[[Map Colony|'''Colony''']]</center>
+|<center>[[Image:Conflict.png|128px|link=Map Conflict]]</center>
+<center>[[Map Conflict|'''Conflict''']]</center>
+|-
+|<center>[[Image:Cutec.png|128px|link=Map Cutec]]</center>
+<center>[[Map Cutec|'''Cutec''']]</center>
+|}
+
+== D ==
+
+{| border="1" cellpadding="10"
+|<center>[[Image:Darkness.png|128px|link=Map Darkness]]</center>
+<center>[[Map Darkness|'''Darkness''']]</center>
+|<center>[[Image:Deadsimple.png|128px|link=Map Dead Simple]]</center>
+<center>[[Map Dead Simple|'''Dead Simple''']]</center>
+|<center>[[Image:Deathtrap.png|128px|link=Map Death Trap]]</center>
+<center>[[Map Death Trap|'''Death Trap''']]</center>
+|<center>[[Image:Deli.png|128px|link=Map Delicatessen]]</center>
+<center>[[Map Delicatessen|'''Delicatessen''']]</center>
+|<center>[[Image:Depot.png|128px|link=Map Depot]]</center>
+<center>[[Map Depot|'''Depot''']]</center>
+|-
+|<center>[[Image:Dropzone.png|128px|link=Map Dropzone]]</center>
+<center>[[Map Dropzone|'''Dropzone''']]</center>
+|<center>[[Image:Dutility.png|128px|link=Map Dutility]]</center>
+<center>[[Map Dutility|'''Dutility''']]</center>
+|}
+
+== E ==
+
+{| border="1" cellpadding="10"
+|<center>[[Image:Echo.png|128px|link=Map Echo]]</center>
+<center>[[Map Echo|'''Echo''']]</center>
+|<center>[[Image:Erosion.png|128px|link=Map Erosion]]</center>
+<center>[[Map Erosion|'''Erosion''']]</center>
+|<center>[[Image:Error.png|128px|link=Map_Error]]</center>
+<center>[[Map Error|'''Fatal Error''']]</center>
+|}
+
+== F ==
+
+{| border="1" cellpadding="10"
+|<center>[[Image:Forge.png|128px|link=Map Forge]]</center>
+<center>[[Map Forge|'''Forge''']]</center>
+|<center>[[Image:Foundation.png|128px|link=Map Foundation]]</center>
+<center>[[Map Foundation|'''Foundation''']]</center>
+|<center>[[Image:Fourplex.png|128px|link=Map Fourplex]]</center>
+<center>[[Map 4plex|'''4plex''']]</center>
+|<center>[[Image:Futuresport.png|128px|link=Map futuresport]]</center>
+<center>[[Map futuresport|'''futuresport''']]</center>
+|}
+
+== G ==
+
+{| border="1" cellpadding="10"
+|<center>[[Image:Ghost.png|128px|link=Map Ghost]]</center>
+<center>[[Map Ghost|'''Ghost''']]</center>
+|}
+
+== I ==
+
+{| border="1" cellpadding="10"
+|<center>[[Image:Institute.png|128px|link=Map Institute]]</center>
+<center>[[Map Institute|'''Institute''']]</center>
+|}
+
+== K ==
+
+{| border="1" cellpadding="10"
+|<center>[[Image:Keystone2k.png|128px|link=Map Keystone 2000]]</center>
+<center>[[Map Keystone 2000|'''Keystone 2000''']]</center>
+|}
+
+== L ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Linear.png|128px|link=Map Linear]]</center>
+<center>[[Map Linear|'''Linear''']]</center>
+|<center>[[Image:Livefire.png|128px|link=Map Live Fire]]</center>
+<center>[[Map Live Fire|'''Live Fire''']]</center>
+|<center>[[Image:Longestyard.png|128px|link=Map The Longest Yard]]</center>
+<center>[[Map The Longest Yard|'''The Longest Yard''']]</center>
+|}
+
+== M ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Mist.png|128px|link=Map Mist]]</center>
+<center>[[Map Mist|'''Mist''']]</center>
+|}
+
+== N ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Nova.png|128px|link=Map Nova]]</center>
+<center>[[Map Nova|'''Nova''']]</center>
+|}
+
+== O ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Oneiroi.png|128px|link=Map Oneiroi]]</center>
+<center>[[Map Oneiroi|'''Oneiroi''']]</center>
+|}
+
+== P ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Panic.png|128px|link=Map Flak Panic]]</center>
+<center>[[Map Flak Panic|'''Flak Panic''']]</center>
+|<center>[[Image:Processing.png|128px|link=Map Containment Processing]]</center>
+<center>[[Map Containment Processing|'''Containment Processing''']]</center>
+|<center>[[Image:Pumpstation.png|128px|link=Map Pumpstation]]</center>
+<center>[[Map Pumpstation|'''Pumpstation''']]</center>
+|}
+
+== S ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Spacetech.png|128px|link=Map Space Tech]]</center>
+<center>[[Map Space Tech|'''Space Tech''']]</center>
+|<center>[[Image:Starlibido.png|128px|link=Map Star Libido]]</center>
+<center>[[Map Star Libido|'''Star Libido''']]</center>
+|<center>[[Image:Stone.png|128px|link=Map Stone]]</center>
+<center>[[Map Stone|'''Stone''']]</center>
+|<center>[[Image:Suspended.png|128px|link=Map Suspended Apparatus of Doom]]</center>
+<center>[[Map Suspended Apparatus of Doom|'''Suspended Apparatus of Doom''']]</center>
+|}
+
+== T ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Tower.png|128px|link=Map Tower]]</center>
+<center>[[Map Tower|'''Tower''']]</center>
+|<center>[[Image:Tribal.png|128px|link=Map Tribal]]</center>
+<center>[[Map Tribal|'''Tribal''']]</center>
+|}
+
+== U ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Ubik.png|128px|link=Map Ubik]]</center>
+<center>[[Map Ubik|'''Ubik''']]</center>
+|}
+
+== V ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Vault.png|128px|link=Map Frag Vault]]</center>
+<center>[[Map Frag Vault|'''Frag Vault''']]</center>
+|<center>[[Image:Venus.png|128px|link=Map Venus]]</center>
+<center>[[Map Venus|'''Venus''']]</center>
+|}
+
+== W ==
+{| border="1" cellpadding="10"
+|<center>[[Image:Warp.png|128px|link=Map Warp]]</center>
+<center>[[Map Warp|'''Warp''']]</center>
+|<center>[[Image:Wet.png|128px|link=Map Wet]]</center>
+<center>[[Map Wet|'''Wet''']]</center>
+|}
+
+
+<!--
+== Test Chamber ==
+
+[[File:Testchamber.png|128px]]
+
+{| style="font-size:110%"
+|+
+|'''Information'''
+|-
+|''Full Name''
+| Test Chamber
+|-
+|''Author''
+| Quinton "Quin" Reeves
+|-
+|''Release Date''
+| June 3, 2010
+|-
+|''Size''
+| Small ''( 2 - 4 Players)''
+
+|+
+|'''Weapon Counts'''
+|-
+|''Swords'' [[File:Sword.png|20px]] 
+| 0
+|-
+|''Shotguns'' [[File:Shotgun.png|20px]]
+| 0
+|-
+|''SMGs'' [[File:Smg.png|20px]] 
+| 0
+|-
+|''Flamers'' [[File:Flamer.png|20px]] 
+| 0
+|-
+|''Plasmas'' [[File:Plasma.png|20px]] 
+| 0
+|-
+|''Rifles'' [[File:Rifle.png|20px]] 
+| 0
+|-
+|''Grenades'' [[File:Grenade.png|20px]] 
+| 0
+|-
+|''Rockets'' [[File:Rocket.png|20px]] 
+| 0
+
+|+
+|'''Supported Modes'''
+|-
+| Time Trial
+
+|+
+|'''Player Amounts'''
+|-
+|''Ideal''
+| 2
+|-
+|''Ideal - Team''
+| 4
+
+|-
+|'''Strategies'''
+|}
+
+* Learn when to use Impulse Energy to decrease the amount of times you have to stop to recover.
+* Crouch to recover Energy faster.
+
+== Forge ==
+
+[[File:Forge.png|128px]]
+
+{| style="font-size:110%"
+|+
+|'''Information'''
+|-
+|''Full Name''
+| Forge 
+|-
+|''Author''
+| "LuckystrikeRx"
+|-
+|''Release Date''
+| June 3, 2010
+|-
+|''Size''
+| Small ''( 2 - 4 Players)''
+
+|+
+|'''Weapon Counts'''
+|-
+|''Swords'' [[File:Sword.png|20px]] 
+| 4
+|-
+|''Shotguns'' [[File:Shotgun.png|20px]]
+| 6
+|-
+|''SMGs'' [[File:Smg.png|20px]] 
+| 4
+|-
+|''Flamers'' [[File:Flamer.png|20px]] 
+| 2
+|-
+|''Plasmas'' [[File:Plasma.png|20px]] 
+| 6
+|-
+|''Rifles'' [[File:Rifle.png|20px]] 
+| 4
+|-
+|''Grenades'' [[File:Grenade.png|20px]] 
+| 10
+|-
+|''Rockets'' [[File:Rocket.png|20px]] 
+| 1
+
+|+
+|'''Supported Modes'''
+|-
+| Deathmatch
+|-
+| Capture the Flag
+|-
+| Defend the Flag
+|-
+| Bomberball
+
+|+
+|'''Player Amounts'''
+|-
+|''Ideal''
+| 4
+|-
+|''Ideal - Team''
+| 4
+
+|-
+|'''Strategies'''
+|}
+
+* Use a Jetpack or wallkicks to scale up the tower in the middle.
+
+== Longest Yard ==
+
+[[File:Longestyard.png|128px]]
+
+{| style="font-size:110%"
+|+
+|'''Information'''
+|-
+|''Full Name''
+| Longest Yard (Based on Longest Yard from Quake III Arena)
+|-
+|''Author''
+| "Viruz"
+|-
+|''Release Date''
+| June 3, 2010
+|-
+|''Size''
+| Small ''( 2 - 4 Players)''
+
+|+
+|'''Weapon Counts'''
+|-
+|''Swords'' [[File:Sword.png|20px]] 
+| 2
+|-
+|''Shotguns'' [[File:Shotgun.png|20px]]
+| 2
+|-
+|''SMGs'' [[File:Smg.png|20px]] 
+| 3
+|-
+|''Flamers'' [[File:Flamer.png|20px]] 
+| 1
+|-
+|''Plasmas'' [[File:Plasma.png|20px]] 
+| 2
+|-
+|''Rifles'' [[File:Rifle.png|20px]] 
+| 1
+|-
+|''Grenades'' [[File:Grenade.png|20px]] 
+| 4
+|-
+|''Rockets'' [[File:Rocket.png|20px]] 
+| 0
+
+|+
+|'''Supported Modes'''
+|-
+| Deathmatch
+
+|+
+|'''Player Amounts'''
+|-
+|''Ideal''
+| 3
+|-
+|''Ideal - Team''
+| 4
+
+|-
+|'''Strategies'''
+|}
+
+* Use the Plasma alternate fire against those coming across the level on pushers.
+* Jump off in midair after having rode a pusher to get to the top platform easier.
+* Use the Grenade's alternate fire and stick one to the platform out in space to prevent people from staying there to snipe.
+-->
