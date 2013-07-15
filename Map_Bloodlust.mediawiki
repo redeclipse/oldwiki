@@ -1,0 +1,53 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Bloodlust.png|thumb|center]|Map Preview]]
+|'''Author: "''ballist1c''" and "''Greaserpirate''"'''
+|-
+|'''Filename:''' ''bloodlust''
+|-
+| '''Release Date:''' 2013-02-26
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch
+|-
+|'''Size:''' Medium (5-7)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Lava
+|-
+|'''Theme:''' Ancient
+|-
+|'''Rocket Spawn:''' Yes
+|}
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 9
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 9
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|}
+<!--
+=== Notes & Strategies ===
+
+*
+-->
