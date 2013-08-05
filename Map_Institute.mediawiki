@@ -1,0 +1,56 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Institute.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''JoJo''" Stegall'''
+|-
+|'''Filename:''' ''institute''
+|-
+| '''Release Date:''' Unknown
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch
+|-
+|'''Size:''' Medium-Large (6-10)
+|-
+|'''Complexity:''' Intermediate
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Urban
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 1
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 3
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 5
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 2
+|}
+
+=== Notes & Strategies ===
+
+* Team Omega has the high ground on this map. Alpha players might want to jump or climb walls to get up to the main floor, in case you catch the opponent off-guard while they're expecting to shoot you down at the ramp!
+* The rocket spawns in the short hallway between the ramp on the side, and the main floor of the building.
