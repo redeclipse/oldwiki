@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Biolytic.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''Favorito''" Ponicki'''
+|-
+|'''Filename:''' ''biolytic''
+|-
+| '''Release Date:''' May 29th, 2012
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Defend the Flag
+|-
+|'''Size:''' Medium (5-7)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Toxic Water
+|-
+|'''Theme:''' Ancient/Dark
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+=== Review ===
+Who knows what evils once inhabited the dark, corroded corridors of Biolytic? Corrosive material drips from deathly spikes as you maneuver around this large, skillfully lighted map. One thing is for sure: the original inhabitants are gone, and the only evil left - is you.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 3
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 8
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 5
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+=== Notes & Strategies ===
+
+* The dark, grimy theme of Biolytic was stated to be inspired by the old Quake maps of yore
+* The rocket spawns almost directly above the team Omega's spawn; however it is not easy to get to if you do not know how beforehand
+* This map is sadly unbalanced for Team Deathmatch as the Omega team has a positioning advantage
+* There are a decent amount of camping spots here
+* There are a ton of passageways in this map - you really have to explore Biolytic to get to it know fully.
