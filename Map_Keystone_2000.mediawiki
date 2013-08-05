@@ -1,0 +1,61 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:keystone2k.png|thumb|center]|Map Preview]]
+|'''Author: "''blarg''" and "''John_III''"'''
+|-
+|'''Filename:''' ''keystone2k''
+|-
+| '''Release Date:''' 2012-08-17
+|-
+|'''Recommended Modes:''' Deathmatch, Capture the Flag, Defend the Flag
+|-
+|'''Size:''' Medium (6-8)
+|-
+|'''Complexity:''' Intermediate
+|-
+|'''Environmental Features:''' Chasm of Eternal Oblivion
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+
+After having sustained significant damage amidst an orbital bombardment by space aliens, the EOD training facility codenamed "Keystone" underwent renovations to comply with local safety codes. The compromised structural integrity of the floor was remedied by removing the floor altogether.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 12
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+
+=== Notes & Strategies ===
+
+* The rocket spawns over the platform in the very center of the map
+* Wallrunning on the diagonal concrete pillars allows one to quickly traverse the map while staying out of the crossfire.
+
+* Keystone 2000's original form was based on the map ''Foundation'' from Halo 2
+* Keystone 2000 is based on a map by ''blarg'' called ''Keystone'' released on 2010-06-03. Differences include the lack of a floor.
