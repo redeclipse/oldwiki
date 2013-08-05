@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Stone.png|thumb|center]|Map Preview]]
+|'''Author: Jonathan "''W!CK3D''" Roels'''
+|-
+|'''Filename:''' ''stone''
+|-
+| '''Release Date:''' 2010-06-03
+|-
+|'''Recommended Modes:''' Capture the Flag, Defend the Flag, Bomber Ball
+|-
+|'''Size:''' Medium (6-8)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Ancient
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="250px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 6
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4 (2 in DTF)
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 12
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1 (2 in BB and DTF)
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 3
+|}
+
+=== Notes & Strategies ===
+
+* Lob flak (either a grenade or the shotgun's alternative fire) down the tunnels near the bases and by the tops of the stairs to hit those running by.
+* The hallways leading to each base contain a raised, decorative strip down the center which has no collision detection. If you drop a mine through that strip, it will be totally invisible, and a nasty surprise for the unlucky soul who triggers it.
+* The rocket spawns in the center of the map; watch for it while you fight. In bomber ball and defend the flag, the ball or flag appears there instead, but there you'll find rockets to either side of it.
