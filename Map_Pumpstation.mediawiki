@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Pumpstation.png|thumb|center]|Map Preview]]
+|'''Author: "''4rson''" and "''D.a.M.i.E.n.''"'''
+|-
+|'''Filename:''' ''pumpstation''
+|-
+| '''Release Date:''' Unknown
+|-
+|'''Recommended Modes:''' Deathmatch
+|-
+|'''Size:''' Medium (6-10)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Water
+|-
+|'''Theme:''' Industrial
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 3
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 3
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 3
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 9
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 8
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 7
+|}
+
+=== Notes & Strategies ===
+
+* You can climb up the waterfall by just walking against it.
+* There are two towers near the center of the stage that you can climb with wall kicks. Each one has a rifle at the top, and an opportune place to use it.
+* In between those towers, there is an unfinished building. Either climb up one of its support beams or take the ladder on either end up to its upper level, where a rocket awaits.
