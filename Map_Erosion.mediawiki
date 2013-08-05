@@ -1,0 +1,56 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Erosion.png|thumb|center]|Map Preview]]
+|'''Author: "''Greaserpirate''"'''
+|-
+|'''Filename:''' ''erosion''
+|-
+| '''Release Date:''' 2012-10-02
+|-
+|'''Recommended Modes:''' Capture the Flag, Team Deathmatch
+|-
+|'''Size:''' Large (8-12)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Lava
+|-
+|'''Theme:''' Desert/Industrial
+|-
+|'''Rocket Spawn:''' No <sup>a</sup>
+|}
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 6
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 7
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 9
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 5
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 11
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 15
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 0<sup>a</sup>
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 10
+|}
+<sup>a</sup> ''There is a rocket object placed in the level, and marked not to appear in Multi. However, it also has a negative ID number, which prevents it from appearing in the other modes as well.
+<!--
+=== Notes & Strategies ===
+
+*
+-->
