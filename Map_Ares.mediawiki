@@ -1,0 +1,61 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Ares.png|thumb|center]|Map Preview]]
+|'''Author: Jonathan "''Ulukai''" De Nil'''
+|-
+|'''Filename:''' ''ares''
+|-
+| '''Release Date:''' July 28th, 2012
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Capture the Flag, Defend the Flag
+|-
+|'''Size:''' Medium (4-6)
+|-
+|'''Complexity:''' Basic
+|-
+|'''Environmental Features:''' Water
+|-
+|'''Theme:''' Ancient
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+
+Taking a trip back to Greek times has never been so full of glorious violence. Breath in the hot, flak-filled air as you impulse around several temples and submerge yourself underwater. The god of war fully approves.
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 1
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 7
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+
+=== Notes & Strategies ===
+
+* The map's title comes from the Greek god of War of the same name.
+* Ares is quite open, and therefore gameplay is more fast-paced then it's size lets on.
+* The rocket spawns in an underwater tunnel; you will be slow coming out of the water, so be ready for some fire when you emerge.
+* Climb onto the roofs of one of the temples for a comfy camping spot
