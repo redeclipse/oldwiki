@@ -1,0 +1,59 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Conflict.png|thumb|center]|Map Preview]]
+|'''Author: Jonathan "''Ulukai''" De Nil'''
+|-
+|'''Filename:''' ''conflict''
+|-
+| '''Release Date:''' July 28th, 2012
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Defend the Flag, Bomber Ball
+|-
+|'''Size:''' Medium (6-8)
+|-
+|'''Complexity:''' Intermediate
+|-
+|'''Environmental Features:''' Fall Damage
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+
+One of the newer additions to official RE provides a ton of vertical action on its four levels. Gameplay is smooth and fast-paced; a newfound favorite of many long-time players.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 9
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+
+=== Notes & Strategies ===
+
+* Use the jumping pads on the outer areas of the map to surprise those sniping above.
+* The rocket spawns in the middle of the second level, where the walkways cross.
+* Grenades are in abundance on this map; use them well.
