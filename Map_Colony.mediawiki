@@ -1,0 +1,51 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Colony.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''JoJo''" Stegall'''
+|-
+|'''Filename:''' ''colony''
+|-
+| '''Release Date:''' 2011-12-17
+|-
+|'''Recommended Modes:''' Team Deathmatch, Capture the Flag, Defend the Flag, King of the Hill, Bomber Ball
+|-
+|'''Size:''' Large (16+)
+|-
+|'''Complexity:''' Intermediate
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Martian
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 3
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 7
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 3
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 7
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 5
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 10
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+=== Notes & Strategies ===
+
+* The rocket spawns in an open doorway at the side of the level, if you go through the valley connecting the two bases.
