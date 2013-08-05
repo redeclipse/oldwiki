@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Foundation.png|thumb|center]|Map Preview]]
+|'''Author: Jonathan "''W!CK3D''" Roels'''
+|-
+|'''Filename:''' ''foundation''
+|-
+| '''Release Date:''' 2010-06-13
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch
+|-
+|'''Size:''' Medium (4-8)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Water (not reachable)
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 6
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 6
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 12
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 0
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+=== Notes & Strategies ===
+
+* Lunge at the pushers to jump higher off of them.
+* The rocket is just off the ground in the center of this figure-8 stage.
+* If you select Onslaught mode on this map, prepare to have your hands full. There are 24 grunt spawns, as well as 6 turrets, making things far more crowded than usual on a map as small as this.
