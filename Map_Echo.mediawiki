@@ -1,0 +1,55 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Echo.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''JoJo''" Stegall and Jonathan "''W!CK3D''" Roels'''
+|-
+|'''Filename:''' ''echo''
+|-
+| '''Release Date:''' 2010-06-19
+|-
+|'''Recommended Modes:''' Deathmatch, Duel, Team Deathmatch, Capture the Flag, Survivor
+|-
+|'''Size:''' Small/Duel (2-4)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Ancient/Industrial
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 2
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 3
+|}
+
+
+===Notes & Strategies===
+
+* Use the air ducts on each side to snipe or defend from.
+* Impulse jump or wallkick to get on top of the smaller buildings and their interconnecting walls, where you can find grenades.
+* The rocket is found in an underground tunnel, with entrances on the left and right sides of the stage.
