@@ -1,0 +1,56 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Depot.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''JoJo''" Stegall'''
+|-
+|'''Filename:''' ''depot''
+|-
+| '''Release Date:''' 2010-06-03
+|-
+|'''Recommended Modes:''' Team/Multi Deathmatch, Capture the Flag.
+|-
+|'''Size:''' Large (8-12)
+|-
+|'''Complexity:''' Basic
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Industrial
+|-
+|'''Rocket Spawn:''' Yes
+|}
+<!--
+=== Review ===
+
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 14
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 6
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 8
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 8
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 10
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+=== Notes & Strategies ===
+
+* Wallkick to take shortcuts to the upper catwalks.
+* The rocket is easy to spot; it hovers between two train cars in the middle of the stage.
