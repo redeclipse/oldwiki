@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Dropzone.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''JoJo''" Stegall'''
+|-
+|'''Filename:''' ''dropzone''
+|-
+| '''Release Date:''' 2011-02-16
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Capture the Flag
+|-
+|'''Size:''' Medium (6-8)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 4
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 6
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 2
+|}
+
+===Notes & Strategies===
+
+* The jumping pad at the back of each base can help you make a quick getaway in ''Capture The Flag''
+* The catwalks make good places to snipe
+* Jump between levels in Bomber Ball to throw off your opponents.
+* The rocket spawns at the very center of the stage, over the gap on the upper level. There is a pusher on the lower level which will quickly launch you up to it.
