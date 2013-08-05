@@ -1,0 +1,59 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Deadsimple.png|thumb|center]|Map Preview]]
+|'''Author: Jonathan "''W!CK3D''" Roels'''
+|-
+|'''Filename:''' ''deadsimple''
+|-
+| '''Release Date:''' 2010-6-03
+|-
+|'''Recommended Modes:''' Deathmatch, Defend the Flag, Hold Bomberball
+|-
+|'''Size:''' Medium (4-6)
+|-
+|'''Complexity:''' Basic
+|-
+|'''Environmental Features:''' Water
+|-
+|'''Theme:''' Ancient
+|-
+|'''Rocket Spawn:''' No
+|}
+
+
+=== Review ===
+This revamped throwback from DOOM II boasts a retro theme and a simplistic layout.
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 8
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 0
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+=== Notes & Strategies ===
+
+* This map is based on MAP07 from ''DOOM II: Hell on Earth''.
+* Wallkick to scale the walls onto the roof.
+* Watch out when going in the middle near the water and Flamer, you'll be the center of attention.
+* There are an awful lot of weapons on a pretty small map here; you'll have a lot of choice.
