@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:nova.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''Favorito''" Ponicki'''
+|-
+|'''Filename:''' ''nova''
+|-
+| '''Release Date:''' 2010-06-03
+|-
+|'''Recommended Modes:''' Bomber Ball, Deathmatch, Capture the Flag
+|-
+|'''Size:''' Medium (4-6)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' Lava
+|-
+|'''Theme:''' Modern
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 6
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+=== Notes & Strategies ===
+
+* Impulse jump, wallrun, and wallkick to gain access to the upper levels. Jump between the two high planks in the central room to grab the rocket.
+* If you have the coordination, fall towards the lava right near the arch on either base and then wallrun and jump to go under it without falling into the lava. It's risky but can be a helpful shortcut and one that will throw off other opponents
+:* Alternatively, use the three routes into the flag rooms to throw off the defending team in CTF.
