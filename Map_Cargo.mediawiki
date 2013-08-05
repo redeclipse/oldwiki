@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Cargo.png|thumb|center]|Map Preview]]
+|'''Authors: Derek "''JoJo''" Stegall  &  Jonathan "''W!CK3D''" Roels'''
+|-
+|'''Filename:''' ''cargo''
+|-
+| '''Release Date:''' Jan 6th, 2012
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Capture the Flag
+|-
+|'''Size:''' Medium (8-12)
+|-
+|'''Complexity:''' Intermediate
+|-
+|'''Environmental Features:''' Lava
+|-
+|'''Theme:''' Industrial
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+<!--
+
+=== Review ===
+
+
+-->
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 3
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 3
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 3
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+=== Notes & Strategies ===
+
+* The rocket spawns on a platform on the lower level, in the middle of the lava pit.
