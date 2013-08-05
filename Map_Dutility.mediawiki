@@ -1,0 +1,59 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Dutility.png|thumb|center]|Map Preview]]
+|'''Authors: Quinton Reeves and Derek "''JoJo''" Stegall'''
+|-
+|'''Filename:''' ''dutility''
+|-
+| '''Release Date:''' 2010-06-03
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Capture the Flag
+|-
+|'''Size:''' Small/Duel (2-4)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Space
+|-
+|'''Rocket Spawn:''' No
+|}
+
+=== Review ===
+
+A crowd favourite for bomberball and duel modes, this tried-and-true floater is a part of Red Eclipse history, being the first map ever created for the game. Here, blood-stained nebulae fill the sky and the ground is tinged crimson by the glow of a distant eclipse, giving the latest iteration of the classic map a snazzy thematic twist.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 8
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 0
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 3
+|}
+
+
+===Notes & Strategies===
+
+* Use plasma balls to clog up the path.
+* Use the grenade's alternate fire - or cook and throw them - to force your opponent out of hiding.
+* Be sure to use wallrunning and take the side wall paths on the left and right sides of the map.
+* Using the sword can make people fight or go into flight.
