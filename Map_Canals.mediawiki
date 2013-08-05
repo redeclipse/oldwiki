@@ -1,0 +1,61 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Canals.png|thumb|center]|Map Preview]]
+|'''Author: Jonathan "''Ulukai''" De Nil'''
+|-
+|'''Filename:''' ''canals''
+|-
+| '''Release Date:''' July 28th, 2012
+|-
+|'''Recommended Modes:''' Team/Multi Deathmatch, Capture the Flag
+|-
+|'''Size:''' Large (16+)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+
+Undoubtedly the biggest Red Eclipse arena to date, Canals has four large bases which connect together in the center of the map. A dried-out underground tunnel system provides a fleeting escape from the ongoing weapon fire above, but don't even think about stopping to admire the scenery - there's frags to be made.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="200px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 5 (7 in multi)
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 7 (9 in multi)
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 6 (10 in multi)
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2 (4 in multi)
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 7 (11 in multi)
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 5 (9 in multi)
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 16 (22 in multi)
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4 (8 in multi)
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 2 (4 in multi)
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 6
+|}
+
+
+=== Notes & Strategies ===
+
+* Ulukai has done an excellent job of using TRaK's textures to their full potential here.
+* Despite its misleading name, there is actually no water on this map.
+* This map is meant to be played with a full server (14-16 and up). With anything less, teams will be filled with a large number of unreliable bot players.
+* The rockets are located on top of the Alpha and Omega bases (and, to be fair in multi, the other two bases have one as well when playing in that mode).
+* Jump in one of the teleports in each of the Alpha/Omega bases to get to a handy camping spot, along with a rifle spawn. Beware, because enemy campers might be looking to give you the same treatment, and you never know where they might be hiding on a map this big!
