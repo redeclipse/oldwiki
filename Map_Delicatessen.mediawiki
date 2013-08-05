@@ -1,0 +1,56 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Deli.png|thumb|center]|Map Preview]]
+|'''Author: "''LuckyStrike-Rx''"'''
+|-
+|'''Filename:''' ''deli''
+|-
+| '''Release Date:''' June 3rd, 2010
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Capture the Flag
+|-
+|'''Size:''' Medium (8-10)
+|-
+|'''Complexity:''' Basic
+|-
+|'''Environmental Features:''' Water
+|-
+|'''Theme:''' Urban
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+=== Review ===
+
+LuckyStrike's iconic team deathmatch/CTF map features an aging cityscape beset with a mysterious, tantalizing atmosphere. Seek out your foes on the street level, or rise to the city's tallest stories to snipe at those ensconced within the fog's shroud.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 6
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 6
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 8
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 18
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6 
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 7
+|}
+
+=== Notes & Strategies ===
+
+* There are a couple of broken windows on each side; climb the walls up to them in order to reach a sniper spot. The one closest to each flag also contains a supply of grenades.
+* The rocket spawns high in the middle of the central building. Either use the pushers to launch up to it from the lower level, or double-jump across the gap if you're coming from the upper level.
