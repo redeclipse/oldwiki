@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Processing.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''Favorito''" Ponicki'''
+|-
+|'''Filename:''' ''processing''
+|-
+| '''Release Date:''' 2010-12-31
+|-
+|'''Recommended Modes:''' Deathmatch
+|-
+|'''Size:''' Small (4-6)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Toxic Water
+|-
+|'''Theme:''' Industrial/Modern
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 6
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 3
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+=== Notes & Strategies ===
+
+* Use the plasma alternate fire before going through the teleporters to prevent opponents from following through after you.
+* In the large room with two raised tables, there are several pushers allowing you to jump up to higher ground. One of them leads to a dead-end room...and the rocket.
+* Use the grenade's alternate fire, or mines, in the slime bridge room and near teleporters to temporarily prevent opponents from traversing near those areas.
