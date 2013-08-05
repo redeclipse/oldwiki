@@ -1,0 +1,61 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Center.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''JoJo''" Stegall'''
+|-
+|'''Filename:''' ''center''
+|-
+| '''Release Date:''' March 4th, 2011
+|-
+|'''Recommended Modes:''' Team Deathmatch, Capture the Flag, Defend the Flag, King of the Hill, Bomberball
+|-
+|'''Size:''' Large (10-14)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Urban
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+
+A classic TDM map styled after an abandoned city, Center is a staple of online matches. Be sure to conserve your impulse maneuvering around and on top of the buildings here, as you will run out faster than you think.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 8
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+
+=== Notes & Strategies ===
+
+* The bland texturing of center deserves some much-needed TLC to keep up with the newer maps' quality.
+* Sneak in and fall on the flag from the open vents near the roofs of the bases.
+* Snipe near cover, open roofs will leave you vulnerable to other people with Rifles.
+* Wallkick repeatedly to scale the sides of the buildings.
+* The rocket spawns on top of the biggest building in the middle - choose your target(s) carefully.
