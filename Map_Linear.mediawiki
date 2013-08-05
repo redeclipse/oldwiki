@@ -1,0 +1,56 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:linear.png|thumb|center]|Map Preview]]
+|'''Author: Mike "''mikeplus64''" Ledger'''
+|-
+|'''Filename:''' ''linear''
+|-
+| '''Release Date:''' 2011-02-19
+|-
+|'''Recommended Modes:''' Deathmatch, Capture the Flag, Instagib
+|-
+|'''Size:''' Medium (4-8)
+|-
+|'''Complexity:''' Basic
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Space
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 3
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 3
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 4
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 3
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 12
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 8
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 3
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 3
+|}
+
+=== Notes & Strategies ===
+
+* To get the rockets above the two bases, you must carefully climb one of the towers in the back corner of the base all the way to the top, then double-jump toward it and grab it.
+* To get the rocket in the middle of the map, you must fly off one of the raised central pushers and jump in mid-air, producing a large upward boost because of the pusher's momentum. You'll fly above the rocket, so be careful to grab it on the way back down.
