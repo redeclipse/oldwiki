@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Fourplex.png|thumb|center]|Map Preview]]
+|'''Author: "''D.a.M.i.E.N''" and "''Korsi''"'''
+|-
+|'''Filename:''' ''fourplex''
+|-
+| '''Release Date:''' Unknown
+|-
+|'''Recommended Modes:''' Team/Multi Deathmatch, Capture the Flag, Defend the Flag
+|-
+|'''Size:''' Medium (6-8)
+|-
+|'''Complexity:''' Intermediate
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+Gloriously symmetrical and ridiculously grey, 4plex by Damien is a space map for the ages. Launch toward the chaotic center area using the pushers at each of the lower bases, and grab that rocket to punish those without a flying license.
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="280px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4 (2 in Multi)
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4 (2 in Multi)
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4 (2 in Multi)
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4 (2 in Multi)
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4 (2 in Multi)
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4 (2 in FFA and/or Instagib)
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4 (2 in Multi)
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5 (9 in Multi)
+|}
+
+
+=== Notes & Strategies ===
+
+* This map has an abundance of powerful pushers; use their force wisely, to propel you in the right direction. 
+* The rocket spawns in the middle of the map, on the top platform.
