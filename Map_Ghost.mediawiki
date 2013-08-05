@@ -1,0 +1,59 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Ghost.png|thumb|center]|Map Preview]]
+|'''Author: "''LuckyStrike-Rx''"'''
+|-
+|'''Filename:''' ''ghost''
+|-
+| '''Release Date:''' 2010-06-03
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Capture the Flag, Defend the Flag, Instagib
+|-
+|'''Size:''' Medium (4-8)
+|-
+|'''Complexity:''' Basic
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Gothic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+=== Review ===
+
+Comprised of towering abandoned structures that exude a Victorian atmosphere, Ghost is another popular pick for many different modes online, be it instagib, duel, CTF, or some good old team deathmatch. Deceptively large in construction, agility is key on this impulse-fueled frag-fest around the map's four pushers.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 6
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+
+=== Notes & Strategies ===
+
+* There is a ledge on the walls adjacent to the open areas (which has shotgun spawns) next to the each team's base. They are often used as camping spots. 
+:* There are rifles hidden around the corners of these ledges. It is probably a waste of time to go after these as there are several rifle spawns around the map.
+* Use the pushers to fling yourself across the map. Don't forget to grab the rocket en route if you see it!
+:* Lunge midair after having used a pusher to take shortcuts to other areas of the map.
