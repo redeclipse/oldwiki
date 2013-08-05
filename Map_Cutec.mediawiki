@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Cutec.png|thumb|center]|Map Preview]]
+|'''Author: "''raiden''"'''
+|-
+|'''Filename:''' ''cutec''
+|-
+| '''Release Date:''' 2012-03-23
+|-
+|'''Recommended Modes:''' Bomber Ball, Team Deathmatch, Capture the Flag
+|-
+|'''Size:''' Large (8-12)
+|-
+|'''Complexity:''' Intermediate
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Space
+|-
+|'''Rocket Spawn:''' Yes
+|}
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 3
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 6
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 4
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 6
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 8
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+=== Notes & Strategies ===
+
+* This map's wide-open nature and clear lines of sight between the two bases make it a popular attraction for snipers. You can try to counter-snipe them, or seek them out for a close-up ambush while they're busy hunting for other players.
+* There are plenty of teleports in this map, to include a teleport at the very top of each base which will quickly send you to the other base. They're especially useful in Capture the Flag.
+* The rocket spawns high over the neutral platform between the two bases. If you walk off the edge of that platform, you won't die, but instead get warped into the air to a place where you can grab it.
+* Grenades, mines, and rockets thrown at the surface of the neutral platform will disappear more often than not, due to some unfortunate collision detection with the teleports underneath. If the fighting is taking place there, you might want to use another weapon for best results.
