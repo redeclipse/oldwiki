@@ -1,0 +1,59 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Ubik.png|thumb|center]|Map Preview]]
+|'''Author: "''LuckyStrike-Rx''"'''
+|-
+|'''Filename:''' ''ubik''
+|-
+| '''Release Date:''' 2010-07-17
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch
+|-
+|'''Size:''' Large (8-12)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Water
+|-
+|'''Theme:''' Urban
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+"Scraping the limits of sanity, the cloying smog is inescapable on this multi-level cityscape. A maze of concrete, steel and headshots await you. Grab that rocket up on high to become the real tower of power." 
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 1
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 3
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 3
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 10
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 5
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 6
+|}
+
+
+=== Notes & Strategies ===
+
+* Use the water holes to put out flamer fire
+* Scale the buildings using wallkicks, or seek out the designated jump pads for getting to higher levels.
+* Following the jump pads will eventually lead you to the tallest building on the map, marked with the large "QUIN" lettering. Be careful, because there are spinning fans on this rooftop which can shred you to death! But if you take a flying leap off the top toward the center of the map, and time a double jump or an impulse boost just right, you can grab the rocket in mid-air and rain down terror on the walkways below.
