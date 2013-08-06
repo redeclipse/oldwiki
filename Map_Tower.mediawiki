@@ -1,0 +1,55 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Tower.png|thumb|center]|Map Preview]]
+|'''Author: Quinton Reeves and Derek "''JoJo''" Stegall'''
+|-
+|'''Filename:''' ''tower''
+|-
+| '''Release Date:''' Unknown
+|-
+|'''Recommended Modes:''' Defend the Flag, FFA Deathmatch, Team Deathmatch, Survivor
+|-
+|'''Size:''' Medium (5-7)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' Lava
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 3
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+=== Notes & Strategies ===
+
+* 3 of the 4 grenades on the map are situated in the pusher in the centre of the tower.
+* The rocket is found at the T-shaped intersection that extends out from the top floor.
