@@ -1,0 +1,55 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Warp.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''JoJo''" Stegall and Derek "''Favorito''" Ponicki'''
+|-
+|'''Filename:''' ''warp''
+|-
+| '''Release Date:''' 2010-06-03
+|-
+|'''Recommended Modes:''' Team/Multi Deathmatch, Capture the Flag
+|-
+|'''Size:''' Medium (4-8)
+|-
+|'''Complexity:''' Basic
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Space
+|-
+|'''Rocket Spawn:''' Yes
+|}
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 2
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 2
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 4
+|}
+
+=== Notes & Strategies ===
+
+* Fall into the teleportation area in the middle hangar door to reach the rocket or the bomber ball. Do not fall outside of the delineated "tunnel," though, or you will be beamed through the lasers and die. Jumping up through the lasers immediately after being teleported back to the main area is similarly ill-advised.
+* The map is based on ''Fractal Reactor'' from Unreal Tournament.
