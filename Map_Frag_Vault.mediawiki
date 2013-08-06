@@ -1,0 +1,55 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Vault.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''Favorito''" Ponicki'''
+|-
+|'''Filename:''' ''vault''
+|-
+| '''Release Date:''' 2013-02-10
+|-
+|'''Recommended Modes:''' Duel, FFA Deathmatch, Survivor
+|-
+|'''Size:''' Small (2-4)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' No
+|}
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 0
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 1
+|}
+<!--
+=== Notes & Strategies ===
+
+*
+-->
