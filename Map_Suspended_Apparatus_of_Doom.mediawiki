@@ -1,0 +1,55 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Suspended.png|thumb|center]|Map Preview]]
+|'''Author: "''Greaserpirate''"'''
+|-
+|'''Filename:''' ''suspended''
+|-
+| '''Release Date:''' 2012-12-23
+|-
+|'''Recommended Modes:''' Capture the Flag, FFA Deathmatch, Team Deathmatch
+|-
+|'''Size:''' Medium (8-10)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+<!--
+=== Review ===
+-->
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 8
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 6
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 9
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 14
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 6
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 14
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 8
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+=== Notes & Strategies ===
+
+* Each base has some hollow windows, allowing you to run out and forge a path high along the walls in the hopes of evading your opponents.
+* The rocket is difficult to get in this map. You have to go all the way down to the lowest level, jump into the pit, grab the rocket, immediately double jump, and kick up off one of the support beams so you get high enough to return to the stage instead of falling and dying immediately.
