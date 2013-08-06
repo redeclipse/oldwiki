@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Tribal.png|thumb|center]|Map Preview]]
+|'''Author: Derek "''JoJo''" Stegall'''
+|-
+|'''Filename:''' ''tribal''
+|-
+| '''Release Date:''' 2010-12-23
+|-
+|'''Recommended Modes:''' Jetpack, Team Deathmatch, Capture the Flag
+|-
+|'''Size:''' Large (12-16)
+|-
+|'''Complexity:''' Advanced
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Ancient
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+<!--
+=== Review ===
+-->
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 6
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 12
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 8
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 2 (3 in deathmatch and CTF)
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+
+=== Notes & Strategies ===
+
+* Stay on the upper ledges to snipe.
+* Stay near the flag platform or in the doorway next to it to defend the flag in CTF.
+* There is a cave near each of the bases, with a rocket in the deepest recesses of each cave. Use the teleport pads to get back to the entrance quickly.
+* In the modes where it exists, the third rocket can be found in the middle of the stone bridge at the very top of the map.
