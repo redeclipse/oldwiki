@@ -1,0 +1,59 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Wet.png|thumb|center]|Map Preview]]
+|'''Author: "''LuckyStrike-Rx''"'''
+|-
+|'''Filename:''' ''wet''
+|-
+| '''Release Date:''' June 3rd, 2010
+|-
+|'''Recommended Modes:''' Deathmatch, Team Deathmatch, Capture the Flag, Defend the Flag, Bomberball, Hold Bomberball
+|-
+|'''Size:''' Medium (4-6)
+|-
+|'''Complexity:''' Basic
+|-
+|'''Environmental Features:''' Water
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Review ===
+
+Ominous thunderclouds form over blood-streaked concrete - the storm rages on over this Blood Frontier import. Twin pushers will rocket you between the four central pillars; a tight symmetrical layout provides intense duels.
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 6
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 1
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+
+=== Notes & Strategies ===
+
+* Douse out fire from flamers or grenades by going into the water pits.
+* Wallkick to climb onto the L-shaped walls in the center, or use the pusher ramps from the upper walkway to land on the platform with the rocket. Then fire down on your opponents from above.
