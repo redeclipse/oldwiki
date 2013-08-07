@@ -1,0 +1,112 @@
+{|
+|+
+|<h3>'''Modes'''</h3>
+|-
+|''Editing''
+| Make your own custom maps.
+|-
+|''Campaign (not currently available)''
+| Experimental single player; still in its infancy.
+|-
+|''Deathmatch''
+| Kill other players to score points using the [[Deathmatch Scoring]] system. The player or team with the most points at the end wins!
+|-
+|''Capture the Flag''
+| Steal the other team's flag and return it to your base, without letting them take yours, to score points.
+|-
+|''Defend the Flag''
+| Stand near flag positions to capture them. Each flag you hold brings in a steady stream of points.
+|-
+|''Bomber Ball''
+| Grab the ball and deliver to the enemy base to score, but watch your bomb timer - it will explode if you hold on to it too long. Pass it to your teammates to keep it going. If the other team holds it, kill the carrier or intercept it midair.
+|-
+|''Gauntlet''
+| One team (blue/Alpha) races to reach the goal and score points, while the other team (red/Omega) tries to shoot them before they can get there. Teams switch off halfway through the match.
+|-
+|''Time Trial''
+| Compete for the best times by racing to the end of the track, using the game's unique parkour system (Press Q to wallrun and wallkick).
+
+|+
+|<h3>'''Mutators'''</h3>
+|-
+|''Multi''
+| Play with four teams instead of two.
+|-
+|''FFA''
+| There are no teams, just every player for themselves in a free-for-all showdown. (Not available in CTF, DTF, or Gauntlet, and in Bomber Ball it implies the ''hold'' mutator)
+|-
+|''Coop''
+| All human players are forced onto the same team, battling against a team of bots...and there are more of them than there are of you.
+|-
+|''Instagib''
+| Players spawn with 1 HP, so any hit is lethal. Unless ''medieval'' or ''kaboom'' is also selected, players only have rifles for weapons.
+|-
+|''Medieval''
+| Players only have swords for weapons.
+|-
+|''Kaboom''
+| Players only have grenades and mines for weapons.
+|-
+|''Duel''
+| Only two players spawn at a time. Other players spectate the two fighting and wait their turn in line before playing again. Winner stays in, loser goes to the back of the line. Try to win the most rounds by the end of the game.
+|-
+|''Survivor''
+| Similar to duel, but all players spawn at once. Last player or team standing wins.
+|-
+|''Classic''
+| Instead of having a menu to select your weapons from, you spawn with only a pistol. The rest of the weapons can be found on the ground, scattered across the map.
+|-
+|''Onslaught''
+| Enemy drones and sentry turrets spawn in the maps while you fight against other players. If one of them kills you, you lose points!
+|-
+|''Jetpack''
+| Hold jump to fly around in midair, using your Impulse Meter as fuel.
+|-
+|''Vampire''
+| Dealing damage to opponents causes you to regain your own health.
+|-
+|''Expert''
+| Any shot that doesn't hit the head will cause no damage, so watch your aim!
+|-
+|''Resize''
+| As your health decreases, you get smaller and start slowing down, and the converse is true for gaining health. If combined with ''instagib'', instead you get bigger every time you kill someone, until getting killed takes you back to normal size.
+
+|+
+|<h3>'''Mode-Exclusive Mutators'''</h3>
+|-
+|+
+|'''Capture the Flag'''
+|-
+|''Quick''
+| Touching your own team's loose flag will instantly teleport it back to your base, instead of having to escort it there on foot.
+|-
+|''Defend''
+| When your flag is taken, you cannot return it. You must protect it from where it's dropped until the timer resets.
+|-
+|''Protect''
+| You do not score for bringing a flag back to your base. Instead, simply pick up an opponent's flag and hold onto it for 15 seconds to score. In this mode, players are allowed to pick up their own flag and bring its buffing power with them while they seek out the other(s).
+|+
+|'''Defend the Flag'''
+|-
+|''Quick''
+| Flags can be secured much more quickly. When capturing enemy flags, they change directly to your color, instead of passing through a neutral "overthrown" state first.
+|-
+|''King''
+| There is only one flag. It's king of the hill--you have to stay near the flag to score points.
+|+
+|'''Bomber Ball'''
+|-
+|''Touchdown''
+| You cannot pass the ball into the goal to score. You have to carry it all the way there yourself.
+|-
+|''Hold''
+| There are no goals to drop the ball into. Instead, you get points for holding the ball as long as possible, but don't let the timer run out or you blow up and lose points! In this mode, the player holding the ball can kill opponents to reset the timer, allowing them to hold onto it longer.
+|+
+|'''Gauntlet'''
+|-
+|''Timed''
+| The game takes on more of a Time Trial flavor. Instead of trying to score the most points, only each team's single fastest lap is taken into account for determining the winner.
+|-
+|''Hard''
+| The entire stage is a buff zone for the defending team, giving them increased damage and resilience to attacks as they try to stop the runners.
+|}
