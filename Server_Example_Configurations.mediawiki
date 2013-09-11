@@ -1,0 +1,145 @@
+== Server Examples ==
+
+If you have a nice server example, feel free to share it here.
+
+=== Edit Mode Server ===
+
+'''servexec.cfg:'''
+<pre>
+// This file controls server side variables which influence gameplay (which must be prefixed with 'sv_')
+// It is executed whenever variables are reset (on start, and whatever 'resetvarsonend' tells it to)
+
+sv_serverclients 6
+sv_serverdesc "CoopEdit"
+sv_servermotd "F1 key toggles Edit View, F2 key for Textures menu, F3 key for Edit menu"
+sv_timelimit 0
+sv_resetbansonend 0
+
+
+sv_botbalance 0
+sv_pointlimit 1000
+sv_regenhealth 10
+sv_movestepup 1.5 // multiplier of speed when stepping up
+sv_movestepdown 1.5 // multiplier of speed when stepping down
+sv_jumpspeed 100 // extra velocity to add when jumping
+sv_impulsespeed 100 // extra velocity to add when impulsing
+sv_impulselimit 500 // maximum impulse speed
+
+sv_itemspawntime 5000
+sv_itemspawndelay 3000
+sv_itemspawnstyle 0
+
+sv_selfdamage 1 // determines if the player can damage themselves
+sv_teamdamage 0 // determines if the player can damage team members; 0 = off, 1 = non-bots damage team, 2 = all players damage team
+sv_teambalance 3 // determines the method of team balancing; 0 = off, 1 = by number, 2 = by rank, 3 = humans vs. ai
+
+sv_defaultmode 0
+sv_defaultmap "myfirstmap"
+
+sv_varslock 1
+sv_modelock 0
+sv_mapslock 0
+
+sv_rotatemuts 0
+sv_rotatemode 0
+
+sv_resetvarsonend 2
+
+sv_maprotate 2
+
+sv_allowmaps "" // allowed maps
+sv_campaignmaps "" // campaign maps
+sv_mainmaps "" // deathmatch maps
+sv_capturemaps "" // capture-the-flag maps
+sv_defendmaps "" // defend-the-flag maps
+sv_bombermaps "" // bomber-ball maps
+sv_holdmaps "" // hold bomber-ball maps
+sv_trialmaps "" // time-trial maps
+</pre>
+
+=== 1 vs 1, 2 vs 2 Survivor Team Arena Server ===
+
+* This server has quick respawn, quick map rotation, and voting disabled
+
+'''servexec.cfg:'''
+<pre>
+// This file controls server side variables which influence gameplay (which must be prefixed with 'sv_')
+// It is executed whenever variables are reset (on start, and whatever 'resetvarsonend' tells it to)
+
+sv_serverclients 4
+sv_resetbansonend 0
+sv_serverdesc " 2 vs 2 Duel Arena"
+sv_servermotd "Press F6 or Comma (,) to Change Weapons"
+
+sv_timelimit 6
+
+sv_resetvarsonend 1
+
+sv_intermlimit 6000 // time in milliseconds intermission lasts
+sv_votelimit 0 // time in milliseconds intermission voting lasts
+sv_duellimit 1000 // time in milliseconds before next round in duel/survivor
+
+sv_teambalance 2 // determines the method of team balancing; 0 = off, 1 = by number, 2 = by rank, 3 = humans vs. ai
+sv_botbalance 1
+sv_botlimit 2
+sv_skillmin 95
+sv_skillmax 95
+
+
+sv_defaultmode 3
+sv_defaultmuts 194
+//sv_defaultmap ""
+
+sv_varslock 1
+sv_modelock 1
+sv_mapslock 1
+
+sv_rotatemuts 0
+sv_rotatemode 0
+
+sv_resetvarsonend 0
+
+
+sv_instadelay 500 // time in milliseconds before players can respawn in instagib mutated modes
+
+sv_allowmaps "bath echo dutility darkness deathtrap lab mist panic" // allowed maps
+sv_mainmaps "bath echo dutility darkness deathtrap lab mist panic" // deathmatch maps
+sv_maprotate 1
+</pre>
+
+===Time-trial server===
+
+* This server has no time limit and therefore votestyle 1.
+* Custom trial maps are added to the rotation by parsing a backup directory.
+'''servexec.cfg:'''
+<pre>
+// This file controls server side variables which influence gameplay (which must be prefixed with 'sv_')
+// It is executed whenever variables are reset (on start, and whatever 'resetvarsonend' tells it to)
+
+ adminpass thereIsNoSpoon   // password to claim administrator rights via /setpriv
+ sv_serverclients 10        // maximum number of allowed clients
+ sv_serverdesc "Time trial" // server description shown in the F4 menu
+ sv_servermotd "Here goes the message shown upon login. Custom content should be declared here. ^n Line breaks can help to structure a longer motd."
+
+ sv_defaultmap        "neodrive"    // default map, "" = random
+ sv_defaultmode       $modeidxtrial // default game mode, convenient to set using a sum of $modeidx* vars 
+ sv_modelockfilter    $modebittrial // determines the modes available in the vote menu
+ sv_rotatemodefilter  $modebittrial // determines the mode rotation when the server selects the next map
+ sv_defaultmuts       (+ $mutsbitffa $mutsbitclassic ) // default mutators, convenient to set using a sum of $mutsbit* vars 
+ sv_rotatemutsfilter  (+ $mutsbitffa $mutsbitclassic ) // determines the mutator rotation when the server selects the next map
+ 
+ sv_timelimit 0        // disable the time limit, therefore voting must be possible mid-match 
+ sv_votestyle 1        // the vote passes when a majority of the players agrees on the next match
+ sv_votethreshold 0.51 // the majority is defined as 51%, i.e. more than half of the players
+
+ sv_teamneutralcolour 0xffffff // most trial games are FFA - a custom color (white) enhances the visibility of players.
+
+// Assume that the directory "trialmaps" in your user data holds a backup of your favorite extra maps (or just of the cfg files).
+// Here we set the trial maps available in the vote menu by parsing that directory.
+ maplist = $sv_trialmaps
+ loopfiles i trialmaps cfg [ 
+     maplist = (concat $maplist $i)
+ ]
+ sv_trialmaps $maplist
+
+</pre>
