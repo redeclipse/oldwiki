@@ -1,0 +1,5083 @@
+This page was automatically generated from the source of Red Eclipse, please do not edit it manually.
+
+<table style="border:1px solid #000000; width:100%;">
+<tr>
+<th>
+<nowiki>Name & Parameters</nowiki>
+</th>
+<th>
+<nowiki>Description</nowiki>
+</th>
+<th>
+<nowiki>Type</nowiki>
+</th>
+<th>
+<nowiki>Default Value</nowiki>
+</th>
+<th>
+<nowiki>Range</nowiki>
+</th>
+<th>
+<nowiki>Identifier Flags</nowiki>
+</th>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketadd</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount added when picking up the weapon or reloading it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketaidist1</nowiki></b> <i><nowiki><distance></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the 'maximum distance' a weapon can be shot at, used by AI to determine weapon effectiveness ranges</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1024.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketaidist2</nowiki></b> <i><nowiki><distance></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the 'maximum distance' a weapon can be shot at, used by AI to determine weapon effectiveness ranges</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>512.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketaiskew1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines 'added stupidity' for each weapon for AI counterparts</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketaiskew2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines 'added stupidity' for each weapon for AI counterparts</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketattackdelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the time it takes after each firing action for the weapon to be ready again</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketattackdelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the time it takes after each firing action for the weapon to be ready again</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketcarried</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketclipoffset</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketcliprotate</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>12</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..15</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketclipskew</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.75</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketcliptex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki><grey>textures/weapons/clips/rocket</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE IDF_GAMEPRELOAD</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketcollide1</nowiki></b> <i><nowiki><sum></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines collision properties for a projectile from each firing action (bitwise OR); IMPACT_GEOM = 1, BOUNCE_GEOM = 2, IMPACT_PLAYER = 4, BOUNCE_PLAYER = 8, RADIAL_PLAYER = 16, COLLIDE_TRACE = 32, COLLIDE_OWNER = 64, COLLIDE_CONT = 128, COLLIDE_STICK = 256</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>62</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketcollide2</nowiki></b> <i><nowiki><sum></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines collision properties for a projectile from each firing action (bitwise OR); IMPACT_GEOM = 1, BOUNCE_GEOM = 2, IMPACT_PLAYER = 4, BOUNCE_PLAYER = 8, RADIAL_PLAYER = 16, COLLIDE_TRACE = 32, COLLIDE_OWNER = 64, COLLIDE_CONT = 128, COLLIDE_STICK = 256</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>62</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketcolour</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x803000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x000000..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketcooked1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines cooking style for a projectile, 0 = off, 1 = scale size, 2 = shorten life (+1 no scale), 4 = lengthen life (+1 no scale)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketcooked2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines cooking style for a projectile, 0 = off, 1 = scale size, 2 = shorten life (+1 no scale), 4 = lengthen life (+1 no scale)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketcrosshairtex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>crosshairs/circle-01</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketdamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount of damage a projectile from each firing action does</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketdamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount of damage a projectile from each firing action does</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketdelta1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount by which each firing action is guided</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketdelta2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount by which each firing action is guided</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketdrill1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketdrill2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketelasticity1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of velocity for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketelasticity2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of velocity for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketescapedelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will not be able to hurt its owner for this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketescapedelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will not be able to hurt its owner for this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketexplcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x981808</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketexplcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0x981808</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketexplode1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the explosion radius for a particle of this firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>128.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketexplode2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the explosion radius for a particle of this firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>128.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketextinguish1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if a projectile from each firing action is extinguished by water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketextinguish2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if a projectile from each firing action is extinguished by water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakcollide1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>62</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakcollide2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>62</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakdamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak of this type deals this much damage</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakdamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak of this type deals this much damage</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakdelta1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakdelta2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakdrill1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakdrill2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakelasticity1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakelasticity2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakexplcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x981808</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakexplcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0x981808</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakexplode1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>128.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakexplode2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>128.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakextinguish1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakextinguish2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakguided1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakguided2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakguideddelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakguideddelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakheadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakheadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakhitpush1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>500.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakhitpush2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>500.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakinteracts1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakinteracts2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflaklegdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflaklegdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakminspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>50.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakminspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>50.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakpartcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakpartcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakpartlen1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakpartlen2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakpartsize1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>3.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakpartsize2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>3.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakparttype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakparttype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakproxdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakproxdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakproxdist1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakproxdist2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakproxtime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakproxtime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakproxtype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakproxtype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakradial1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakradial2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakradius1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakradius2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakreflectivity1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakreflectivity2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakresidual1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakresidual2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakselfdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakselfdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakstunfall1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakstunfall2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakstunscale1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakstunscale2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakstuntime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakstuntime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflaktaper1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflaktaper2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflaktaperin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflaktaperin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflaktaperout1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflaktaperout2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakteamdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakteamdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakteampenalty1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakteampenalty2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflaktorsodamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflaktorsodamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakvisfade1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakvisfade2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakvistime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakvistime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakwaterfric1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakwaterfric2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakwavepush1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakwavepush2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakweight1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakweight2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketflakwhipdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketflakwhipdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragjump1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragjump2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragoffset1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action is offset by this distance if it impacts a player before being created</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragoffset2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action is offset by this distance if it impacts a player before being created</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragrays1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when creating flak, create this many projectiles for it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>30</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragrays2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when creating flak, create this many projectiles for it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>30</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragrel1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action retains this much of its parent relative momentum</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragrel2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action retains this much of its parent relative momentum</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragscale1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action is scaled by this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragscale2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action is scaled by this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragskew1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much when it impacts a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragskew2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much when it impacts a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragspeed1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak projectiles from this weapon start with this much speed (may be influenced by fragspread/fragskew and fragrel)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>400</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragspeed2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak projectiles from this weapon start with this much speed (may be influenced by fragspread/fragskew and fragrel)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>400</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragspread1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much if it doesn't impact a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragspread2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much if it doesn't impact a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragtime1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak projectiles from this weapon last this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragtime2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak projectiles from this weapon last this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfragweap1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when projectiles from this firing action are destroyed, create projectiles from this kind of weapon (+10 = alt fire for the weapon)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1..21</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfragweap2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when projectiles from this firing action are destroyed, create projectiles from this kind of weapon (+10 = alt fire for the weapon)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1..21</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfrequency</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of itemspawntime in which items of this type respawn in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketfullauto1</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if each firing action is fully automatic (click-and-hold) or not (click-and-click)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketfullauto2</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if each firing action is fully automatic (click-and-hold) or not (click-and-click)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketguided1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines guided style for a projectile, 0 = off, 1 = follow crosshair direction, 2 = home crosshair target (+1 only first target), 4 = home projectile target (+1 only first target), 6 = direct toward first crosshair direction</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketguided2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines guided style for a projectile, 0 = off, 1 = follow crosshair direction, 2 = home crosshair target (+1 only first target), 4 = home projectile target (+1 only first target), 6 = direct toward first crosshair direction</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketguideddelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will delay guided settings by this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketguideddelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will delay guided settings by this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketheadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketheadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockethithairtex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>crosshairs/circle-01-hit</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rockethitpush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of damage for a projectile or explosion of each firing action impacting a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>500.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockethitpush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of damage for a projectile or explosion of each firing action impacting a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>500.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketinteracts1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketinteracts2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketkickpush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount of pushback from shooting each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>150.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketkickpush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount of pushback from shooting each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>150.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketlaser</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if this weapon has a laser pointer which is projected to the point where the player is aiming</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketlegdamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of damage for leg shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketlegdamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of damage for leg shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketlimspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketlimspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketmax</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the maximum amount the clip of this weapon can hold, can never be higher than default</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketminspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketminspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketmodes</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-64</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-255..255</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketmuts</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-192</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-131071..131071</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketname</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>rocket</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketpartcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketpartcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketpartlen1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the maximum tape particle length of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketpartlen2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the maximum tape particle length of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketpartsize1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the maximum particle size of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>3.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketpartsize2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the maximum particle size of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>3.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketparttype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketparttype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketpower1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, determines that the weapon can be 'cooked' this long before firing</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>3000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketpower2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, determines that the weapon can be 'cooked' this long before firing</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>3000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketprojdelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will be delayed this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketprojdelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will be delayed this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketproxdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketproxdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketproxdist1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketproxdist2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketproxtime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketproxtime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketproxtype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketproxtype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketradial1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the time between ticks of "continuous" radial damage, starts counting from first "radiation"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketradial2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the time between ticks of "continuous" radial damage, starts counting from first "radiation"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketradius1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the size for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketradius2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the size for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketrays1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount of projectiles spawned from one shot of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketrays2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount of projectiles spawned from one shot of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketreflectivity1</nowiki></b> <i><nowiki><angle></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>guard angle for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketreflectivity2</nowiki></b> <i><nowiki><angle></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>guard angle for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketrelativity1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of player velocity added to a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketrelativity2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of player velocity added to a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketreloaddelay</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the time it takes for the weapon to reload one 'add' unit</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>5000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketreloads</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if this weapon can reload</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketresidual1</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if a projectile from each firing action has a residual effect; 0 = off, 1 = burns, 2 = bleeds</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketresidual2</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if a projectile from each firing action has a residual effect; 0 = off, 1 = burns, 2 = bleeds</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketselfdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketselfdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketspeed1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the speed of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketspeed2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the speed of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>250</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketspread1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount a projectile from each firing action skews off-center</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketspread2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount a projectile from each firing action skews off-center</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketspreadmax1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketspreadmax2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketspreadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketspreadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketspreadz1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when zero, keeps spread projectiles aligned horizontally, else divide the z axis this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketspreadz2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when zero, keeps spread projectiles aligned horizontally, else divide the z axis this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketstunfall1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketstunfall2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketstunscale1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketstunscale2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketstuntime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketstuntime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketsub1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount taken from the clip for each firing action, set to zero for unlimited ammo</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketsub2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount taken from the clip for each firing action, set to zero for unlimited ammo</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockettaper1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rockettaper2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockettaperin1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the fraction of the lifetime from the start until the projectile reaches its full size</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rockettaperin2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the fraction of the lifetime from the start until the projectile reaches its full size</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockettaperout1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the fraction of the lifetime from the end where the projectile size "fades out"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rockettaperout2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the fraction of the lifetime from the end where the projectile size "fades out"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketteamdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketteamdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketteampenalty1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketteampenalty2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockettex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki><grey>textures/weapons/rocket</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE IDF_GAMEPRELOAD</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rockettime1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the maximum lifetime of a projectile for each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>5000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockettime2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the maximum lifetime of a projectile for each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>5000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rockettorsodamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of damage for torso shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockettorsodamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of damage for torso shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rockettrace1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of length to apply to traced weapons</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rockettrace2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of length to apply to traced weapons</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketvisfade1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketvisfade2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketvistime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketvistime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketwaterfric1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of velocity for a projectile of each firing action when in water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketwaterfric2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of velocity for a projectile of each firing action when in water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketwavepush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of explode radius this weapon pushes in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketwavepush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of explode radius this weapon pushes in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketweight1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>relative weight for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketweight2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>relative weight for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketwhipdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rocketwhipdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rocketzooms</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if the secondary action on this weapon zooms</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+</table>
