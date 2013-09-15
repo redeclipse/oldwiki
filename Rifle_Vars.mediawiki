@@ -1,0 +1,5083 @@
+This page was automatically generated from the source of Red Eclipse, please do not edit it manually.
+
+<table style="border:1px solid #000000; width:100%;">
+<tr>
+<th>
+<nowiki>Name & Parameters</nowiki>
+</th>
+<th>
+<nowiki>Description</nowiki>
+</th>
+<th>
+<nowiki>Type</nowiki>
+</th>
+<th>
+<nowiki>Default Value</nowiki>
+</th>
+<th>
+<nowiki>Range</nowiki>
+</th>
+<th>
+<nowiki>Identifier Flags</nowiki>
+</th>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleadd</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount added when picking up the weapon or reloading it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleaidist1</nowiki></b> <i><nowiki><distance></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the 'maximum distance' a weapon can be shot at, used by AI to determine weapon effectiveness ranges</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>768.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleaidist2</nowiki></b> <i><nowiki><distance></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the 'maximum distance' a weapon can be shot at, used by AI to determine weapon effectiveness ranges</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2048.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleaiskew1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines 'added stupidity' for each weapon for AI counterparts</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>40</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleaiskew2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines 'added stupidity' for each weapon for AI counterparts</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>40</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleattackdelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the time it takes after each firing action for the weapon to be ready again</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>750</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleattackdelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the time it takes after each firing action for the weapon to be ready again</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1250</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflecarried</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleclipoffset</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.25</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflecliprotate</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>12</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..15</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleclipskew</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflecliptex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki><grey>textures/weapons/clips/rifle</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE IDF_GAMEPRELOAD</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflecollide1</nowiki></b> <i><nowiki><sum></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines collision properties for a projectile from each firing action (bitwise OR); IMPACT_GEOM = 1, BOUNCE_GEOM = 2, IMPACT_PLAYER = 4, BOUNCE_PLAYER = 8, RADIAL_PLAYER = 16, COLLIDE_TRACE = 32, COLLIDE_OWNER = 64, COLLIDE_CONT = 128, COLLIDE_STICK = 256</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>573</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflecollide2</nowiki></b> <i><nowiki><sum></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines collision properties for a projectile from each firing action (bitwise OR); IMPACT_GEOM = 1, BOUNCE_GEOM = 2, IMPACT_PLAYER = 4, BOUNCE_PLAYER = 8, RADIAL_PLAYER = 16, COLLIDE_TRACE = 32, COLLIDE_OWNER = 64, COLLIDE_CONT = 128, COLLIDE_STICK = 256</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1597</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflecolour</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xA020F0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x000000..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflecooked1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines cooking style for a projectile, 0 = off, 1 = scale size, 2 = shorten life (+1 no scale), 4 = lengthen life (+1 no scale)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflecooked2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines cooking style for a projectile, 0 = off, 1 = scale size, 2 = shorten life (+1 no scale), 4 = lengthen life (+1 no scale)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflecrosshairtex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>crosshairs/simple-01</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifledamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount of damage a projectile from each firing action does</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>45</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifledamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount of damage a projectile from each firing action does</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>150</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifledelta1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount by which each firing action is guided</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifledelta2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount by which each firing action is guided</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifledrill1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifledrill2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleelasticity1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of velocity for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleelasticity2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of velocity for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleescapedelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will not be able to hurt its owner for this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleescapedelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will not be able to hurt its owner for this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleexplcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xA020F0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleexplcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xA020F0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleexplode1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the explosion radius for a particle of this firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleexplode2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the explosion radius for a particle of this firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleextinguish1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if a projectile from each firing action is extinguished by water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleextinguish2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if a projectile from each firing action is extinguished by water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakcollide1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>61</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakcollide2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1085</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakdamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak of this type deals this much damage</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakdamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak of this type deals this much damage</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakdelta1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakdelta2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakdrill1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakdrill2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakelasticity1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakelasticity2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakexplcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakexplcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakexplode1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakexplode2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakextinguish1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakextinguish2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakguided1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakguided2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakguideddelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakguideddelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakheadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakheadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakhitpush1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakhitpush2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakinteracts1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakinteracts2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflaklegdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflaklegdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakminspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>50.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakminspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>50.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakpartcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakpartcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakpartlen1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>256.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakpartlen2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1024.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakpartsize1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.75</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakpartsize2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakparttype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakparttype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakproxdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakproxdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakproxdist1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakproxdist2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakproxtime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakproxtime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakproxtype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakproxtype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakradial1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakradial2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakradius1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakradius2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakreflectivity1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakreflectivity2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakresidual1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakresidual2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakselfdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakselfdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakstunfall1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakstunfall2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakstunscale1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakstunscale2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakstuntime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakstuntime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>750</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflaktaper1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflaktaper2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflaktaperin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflaktaperin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflaktaperout1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflaktaperout2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakteamdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakteamdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakteampenalty1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakteampenalty2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflaktorsodamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflaktorsodamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakvisfade1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakvisfade2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakvistime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakvistime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakwaterfric1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakwaterfric2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakwavepush1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakwavepush2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakweight1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakweight2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleflakwhipdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleflakwhipdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragjump1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragjump2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragoffset1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action is offset by this distance if it impacts a player before being created</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragoffset2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action is offset by this distance if it impacts a player before being created</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragrays1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when creating flak, create this many projectiles for it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragrays2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when creating flak, create this many projectiles for it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragrel1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action retains this much of its parent relative momentum</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragrel2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action retains this much of its parent relative momentum</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragscale1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action is scaled by this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragscale2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action is scaled by this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragskew1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much when it impacts a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragskew2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much when it impacts a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragspeed1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak projectiles from this weapon start with this much speed (may be influenced by fragspread/fragskew and fragrel)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragspeed2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak projectiles from this weapon start with this much speed (may be influenced by fragspread/fragskew and fragrel)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragspread1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much if it doesn't impact a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.25</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragspread2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much if it doesn't impact a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.25</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragtime1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak projectiles from this weapon last this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragtime2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak projectiles from this weapon last this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefragweap1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when projectiles from this firing action are destroyed, create projectiles from this kind of weapon (+10 = alt fire for the weapon)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1..21</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefragweap2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when projectiles from this firing action are destroyed, create projectiles from this kind of weapon (+10 = alt fire for the weapon)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1..21</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefrequency</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of itemspawntime in which items of this type respawn in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflefullauto1</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if each firing action is fully automatic (click-and-hold) or not (click-and-click)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflefullauto2</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if each firing action is fully automatic (click-and-hold) or not (click-and-click)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleguided1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines guided style for a projectile, 0 = off, 1 = follow crosshair direction, 2 = home crosshair target (+1 only first target), 4 = home projectile target (+1 only first target), 6 = direct toward first crosshair direction</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleguided2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines guided style for a projectile, 0 = off, 1 = follow crosshair direction, 2 = home crosshair target (+1 only first target), 4 = home projectile target (+1 only first target), 6 = direct toward first crosshair direction</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleguideddelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will delay guided settings by this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleguideddelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will delay guided settings by this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleheadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleheadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflehithairtex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>crosshairs/simple-01-hit</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflehitpush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of damage for a projectile or explosion of each firing action impacting a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>25.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflehitpush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of damage for a projectile or explosion of each firing action impacting a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>100.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleinteracts1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleinteracts2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflekickpush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount of pushback from shooting each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>35.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflekickpush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount of pushback from shooting each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>50.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflelaser</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if this weapon has a laser pointer which is projected to the point where the player is aiming</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflelegdamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of damage for leg shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflelegdamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of damage for leg shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflelimspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflelimspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflemax</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the maximum amount the clip of this weapon can hold, can never be higher than default</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleminspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleminspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflemodes</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-64</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-255..255</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflemuts</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-56</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-131071..131071</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflename</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>rifle</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflepartcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xA020F0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflepartcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xA020F0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflepartlen1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the maximum tape particle length of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>256.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflepartlen2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the maximum tape particle length of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1024.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflepartsize1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the maximum particle size of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflepartsize2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the maximum particle size of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>3.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleparttype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleparttype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflepower1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, determines that the weapon can be 'cooked' this long before firing</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflepower2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, determines that the weapon can be 'cooked' this long before firing</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleprojdelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will be delayed this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleprojdelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will be delayed this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleproxdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleproxdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleproxdist1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleproxdist2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleproxtime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleproxtime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleproxtype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleproxtype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleradial1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the time between ticks of "continuous" radial damage, starts counting from first "radiation"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleradial2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the time between ticks of "continuous" radial damage, starts counting from first "radiation"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleradius1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the size for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleradius2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the size for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflerays1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount of projectiles spawned from one shot of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflerays2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount of projectiles spawned from one shot of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflereflectivity1</nowiki></b> <i><nowiki><angle></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>guard angle for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflereflectivity2</nowiki></b> <i><nowiki><angle></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>guard angle for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflerelativity1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of player velocity added to a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflerelativity2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of player velocity added to a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflereloaddelay</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the time it takes for the weapon to reload one 'add' unit</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflereloads</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if this weapon can reload</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleresidual1</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if a projectile from each firing action has a residual effect; 0 = off, 1 = burns, 2 = bleeds</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleresidual2</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if a projectile from each firing action has a residual effect; 0 = off, 1 = burns, 2 = bleeds</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleselfdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleselfdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflespeed1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the speed of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflespeed2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the speed of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>100000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflespread1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount a projectile from each firing action skews off-center</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflespread2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount a projectile from each firing action skews off-center</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflespreadmax1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflespreadmax2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflespreadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflespreadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflespreadz1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when zero, keeps spread projectiles aligned horizontally, else divide the z axis this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflespreadz2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when zero, keeps spread projectiles aligned horizontally, else divide the z axis this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflestunfall1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflestunfall2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflestunscale1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflestunscale2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflestuntime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>75</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflestuntime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflesub1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount taken from the clip for each firing action, set to zero for unlimited ammo</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflesub2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount taken from the clip for each firing action, set to zero for unlimited ammo</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifletaper1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifletaper2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifletaperin1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the fraction of the lifetime from the start until the projectile reaches its full size</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifletaperin2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the fraction of the lifetime from the start until the projectile reaches its full size</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifletaperout1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the fraction of the lifetime from the end where the projectile size "fades out"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifletaperout2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the fraction of the lifetime from the end where the projectile size "fades out"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleteamdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleteamdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleteampenalty1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleteampenalty2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifletex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki><grey>textures/weapons/rifle</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE IDF_GAMEPRELOAD</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifletime1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the maximum lifetime of a projectile for each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>5000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifletime2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the maximum lifetime of a projectile for each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>5000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifletorsodamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of damage for torso shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifletorsodamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of damage for torso shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifletrace1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of length to apply to traced weapons</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifletrace2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of length to apply to traced weapons</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflevisfade1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflevisfade2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflevistime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflevistime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflewaterfric1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of velocity for a projectile of each firing action when in water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflewaterfric2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of velocity for a projectile of each firing action when in water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflewavepush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of explode radius this weapon pushes in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflewavepush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of explode radius this weapon pushes in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>rifleweight1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>relative weight for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>rifleweight2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>relative weight for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflewhipdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>riflewhipdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>riflezooms</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if the secondary action on this weapon zooms</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+</table>
