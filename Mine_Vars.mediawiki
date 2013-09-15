@@ -1,0 +1,5083 @@
+This page was automatically generated from the source of Red Eclipse, please do not edit it manually.
+
+<table style="border:1px solid #000000; width:100%;">
+<tr>
+<th>
+<nowiki>Name & Parameters</nowiki>
+</th>
+<th>
+<nowiki>Description</nowiki>
+</th>
+<th>
+<nowiki>Type</nowiki>
+</th>
+<th>
+<nowiki>Default Value</nowiki>
+</th>
+<th>
+<nowiki>Range</nowiki>
+</th>
+<th>
+<nowiki>Identifier Flags</nowiki>
+</th>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineadd</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount added when picking up the weapon or reloading it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineaidist1</nowiki></b> <i><nowiki><distance></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the 'maximum distance' a weapon can be shot at, used by AI to determine weapon effectiveness ranges</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>128.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineaidist2</nowiki></b> <i><nowiki><distance></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the 'maximum distance' a weapon can be shot at, used by AI to determine weapon effectiveness ranges</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>128.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineaiskew1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines 'added stupidity' for each weapon for AI counterparts</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineaiskew2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines 'added stupidity' for each weapon for AI counterparts</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineattackdelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the time it takes after each firing action for the weapon to be ready again</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineattackdelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the time it takes after each firing action for the weapon to be ready again</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minecarried</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineclipoffset</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minecliprotate</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>11</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..15</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineclipskew</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_PERSIST IDF_COMPLETE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minecliptex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki><grey>textures/weapons/clips/mine</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE IDF_GAMEPRELOAD</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minecollide1</nowiki></b> <i><nowiki><sum></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines collision properties for a projectile from each firing action (bitwise OR); IMPACT_GEOM = 1, BOUNCE_GEOM = 2, IMPACT_PLAYER = 4, BOUNCE_PLAYER = 8, RADIAL_PLAYER = 16, COLLIDE_TRACE = 32, COLLIDE_OWNER = 64, COLLIDE_CONT = 128, COLLIDE_STICK = 256</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>12350</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minecollide2</nowiki></b> <i><nowiki><sum></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines collision properties for a projectile from each firing action (bitwise OR); IMPACT_GEOM = 1, BOUNCE_GEOM = 2, IMPACT_PLAYER = 4, BOUNCE_PLAYER = 8, RADIAL_PLAYER = 16, COLLIDE_TRACE = 32, COLLIDE_OWNER = 64, COLLIDE_CONT = 128, COLLIDE_STICK = 256</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>12350</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minecolour</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x000000..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minecooked1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines cooking style for a projectile, 0 = off, 1 = scale size, 2 = shorten life (+1 no scale), 4 = lengthen life (+1 no scale)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minecooked2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines cooking style for a projectile, 0 = off, 1 = scale size, 2 = shorten life (+1 no scale), 4 = lengthen life (+1 no scale)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minecrosshairtex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>crosshairs/circle-02</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minedamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount of damage a projectile from each firing action does</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>150</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minedamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount of damage a projectile from each firing action does</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>150</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minedelta1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount by which each firing action is guided</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minedelta2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount by which each firing action is guided</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minedrill1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minedrill2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineelasticity1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of velocity for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineelasticity2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of velocity for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineescapedelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will not be able to hurt its owner for this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineescapedelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will not be able to hurt its owner for this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>200</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineexplcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineexplcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineexplode1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the explosion radius for a particle of this firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>32.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineexplode2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the explosion radius for a particle of this firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>32.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineextinguish1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if a projectile from each firing action is extinguished by water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineextinguish2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if a projectile from each firing action is extinguished by water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakcollide1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>12350</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakcollide2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>12350</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakdamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak of this type deals this much damage</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>150</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakdamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak of this type deals this much damage</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>150</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-2147483647..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakdelta1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakdelta2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakdrill1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakdrill2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakelasticity1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakelasticity2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakexplcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakexplcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakexplode1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>32.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakexplode2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>32.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakextinguish1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakextinguish2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakguided1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakguided2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakguideddelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakguideddelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakheadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakheadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakhitpush1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakhitpush2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakinteracts1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakinteracts2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflaklegdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflaklegdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakminspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>50.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakminspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>50.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakpartcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakpartcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakpartlen1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakpartlen2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakpartsize1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakpartsize2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakparttype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>9</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakparttype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>9</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakproxdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>3000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakproxdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1500000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakproxdist1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>32.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakproxdist2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakproxtime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>100</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakproxtime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakproxtype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakproxtype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakradial1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakradial2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakradius1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakradius2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakreflectivity1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakreflectivity2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakresidual1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakresidual2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakselfdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakselfdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakstunfall1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakstunfall2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakstunscale1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakstunscale2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakstuntime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakstuntime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>750</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflaktaper1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflaktaper2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflaktaperin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflaktaperin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflaktaperout1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflaktaperout2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakteamdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakteamdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakteampenalty1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakteampenalty2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflaktorsodamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflaktorsodamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakvisfade1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakvisfade2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakvistime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakvistime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakwaterfric1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakwaterfric2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakwavepush1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakwavepush2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakweight1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>150.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakweight2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>150.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineflakwhipdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineflakwhipdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>100</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragjump1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragjump2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragoffset1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action is offset by this distance if it impacts a player before being created</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragoffset2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action is offset by this distance if it impacts a player before being created</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragrays1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when creating flak, create this many projectiles for it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>30</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragrays2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when creating flak, create this many projectiles for it</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragrel1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action retains this much of its parent relative momentum</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragrel2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action retains this much of its parent relative momentum</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragscale1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action is scaled by this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragscale2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action is scaled by this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragskew1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much when it impacts a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragskew2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much when it impacts a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragspeed1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak projectiles from this weapon start with this much speed (may be influenced by fragspread/fragskew and fragrel)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>750</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragspeed2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak projectiles from this weapon start with this much speed (may be influenced by fragspread/fragskew and fragrel)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>7500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragspread1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much if it doesn't impact a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragspread2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak created by this firing action spreads its direction randomly by this much if it doesn't impact a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragtime1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>flak projectiles from this weapon last this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragtime2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>flak projectiles from this weapon last this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>5000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefragweap1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when projectiles from this firing action are destroyed, create projectiles from this kind of weapon (+10 = alt fire for the weapon)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1..21</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefragweap2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when projectiles from this firing action are destroyed, create projectiles from this kind of weapon (+10 = alt fire for the weapon)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>18</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1..21</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefrequency</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of itemspawntime in which items of this type respawn in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minefullauto1</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if each firing action is fully automatic (click-and-hold) or not (click-and-click)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minefullauto2</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if each firing action is fully automatic (click-and-hold) or not (click-and-click)</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineguided1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines guided style for a projectile, 0 = off, 1 = follow crosshair direction, 2 = home crosshair target (+1 only first target), 4 = home projectile target (+1 only first target), 6 = direct toward first crosshair direction</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineguided2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines guided style for a projectile, 0 = off, 1 = follow crosshair direction, 2 = home crosshair target (+1 only first target), 4 = home projectile target (+1 only first target), 6 = direct toward first crosshair direction</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineguideddelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will delay guided settings by this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineguideddelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will delay guided settings by this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineheadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineheadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minehithairtex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>crosshairs/circle-02-hit</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minehitpush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of damage for a projectile or explosion of each firing action impacting a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minehitpush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of damage for a projectile or explosion of each firing action impacting a player</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineinteracts1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineinteracts2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..3</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minekickpush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount of pushback from shooting each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>5.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minekickpush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount of pushback from shooting each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>5.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minelaser</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if this weapon has a laser pointer which is projected to the point where the player is aiming</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minelegdamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of damage for leg shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minelegdamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of damage for leg shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minelimspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minelimspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minemax</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the maximum amount the clip of this weapon can hold, can never be higher than default</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineminspeed1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineminspeed2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minemodes</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-64</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-255..255</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minemuts</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-24</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-131071..131071</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minename</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>mine</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minepartcol1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minepartcol2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0x00F068</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0xFFFFFFFD..0xFFFFFF</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT IDF_HEX</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minepartlen1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the maximum tape particle length of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minepartlen2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the maximum tape particle length of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minepartsize1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the maximum particle size of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minepartsize2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the maximum particle size of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineparttype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>9</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineparttype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>9</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..10</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minepower1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, determines that the weapon can be 'cooked' this long before firing</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minepower2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, determines that the weapon can be 'cooked' this long before firing</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineprojdelay1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when more than zero, projectiles from this weapon will be delayed this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>75</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineprojdelay2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when more than zero, projectiles from this weapon will be delayed this long</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>75</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineproxdelay1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>3000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineproxdelay2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1500000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineproxdist1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>32.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineproxdist2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineproxtime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>100</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineproxtime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineproxtype1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineproxtype2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineradial1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the time between ticks of "continuous" radial damage, starts counting from first "radiation"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineradial2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the time between ticks of "continuous" radial damage, starts counting from first "radiation"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineradius1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the size for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineradius2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the size for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1e-06..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minerays1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount of projectiles spawned from one shot of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minerays2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount of projectiles spawned from one shot of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minereflectivity1</nowiki></b> <i><nowiki><angle></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>guard angle for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minereflectivity2</nowiki></b> <i><nowiki><angle></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>guard angle for a projectile of each firing action when doing a bounce event</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minerelativity1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of player velocity added to a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minerelativity2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of player velocity added to a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minereloaddelay</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the time it takes for the weapon to reload one 'add' unit</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>3000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minereloads</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if this weapon can reload</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineresidual1</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines if a projectile from each firing action has a residual effect; 0 = off, 1 = burns, 2 = bleeds</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineresidual2</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if a projectile from each firing action has a residual effect; 0 = off, 1 = burns, 2 = bleeds</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..7</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineselfdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineselfdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.5</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minespeed1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the speed of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>100</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minespeed2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the speed of a projectile from each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>100</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minespread1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the amount a projectile from each firing action skews off-center</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minespread2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the amount a projectile from each firing action skews off-center</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minespreadmax1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minespreadmax2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minespreadmin1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minespreadmin2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minespreadz1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>when zero, keeps spread projectiles aligned horizontally, else divide the z axis this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minespreadz2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>when zero, keeps spread projectiles aligned horizontally, else divide the z axis this much</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minestunfall1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minestunfall2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minestunscale1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>8.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minestunscale2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>16.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minestuntime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>500</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minestuntime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>750</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minesub1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the amount taken from the clip for each firing action, set to zero for unlimited ammo</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minesub2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the amount taken from the clip for each firing action, set to zero for unlimited ammo</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minetaper1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minetaper2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minetaperin1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the fraction of the lifetime from the start until the projectile reaches its full size</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minetaperin2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the fraction of the lifetime from the start until the projectile reaches its full size</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minetaperout1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the fraction of the lifetime from the end where the projectile size "fades out"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minetaperout2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the fraction of the lifetime from the end where the projectile size "fades out"</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineteamdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineteamdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineteampenalty1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineteampenalty2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minetex</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>string variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki><grey>textures/weapons/mine</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>n/a</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_PERSIST IDF_COMPLETE IDF_TEXTURE IDF_GAMEPRELOAD</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minetime1</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>the maximum lifetime of a projectile for each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>60000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minetime2</nowiki></b> <i><nowiki><milliseconds></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>the maximum lifetime of a projectile for each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>30000</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minetorsodamage1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of damage for torso shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minetorsodamage2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of damage for torso shots</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.4</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minetrace1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of length to apply to traced weapons</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minetrace2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of length to apply to traced weapons</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minevisfade1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minevisfade2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minevistime1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minevistime2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0..2147483646</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minewaterfric1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>multiplier of velocity for a projectile of each firing action when in water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minewaterfric2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>multiplier of velocity for a projectile of each firing action when in water</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minewavepush1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines the multiplier of explode radius this weapon pushes in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minewavepush2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>determines the multiplier of explode radius this weapon pushes in</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>2.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>mineweight1</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>relative weight for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>150.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>mineweight2</nowiki></b> <i><nowiki><value></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>relative weight for a projectile of each firing action</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>150.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minewhipdamage1</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<b><nowiki>minewhipdamage2</nowiki></b> <i><nowiki><#undocumented#></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>#undocumented#</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>float variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>0.6</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>-1000000.0..1000000.0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:lightyellow;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<b><nowiki>minezooms</nowiki></b> <i><nowiki><bool></nowiki></i>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>determines if the secondary action on this weapon zooms</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>variable</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>0..1</nowiki>
+</td>
+<td style="padding:0 0.5em 0 0.5em; background-color:#ECF9FF;">
+<nowiki>IDF_REWRITE IDF_COMPLETE IDF_CLIENT</nowiki>
+</td>
+</tr>
+</table>
