@@ -1,0 +1,44 @@
+== Key bindings ==
+
+=== Defaults ===
+All default keybinds are read from data/defaults.cfg and uses the general syntax:
+ bind "''KEY''" [ ''command'' ]
+
+Multiple keys are assigned to the same command by multiple bind lines with the same "command".
+
+=== Modifying ===
+Modifying keybindings can be done in several ways:
+* Ingame via Options -> Keys (this saves the settings to config.cfg)
+* Ingame via the console (this also saves the settings to config.cfg)
+* By editing config.cfg situated in your redeclipse home directory
+* By editing data/defaults.cfg.
+
+To edit commands via the ingame console open it with ~ or / (or t) and just prepend the bind command with a "/", in this example we bind the console input to the minus key "-":
+ /bind "MINUS" [saycommand /]
+
+To add a permanet keybind to config.cfg, just add additional line of the same format as in data/defaults.cfg:
+ bind "MINUS" [saycommand /]
+
+=== Disabling ===
+Note that at the moment it is not possible to permanently disable keybindings by editing them via the ingame options.
+
+In order unbind a key you will need to instead bind the key to ''nothing'', using either the console or by directly adding it to config.cfg:
+ bind "C" [""]
+Alternatively you can remove the original bind from data/defaults.cfg
+
+=== Edit Mode Keys ===
+Edit Mode keys may be bound seperately from regular Gameplay keys using "editbind" instead of "bind".
+
+The command to bind E to the /gettex command via the ingame console would thus be:
+ /editbind "E" [gettex]
+
+=== Spec Mode Keys ===
+Spectator Mode keys may be bound separately from regular Gameplay keys using "specbind" instead of "bind".
+For example:
+
+ /specbind "E" [echo "This only works while spectating"]
+
+
+=== Onrelease ===
+Key bindings also allow to trigger a second action when the key is released. For example, this can be used to fast-forward playback of a demo recording by holding the F key:
+ /specbind "F" [sv_gamespeed 10000; onrelease sv_gamespeed 100]
