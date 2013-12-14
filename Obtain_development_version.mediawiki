@@ -1,0 +1,246 @@
+Note: The client-server protocol normally changes between releases, so you might not be able to play on servers that are running the stable version.
+
+== Windows ==
+
+===TortoiseSVN===
+# Download and install TortoiseSVN from http://sourceforge.net/projects/tortoisesvn/
+# Make a "redeclipse-svn" directory (folder).
+# Right click on the directory.
+# Click on "SVN Checkout".
+# In the "URL of repository:" blank, type the link
+#: svn://svn.icculus.org/redeclipse
+# Click "OK" and wait for Red Eclipse to download.
+# Start the game by double clicking on "redeclipse.bat" in your Red Eclipse directory.
+
+* To update Red Eclipse
+*# Right click on the directory.
+*# Click on "SVN Update".
+
+===Unofficial SVN bundle===
+This bundle automatically sets up the SVN version to run with it's own settings [[Obtain_development_version#Using_SVN_Settings_and_Regular_Settings_in_Tandem|in tandem with the regular version]].
+# Download and unpack the file [http://forum.freegamedev.net/download/file.php?id=7693 unofficial-redeclipse-svn-bundle-win-0.6.zip]
+# Get the initial download by executing "update_redeclipse.bat"
+# Start the game by executing "redeclipse.bat" located in the '''bundle directory''' (not inside the redeclipse-svn directory)
+
+* Update Red Eclipse by again executing "update_redeclipse.bat"
+
+===Unofficial Binaries===
+An experimental build service for Windows binaries has been set up using the [https://build.opensuse.org/package/show/home:arand2/redeclipse-win openSUSE Open Build Service]. And automated using a simple shell script provided at [http://gitorious.org/arand-scripts/arand-scripts/source/master:redeclipse-svn-trigger-obs gitorious/arand-scripts].
+
+The automation is set up to normally publish corresponding binaries about 30 minutes after SVN has changed.
+
+Do note that these binaries needs to be downloaded separately, and due to limitations of the build service, they are stored in "Fedora" RPM archives rather than ZIP.
+
+In order to download and use the pre-built binaries:
+# Go to http://software.opensuse.org/download.html?project=home:arand2&package=redeclipse-win
+## Click on the "Fedora" logo
+## Click "Grab binary packages directly"
+## Download the redeclipse-win-1.4+svn.*.x86_64.rpm package
+## Use something like [http://www.7-zip.org/ 7zip] to unpack the package
+## Copy the binaries from the "bin\x86\" or "bin\amd64" folder into your current SVN checkout, replacing the existing binaries in the corresponding directory.
+
+==GNU/Linux==
+
+===Download via SVN===
+* Open the terminal
+* Install subversion and the build & run dependencies of redeclipse, on a Debian-like system this would be done using
+ sudo apt-get install subversion build-essential libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl1.2-dev
+* Checkout the SVN repository via
+ svn co svn://svn.icculus.org/redeclipse redeclipse-svn
+This will download Red Eclipse to the "redeclipse-svn" directory within the current working directory.
+
+===Compile===
+* Use standard GNU make to compile
+ cd redeclipse-svn/
+ make -C src/ install
+* Start the game
+ ./redeclipse.sh
+
+===Update via SVN===
+* Update the local copy
+ cd /path/to/redeclipse-svn
+ svn up
+* Recompile via
+ make -C src/ clean install
+
+== OS X ==
+
+===Download via SVN===
+* Open the terminal
+* Checkout the SVN repository via
+ svn co svn://svn.icculus.org/redeclipse redeclipse-svn
+This will download Red Eclipse to the "redeclipse-svn" directory within the current working directory.
+
+===Prerequisites===
+* Install xcode such that xcodebuild is in your shell path (These instructions were created for xcode 3.2.6 but they should work on other versions too)
+* Make sure the directory ~/Library/Frameworks exists
+* Download, mount, and copy the .framework folder from each of the following to ~/Library/Frameworks/
+ http://www.libsdl.org/release/SDL-1.2.14.dmg
+ http://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.10.dmg 
+ http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.11.dmg
+
+===Compile===
+* Open the terminal
+* Navigate to the location that you downloaded Red Eclipse
+ cd /path/to/redeclipse-svn
+* (Clean previous builds)
+ xcodebuild -project src/xcode/redeclipse.xcodeproj clean -configuration Debug
+* Build using xcode
+ xcodebuild -project src/xcode/redeclipse.xcodeproj -configuration Debug -alltargets
+* Remove the existing build from the bin directory
+ rm -rf bin/redeclipse.app
+* Copy the new build to the bin directory
+ cp -r src/xcode/build/Debug/redeclipse.app bin
+* To start Red Eclipse, simply double-click the "Red Eclipse" application in the bin/ directory, or execute
+ bin/redeclipse.app/Contents/MacOS/redeclipse
+
+===Update via SVN===
+* Update the local copy
+ cd /path/to/redeclipse-svn
+ svn up
+* Recompile using the [[Obtain_development_version#Compile_Red_Eclipse_2|instructions above]]
+
+== Using SVN Settings and Regular Settings in Tandem ==
+
+To keep settings for both the current release, and SVN builds, you can simply modify the '''''-h''''' argument inside the script in the SVN build directory. This way, there will be two separate home directories, and your settings will not be mixed.
+The home directory is where your custom sounds, music, maps, graphics, scripts, etc., as well as "init.cfg" and "config.cfg" reside. Having both the current release of Red Eclipse and an SVN build of Red Eclipse will use the same home directory by default, and can therefore cause a clash of settings.
+
+The following instructions will setup a directory named "home" inside the Red Eclipse SVN directory for your custom data:
+
+ [Red Eclipse SVN directory]
+     [bin]
+     [data]
+     [home] <--
+     [src]
+     ...
+
+===Windows===
+
+* In the Red Eclipse SVN directory, open the '''redeclipse.bat''' file in a text editor (like notepad).
+* On Line 5 you will see:
+ set RE_OPTIONS=
+* Simply add "'''''-h<path/dir name>'''''" to the end of that line
+Where '''<path/dir name>''' is either the path to a directory outside of the Red Eclipse SVN folder, or just a name, which will create a folder inside that directory, for example
+ set RE_OPTIONS=-hhome
+
+===GNU/Linux===
+* In the Red Eclipse SVN directory, open the '''redeclipse.sh''' file in a text editor (like gedit)
+On line 12 you will see
+ RE_OPTIONS=""
+* Simply add '''''-h<path/dir name>''''' to the end of that line
+Where '''<path/dir name>''' is either the path to a directory outside of the Red Eclipse SVN folder, or just a name, which will create a folder inside that directory, for example
+ RE_OPTIONS="-hhome"
+
+===OS X===
+* In the your Red Eclipse SVN directory, in the subfolder '''bin/redeclipse.app/Contents/MacOS/''' open the '''redeclipse''' file in a text editor (like TextEdit)
+On line 6 through 10 you will see
+ if [ $osxver -ge 10600 ]; then
+         exec "${0}_universal" "$@"
+ else   
+         exec "${0}_compatible" "$@"
+ fi
+* Simply add '''''-h<path/dir name>''''' before the "$@" in both those lines
+Where '''<path/dir name>''' is either the path to a directory outside of the Red Eclipse SVN folder, or just a name, which will create a folder inside that directory, for example
+ if [ $osxver -ge 10600 ]; then
+         exec "${0}_universal" -h../home "$@"
+ else   
+         exec "${0}_compatible" -h../home "$@"
+ fi
+
+
+== Git ==
+An unofficial git-svn mirror of the SVN repository is available via the (read-only) URL
+
+ git://redeclipse.git.sourceforge.net/gitroot/redeclipse/redeclipse
+
+There is also a webviewer at
+
+http://redeclipse.git.sourceforge.net/git/gitweb.cgi?p=redeclipse/redeclipse;a=summary
+
+=== Caveats ===
+* The repository size is '''more than 3.6G''' since it includes the full history since revision 1
+* The repository may lag behind SVN since it is manually updated
+
+=== Full Clone (recommended) ===
+If you want to get it all, use
+
+ git clone git://redeclipse.git.sourceforge.net/gitroot/redeclipse/redeclipse redeclipse-git
+
+=== Shallow Clone ===
+It is also possible to make a shallow clone, which will only get the latest revision, similar to an SVN checkout.
+Making a shallow clone will require downloading much less data, however, shallow clones are not as reliable as full clones, and it is not a simple operation to delete old content when updating, so the shallow clone will still grow over time as new updates get added.
+
+ git clone --depth=1 git://redeclipse.git.sourceforge.net/gitroot/redeclipse/redeclipse redeclipse-git-shallow
+
+=== Compiling and Tandem setup ===
+Follow the instructions for SVN above.
+
+=== Updating ===
+To update from the git mirror, simply use
+
+ git pull
+
+=== Getting updates from SVN ===
+It is possible to setup the git clone to get updates from the SVN repository using git-svn, in this case the git mirror is used as a starting point and it will be possible to update the clone using only the SVN repository. This will make sure the git clone always has the latest revision without having to wait for them to get pushed to the git mirror:
+
+ git clone git://redeclipse.git.sourceforge.net/gitroot/redeclipse/redeclipse redeclipse-git
+ cd redeclipse-git
+ git svn init svn://svn.icculus.org/redeclipse
+ git update-ref refs/remotes/git-svn master
+
+Now it should be possible to use
+
+ git svn rebase
+
+to get updates from the SVN repository directly.
+
+When using both the Git mirror and the SVN repository to get updates, the 'git-svn' reference will get left behind when you pull from the git mirror, and the result is that it tries to get all the SVN updates again, even if they are already present. In order to correct this, manually resetting the git-svn ref to the top of the mirroring branch is required:
+
+ git update-ref refs/remotes/git-svn master
+
+It seems like this is needed each time git svn rebase is used after a git pull.
+
+=== Committing via git-svn ===
+It is also possible to use git-svn to commit to SVN (provided you have access), you will first need to set up git-svn according to [[#Getting updates from SVN]] above.
+
+git-svn will look at your current branch and find new git commits that are not in SVN yet, and commit those. The process of making an SVN commit would look something like:
+* Do some changes
+* Make a git commit 
+
+ git add changedfile
+ git commit
+
+* Do more changes
+* Make another git commit
+* (...)
+* Update to the latest SVN and place your git commits on top of it
+
+ git svn rebase
+
+* Review all the new git commits
+
+ # 'git-svn' is a reference to where SVN is, which can be used to compare
+ git log git-svn..HEAD
+ git log -p git-svn..HEAD
+
+* Commit them to SVN
+
+ git svn dcommit
+
+=== Committing to Git ===
+In order to commit to the git repository, you need to have access and use the ssh URL
+
+ ssh://USERNAME@redeclipse.git.sourceforge.net/gitroot/redeclipse/redeclipse
+
+(replace USERNAME with your sourceforge username).
+
+You can either clone directly using this URL, or you could change the remote URL if you already have a clone
+
+ git remote set-url origin ssh://USERNAME@redeclipse.git.sourceforge.net/gitroot/redeclipse/redeclipse
+
+(replace 'origin' with your sourceforge remote name if you used something other than the default)
+
+==== Notes ====
+* Only push commits that are already in SVN to the master branch, nothing else
+* Keep public in-progress work on feature branches
+* Do not push rebased feature branches
