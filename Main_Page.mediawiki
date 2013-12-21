@@ -1,4 +1,4 @@
-{{DISPLAYTITLE:<span style="display: none"></span>}}
+{{DISPLAYTITLE:<span style="position: absolute; clip: rect(1px 1px 1px 1px); clip: rect(1px, 1px, 1px, 1px);">{{FULLPAGENAME}}</span>}}
 [[File:Re-wiki.png]]
 
 __NOTOC__ __NOEDITSECTION__
