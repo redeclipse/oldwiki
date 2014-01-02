@@ -18,12 +18,11 @@ For details on locating your Red Eclipse home directory, refer to the [[Game_Set
 
 This is normally the case if you installed Red Eclipse via your package manager, or using the "system-install" make target.
 
-* Copy the [https://sourceforge.net/apps/trac/redeclipse/browser/doc/examples/servinit.cfg servinit.cfg] example template from '''/usr/share/doc/redeclipse/examples/''' To copy them to your homedir use
+* Copy the [https://sourceforge.net/apps/trac/redeclipse/browser/doc/examples/servinit.cfg servinit.cfg] example template from '''/usr/share/doc/redeclipse/examples/''' to your homedir, using
  cp /usr/share/doc/redeclipse/examples/servinit.cfg ~/.redeclipse/
 * Edit these files in the homedir as appropriate
 * Start the server via
  redeclipse-server
-
 
 ==== '''From Unpacked Tarball''' ====
 
