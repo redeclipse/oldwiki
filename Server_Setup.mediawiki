@@ -39,7 +39,7 @@ This is the case if you are running Red Eclipse directly from the unpacked tarba
  ./server.sh
 
 
-=== Mac/OSX ===
+=== Mac OSX ===
 
 There is currently no server binary for the Mac, yet it is possible to host a non-dedicated server via running the client binary in server mode. To set this up, you will need to follow a few steps:
 
@@ -84,7 +84,7 @@ If you want to configure a setting simply remove the "//" in front of it and cha
 :Remember these settings for later, in case you will need to do [[Game::server#Forwarding_Ports|port forwarding.]]
 
 
-==== Server Visibility/Access ====
+==== Server Visibility and Access ====
 You can control the visibility and/or accessibility of your server to the public.
 
 * For a private server that does not register with the master server (and therefore does not show up on the public server list), you can use:
