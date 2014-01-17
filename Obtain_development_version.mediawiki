@@ -118,18 +118,18 @@ The following instructions will setup a directory named "home" inside the Red Ec
 
 * In the Red Eclipse SVN directory, open the '''redeclipse.bat''' file in a text editor (like notepad).
 * On Line 5 you will see:
- set RE_OPTIONS=
+ set APP_OPTIONS=
 * Simply add "'''''-h<path/dir name>'''''" to the end of that line
 Where '''<path/dir name>''' is either the path to a directory outside of the Red Eclipse SVN folder, or just a name, which will create a folder inside that directory, for example
- set RE_OPTIONS=-hhome
+ set APP_OPTIONS=-hhome
 
 ===GNU/Linux===
 * In the Red Eclipse SVN directory, open the '''redeclipse.sh''' file in a text editor (like gedit)
 On line 12 you will see
- RE_OPTIONS=""
+ APP_OPTIONS=""
 * Simply add '''''-h<path/dir name>''''' to the end of that line
 Where '''<path/dir name>''' is either the path to a directory outside of the Red Eclipse SVN folder, or just a name, which will create a folder inside that directory, for example
- RE_OPTIONS="-hhome"
+ APP_OPTIONS="-hhome"
 
 ===OS X===
 * In the your Red Eclipse SVN directory, in the subfolder '''bin/redeclipse.app/Contents/MacOS/''' open the '''redeclipse''' file in a text editor (like TextEdit)
