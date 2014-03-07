@@ -1,6 +1,3 @@
-== WAYPOINTS ==
-
-
 <table cellspacing="10" style="width:100%">
   
 <tr><td width="174">
