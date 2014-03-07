@@ -4,34 +4,34 @@
 <table cellspacing="10" style="width:100%">
   
 <tr><td width="174">
-/dropwaypoints #
+'''/dropwaypoints 0|1'''
 </td><td width="219">
-0: no waypoints are dropped in game
-1: limited number of waypoints are dropped in game (default)
+0: no waypoints are dropped, ''default''
+1: waypoints are dropped while not in editing mode
 </td></tr>
 
 <tr><td width="174">
-/showwaypoints #
+'''/showwaypoints 0|1'''
 </td><td width="219">
 toggles the visibility of the path that connects waypoints. Waypoints are always visible if they are being dropped.
 </td></tr>
 
 <tr><td width="174">
-/savewaypoints
+'''/savewaypoints [s]'''
 </td><td width="219">
 saves a .wpt file containing the current maps waypoints. The default waypoint file is saved as the current map's name.
-/savewaypoints customname.wpt will save a waypoint file as a custom name.
+'''/savewaypoints custom-name''' will save a waypoint file as a custom name.
 </td></tr>
 
 <tr><td width="174">
-/loadwaypoints
+'''/loadwaypoints [s]'''
 </td><td width="219">
 loads a .wpt file containing waypoints. A waypoint file matching the maps name is loaded by default.
-/loadwaypoints customname will load another waypoint file with a custom name.
+'''/loadwaypoints custom-name''' will load another waypoint file with a custom name.
 </td></tr>
 
 <tr><td width="174">
-/delselwaypoints
+'''/delselwaypoints'''
 </td><td width="219">
-Select the area in which the waypoints you want to remove are. Then use this command to delete the waypoints in the selected area.
+Select the area in which the waypoints you want to remove are. Then use this command to delete the waypoints in the selected area. Note that waypoints spawn ''above'' terrain, not ''in'' terrain, so you may want to move your selection upwards.
 </td></tr>
