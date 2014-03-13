@@ -282,17 +282,19 @@ This is an overview of the servers that are normally available, in order to help
 
 ----
 
-=== Time Trial Server ===
-'''IP''': 185.7.254.19:28801<br>
+=== Time Trial Server (re.co.ee) ===
+'''IP''': 185.7.253.17:28801<br>
 '''Version''': 1.4.1 SVN<br>
 '''Location''': Estonia<br>
 '''Operator''': G. (aka ''gynter'')<br>
+'''Privileged''': bonifarz (a), radiant (m), donillo (m), bobbo (m), michel (m)<br>
+'''URL''': http://re.co.ee<br>
 '''Player Capacity''': 32<br>
 '''Changes'''
 * All game types except ''time-trial'' are disabled
 * There is no time limit; keep playing a map as long as you want until a majority of players are ready to vote for a new one
 * Several hundred additional time trial maps are added to the rotation
-* When no players are connected, the map always defaults to ''neodrive''
+* When no players are connected, the map always defaults to random map
 
 ----
 
