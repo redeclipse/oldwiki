@@ -146,3 +146,18 @@ These restrictions may be modified with the ''serveropen'' variable, and the fol
 
 
 For more information on port forwarding, including instructions ''specific to your router'', visit the very helpful site [http://portforward.com/english/routers/port_forwarding/routerindex.html PortForward.com]
+
+
+== Advanced: Multiple Servers ==
+To run multiple servers from the same install, one must change the redeclipse_server.sh file slightly.
+First, copy the redeclipse_server.sh file to a new directory. Here we will use 'second'
+Second, the APP_PATH variable needs to be set to the base install, so:
+ APP_PATH="/home/user/redeclipse"
+
+Then, APP_OPTIONS needs to use the -h server command-line option to find the correct servinit.cfg
+ APP_OPTIONS="-h$HOME/second"
+
+After saving the new redeclipse_server.sh file, make a servinit.cfg file for the server, and place it in the same folder APP_OPTIONS points to.
+
+Done! Run your server with:
+ ./redeclipse_server.sh
