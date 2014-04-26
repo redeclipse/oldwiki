@@ -26,7 +26,7 @@ __NOTOC__ __NOEDITSECTION__
 * [[Contributors|Project contributors]]
 * [[Copyright_and_Licensing_for_Contributions|Copyright and Licensing for Contributions]]
 * [http://www.redeclipse.net/forum Red Eclipse Forum]
-* [[Image:Flag of France (7x10).svg|15px|link=Main Page (French)]] [[Main Page (French)|Wiki en français]]
+* [[Main Page (French)|Wiki en français]]
 * [[Trademark_Policy|Trademark Policy]]
 * [[Multiplayer_Guidelines|Multiplayer Guidelines]]
 </td>
