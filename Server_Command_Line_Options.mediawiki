@@ -67,7 +67,7 @@ The recommended way to change the settings of the server is to create and edit t
 ; '''-sa'''''servermasterport''
 : Contacts the master server using port ''servermasterport'', defaults to 28800.
 ; '''-su'''''serveruprate''
-: Caps upstream rate to ''serveruprate''. Once the cap is hit it will likely cause major connection glitching and disconnects. Use ''maxclients'' for bandwitch limiting instead.
+: Caps upstream rate to ''serveruprate''. Once the cap is hit it will likely cause major connection glitching and disconnects. Use ''maxclients'' for bandwidth limiting instead.
 
 === Master server options ===
 
