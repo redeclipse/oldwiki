@@ -1,4 +1,4 @@
-<font color="#FF0000">'''WARNING: Before setting up a public server you should read the [[Multiplayer Guidelines]], which governs how you may and may not use the master server. Be warned that modifications to the source code must be approved, and servers must honour or "auth" system. No if's, but's, or maybe's.'''</font>
+<font color="#FF0000">'''WARNING: Before setting up a public server you should read the [[Multiplayer Guidelines]], which governs how you may and may not use the master server. Be warned that modifications to the source code must be approved, and servers must honour the "auth" system. No if's, but's, or maybe's.'''</font>
 
 
 == Quickstart ==
