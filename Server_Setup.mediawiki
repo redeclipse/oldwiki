@@ -148,7 +148,8 @@ These restrictions may be modified with the ''serveropen'' variable, and the fol
 For more information on port forwarding, including instructions ''specific to your router'', visit the very helpful site [http://portforward.com/english/routers/port_forwarding/routerindex.html PortForward.com]
 
 
-== Advanced: Multiple Servers ==
+== Advanced Setup ==
+=== Multiple Servers ===
 To run multiple servers from the same install, one must change the redeclipse_server.sh file slightly.
 First, copy the redeclipse_server.sh file to a new directory. Here we will use 'second'
 Second, the APP_PATH variable needs to be set to the base install, so:
@@ -161,3 +162,8 @@ After saving the new redeclipse_server.sh file, make a servinit.cfg file for the
 
 Done! Run your server with:
  ./redeclipse_server.sh
+
+=== Using auth to grant permissions ===
+Red Eclipse supports a global permissions and identification system called "auth" that can be used to grant players permission to use commands on your server. In the servinit.cfg, simply place a line as so:
+ addlocalop AUTHNAME FLAG
+The AUTHNAME would be that player's handle, that they recieved to use in the /authkey command. As for the FLAG argument, that can be an 'a', 'm', or 'o'. These stand for administrator, moderator, operator respectively. To take advantage of the different flags, you will have to set the sv_{mode, maps, vars, vote, spec, kick, allow, ban, mute, limit, veto, flood}lock variables.
