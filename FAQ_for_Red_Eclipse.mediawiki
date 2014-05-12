@@ -71,11 +71,11 @@
 <p>Red Eclipse is a [http://www.gnu.org/philosophy/free-sw.html Free] and [http://www.opensource.org/ Open Source] game.</p> 
 * Red Eclipse itself and the Cube Engine 2 are under the [http://en.wikipedia.org/wiki/Zlib_License Zlib License]
 * All content in the game is Free, and no more strict than the Creative Commons [http://creativecommons.org/licenses/by-sa/3.0/ CC-by-SA] license
-* For more details, see [https://sourceforge.net/apps/trac/redeclipse/browser/doc/license.txt license.txt] and [https://sourceforge.net/apps/trac/redeclipse/browser/doc/trademark.txt trademark.txt]
+* For more details, see [http://svn.icculus.org/*checkout*/redeclipse/doc/license.txt license.txt] and [http://svn.icculus.org/*checkout*/redeclipse/doc/trademark.txt trademark.txt]
 
 
 
 [[File:RE-icon-16x16.png]] '''''What are my rights regarding Game Servers?'''''
-* Anyone may run any number of servers that they wish, and can be listed on the Red Eclipse Master Server, ''however, only if they are in compliance with the guidelines, rules and policies outlined in [https://sourceforge.net/apps/trac/redeclipse/browser/doc/guidelines.txt guidelines.txt]''
-** Players must also abide by a set of guidelines as well, and are advised to view the '''latter half''' of [https://sourceforge.net/apps/trac/redeclipse/browser/doc/guidelines.txt guidelines.txt]
+* Anyone may run any number of servers that they wish, and can be listed on the Red Eclipse Master Server, ''however, only if they are in compliance with the guidelines, rules and policies outlined in [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt]''
+** Players must also abide by a set of guidelines as well, and are advised to view the '''latter half''' of [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt]
 * Any player or server found to not be in compliance with these guidelines are susceptible to denial of access to the Red Eclipse Master Server either temporarily or indefinitely.
