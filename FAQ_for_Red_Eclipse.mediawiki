@@ -63,7 +63,7 @@
 ** [[How_to_install#Ubuntu|Ubuntu]]
 ** [http://www.redeclipse.net/aur AUR]
 ** [http://www.redeclipse.net/chakra The Chakra]
-* Or download the developmental [http://www.redeclipse.net/devel SVN version], which is also on SourceForge
+* Or download the developmental [http://www.redeclipse.net/devel SVN version], which is hosted by [http://icculus.org/ icculus].
 
 
 
