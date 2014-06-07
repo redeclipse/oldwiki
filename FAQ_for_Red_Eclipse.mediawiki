@@ -15,22 +15,22 @@
 <ul>
 <li>''Varied movement''
 {| style="font-size:95%"
-| Through the [[Game::play|Impulse]] system the player is allowed a variety of moves to approach any situation
+| Through the [[Game::play|Impulse]] system, the player is allowed a variety of moves to approach any situation.
 |}
 
 <li>''Equally-balanced weapons''
 {| style="font-size:95%"
-| All [[Game::weapons|weapons]] are balanced in hopes of standing 1:1 against any other in combat, versus other hierarchical systems, in which certain weapons are preferred over others
+| All [[Game::weapons|weapons]] are balanced in hopes of standing 1:1 against any other weapon in combat, in contrast with other hierarchical systems, in which certain weapons are preferred over others.
 |}
 
 <li>''Unlimited ammunition and regenerative health''
 {| style="font-size:95%"
-| Eliminating these as factors in success allows for more equal combat situations
+| Eliminating these as factors allows for more equal combat situations.
 |}
 
 <li>''No power-ups or items''
 {| style="font-size:95%"
-|Due to the above no items are needed - time taken to regain health and load ammo is the limiting factor rather than lacking in health packs and ammunition on a map
+|Due to the above no items are needed - time taken to regain health and load ammo is the limiting factor rather than lacking in health packs and ammunition on a map.
 |}
 </ul>
 
@@ -57,25 +57,25 @@
 
 [[File:RE-icon-16x16.png]] '''''Where can I get the game?'''''
 <p>Red Eclipse is available for download at no cost.</p>
-* The [http://www.redeclipse.net/download latest release] can be downloaded for all operating systems on [https://sourceforge.net/ SourceForge]
+* The [http://www.redeclipse.net/download latest release] can be downloaded for all operating systems on [https://sourceforge.net/ SourceForge].
 * GNU/Linux packages can also be found on:
-** [[How_to_install#Debian|Debian]]
-** [[How_to_install#Ubuntu|Ubuntu]]
+** [[How to install#Debian|Debian]]
+** [[How to install#Ubuntu|Ubuntu]]
 ** [http://www.redeclipse.net/aur AUR]
-** [http://www.redeclipse.net/chakra The Chakra]
+** [http://www.redeclipse.net/chakra The Chakra] <!-- link doesn't lead anywhere -->
 * Or download the developmental [http://www.redeclipse.net/devel SVN version], which is hosted by [http://icculus.org/ icculus].
 
 
 
 [[File:RE-icon-16x16.png]] '''''What are my rights?'''''
 <p>Red Eclipse is a [http://www.gnu.org/philosophy/free-sw.html Free] and [http://www.opensource.org/ Open Source] game.</p> 
-* Red Eclipse itself and the Cube Engine 2 are under the [http://en.wikipedia.org/wiki/Zlib_License Zlib License]
-* All content in the game is Free, and no more strict than the Creative Commons [http://creativecommons.org/licenses/by-sa/3.0/ CC-by-SA] license
-* For more details, see [http://svn.icculus.org/*checkout*/redeclipse/doc/license.txt license.txt] and [http://svn.icculus.org/*checkout*/redeclipse/doc/trademark.txt trademark.txt]
+* Red Eclipse itself and the Cube Engine 2 are under the [http://en.wikipedia.org/wiki/Zlib_License zlib License].
+* All content in the game is Free, and no more strict than the Creative Commons [http://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA] license.
+* For more details, see [http://svn.icculus.org/*checkout*/redeclipse/doc/license.txt license.txt] and [http://svn.icculus.org/*checkout*/redeclipse/doc/trademark.txt trademark.txt].
 
 
 
 [[File:RE-icon-16x16.png]] '''''What are my rights regarding Game Servers?'''''
-* Anyone may run any number of servers that they wish, and can be listed on the Red Eclipse Master Server, ''however, only if they are in compliance with the guidelines, rules and policies outlined in [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt]''
-** Players must also abide by a set of guidelines as well, and are advised to view the '''latter half''' of [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt]
+* Anyone may run any number of servers that they wish, and can be listed on the Red Eclipse Master Server, ''however, only if they are in compliance with the guidelines, rules and policies outlined in [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt]''.
+** Players must also abide by a set of guidelines as well, and are advised to view the '''latter half''' of [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt].
 * Any player or server found to not be in compliance with these guidelines are susceptible to denial of access to the Red Eclipse Master Server either temporarily or indefinitely.
