@@ -13,3 +13,6 @@ And you must '''not''' claim:
 === Example ===
 If no modifications was made to the game, a notice like this would usually fulfill these requirements:
  This is me and a couple of friends playing Red Eclipse, which is available from http://redeclipse.net.
+
+Conversely, the following notice fails to fulfill the above requirements and is '''not ok''':
+  Red Eclipse Trailer
