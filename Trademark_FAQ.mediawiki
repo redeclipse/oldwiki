@@ -10,7 +10,7 @@ Yes, the trademark policy does permit monetization as long as all other parts of
 And you must '''not''' claim:
 * That your content is in any way official content representing Red Eclipse or the Red Eclipse Team
 
-=== Example ===
+=== Examples ===
 If no modifications was made to the game, a notice like this would usually fulfill these requirements:
  This is me and a couple of friends playing Red Eclipse, which is available from http://redeclipse.net.
 
