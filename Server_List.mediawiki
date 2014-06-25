@@ -179,16 +179,6 @@ This is an overview of the servers that are normally available, in order to help
 
 ----
 
-=== ]+[ Q|blaze training server ]+[ ===
-'''IP''': 5.9.140.13:20000<br>
-'''Version''': 1.4<br>
-'''Location''': Germany<br>
-'''Operator''': <blaze> Anaki<br>
-'''URL''': http://blaze.bloodfrontier.net<br>
-'''Player Capacity''': 32<br>
-
-----
-
 === Qsoft RE Server [Paradox] ===
 '''IP''': 23.16.84.117:28801<br>
 '''Version''': 1.4<br>
