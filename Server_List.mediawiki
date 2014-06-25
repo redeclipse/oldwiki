@@ -45,7 +45,7 @@ This is an overview of the servers that are normally available, in order to help
 '''IP''': 213.149.20.21:9000<br>
 '''Version''': 1.4<br>
 '''Location''': Western Russia<br>
-'''Operator''': <blaze> Dude<br>
+'''Operator''': Dude<br>
 '''Player Capacity''': 32<br>
 
 ----
