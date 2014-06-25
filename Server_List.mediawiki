@@ -169,16 +169,6 @@ This is an overview of the servers that are normally available, in order to help
 
 ----
 
-=== [ <Q|blaze>'s Bootcamp! ] ===
-'''IP''': 213.149.20.21:30000<br>
-'''Version''': 1.4<br>
-'''Location''': Western Russia<br>
-'''Operator''': <blaze> Dude<br>
-'''URL''': http://blaze.bloodfrontier.net<br>
-'''Player Capacity''': 7<br>
-
-----
-
 === Qsoft RE Server [Paradox] ===
 '''IP''': 23.16.84.117:28801<br>
 '''Version''': 1.4<br>
