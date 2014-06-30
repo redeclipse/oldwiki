@@ -1,13 +1,5 @@
-This article aims to give an in-depth guide to the impulse system and movement techniques in Red Eclipse. 
-
-* For a compact summary of the basic moves and the default key bindings, please refer to the [[How to Play#Gameplay Controls|Gameplay Controls]].
-
-* Note: This article is pending approval from the development team. Some terms used to describe the moves or game mechanics may be informal or unofficial.
-
-* If you find a move is missing or if you have a combo to add, feel free to update the list.
-
+This article aims to give an in-depth guide to the impulse system and movement techniques in Red Eclipse.  For a compact summary of the basic moves and the default key bindings, please refer to the [[How to Play#Gameplay Controls|Gameplay Controls]].
 ==General==
-
 Unless otherwise specified, the following movement techniques are all impulse moves: They consume energy (as indicated by the impulse-meter shown in the [[How to Play#HUD|HUD (6)]]) and they are also subject to the impulse count rule, as explained below.
 
 ===Impulse costs===
