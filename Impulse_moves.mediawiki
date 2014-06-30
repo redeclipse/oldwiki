@@ -35,8 +35,8 @@ Impulse boosts are frequently used to cover a wider distance with a [[#.28ground
 ===Impulse jump===
 The impulse jump is often confused with the [[#Impulse boost|impulse boost]], as both moves are performed with the jump key while in air. In contrast to the boost, an impulse jump requires to release the movement keys and always propels the player precisely upwards. This is very useful to slow down movement in the horizontal direction and to gain some extra height, for example if you want to land on a narrow platform.
 
-===Wall-run (hold)===
-The wall-run is an essential move, as it greatly enhances your mobility and allows you to take advantage of your environment. It is executed with the special key (default: Q) while jumping at a wall and facing a direction parallel to its surface. Several related moves and combos are described in the next section.
+===Wall-run===
+The wall-run is an essential move, as it greatly enhances your mobility and allows you to take advantage of your environment. It is executed with the special key (default: Q) while jumping at a wall and facing a direction parallel to its surface. Several related moves and combos are described in the next section. You can also [[Impulse_moves#Wall-run_.28tap.29|tap]] Q for better results.
 
 ===Wall-climb===
 If you jump and look either straight upwards or downwards, you can efficiently climb up a surface by holding the special key. When you find yourself bounce off the wall, try a steeper facing angle. While this move has a surprisingly wide vertical range, it renders you susceptible to enemy fire, as your trajectory is easily predictable.
