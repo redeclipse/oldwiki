@@ -2,7 +2,7 @@
 
 This page contains a copy of the file data/usage.cfg from the Red Eclipse source, it is intended as a place to contribute descriptions for variables and commands, such that they may be added to the Red Eclipse on-screen help and to the auto-generated wiki pages.
 
-* Check here and at http://forum.freegamedev.net/viewtopic.php?f=72&t=3482 that you are not adding a duplicate
+* Check here and at http://svn.icculus.org/*checkout*/redeclipse/data/config/usage.cfg that you are not adding a duplicate
 * Please follow the format exactly
 * Please use a good clarification for parameters (e.g. <clientnum>) where appropriate
 ** Please use <value> as a generic description otherwise
