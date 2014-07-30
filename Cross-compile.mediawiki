@@ -4,3 +4,5 @@
 * Compile for x86 and amd64 using the commands
  make -C src/ PLATFORM=CROSSMINGW clean install
  make -C src/ PLATFORM=CROSSMINGW64 clean install
+
+* Note: If on Ubuntu 12.04, the package g++-mingw-w64 may also be required.
