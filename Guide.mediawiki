@@ -1,0 +1,102 @@
+==Controls==
+{|+
+| <h3>Movement</h3>
+|-
+| '''Move forward'''
+| W
+|-
+| '''Move backward'''
+| S
+|-
+| '''Strife left'''
+| A
+|-
+| '''Strife right'''
+| D
+|-
+| '''Jump'''
+| Spacebar
+|-
+| '''Crouch'''
+| Left shift
+|-
+| '''Walk'''
+| Left ctrl
+|+
+| <h3>Combat</h3>
+|-
+| '''Primary fire'''
+| Right mouse button
+|-
+| '''Secondary fire'''
+| Left mouse button
+|-
+| '''Kick'''
+| Q (in air)
+|+
+| <h3>Basic Parkour</h3>
+|-
+| '''Double jump'''
+| Spacebar (in air)
+|-
+| '''Impulse dash'''
+| Spacebar & W/A/S/D (in air), double tap W/A/S/D (on ground)
+|-
+| '''Wall run'''
+| Q (in air) ''facing parallel to wall'' (in air)
+|-
+| '''Wall climb'''
+| Q ''facing perpendicular to wall, looking upwards''
+|-
+| '''Slide'''
+| Shift ''after landing on the ground/when dashing''
+|-
+| colspan="2" | ''Check the [[Guide#Impulse_system|impulse system]] section for more information.''
+|+
+| <h3>Menu/HUD</h3>
+|-
+| '''Change team'''
+| Dot ".",F7
+|-
+| '''Suggest menu'''
+| F2
+|-
+| '''Vote menu'''
+| F3
+|-
+| '''Enter spectate'''
+| Home
+|-
+| '''Scoreboard'''
+| Tab
+|-
+| '''Main menu'''
+| Escape
+|+
+| <h3>Miscellaneous</h3>
+|-
+| '''Pick up/Interact'''
+| E
+|-
+| '''Suicide'''
+| K
+|-
+| '''Throw flag/ball'''
+| F
+|}
+''Note: These are the main controls. Check out the [[keybinding]] section for instruction on how to change them''
+
+==HUD==
+[[File:Annotated GUI.png|frame|center|alt"In-game HUD"|The default HUD in-game with annotation numbers explained below (temporary image)]]<br />
+#Message area: As well as kills and assists, other match events such as the capturing of flags are displayed.
+#Team icon: FFA games have no teams (neutral). Otherwise, games will have 2 teams (Alpha and Omega) or if the multi mutator is selected, 4 teams (Alpha, Omega, Kappa and Sigma) which is indicated here.
+#Special kill notifications area: When you achieve [[Deathmatch_Scoring|special milestones]] in a match a message will display here.
+#Crosshair/Radar: The crosshair shows how much ammo you have in your current [[Weapons#clip|clip]]. The radar allows you to see where all players are relative to you, both friend and foe (the color representing their team) which this allows you to appropriately hunt as well as run away. It also shows where items and mode-specific objects (flags or the bomber ball) to guide where you should go.
+#Obituary notification area: Whenever you directly kill (not assist) a player, a message will show up here which informs of how the player died and any specific milestones.
+#Impulse meter: You regain impulse when not using any [[Impulse_moves|parkour techniques]].
+#Health meter: You regain health except in survivor and duel modes. After 3 seconds of not taking damage, you will gain 5hp every second.
+#Weapons- These are the [[weapons]] that you currently hold. The weapon you have equipped will be enlarged. You will be prompted to choose two [[Weapons#loadout_weapons|loadout weapons]] at the start of a match (which can be changed at any time). These are the main weapons in your arsenal, and the combination you choose will determine your play style. Around the map you will also find [[Weapons#Map_items|map items]] to use, and have [[Weapons#Default_weapons|default weapons]].
+#Objective status: If not in a deathmatch game, the objective status will be shown here. Specific modes will show different arrangements- defend and control will have multiple flags show which represent all the control points in the map and their status, for example.
+#Mode/mutators: The icons here represent the mode and mutators of the match.
+==Impulse system==
+Red Eclipse features a parkour system that allows players to do certain moves which are both fun and useful in games. Using techniques requires impulse, a form of energy that automatically regenerates over time (more-so when you're not moving and crouching). Parkour mainly revolves around the "Q" key. There are many moves with variations that can help in fighting your opponents, as well as run away from them. Knowing all the few [[Impulse_moves|impulse moves]] can be greatly beneficial in matches.
