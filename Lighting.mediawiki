@@ -67,4 +67,8 @@ Max: 255 255 255</td>
     <td width="219">sets the resolution of the lightmap textures contained withing the .mpz map file .This setting greatly effects the size of the map. It is recommended that you raise this setting to keep the number of lightmap textures under 3.</td>
 </tr>
 
+<tr>
+    <td width="174">/lightlod #</td>
+    <td width="219">sets the level of detail for the lightmap. A higher number creates sharper shadows.</td>
+</tr>
 </table>
