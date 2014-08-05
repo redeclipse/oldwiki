@@ -42,11 +42,14 @@
 | '''Impulse dash'''
 | Spacebar & W/A/S/D (in air), double tap W/A/S/D (on ground)
 |-
+| '''Wall kick'''
+| Q (in air) ''facing straight at wall'' 
+|-
 | '''Wall run'''
-| Q (in air) ''facing parallel to wall'' (in air)
+| Q (in air) ''facing parallel to wall''
 |-
 | '''Wall climb'''
-| Q ''facing perpendicular to wall, looking upwards''
+| Q (in air) ''facing perpendicular to wall, looking upwards''
 |-
 | '''Slide'''
 | Shift ''after landing on the ground/when dashing''
