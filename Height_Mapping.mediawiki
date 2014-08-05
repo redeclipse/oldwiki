@@ -44,7 +44,7 @@ Place the cursor on a face and Scroll the Mouse Wheel.
 
 '''Natural Terrain example'''
 
-* Use standart-grid-size
+* Use standard-grid-size
 
 * Use circle 4-2-1 brush to paint some terrain
 
