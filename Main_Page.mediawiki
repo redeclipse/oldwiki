@@ -1,10 +1,12 @@
+== New main page ==
+
 [[File:Re-wiki.png]]
 
 __NOTOC__ __NOEDITSECTION__
 
 <table cellspacing="10" style="width:100%">
 <tr>
-<td style="margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
+<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 
 == [[File:Wait.png|45px]] Introduction == __NOEDITSECTION__
 * [http://www.redeclipse.net/ Red Eclipse Home Page]
@@ -12,7 +14,7 @@ __NOTOC__ __NOEDITSECTION__
 * [[How_to_install| How to install Red Eclipse]]
 * [[FAQ_for_Red_Eclipse|FAQs]]
 </td>
-<td style="margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
+<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Dev-icon.png|45px]] Development == __NOEDITSECTION__
 * [[Obtain_development_version|How to obtain our SVN version]]
 * [[Cross-compile|Cross-compiling]]
@@ -20,7 +22,7 @@ __NOTOC__ __NOEDITSECTION__
 </tr>
 
 <tr>
-<td style="margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
+<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Team.png|45px]] Community ==
 * [[IRC|Chat with the community]]
 * [[Contributors|Project contributors]]
@@ -30,7 +32,7 @@ __NOTOC__ __NOEDITSECTION__
 * [[Trademark_Policy|Trademark Policy]]
 * [[Multiplayer_Guidelines|Multiplayer Guidelines]]
 </td>
-<td style="margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
+<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Info_g.png|45px]] General Information ==
 * [[How to Play]]
 * [[GameModes and Mutators]]
@@ -48,7 +50,7 @@ __NOTOC__ __NOEDITSECTION__
 </tr>
 
 <tr>
-<td style="margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
+<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Server.png|45px]] Server Hosting ==
 * [[Server Setup]]
 ** [[Server_GameFilters|Game Filters]]
@@ -56,7 +58,7 @@ __NOTOC__ __NOEDITSECTION__
 * [[Server_List|List of public servers]]
 * [[Server_Command_Line_Options|Server command-line options]]
 </td>
-<td style="margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
+<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Variables.png|45px]] Variables and Commands ==
 * [[Variables|General Vars Information]]
 ** [[Vars_and_Commands_Tables| Vars and Commands Tables]]
@@ -67,7 +69,7 @@ __NOTOC__ __NOEDITSECTION__
 </tr>
 
 <tr>
-<td style="margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
+<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Edit-icon.png|45px]] Map Editing ==
 * [[Editing Controls]]
 * [[Console|Using the Console]]
@@ -86,7 +88,7 @@ __NOTOC__ __NOEDITSECTION__
 * [http://sauerbraten.org/docs/editref.html Cube2: Sauerbraten - Editing Reference (specifics may differ)]
 * [http://sauerbraten.org/docs/models.html Cube2: Sauerbraten - Model Reference (specifics may differ)]
 </td>
-<td style="margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 0em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
+<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 0em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:File_edit.png|45px]] Scripting ==
 * [[Scripting Tutorial]]
 * [[Scripting Workings]]
