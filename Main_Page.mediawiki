@@ -53,6 +53,7 @@ __NOTOC__ __NOEDITSECTION__
 * [[Server Setup]]
 ** [[Server_GameFilters|Game Filters]]
 ** [[Server_Example_Configurations|Configuration Examples]]
+* [[Admin_Guide|Admin Guide]]
 * [[Server_List|List of public servers]]
 * [[Server_Command_Line_Options|Server command-line options]]
 </td>
