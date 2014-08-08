@@ -79,3 +79,10 @@
 * Anyone may run any number of servers that they wish, and can be listed on the Red Eclipse Master Server, ''however, only if they are in compliance with the guidelines, rules and policies outlined in [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt]''.
 ** Players must also abide by a set of guidelines as well, and are advised to view the '''latter half''' of [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt].
 * Any player or server found to not be in compliance with these guidelines are susceptible to denial of access to the Red Eclipse Master Server either temporarily or indefinitely.
+
+
+
+[[File:RE-icon-16x16.png]] '''''Where else can I get help or discuss the game?'''''
+<p>Apart from this wiki, and playing on the game servers, you can:</p>
+* Participate in the game [http://redeclipse.net/forum forum].
+* Connect to [irc://irc.freenode.net irc.freenode.net] IRC network, and join #redeclipse channel, or use the [http://webchat.freenode.net/?channels=redeclipse webchat page] if you're not familiar with IRC.
