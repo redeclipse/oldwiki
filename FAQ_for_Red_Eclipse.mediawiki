@@ -85,4 +85,4 @@
 [[File:RE-icon-16x16.png]] '''''Where else can I get help or discuss the game?'''''
 <p>Apart from this wiki, and playing on the game servers, you can:</p>
 * Participate in the game [http://redeclipse.net/forum forum].
-* Connect to [irc://irc.freenode.net irc.freenode.net] IRC network, and join #redeclipse channel, or use the [http://webchat.freenode.net/?channels=redeclipse webchat page] if you're not familiar with IRC.
+* Connect to [irc://irc.freenode.net irc.freenode.net] IRC network, and join #redeclipse channel, or use the [http://webchat.freenode.net/?channels=redeclipse webchat page] if you're not familiar with [[IRC]].
