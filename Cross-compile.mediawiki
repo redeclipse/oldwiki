@@ -1,3 +1,6 @@
+Cross compiling is the process of compiling code to run on a different platform than the platform running the compiler. For example, building a Windows runnable while running Linux is cross compiling. More on [http://en.wikipedia.org/wiki/Cross_compiler cross compilers] on Wikipedia.
+
+
 == For Windows from GNU/Linux ==
 * Install mingw-w64 or equivalent, on a Debian-like system, this can be done via
  sudo apt-get install mingw-w64
@@ -6,3 +9,8 @@
  make -C src/ PLATFORM=CROSSMINGW64 clean install
 
 * Note: If on Ubuntu 12.04, the package g++-mingw-w64 may also be required.
+
+
+== For GNU/Linux from Windows ==
+* Install CygWin with g++
+*
