@@ -8,6 +8,9 @@ Generally, the objective is obvious, the players reach enemy base, steal the fla
 ===Standoff===
 The situation where both teams hold the enemy flag near their own base will be referred to as 'standoff'. That poses a dilemma for a player that has just brought an enemy flag to his own base and found out that his team's flag is missing - either to assist his team in returning the flag and risk losing the enemy flag, or hide and wait for his team to retrieve the flag and score upon retrieval. When a standoff is broken on a large map, meaning a team player got hold of hos team's flag near the enemy base, it might be faster to throw the flag into lava/abyss and wait for it to reset rather than go all the way and bring the flag back.
 
+===Blitzkrieg===
+This is an unofficial name for an observed tactic - when one player steals the enemy flag, another player stays near the enemy flag point and waits for the flag to reset upon capture, just to steal again. Very frustrating when executed on a less experienced team of players. Having a good defense might help avoid this situation.
+
 ===Instagib===
 This mutator leaves the players with 1HP, meaning one hit/shot/slice will be the death of the player. On some maps players would find secret or less known ways of bringing the flag home, so they don't get instantly killed, since a player cannot sacrifice some of the HP in order to steal the enemy flag, like they can in vanilla Capture the Flag.
 
