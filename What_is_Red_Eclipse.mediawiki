@@ -9,7 +9,7 @@ Being both [http://en.wikipedia.org/wiki/Gratis_versus_Libre Free in a libre sen
 </p>
 
 <p>
-As a game, Red Eclipse takes influence from a variety of sources in its mechanics and gameplay. Flow, pacing, and level design are akin to Unreal Tournament, while aspects like burning, bleeding, and some weapon behavior have been adopted from Team Fortress 2.
+As a game, Red Eclipse takes influence from a variety of sources in its mechanics and gameplay. Flow, pacing, and level design are akin to Unreal Tournament, while aspects like burning, bleeding, and some weapon behavior have been adopted from Team Fortress 2. '''<sup>[which behavior?]</sup>'''
 </p>
 
 <p>
