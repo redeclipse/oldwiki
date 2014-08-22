@@ -61,8 +61,10 @@ Of course, it doesn't stop there. A streak of 15 frags earns the Massacre bonus,
 If you frag an opponent who has an active Carnage or higher bonus, you will get the Spree Breaker title and 1 extra point. Note that it's possible for the player on a killing spree to get team-killed, commit a team-kill, or commit suicide, in which case their spree will come to an end without allowing anyone to score the Spree Breaker.
 
 ==Dominating==
-
-If you frag the same opponent 5 times, possibly interspersed with any number of kills on other players, or even with your own deaths (as long as none of them were caused by that opponent), the fifth head-to-head kill in a row will give you a 1-point Dominating bonus. You can have active Dominating streaks on any number of other opponents, getting a point for each one, but there are no further bonuses for any consecutive head-to-head kills beyond 5. Also, if you have a Dominating streak against someone, that player will be able to see which direction you're in on their radar, no matter how far away you are. You will not receive the same luxury against them, so be careful! In addition, the dominated player will see [[File:Dominated.png|16px|'Dominated' icon]] over your head and near your nickname in the stats screen to , while [[File:Dominating.png|20px|'Dominating' icon]] will appear in the same places of the dominated player to you.
+{|
+|If you frag the same opponent 5 times, possibly interspersed with any number of kills on other players, or even with your own deaths (as long as none of them were caused by that opponent), the fifth head-to-head kill in a row will give you a 1-point Dominating bonus. You can have active Dominating streaks on any number of other opponents, getting a point for each one, but there are no further bonuses for any consecutive head-to-head kills beyond 5. Also, if you have a Dominating streak against someone, that player will be able to see which direction you're in on their radar, no matter how far away you are. You will not receive the same luxury against them, so be careful! In addition, the dominated player will see [[File:Dominated.png|16px|'Dominated' icon]] over your head and near your nickname in the stats screen to , while [[File:Dominating.png|20px|'Dominating' icon]] will appear in the same places of the dominated player to you.
+|[[File:Dominate.png|x50px|Dominate reward text]]
+|}
 
 ==Revenge==
 
