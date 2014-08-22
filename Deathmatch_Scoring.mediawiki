@@ -53,7 +53,7 @@ Of course, it doesn't stop there. A streak of 15 frags earns the Massacre bonus,
 ==Bloodbath==
 {|
 |Finally, the most difficult bonus in this category is the Bloodbath, which requires a streak of 20. The bonus, still only 1 point, might seem like a total rip-off compared to the level of mastery needed to score it, but it's better than nothing.
-|[[File:Bloodbath.png|frameless|Bloodbath reward text]].
+|[[File:Bloodbath.png|x50px|Bloodbath reward text]].
 |}
 
 ==Spree Breaker==
