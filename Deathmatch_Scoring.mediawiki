@@ -10,7 +10,7 @@ The last shot may get the spoils, but there's still something in it for those wh
 
 ==Team Kills==
 {|
-|In team games, you have teammates for a reason. Don't kill them, and that includes not shooting yourself in the foot. Doing so brings a harsh penalty: -6 points. (-8 on headshot) The penalty is slightly mitigated to -3 points if the kill is attributed to a rocket, or to one of the sources of ongoing damage (bleeding, electric shock, or burn) but it's still not a good thing by any means. Also, if one of your team mates is fragged by a grenade, it has a -5 penalty off the team score. If you get enough team kills in an online game, the server will kick you, or even ban you from ever joining again, and undo the damage your destructive tendencies have had on the team's score.
+|In team games, you have teammates for a reason. Don't kill them, and that includes not shooting yourself in the foot. Doing so brings a harsh penalty: -6 points. (-8 on headshot) The penalty is slightly mitigated to -3 points if the kill is attributed to a rocket, or to one of the sources of ongoing damage (bleeding, electric shock, or burn) but it's still not a good thing by any means. If you get enough team kills in an online game, the server will kick you, or even ban you from ever joining again, and undo the damage your destructive tendencies have had on the team's score.
 
 Note that there is no such thing as a team assist: if you and a teammate get caught in a close range firefight, and you accidentally shoot them with a bullet or two before the opponent finishes them off, your name will not be listed in the assists, and there's no further penalty except that your opponents did just get a frag, and you may well now find yourself outnumbered in the immediate surroundings.
 
