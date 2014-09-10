@@ -12,5 +12,4 @@ Cross compiling is the process of compiling code to run on a different platform 
 
 
 == For GNU/Linux from Windows ==
-* Install CygWin with g++
-*
+* Don't. Just don't.
