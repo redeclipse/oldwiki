@@ -4,7 +4,7 @@ Open the Console with the Tilde Key;
 
 <tr>
     <td width="174">/edit mapname</td>
-    <td width="219">starts editing on a new map file named "mapname.mpz" or loads mapname.mpz if it already exists</td>
+    <td width="219">starts [[Editing Controls|editing]] on a new map file named "mapname.mpz" or loads mapname.mpz if it already exists</td>
 </tr>
 
 <tr>
