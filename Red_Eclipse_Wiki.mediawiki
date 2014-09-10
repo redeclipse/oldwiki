@@ -1,1 +1,1 @@
-#REDIRECT [Main_Page]
+#REDIRECT [[Main Page]]
