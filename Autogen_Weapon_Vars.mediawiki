@@ -1,1 +1,1 @@
-#REDIRECT [[Weapon Vars]]
+#REDIRECT [[Variables]]
