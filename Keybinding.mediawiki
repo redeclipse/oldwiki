@@ -27,7 +27,7 @@ In order unbind a key you will need to instead bind the key to ''nothing'', usin
 Alternatively you can remove the original bind from data/defaults.cfg
 
 === Edit Mode Keys ===
-Edit Mode keys may be bound seperately from regular Gameplay keys using "editbind" instead of "bind".
+[[Editing Controls|Edit Mode keys]] may be bound seperately from regular Gameplay keys using "editbind" instead of "bind".
 
 The command to bind E to the /gettex command via the ingame console would thus be:
  /editbind "E" [gettex]
