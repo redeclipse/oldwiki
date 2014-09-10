@@ -1,3 +1,5 @@
+Editing can be a fun way to express yourself in Red Eclipse, while creating interesting maps for everyone to enjoy. For a list of editing controls see [[Editing Controls|this page]]
+
 == On Screen Indicators ==
 
 
