@@ -39,7 +39,7 @@ Open the Console with the Tilde Key;
 
 <tr>
     <td width="174">/getmap</td>
-    <td width="219">manually retrieves map from the server</td>
+    <td width="219">manually retrieves map from the server, use when stuck in 'Loading' screen</td>
 </tr>
 
 </table>
