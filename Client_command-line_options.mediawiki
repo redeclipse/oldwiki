@@ -1,1 +1,1 @@
-#REDIRECT [[Game::Client command-line options]]
+#REDIRECT [[Client Command Line Options]]
