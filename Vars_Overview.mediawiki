@@ -1,1 +1,1 @@
-#REDIRECT [[Vars::General]]
+#REDIRECT [[Variables]]
