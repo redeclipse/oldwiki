@@ -1,3 +1,5 @@
+This page lists common control options for editing mode. For more information, check [[Editing Info]].
+
 == Basic Editing Kebinds ==
 
 {| border="1" cellpadding="5" cellspacing="0"
