@@ -54,7 +54,8 @@
 | '''Slide'''
 | Shift ''after landing on the ground/when dashing''
 |-
-| colspan="2" | ''Check the [[Guide#Impulse_system|impulse system]] section for more information.''
+| colspan="2" |
+Red Eclipse features a parkour system that allows players to do certain moves which are both fun and useful in games. Using techniques requires impulse, a form of energy that automatically regenerates over time (more-so when you're not moving and crouching). Parkour mainly revolves around the "Q" key. There are many moves with variations that can help in fighting your opponents, as well as run away from them. Knowing all the few [[Impulse_moves|impulse moves]] can be greatly beneficial in matches.
 |+
 | <h3>Menu/HUD</h3>
 |-
