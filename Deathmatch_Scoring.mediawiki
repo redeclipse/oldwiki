@@ -14,7 +14,6 @@ The last shot may get the spoils, but there's still something in it for those wh
 
 Note that there is no such thing as a team assist: if you and a teammate get caught in a close range firefight, and you accidentally shoot them with a bullet or two before the opponent finishes them off, your name will not be listed in the assists, and there's no further penalty except that your opponents did just get a frag, and you may well now find yourself outnumbered in the immediate surroundings.
 
-In Hold mode, 
 |[[File:Warning.png|x50px|Warning icon, shows on team kill.]]
 |}
 
