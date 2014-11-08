@@ -24,7 +24,7 @@ If you somehow manage to hit yourself with your own bullets and run out of healt
 
 ==First Blood==
 {|
-|This bonus can only be awarded once in a match, providing a 1-point bonus to the first human player who scores a frag. Frags made by bot players are currently not taken into account for handing out First Blood, because bots (who don't have to load the graphical textures and models for a map) often have a several-second head start on the humans in getting set up.
+|This bonus can only be awarded once in a match, providing a 1-point bonus to the first human player who scores a frag. Frags made by [[bot]] players are currently not taken into account for handing out First Blood, because bots (who don't have to load the graphical textures and models for a map) often have a several-second head start on the humans in getting set up.
 |[[File:Firstblood.png|x50px|First blood reward text]]
 |}
 
@@ -104,7 +104,7 @@ Killing an enemy adds to your frag count, but it isn't announced in the obituary
 
 Even though deathmatch scoring rules the day only in deathmatch mode, other game modes still allow you to see players' individual scores by pressing TAB. Although those scores don't actually affect the standings in most cases, points are awarded based on the above system, as well as a few mode-specific bonuses:
 
-===Capture the Flag===
+===[[Capture the Flag]]===
 
 * Fragging an opponent who holds your flag: 3 points (on top of the points already awarded for the frag)
 * Picking up an opponent's flag: 3 points
