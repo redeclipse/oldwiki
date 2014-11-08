@@ -121,7 +121,7 @@ Even though deathmatch scoring rules the day only in deathmatch mode, other game
 * Picking up the ball: 3 points
 * Scoring a goal: 5 points
 * Scoring an own goal: -5 points, and -1 point to the team score. Note that simply carrying the ball over your base does not count as an own goal; you have to throw the ball and let it fly or bounce into your goal to earn this dubious achievement. It is impossible to score an own goal if Touchdown is selected.
-* '''In Hold mode, deathmatch scores are not used.''' Instead, each player's listed score will simply be their contribution to the team score, if it's a team game. Players score 1 point for each second they hold onto the ball, with a penalty of -10 points for holding onto the ball too long and having the timer run out. No other actions are worth any points in Hold mode.
+* '''In Hold mode, deathmatch scores are not used.''' Instead, each player's listed score will simply be their contribution to the team score, if it's a team game. Players score 1 point for each second they hold onto the ball, with a penalty of -10 points for holding onto the ball too long and having the timer run out. No other actions affect the points in Hold mode.
 
 ===Duel/Survivor===
 
