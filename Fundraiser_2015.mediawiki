@@ -1,0 +1,22 @@
+== The Basics ==
+* Red Eclipse is a free casual arena first person shooter, featuring parkour, impulse boosts, dashing, and other tricks.
+* You can play it right now on your computer running Windows, OS X, Linux, or BSD.
+* The current engine technology being used is [http://cubeengine.com/ Cube 2].
+* We want to migrate to the upgraded engine used in [http://tesseract.gg/ Tesseract].
+* To do this we would like to raise US$3000 to pay the author for an official port.
+
+== What is Tesseract? ==
+Tesseract builds from Cube 2 with a focus on upgraded modern rendering techniques. The new rendering features include fully dynamic omnidirectional shadows, global illumination, HDR lighting, deferred shading, morphological/temporal/multisample anti-aliasing, and much more. Cube 2, Red Eclipse, and Tesseract are all open source software projects, the code for which is freely available under the [http://wikipedia.org/wiki/Zlib_License Zlib License].
+
+== Why the upgrade? ==
+Over the years, Cube 2 has had many innovations which were held back by the need to support legacy hardware. Red Eclipse has been under development using the Cube 2 engine for 8 years now and has always been pushing the engine to its limits in order to deliver the awesome experience we already have today, but it could still benefit from the improvements found in Tesseract, which people come to expect of modern video games. This project is what we're calling Red Eclipse 2.0, because it is a significant step toward creating the next generation version of the game, and we hope to attract a new generation of hardcore ''parkour'n'gun'' players.
+
+== Who is this author? ==
+The author of Tesseract is Lee "eihrul" Salzman, a leading developer in the area of modern open source games and related tools.
+
+Historically, Lee wrote [http://enet.bespin.org/ ENet] in order to improve network communication in the original Cube. It is a relatively thin, simple and robust network communication layer on top of UDP (User Datagram Protocol). The primary feature it provides is optional reliable, in-order delivery of packets. This innovative technology is still being used today in all popular Cube engine games, as well as various other projects which rely on effective low latency communication.
+
+Lee has been heavily involved in the Cube engine game communities for well over a decade, providing support and new developments tailored to each project he has been involved with. Numerous improvements currently in Red Eclipse would not have been possible without his extended support over the last 8 years. He also developed the [http://sauerbraten.org/iqm/ Inter-Quake Model Format] (IQM), a binary skeletal-animation format designed for extensibility, efficiency, and ease of loading; intended to serve as a replacement for the aging MD5 and SMD skeletal-animation formats used in Quake-derived and Quake-like 3D engines such as Cube 2 and Tesseract.
+
+== Why should I care? ==
+In February 2015, Lee will be moving back to the USA, and during this transition he will be unemployed. He has come to us with this proposal in order to secure enough money to survive for a few months while he settles in and finds gainful employment. The project is an immense undertaking and it has provided us with the unique opportunity to receive an upgrade that would not otherwise be possible. It also lets us reward Lee for his years of volunteer work on Cube 2, Red Eclipse, and open source gaming in general.
