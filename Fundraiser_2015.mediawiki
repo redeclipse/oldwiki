@@ -6,13 +6,6 @@
 * We have been given an opportunity to migrate to the upgraded engine used in [http://tesseract.gg/ Tesseract].
 * To do this we need to raise US$3000 in order to contract the author to create an official port.
 
-= Video =
-* Quin introduces. (some joke about my beard and how it is trustworthy?)
-* RE 1.5 release, and list a few cool new features.
-* Explain (and show?) Tesseract's benefits.
-* Some footage of parkour, gunplay, and stuff.
-* Kittens for sympathy.
-
 = Text =
 == What is this? ==
 This project is what we're calling Red Eclipse 2.0, because it is a significant step toward creating the next generation version of our game, and we hope to attract new fans to our fun and friendly community. We are contracting the author of Tesseract to recreate all the new features using our existing code in order to preserve everything possible that has made Red Eclipse great. It is an immense undertaking that will take several months, if not more.
@@ -40,3 +33,10 @@ A few random ideas that we can/might accomplish:
 * More accurate hit detection, possibly being able to blow off specific limbs.
 * Improved software colour palettes on weapon models held by the player.
 * Much cleaner user interface using Tesseract's new widgets.
+
+= Video =
+* Quin introduces. (some joke about my beard and how it is trustworthy?)
+* RE 1.5 release, and list a few cool new features.
+* Explain (and show?) Tesseract's benefits.
+* Some footage of parkour, gunplay, and stuff.
+* Kittens for sympathy.
