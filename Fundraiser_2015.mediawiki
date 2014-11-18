@@ -4,7 +4,7 @@
 * You can play it right now on your computer running Windows, OS X, Linux, or BSD.
 * The current engine technology being used is the aging [http://cubeengine.com/ Cube 2 Engine].
 * We have been given an opportunity to migrate to the upgraded engine used in [http://tesseract.gg/ Tesseract].
-* To do this we need to raise US$3000 to contract the author to create an official port.
+* To do this we need to raise US$3000 in order to contract the author to create an official port.
 
 = Video =
 * Quin introduces. (some joke about my beard and how it is trustworthy?)
@@ -36,7 +36,7 @@ This project will not only improve the visual fidelity of the game, but future i
 Additionally, Cube 2, Red Eclipse, and Tesseract are all open source software projects, the code for which is freely available under the [http://wikipedia.org/wiki/Zlib_License Zlib License]. Red Eclipse also has a strict policy on permissive licenses for all untrademarked content (often [http://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]). This basically means that everything is free to player with or use, even in your own projects.
 
 A few random ideas that we can/might accomplish:
+* "day" and "night" variations in maps, which can be voted for or transitioned between.
 * More accurate hit detection, possibly being able to blow off specific limbs.
-* Could have "day" and "night" variations in maps, which can be voted for.
 * Improved software colour palettes on weapon models held by the player.
 * Much cleaner user interface using Tesseract's new widgets.
