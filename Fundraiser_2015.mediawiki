@@ -33,7 +33,7 @@ Lee also developed the [http://sauerbraten.org/iqm/ Inter-Quake Model Format] (I
 == Why should I care? ==
 This project will not only improve the visual fidelity of the game, but future improvements to Tesseract will be included in Red Eclipse as they are developed. This means we will remain on the bleeding edge for some time to come, extending the lifetime of our beloved game, and hopefully attracting new people to become part of our community.
 
-Additionally, Cube 2, Red Eclipse, and Tesseract are all open source software projects, the code for which is freely available under the [http://wikipedia.org/wiki/Zlib_License Zlib License]. Red Eclipse also has a strict policy on permissive licenses for all untrademarked content (often [http://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]). This basically means that everything is free to use, even in your own projects.
+Additionally, Cube 2, Red Eclipse, and Tesseract are all open source software projects, the code for which is freely available under the [http://wikipedia.org/wiki/Zlib_License Zlib License]. Red Eclipse also has a strict policy on permissive licenses for all untrademarked content (often [http://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA]). This basically means that everything is free to player with or use, even in your own projects.
 
 A few random ideas that we can/might accomplish:
 * More accurate hit detection, possibly being able to blow off specific limbs.
