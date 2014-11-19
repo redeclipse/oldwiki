@@ -13,7 +13,7 @@ To add grass to a map, select a texture surface in the editor, and use the comma
 
  /setgrass textures/grass.png
 
-Applying grass to a random texture might look strange, so look for a fitting texture that the grass appears will be growing out of. For example we might use, ''wicked/wickedmoss01.png'' because it blends nicely with the colours of ''textures/grass.png''.
+Applying grass to a random texture might look strange, so look for a fitting texture that the grass will be growing out of. For example we might use, ''wicked/wickedmoss01.png'' because it blends nicely with the colours of ''textures/grass.png''.
 
 You will now see grass growing from the chosen texture.
 
