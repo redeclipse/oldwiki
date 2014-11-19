@@ -6,7 +6,6 @@ Editing can be a fun way to express yourself in Red Eclipse, while creating inte
 
 In the lower-right corner of your screen in editing mode, you'll see numerous text indicators giving you more information about your map. Here is a short description of each parameter. 
 
---[[User:Unixfreak|Unixfreak]] ([[User talk:Unixfreak|talk]]) 14:02, 19 November 2014 (EST) description needed for wp, rp, pvs, va, gl, oq
 
 ;pos
 :the co-ordinates of your current location
