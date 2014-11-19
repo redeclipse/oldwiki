@@ -15,6 +15,10 @@ Select both entitys:
 
 Press '''L''' to link them together. What this will do is, play a sound as the playerstart entity is activated. Each time a player spawns at that location, the sound will be played. Try to experiment with all of the different entity types, by replacing the sound for a particle or a dynamic light effect.
 
+Additionally, you can pass paramaters of any entities you want to add to the selection if more than one of the same type exists in the map. For example, if we have several lights, and we only want to link the green one to a lightfx entity, we'll first click (select) the lightfx entity and then search for the light by using:
+ /entfind light 150 0 255 0
+Assuming that we added a light with the values ''150 0 255 0''.
+
 ==Linkable Entity types==
 * sound
 * particles
