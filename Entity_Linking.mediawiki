@@ -53,7 +53,11 @@ Lightfx provides dynamic lighting for fixed, pulsing, and glowing effects. These
 You can link more than two entities together. 
 
 === Jumppads / Boosters ===
-[[File:Cutec-particle-booster.jpg|thumb|150px|The particle effects on 'cutec']]A pusher entity can be used to provide a boost, jump or launch like a traditional jumppad. It can also be linked to sounds, particles and other entities. You can use this to create some pretty effects when being launched into the air by the pusher.
+[[File:Cutec-particle-booster.jpg|thumb|left|150px|The particle effects on 'cutec']]A pusher entity can be used to provide a boost, jump or launch like a traditional jumppad. It can also be linked to sounds, particles and other entities. You can use this to create some pretty effects when being launched into the air by the pusher.
+
+
+
+
 
 
 
@@ -65,8 +69,8 @@ and some particle effects
  /newent particles 4 262 7 0 10 160 1 5 0 0 0 0
  /newent particles 4 259 7 0 10 160 1 5 0 0 0 0
 
-[[File:Jumppad-link.jpg|thumb|left|150px|A pusher linked to multiple entities.]]
-Link each particles entity to the pusher by adding them to the selection (one at a time, particles cannot be linked to particles) and then pressing '''L''' in the editor.
+
+[[File:Jumppad-link.jpg|left|thumb|150px|A pusher linked to multiple entities.]]Link each particle entity to the pusher by adding them to the selection (one at a time, particles cannot be linked to particles) and then pressing '''L''' in the editor.
 
 To make things more interesting, find a suitable sound and link it to the pusher entity as well.
 
