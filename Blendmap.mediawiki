@@ -21,7 +21,7 @@ You can add texture layers with the '''texlayer''' command in a map config, for 
 
 == Painting with the blendbrush ==
 [[File:Blendmap-1.jpg|thumb|A blendbrush]]
-Enable the blendbrush by pressing '''P'''. You can press '''P''' several times for different methods of applying the brush, such as erasing the blendmap or merging the blendmap. Scrolling the mouse wheel will enable you to change the brush shape and density.
+Now that we have a layered texture, we are ready to start painting. Enable the blendbrush by pressing '''P'''. You can press '''P''' several times for different methods of applying the brush, such as erasing the blendmap or merging the blendmap. Scrolling the mouse wheel will enable you to change the brush shape and density.
 
 You'll want to first create a lightmap so we can actually see the blendmap, we'll need at least one light for this. 
  /skylight 150 130 110
