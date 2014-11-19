@@ -43,7 +43,7 @@ The blendmap can be removed/reset with:
 [[File:Radioactive 512.png|thumb|Example of a custom brush]]The default brushes are stored in ''data/blendbrush''. To add custom brushes, you will want to add them to ''blendbrush/'' in your [[Game_Settings#Location|User Content]] directory. A blendbrush can easily be created with any greyscale image. The darker parts are drawn more densely than lighter parts.
 [[File:Blendmap-4.jpg|thumb|A blendmap created with a custom brush]]
 
-= Tips & Ideas =
+== Tips & Ideas ==
 * You can only paint on horizontal surfaces with the blendbrush in painting mode. In can be very trickery to paint on a vertical surface (such as a wall).
 * Stacked floors cannot have their own blendmap layer. For example, picture a block of apartments where each floor has a layered texture, the blendmap applied on one floor will appear on every floor where a layered texture is present.
 * The blendmap can be combined with [[grass]] rendering to create some awesome texture effects.
