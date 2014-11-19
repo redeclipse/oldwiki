@@ -79,33 +79,6 @@ and some particle effects
 To make things more interesting, find a suitable sound and link it to the pusher entity as well.
 
 <br /><br /><br /><br />
-=== Scriptable Events ===
-Assuming we have an animated door mapmodel (type 8 or 9) which is linked to a trigger entity using the script parameter. We can manipulate the map using script events within the config file.
-
-A trigger can be toggled with:
- /exectrigger <id>
-
-Using this we can create a sleep loop / delay to open the door, and then close the door after 5 seconds. This could be useful for a situation where the player has to press a button on a wall, that opens a door elsewhere, and the player has to run through the door before it automatically closes.
-
-Example [[cubescript]] code:
- on_trigger_26 = [
-     if (= $door_open 0) [
-         door_open = 1
-         exectrigger 27 //activate the door
-         exectrigger 30 //activate another trigger (particles? or maybe another door?)
- 
-         sleep 5000 [
-             exectrigger 27
-             exectrigger 30
-             door_open = 0
-         ]
-     ] [
-         sound 76 //play an error sound if the door is already open
-     ]
- ]
-
-The example map [http://forum.freegamedev.net/viewtopic.php?t=4941&p=50984 uf-sp_puzzle] by unixfreak shows some possibilities with linked entity scripting.
-
 === Trigger activated doors ===
 
 In this example, we'll use a mapmodel, a sound, and a trigger. The goal is to have a trigger that can be interacted with, which plays a sound, and opens a door.
@@ -155,4 +128,31 @@ Finally, press '''L''' to link the trigger to the sound entity, and you should g
 
 [[File:Trigger-Mapmodel-8.jpg|200px|The finished setup]]
 
-You should now have a fully functioning door with sound fx,
+You should now have a fully functioning door with sound fx.
+
+=== Scriptable Events ===
+Assuming we have an animated door mapmodel (type 8 or 9) which is linked to a trigger entity using the script parameter. We can manipulate the map using script events within the config file.
+
+A trigger can be toggled with:
+ /exectrigger <id>
+
+Using this we can create a sleep loop / delay to open the door, and then close the door after 5 seconds. This could be useful for a situation where the player has to press a button on a wall, that opens a door elsewhere, and the player has to run through the door before it automatically closes.
+
+Example [[cubescript]] code:
+ on_trigger_26 = [
+     if (= $door_open 0) [
+         door_open = 1
+         exectrigger 27 //activate the door
+         exectrigger 30 //activate another trigger (particles? or maybe another door?)
+ 
+         sleep 5000 [
+             exectrigger 27
+             exectrigger 30
+             door_open = 0
+         ]
+     ] [
+         sound 76 //play an error sound if the door is already open
+     ]
+ ]
+
+The example map [http://forum.freegamedev.net/viewtopic.php?t=4941&p=50984 uf-sp_puzzle] by unixfreak shows some possibilities with linked entity scripting.
