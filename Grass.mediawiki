@@ -9,7 +9,7 @@ Take note that it may drop your framerate slightly depending on how much grass i
 = Adding grass to a map =
 [[File:Grass-1.jpg|thumb|Grass applied to a texture]]
 
-To add grass to a map, use the command '''setgrass''' followed by the path to a grass texture.
+To add grass to a map, select a texture surface in the editor, and use the command '''setgrass''' followed by the path to a grass texture.
 
  /setgrass textures/grass.png
 
