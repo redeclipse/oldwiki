@@ -26,7 +26,7 @@ The <b>agrad</b> flag takes two values as an argument, this is a range for contr
 
 Add this example to the map config:
  setshader bumpspecmapparallaxworld
- texture c "wicked/wickedmoss01.jpg" 0 0 0 0.250000 // 576
+ texture c "wicked/wickedmoss01.jpg" 0 0 0 0.250000
  texture n "wicked/wickedmoss01n.jpg"
  texture z "wicked/wickedmoss01z.jpg"
  texture s "wicked/wickedmoss01s.jpg"
