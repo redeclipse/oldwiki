@@ -47,38 +47,41 @@ TODO (particle/sound/pusher combination)
 TODO (make a countdown to trigger a particle effect)
 
 === Trigger activated doors ===
-[[File:Trigger-Mapmodel-1.jpg|thumb|120px|Selecting a door mapmodel]]
+
 In this example, we'll use a mapmodel, a sound, and a trigger. The goal is to have a trigger that can be interacted with, which plays a sound, and opens a door.
 
+[[File:Trigger-Mapmodel-1.jpg|200px|Selecting a door mapmodel]]
 Start by adding a new mapmodel entity.
  /newent mapmodel
 
 Press and hold "1" and scroll through until you find the door model you want. As of RE 1.4, there are 2 mapmodels which have door/opening animations. They are type: 8 and type: 9.
 
-[[File:Trigger-Mapmodel-2.jpg|thumb|120px|Adding a trigger entity]]
+[[File:Trigger-Mapmodel-2.jpg|200px|Adding a trigger entity]]
 Next up, you want to add a new trigger entity
  /newent trigger
 
-[[File:Trigger-Mapmodel-3.jpg|thumb|120px|Selecting multiple entities]]
+[[File:Trigger-Mapmodel-3.jpg|200px|Selecting multiple entities]]
 While the trigger is selected, add the mapmodel to the selection
  /entfind mapmodel 9
 
-[[File:Trigger-Mapmodel-4.jpg|thumb|120px|Linking entities together]]
+[[File:Trigger-Mapmodel-4.jpg|200px|Linking entities together]]
 Press '''L''' whilst both entities are selected to link them together.
 
-[[File:Trigger-Mapmodel-5.jpg|thumb|120px|Adjusting the trigger entity]]
-----
+[[File:Trigger-Mapmodel-5.jpg|200px|left|Adjusting the trigger entity]]
 There are several methods to open the doors, the first one being proximity (they open automatically as you cross the radius on the trigger entity). To get this working, set "action" to 1.
 
 You might also want to set "type" to 1, so that it reads "link, proximity, off". This stops the door repeatedly opening/closing (spammy) while you are standing in the radius.
-----
 
-[[File:Trigger-Mapmodel-7.jpg|thumb|120px|Opening the door]]
+
+[[File:Trigger-Mapmodel-7.jpg|200px|left|Opening the door]]
 By setting "action" to 2, you can make the doors open by pressing "E" to interact with the trigger. Useful for having a computer console or a keypad which opens the door.
 
 By changing the "state" parameter of the trigger, this makes it decide if the door defaults to being open or closed when the map is first loaded.
 
 To make things more interesting, you can also link a sound to the same trigger, so that when the door is opened or closed, a sound effect is played.
+
+
+
 
 To do this, add a new sound entity, and find the sound that you want to use
  /newent sound 
@@ -90,5 +93,6 @@ Select the sound entity, and also the trigger entity
 
 Finally, press '''L''' to link the trigger to the sound entity, and you should get a setup similar to this:
 
-[[File:Trigger-Mapmodel-8.jpg|thumb|120px|The finished setup]]
+[[File:Trigger-Mapmodel-8.jpg|200px|The finished setup]]
+
 You should now have a fully functioning door with sound fx,
