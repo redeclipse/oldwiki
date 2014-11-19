@@ -78,6 +78,7 @@ __NOTOC__ __NOEDITSECTION__
 * [[Lighting]]
 * [[Entities]]
 * [[Materials]]
+* [[Grass]]
 * [[Mapmodels]]
 * [[Height_Mapping|Height Mapping/Terrain]]
 * [[Skybox|Skyboxes and Fog]]
