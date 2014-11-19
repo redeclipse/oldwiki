@@ -44,7 +44,7 @@ You can link more than two entities together.
 TODO (particle/sound/pusher combination)
 
 === Scriptable Events ===
-TODO
+TODO (make a countdown to trigger a particle effect)
 
 === Trigger activated doors ===
 [[File:Trigger-Mapmodel-1.jpg|thumb|120px|Selecting a door mapmodel]]
