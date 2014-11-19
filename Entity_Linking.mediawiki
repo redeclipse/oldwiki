@@ -1,0 +1,94 @@
+= Linking an entity =
+Several kinds of entities can be linked together to perform an action such as flashing a light or animating a mapmodel. You can link an entity by selecting two entity objects in the editor and pressing '''L'''.
+
+Use the entselect and entfind commands to add an entity to the selection.
+
+For example, add a sound entity with:
+ /newent sound
+
+Add a playerstart entity:
+ /newent playerstart
+
+Select both entitys:
+ /entfind playerstart
+ /entfind sound
+
+Press '''L''' to link them together. What this will do is, play a sound as the playerstart entity is activated. Each time a player spawns at that location, the sound will be played. Try to experiment with all of the different entity types, by replacing the sound for a particle or a dynamic light effect.
+
+==Linkable Entity types==
+* sound
+* particles
+* trigger
+* mapmodel
+* pusher
+* teleport
+* affinity
+* playerstart
+* checkpoint
+* lightfx
+
+== Basic Linking ==
+
+Here are some examples to give you an idea of the effects that can be achieved with entity linking.
+
+=== Teleports ===
+Create two teleport entities
+ /newent teleport
+Select both of them, and press '''L'''. You'll notice that you can press '''L''' again, and the link chain turns red. This means that the entity is only linked in one direction. In this case, it allows you to make a one-way teleport. The orange link chain means you can traverse both ways through a linked teleport.
+
+== Advanced Linking ==
+
+You can link more than two entities together. 
+
+=== Jumppads / Boosters ===
+TODO
+
+=== Scriptable Events ===
+TODO
+
+=== Trigger activated doors ===
+[[File:Trigger-Mapmodel-1.jpg|thumb|120px|Selecting a door mapmodel]]
+In this example, we'll use a mapmodel, a sound, and a trigger. The goal is to have a trigger that can be interacted with, which plays a sound, and opens a door.
+
+Start by adding a new mapmodel entity.
+ /newent mapmodel
+
+Press and hold "1" and scroll through until you find the door model you want. As of RE 1.4, there are 2 mapmodels which have door/opening animations. They are type: 8 and type: 9.
+
+[[File:Trigger-Mapmodel-2.jpg|thumb|120px|Adding a trigger entity]]
+Next up, you want to add a new trigger entity
+ /newent trigger
+
+[[File:Trigger-Mapmodel-3.jpg|thumb|120px|Selecting multiple entities]]
+While the trigger is selected, add the mapmodel to the selection
+ /entfind mapmodel 9
+
+[[File:Trigger-Mapmodel-4.jpg|thumb|120px|Linking entities together]]
+Press '''L''' whilst both entities are selected to link them together.
+
+[[File:Trigger-Mapmodel-5.jpg|thumb|120px|Adjusting the trigger entity]]
+----
+There are several methods to open the doors, the first one being proximity (they open automatically as you cross the radius on the trigger entity). To get this working, set "action" to 1.
+
+You might also want to set "type" to 1, so that it reads "link, proximity, off". This stops the door repeatedly opening/closing (spammy) while you are standing in the radius.
+----
+
+[[File:Trigger-Mapmodel-7.jpg|thumb|120px|Opening the door]]
+By setting "action" to 2, you can make the doors open by pressing "E" to interact with the trigger. Useful for having a computer console or a keypad which opens the door.
+
+By changing the "state" parameter of the trigger, this makes it decide if the door defaults to being open or closed when the map is first loaded.
+
+To make things more interesting, you can also link a sound to the same trigger, so that when the door is opened or closed, a sound effect is played.
+
+To do this, add a new sound entity, and find the sound that you want to use
+ /newent sound 
+
+A good choice for doors is 'sounds/ambience/switch' (type: 25)
+
+Select the sound entity, and also the trigger entity
+ /entfind trigger
+
+Finally, press '''L''' to link the trigger to the sound entity, and you should get a setup similar to this:
+
+[[File:Trigger-Mapmodel-8.jpg|thumb|120px|The finished setup]]
+You should now have a fully functioning door with sound fx,
