@@ -38,7 +38,15 @@ Create two teleport entities
 Select both of them, and press '''L'''. You'll notice that you can press '''L''' again, and the link chain turns red. This means that the entity is only linked in one direction. In this case, it allows you to make a one-way teleport. The orange link chain means you can traverse both ways through a linked teleport.
 
 === Lightfx ===
-TODO
+You can link a lightfx entity to a light in order to create spotlights, pulsating lights, glowing areas, lightning and much more.
+
+Create a light entity.
+ /newent light 200 255 140 20
+Add a lightfx entity.
+ /newent lightfx  
+Link them together by pressing '''L''' and then adjust the lightfx parameters. The lightfx entity provides two types of lighting (dynamic and mapped). By default an unlinked light entity will be baked onto a lightmap and stored within the map file, the spotlight option on the lightfx shares this behaviour too by "aiming" the light at a particular area. 
+
+Lightfx provides dynamic lighting for fixed, pulsing, and glowing effects. These lights can be seen without having to generate a lightmap and are updated in realtime within the editor, but be warned when adding them to a map that some players may have dynamic lighting disabled in the game options. You wouldn't want to have a very dark map relying on just dynamic lights!
 
 == Advanced Linking ==
 
