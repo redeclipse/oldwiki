@@ -70,10 +70,11 @@ and some particle effects
  /newent particles 4 259 7 0 10 160 1 5 0 0 0 0
 
 
-[[File:Jumppad-link.jpg|left|thumb|150px|A pusher linked to multiple entities.]]Link each particle entity to the pusher by adding them to the selection (one at a time, particles cannot be linked to particles) and then pressing '''L''' in the editor.
+[[File:Jumppad-link.jpg|thumb|150px|A pusher linked to multiple entities.]]Link each particle entity to the pusher by adding them to the selection (one at a time, particles cannot be linked to particles) and then pressing '''L''' in the editor.
 
 To make things more interesting, find a suitable sound and link it to the pusher entity as well.
 
+<br /><br /><br /><br />
 === Scriptable Events ===
 TODO (make a countdown to trigger a particle effect)
 
