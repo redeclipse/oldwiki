@@ -26,6 +26,7 @@ Press '''L''' to link them together. What this will do is, play a sound as the p
 * playerstart
 * checkpoint
 * lightfx
+* light
 
 == Basic Linking ==
 
