@@ -5,7 +5,7 @@ The blendmap is pre-baked when calculating the lightmap and is stored within the
 
 == Create a layered texture ==
 [[File:Blendmap-2.jpg|thumb|A layered texture viewed in the texture browser]]
-The first thing to do is create a layered texture. Within the editor, find the texture slot of a texture (can be viewed at the bottom left of the texture browser) and apply it to the texture using the '''vlayer''' command.
+The first thing to do is create a layered texture. Within the editor, find the texture slot of a texture (can be viewed at the bottom left of the texture browser) and apply it to a surface texture using the '''vlayer''' command.
 
 For example, after selecting a textured surface:
  /vlayer 331
