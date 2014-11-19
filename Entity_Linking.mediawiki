@@ -138,7 +138,7 @@ A trigger can be toggled with:
 
 Using this we can create a sleep loop / delay to open the door, and then close the door after 5 seconds. This could be useful for a situation where the player has to press a button on a wall, that opens a door elsewhere, and the player has to run through the door before it automatically closes.
 
-Example [[cubescript]] code:
+Example [[Scripting_Tutorial|cubescript]] code:
  on_trigger_26 = [
      if (= $door_open 0) [
          door_open = 1
