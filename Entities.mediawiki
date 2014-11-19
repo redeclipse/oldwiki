@@ -147,3 +147,5 @@ Some entities may be linked together.
 Sounds, Particles and LightFX can be linked to Triggers, Pushers, Teleports, Affinities, Playerstarts or Checkpoints. Triggers can control the state of linked Mapmodels (e.g. visibility, collision, door animations) or other Triggers. Furthermore, LightFX can be linked to Lights and Teleports to each other.
 
 Each entity combination has a set of link modes that can be cycled through with the L key, for example to make a pair of Teleports work in either direction or both.
+
+See [[Entity Linking]] for more information and example guides.
