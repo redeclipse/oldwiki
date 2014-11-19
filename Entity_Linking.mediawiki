@@ -41,7 +41,7 @@ Select both of them, and press '''L'''. You'll notice that you can press '''L'''
 You can link more than two entities together. 
 
 === Jumppads / Boosters ===
-TODO
+TODO (particle/sound/pusher combination)
 
 === Scriptable Events ===
 TODO
