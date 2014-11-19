@@ -37,6 +37,9 @@ Create two teleport entities
  /newent teleport
 Select both of them, and press '''L'''. You'll notice that you can press '''L''' again, and the link chain turns red. This means that the entity is only linked in one direction. In this case, it allows you to make a one-way teleport. The orange link chain means you can traverse both ways through a linked teleport.
 
+=== Lightfx ===
+TODO
+
 == Advanced Linking ==
 
 You can link more than two entities together. 
