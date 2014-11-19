@@ -76,6 +76,7 @@ __NOTOC__ __NOEDITSECTION__
 * [[Saving/Loading_Maps|Saving and Loading Maps]]
 * [[Texturing]]
 * [[Lighting]]
+* [[Blendmap]]
 * [[Entities]]
 * [[Materials]]
 * [[Grass]]
