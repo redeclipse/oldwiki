@@ -6,20 +6,49 @@ Editing can be a fun way to express yourself in Red Eclipse, while creating inte
 
 In the lower-right corner of your screen in editing mode, you'll see numerous text indicators giving you more information about your map. Here is a short description of each parameter. 
 
-* cube: the number of cubes in the current selection. Only the visible (leaf)cubes are counted.
+--[[User:Unixfreak|Unixfreak]] ([[User talk:Unixfreak|talk]]) 14:02, 19 November 2014 (EST) description needed for wp, rp, pvs, va, gl, oq
 
-* fps: frames per second.
-
-* ond: number of cubes in the system. This includes parent cubes, copied cubes, and undos.
-
-* va: number of vertex arrays used to store vertecies in the map.
-
-* vtr: number of triangles currently being displayed. Will be a useful stat when culling is done.
-
-* vvt: number of vertecies currently being displayed. Again, useful when culling is done.
-
-* tri: number of triangles in the entire map.
-
-* wvt: number of vertecies in the entire map.
-
-* evt: misc rendering effects. stuff like particles displayed, or text written on screen.
+;pos
+:the co-ordinates of your current location
+;yaw
+:the horizontal direction you are facing
+;pitch
+:the vertical direction you are facing
+;sel
+:co-ordinates of the selected area
+;cube
+:the amount of cubes in the current selection. Only the visible (leaf)cubes are counted.
+;corner
+:the number of the selected corner within the active cube
+;orient
+:the number of the selected side within the active cube
+;grid
+:the current gridpower 
+;ents
+:the amount of entities within the map (and selection)
+;wp
+:???
+;lm
+:the number of generated lightmaps
+;rp
+:???
+;pvs
+:???
+;wtr
+:the number of world triangles.
+;wvt
+:the number of world vertices
+;evt
+:misc rendering effects. stuff like particles displayed, or text written on screen.
+;eva
+:number of vertex arrays used to store vertices in the map.
+;ond
+:number of cubes in the system. This includes parent cubes, copied cubes, and undos.
+;va
+:???
+;gl
+:???
+;oq
+:???
+;fps
+:frames per second
