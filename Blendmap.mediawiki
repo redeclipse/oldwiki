@@ -44,7 +44,7 @@ The blendmap can be removed/reset with:
 [[File:Blendmap-4.jpg|thumb|A blendmap created with a custom brush]]
 
 == Tips & Ideas ==
-* You can only paint on horizontal surfaces with the blendbrush in painting mode. In can be very trickery to paint on a vertical surface (such as a wall).
+* You can only paint on horizontal surfaces with the blendbrush in painting mode. In can be very tricky to paint on a vertical surface (such as a wall).
 * Stacked floors cannot have their own blendmap layer. For example, picture a block of apartments where each floor has a layered texture, the blendmap applied on one floor will appear on every floor where a layered texture is present.
 * The blendmap can be combined with [[grass]] rendering to create some awesome texture effects.
 * Blendmaps created with custom brushes can be viewed by other players even if they don't have the blendbrushes present in their User Content direcotry. The blendmap is stored within the mapfile as a pre-rendered image.
