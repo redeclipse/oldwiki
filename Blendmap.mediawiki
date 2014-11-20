@@ -28,10 +28,10 @@ You'll want to first create a lightmap so we can actually see the blendmap, we'l
  /calclight
 
 
-[[File:Blendmap-3.jpg|thumb|Paiting with the blendbrush]]
+[[File:Blendmap-3.jpg|thumb|Painting with the blendbrush]]
 Now that we have a lightmap, we can draw with our brush onto the layered texture. Simply click on the texture with the brush painting mode activated. Choosing "''blend mode: merge''" will allow you to paint the layered texture on top of the base texture.
 
-To exit the blendmap paiting mode, press '''P''' until you see "''blend mode: off''" in the console.
+To exit the blendmap painting mode, press '''P''' until you see "''blend mode: off''" in the console.
 
 Take note that every time you change the geometry in a map, your blendmap will start looking broken. In order to fix it after a geometry change, you want to re-run '''calclight''', as the blendmap works similar to lightmaps (it is pre-rendered).
 
