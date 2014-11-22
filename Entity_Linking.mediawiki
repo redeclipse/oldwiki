@@ -1,5 +1,16 @@
 = Linking an entity =
-Several kinds of entities can be linked together to perform an action such as flashing a light or animating a mapmodel. You can link an entity by selecting two entity objects in the editor and pressing '''L'''.
+Several kinds of entities can be linked together to perform an action such as flashing a light or animating a mapmodel. In edit mode you can use the '''L''' key to link an entity object to one or more other entities. For this you first have to select the corresponding entities.
+
+== Selecting multiple entities ==
+
+The simplest way to add entities to your current selection is to click at them with the right mouse button. (Side note: If you chose to align your selection with the editing grid, ''/entselsnap 1'', the resulting moves may be unexpected, as the centre of mass is considered rather than the individual entities. Therefore, you may want to change ''entselsnap'' or undo these movements using the '''Y'' key.)
+
+The command ''/entfind'' will add all (matching) entities to your current selection. If you use the command with some argument, it will pick all entities that match the given properties. The syntax for this is the same as when creating a new entity with ''/newent''. The following examples will explain this in detail.
+
+Finally, you can use the command ''entfindinsel'' to pick all (matching) entities in a selected volume. Apart from this, the ''entfindinsel'' command works exactly the same as ''/entfind''. For this, you must first specify a volume by either right-clicking some spots on the map geometry or by dragging the left mouse button over some corner (e.g. from a wall to the ground). 
+
+
+== A first example ==
 
 Use the entselect and entfind commands to add an entity to the selection.
 
@@ -20,17 +31,25 @@ Additionally, you can pass paramaters of any entities you want to add to the sel
 Assuming that we added a light with the values ''150 0 255 0''.
 
 ==Linkable Entity types==
+
+When you select two or more entities and press the '''L''' key, the entities will be linked, such that the first entity controls the state of the other(s). The following entities can be controlled in this way:
 * sound
 * particles
+* lightfx
+
+The following entities can control linked entities as the player interacts with them:
 * trigger
-* mapmodel
-* pusher
-* teleport
-* affinity
 * playerstart
 * checkpoint
-* lightfx
-* light
+* pusher
+* teleport
+
+Furthermore, the following entities can be linked with each other:
+
+* triggers that control other triggers
+* trigger with mapmodel (e.g. doors)
+* lightfx with light
+* teleport with teleport
 
 == Basic Linking ==
 
