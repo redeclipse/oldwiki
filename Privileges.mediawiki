@@ -27,7 +27,7 @@ The below table gives an overview of all privs icons grouped as follows:
 |0
 |cannon fodder
 |-
-|[[File:none.png|32px]]
+|[[File:nobody.png|32px]]
 |
 |
 |
@@ -92,6 +92,10 @@ The below table gives an overview of all privs icons grouped as follows:
 |project lead
 |}
 
-Of course, bots are not related to player accounts, but they have their own icons to readily distinguish them from human ("real") players. Server owners are free to define local privs for certain registered players (using the ''/addlocalop'' command in their [[Server_Setup#Configuration_Files|serverinit.cfg]]). These players will then gain the corresponding permissions on the specific server. The levels shown above (column '''lvl''') refer to the usage of certain server variables (''sv_*lock'') that define the minimum privs required to perform a specific action. This allows server owners to give more liberal rights to lower player levels. These levels can also be used to restrict map editing, joining a game or even connecting to the server.
+Of course, bots are not related to player accounts, but they have their own icons to readily distinguish them from human ("real") players.
 
---[[User:Bonifarz|Bonifarz]] ([[User talk:Bonifarz|talk]]) 06:47, 22 November 2014 (EST)
+Server owners are free to define local privs for certain registered players (using the ''/addlocalop'' command in their [[Server_Setup#Configuration_Files|serverinit.cfg]]). These players will then gain the corresponding permissions on the specific server. Another way to claim local privs is to enter the server's administrator password (''adminpass'') using the command ''/setpriv''.
+
+The levels shown above (column '''lvl''') refer to the usage of certain server variables (''sv_*lock'') that define the minimum privs required to perform a specific action. This allows server owners to give more liberal rights to lower player levels. These levels can also be used to restrict map editing, joining a game or even connecting to the server.
+
+--[[User:Bonifarz|Bonifarz]] ([[User talk:Bonifarz|talk]]) 07:48, 22 November 2014 (EST)
