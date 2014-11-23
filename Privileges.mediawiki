@@ -1,25 +1,19 @@
-''Note: This page should be reviewed before linking it on the main page. Some of the information might need to be rewritten, in particular where "official" descriptions for the roles of higher ranks are preferred.'' 
-
-== Privileges ==
-Players can [http://www.redeclipse.net/apply apply] for an account that allows them to authenticate as registered users. Authentication is optional, so registered users are free to play anonymously. Some accounts have special privileges (privs) that serve for game moderation or server administration. These privs are indicated by privs icons, which are shown to the left of all player names. 
+Players can [http://www.redeclipse.net/apply apply] for an account that allows them to authenticate as registered users. Registration is optional, so users are free to play anonymously. Some accounts have special privileges (privs) that serve for game moderation or server administration. These are indicated in-game as icons, which are shown to the left of all player names. 
 
 === Privs icons ===
-The below table gives an overview of all privs icons grouped as follows:
-* '''reg.''' - regular players without special privileges
-* '''glob.''' - users with global privileges on all public servers
-* '''loc.''' - local user groups for a specific server
+The below table gives an overview of all the icons grouped as follows:
+* '''global''' - users with global privileges on all public servers
+* '''local''' - local user groups for a specific server
 * '''bot''' - A.I. controlled players
 
 {|class="wikitable"
-!reg.
-!glob.
-!loc.
+!global
+!local
 !bot
 !authentication
 !lvl
 !align="center"|role
 |-
-|
 |
 |
 |[[File:bot.png|32px]]
@@ -30,7 +24,6 @@ The below table gives an overview of all privs icons grouped as follows:
 |[[File:nobody.png|32px]]
 |
 |
-|
 |none
 |0
 |anonymous player
@@ -38,20 +31,17 @@ The below table gives an overview of all privs icons grouped as follows:
 |[[File:player.png|32px]]
 |
 |
-|
 |player
 |1
 |registered player
 |-
 |[[File:supporter.png|32px]]
-|
 |[[File:localsupporter.png|32px]]
 |
 |supporter
 |2
 |those who contributed in some way
 |-
-|
 |[[File:moderator.png|32px]]
 |[[File:localmoderator.png|32px]]
 |
@@ -59,7 +49,6 @@ The below table gives an overview of all privs icons grouped as follows:
 |3
 |[[Admin_Guide#Moderation_Commands|game moderation]]
 |-
-|
 |[[File:operator.png|32px]]
 |[[File:localoperator.png|32px]]
 |
@@ -67,7 +56,6 @@ The below table gives an overview of all privs icons grouped as follows:
 |4
 |can change most game variables
 |-
-|
 |[[File:administrator.png|32px]]
 |[[File:localadministrator.png|32px]]
 |
@@ -75,7 +63,6 @@ The below table gives an overview of all privs icons grouped as follows:
 |5
 |full control of server settings
 |-
-|
 |[[File:developer.png|32px]]
 |
 |
@@ -83,19 +70,16 @@ The below table gives an overview of all privs icons grouped as follows:
 |6
 |core developers of the project
 |-
+|[[File:founder.png|32px]]
 |
-|[[File:creator.png|32px]]
 |
-|
-|creator
+|founder
 |7
-|project lead
+|founders of the project
 |}
 
 Of course, bots are not related to player accounts, but they have their own icons to readily distinguish them from human ("real") players.
 
-Server owners are free to define local privs for certain registered players (using the ''/addlocalop'' command in their [[Server_Setup#Configuration_Files|serverinit.cfg]]). These players will then gain the corresponding permissions on the specific server. Another way to claim local privs is to enter the server's administrator password (''adminpass'') using the command ''/setpriv''.
+Server owners are free to define local privs for certain registered players (using the ''/addlocalop'' command in their [[Server_Setup#Configuration_Files|servinit.cfg]]). These players will then gain the corresponding permissions when logging into the specific server. Another way to claim local privs is to enter the server's administrator password (''adminpass'') using the command ''/setpriv''.
 
 The levels shown above (column '''lvl''') refer to the usage of certain server variables (''sv_*lock'') that define the minimum privs required to perform a specific action. This allows server owners to give more liberal rights to lower player levels. These levels can also be used to restrict map editing, joining a game or even connecting to the server.
-
---[[User:Bonifarz|Bonifarz]] ([[User talk:Bonifarz|talk]]) 07:48, 22 November 2014 (EST)
