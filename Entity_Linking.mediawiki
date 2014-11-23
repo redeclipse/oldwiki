@@ -30,6 +30,10 @@ Additionally, you can pass paramaters of any entities you want to add to the sel
  /entfind light 150 0 255 0
 Assuming that we added a light with the values ''150 0 255 0''.
 
+If you want to search all values of one attribute, you can replace it with an asterisk ('''*'''):
+ /entfind light * * 255 *
+Would find all lights that have a ''255'' green value.
+
 ==Linkable Entity types==
 
 When you select two or more entities and press the '''L''' key, the entities will be linked, such that the first entity controls the state of the other(s). The following entities can be controlled in this way:
@@ -155,7 +159,9 @@ Assuming we have an animated door mapmodel (type 8 or 9) which is linked to a tr
 A trigger can be toggled with:
  /exectrigger <id>
 
-Using this we can create a sleep loop / delay to open the door, and then close the door after 5 seconds. This could be useful for a situation where the player has to press a button on a wall, that opens a door elsewhere, and the player has to run through the door before it automatically closes.
+You should note the first sixteen (16) ids are reserved by the game, as the server will pick a random number between 1 and 16 and fire off all matching entities when the map starts. The random value allows the author to create effects that change each time the map is played, for instance ''mapmodels'' can be used to block certain routes depending on this value.
+
+Using ''exectrigger'' we can create a sleep loop / delay to open the door, and then close the door after 5 seconds. This could be useful for a situation where the player has to press a button on a wall, that opens a door elsewhere, and the player has to run through the door before it automatically closes.
 
 Example [[Scripting_Tutorial|cubescript]] code:
  on_trigger_26 = [
@@ -175,3 +181,16 @@ Example [[Scripting_Tutorial|cubescript]] code:
  ]
 
 The example map [http://forum.freegamedev.net/viewtopic.php?t=4941&p=50984 uf-sp_puzzle] by unixfreak shows some possibilities with linked entity scripting.
+
+Here's a snippet from the map ''condensation'' where the author executes triggers linked to lightfx entities to simulate lightning:
+ lightning = [0]
+ lightningloop = [
+     lightning = (+ (rnd 5) 17)
+     exectrigger $lightning
+     sleep (+ (rnd 500) 500) [
+         exectrigger $lightning
+         sleep (+ (rnd 3000) 1000) [ lightningloop ]
+     ]
+ ]
+ on_start = [ lightningloop ]
+In this example, ''exectrigger'' is used to fire off triggers at intervals which has the "id" attribute set to a value between 17 and 21.
