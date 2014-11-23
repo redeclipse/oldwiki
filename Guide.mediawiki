@@ -49,7 +49,7 @@
 | Q (in air) ''facing parallel to wall''
 |-
 | '''Wall climb'''
-| Q (in air) ''facing perpendicular to wall, looking upwards''
+| Q (in air) ''facing perpendicular to wall, looking upward (or downward)''
 |-
 | '''Slide'''
 | Shift ''after landing on the ground/when dashing''
