@@ -1,85 +1,117 @@
 Players can [http://www.redeclipse.net/apply apply] for an account that allows them to authenticate as registered users. Registration is optional, so users are free to play anonymously. Some accounts have special privileges (privs) that serve for game moderation or server administration. These are indicated in-game as icons, which are shown to the left of all player names. 
 
 === Privs icons ===
-The below table gives an overview of all the icons grouped as follows:
-* '''global''' - users with global privileges on all public servers
-* '''local''' - local user groups for a specific server
-* '''bot''' - A.I. controlled players
+The below table gives an overview of all the icons and their meaning.
 
 {|class="wikitable"
-!global
-!local
-!bot
+|
+|
+|colspan=2, align="center"|''advanced''
+|colspan=3|''privileges for moderation or administration''
+|-
+|
+|colspan=2, align="center"|''local''
+|
+|colspan=3|''server specific local privileges''
+|-
+!colspan=4, align="center"|icon
 !authentication
 !lvl
 !align="center"|role
 |-
+|[[File:bot.png|40px]]
 |
 |
-|[[File:bot.png|32px]]
+|
 |bot
 |0
-|cannon fodder
+|A.I. controlled player
 |-
-|[[File:nobody.png|32px]]
+|[[File:nobody.png|40px]]
+|
 |
 |
 |none
 |0
 |anonymous player
 |-
-|[[File:player.png|32px]]
+|[[File:player.png|40px]]
+|
 |
 |
 |player
 |1
 |registered player
 |-
-|[[File:supporter.png|32px]]
-|[[File:localsupporter.png|32px]]
+|[[File:supporter.png|40px]]
+|[[File:localsupporter.png|40px]]
+|
 |
 |supporter
 |2
 |those who contributed in some way
 |-
-|[[File:moderator.png|32px]]
-|[[File:localmoderator.png|32px]]
 |
+|
+|[[File:localmoderator.png|40px]]
+|[[File:moderator.png|40px]]
 |moderator
 |3
 |[[Admin_Guide#Moderation_Commands|game moderation]]
 |-
-|[[File:operator.png|32px]]
-|[[File:localoperator.png|32px]]
 |
+|
+|[[File:localoperator.png|40px]]
+|[[File:operator.png|40px]]
 |operator
 |4
 |can change most game variables
 |-
-|[[File:administrator.png|32px]]
-|[[File:localadministrator.png|32px]]
 |
+|
+|[[File:localadministrator.png|40px]]
+|[[File:administrator.png|40px]]
 |administrator
 |5
 |full control of server settings
 |-
-|[[File:developer.png|32px]]
 |
 |
+|
+|[[File:developer.png|40px]]
 |developer
 |6
 |core developers of the project
 |-
-|[[File:founder.png|32px]]
 |
 |
+|
+|[[File:founder.png|40px]]
 |founder
 |7
 |founders of the project
 |}
-
 Of course, bots are not related to player accounts, but they have their own icons to readily distinguish them from human ("real") players.
 
-Server owners are free to define local privs for certain registered players (using the ''/addlocalop'' command in their [[Server_Setup#Configuration_Files|servinit.cfg]]). These players will then gain the corresponding permissions when logging into the specific server. Another way to claim local privs is to enter the server's administrator password (''adminpass'') using the command ''/setpriv''.
+===Levels and lock variables===
 
-The levels shown above (column '''lvl''') refer to the usage of certain server variables (''sv_*lock'') that define the minimum privs required to perform a specific action. This allows server owners to give more liberal rights to lower player levels. These levels can also be used to restrict map editing, joining a game or even connecting to the server.
+The levels shown [[#Privs_Icons|above]] (column '''lvl''') refer to the usage of certain server variables that define the minimum privs required to perform a specific action. This allows server owners to give more liberal rights to lower player levels. The same levels can also be used to restrict map editing, joining a game or even connecting to the server. To learn more about these variables, search for ''lock'' in the ''variables'' menu, which is accessible from the game's main menu.
+
+===Local privs===
+
+If you host a game server, you are free to specify local privs for selected players. To add existing user accounts (including your own) to your local server user lists, in [[Server_Setup#Configuration_Files|servinit.cfg]] add:
+<pre>addlocalop <handle> <s|m|o|a></pre>
+Where "s" is supporter, "m" is moderator, "o" is operator, and "a" is administrator.
+
+If you do not have an account, it is still possible to claim local administrator rights using a password specified in [[Server_Setup#Configuration_Files|servinit.cfg]]:
+<pre>amdinpass <password> </pre>
+This password can be entered via the ''setpriv'' command, which also servers to claim helper status.
+<pre>/setpriv <password></pre>
+
+===How to apply for an account===
+
+Open registrations are available for all recurring players. If you play Red Eclipse with any regularity and would like others to be able to identify you, please visit:
+
+http://www.redeclipse.net/apply.
+
+Once you have received an authkey and added it to your [[Game_Settings#config.cfg|config.cfg]], you are free to identify when connecting to a game server. For this you find a checkbox in two of the in-game menus, the server menu (F2) and the user profile menu.
