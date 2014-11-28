@@ -4,71 +4,48 @@ Players can [http://www.redeclipse.net/apply apply] for an account that allows t
 The below table gives an overview of all the icons and their meaning.
 
 {|class="wikitable"
-|
-|
-|colspan=2, align="center"|''advanced''
-|colspan=3|''privileges for moderation or administration''
-|-
-|
-|colspan=2, align="center"|''local''
-|
-|colspan=3|''server specific local privileges''
-|-
-!colspan=4, align="center"|icon
+!local
+!global
 !authentication
 !lvl
 !align="center"|role
 |-
+|
 |[[File:bot.png|40px]]
-|
-|
-|
 |bot
 |0
 |A.I. controlled player
 |-
+|
 |[[File:nobody.png|40px]]
-|
-|
-|
 |none
 |0
 |anonymous player
 |-
+|
 |[[File:player.png|40px]]
-|
-|
-|
 |player
 |1
 |registered player
 |-
-|[[File:supporter.png|40px]]
 |[[File:localsupporter.png|40px]]
-|
-|
+|[[File:supporter.png|40px]]
 |supporter
 |2
 |those who contributed in some way
 |-
-|
-|
 |[[File:localmoderator.png|40px]]
 |[[File:moderator.png|40px]]
 |moderator
 |3
 |[[Admin_Guide#Moderation_Commands|game moderation]]
 |-
-|
-|
 |[[File:localoperator.png|40px]]
 |[[File:operator.png|40px]]
 |operator
 |4
 |can change most game variables
 |-
-|
-|
 |[[File:localadministrator.png|40px]]
 |[[File:administrator.png|40px]]
 |administrator
@@ -76,22 +53,18 @@ The below table gives an overview of all the icons and their meaning.
 |full control of server settings
 |-
 |
-|
-|
 |[[File:developer.png|40px]]
 |developer
 |6
 |core developers of the project
 |-
 |
-|
-|
 |[[File:founder.png|40px]]
 |founder
 |7
 |founders of the project
 |}
-Of course, bots are not related to player accounts, but they have their own icons to readily distinguish them from human ("real") players.
+Of course, bots are not related to player accounts, but they have their own icons to readily distinguish them from human ("real") players. Some privilege levels can be either local or global. Local privs are given to registered players on specific servers, as described in a following section. In contrast, global privs are valid on all public servers.
 
 ===Levels and lock variables===
 
