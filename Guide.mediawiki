@@ -1,3 +1,87 @@
+==Game modes==
+
+Most matches of Red Eclispe are played with two competing teams and a time limit. When the match ends, the team with the highest score wins. 
+{|
+|[[file:ffa.png|40px]][[file:multi_mut.png|40px]]
+|Exception: Teams are disabled with the ''FFA'' [[Modes and Mutators in SVN#mutators|mutator]]. The ''multi'' [[Modes and Mutators in SVN#mutators|mutator]] implies four teams instead of two.
+|}
+{|
+|[[File:Deathmatch.png|64px]]
+|One way to score points is to finish off enemies, while killing team mates or blowing up yourself is penalized with point loss. This is the heart of the ''Deathmatch'' (DM) game mode. 
+|}
+Additional points are awarded according to the [[Deathmatch Scoring|deathmatch scoring system]]. In other popular game modes, there are team objectives that offer more options to score points.
+{|
+|[[File:Capture.png|64px]]
+| ''[[Capture the Flag]]''
+| Steal the other team's flag and return it to your base, without letting them take yours, to score points. Standing near your team's flag regenerates to 150%, and buffs to 150% damage. When holding your team's flag, only close teammates get buffed, but not the player holding the flag.
+|-
+|[[File:Defend.png|64px]]
+| ''Defend and Control''
+| Stand near control points to capture them. Each control point you hold brings in a steady stream of points. The control points your team holds act like your team's flag in Capture the Flag in terms of buffing.
+|-
+|[[File:Bomber.png|64px]]
+| ''Bomber Ball''
+| Grab the ball and deliver to the enemy base to score, but watch your bomb timer - it will explode if you hold on to it too long. Pass it to your teammates to keep it going. If the other team holds it, kill the carrier or intercept it midair. Killing an enemy while holding the ball resets the bomb timer.
+|}
+
+Further [[Modes and Mutators in SVN|game modes]] are ''map editing'' and ''time trial''. A large array of general or mode specific [[Modes and Mutators in SVN#mutators|mutators]] offers a wide variety of additional or alternate game rules.
+
+==Weapons overview==
+The below table gives a short summary of the available weapon types. Each [[Weapons in SVN|weapon]] comes with two unique fire modes that encourage different [[Weapons in SVN#weapon strategy|strategies]]. Usually, all players are equipped with a pistol and two chosen [[Weapons in SVN#loadout weapons|loadout weapons]], while additional explosives can be collected in the arena. Enemies can also be damaged by crashing into them while performing a parkour move, such as [[impulse_moves|kicks, slides or wall runs]].
+{|class="wikitable"
+|-
+|rowspan=2|
+|[[file:melee.png|40px]]
+|melee
+| Parkour moves can be used for close combat in conjunction with any other weapon.
+|-
+|[[file:pistol.png|40px]]
+|pistol
+|A backup handgun available for everyone. 
+|-
+|rowspan=7|loadout
+|[[file:swordcol.png|40px]]
+|sword
+|Very limited range, but devastating when at point-blank. 
+|-
+|[[file:shotguncol.png|40px]]
+|shotgun
+|Can instantly kill at point-blank. High risk, high reward weapon, popularly used in deathmatch games. 
+|-
+|[[file:smgcol.png|40px]]
+|smg
+|Vicious shooting speed with decently low recoil to be useful at any range.
+|-
+|[[file:flamercol.png|40px]]
+|flamer
+|Powerful in close-quarters-combat and traversing around the map. 
+|-
+|[[file:plasmacol.png|40px]]
+|plasma
+|Large bullets with slow speed makes this most effective at medium range and escaping confrontations. 
+|-
+|[[file:zappercol.png|40px]]
+|zapper
+|Deals shock damage to make foes easy pickings, and alone powerful at mid-ranges. 
+|-
+|[[file:riflecol.png|40px]]
+|rifle
+|Shocking at long and medium ranges with a good aim. 
+|-
+|rowspan=3|explosives
+|[[file:grenadecol.png|40px]]
+|grenade
+|Can instantly kill at any range, but requires good timing and aim to be effective. 
+|-
+|[[file:minecol.png|40px]]
+|mine
+|Heavy damage and applies the shock status effect. 
+|-
+|[[file:rocketcol.png|40px]]
+|rocket
+|Spawns and re-spawns on the map at long intervals, used to completely overpower your enemies. 
+|}
+
 ==Controls==
 {|+
 | <h3>Movement</h3>
@@ -36,8 +120,11 @@
 |+
 | <h3>Basic Parkour</h3>
 |-
-| '''Double jump'''
-| Spacebar (in air)
+| '''Boost'''
+| Spacebar while moving in air
+|-
+| '''Impulse jump'''
+| Stop moving as you boost.
 |-
 | '''Impulse dash'''
 | Spacebar & W/A/S/D (in air), double tap W/A/S/D (on ground)
@@ -61,6 +148,9 @@ Red Eclipse features a parkour system that allows players to do certain moves wh
 |-
 | '''Change team'''
 | Dot ".",F7
+|-
+| '''Change loadout weapons'''
+| Comma ","
 |-
 | '''Suggest menu'''
 | F2
@@ -87,8 +177,20 @@ Red Eclipse features a parkour system that allows players to do certain moves wh
 |-
 | '''Throw flag/ball'''
 | F
+|-
+| '''Cycle weapons'''
+| Mouse scroll wheel
+|-
+| '''1'''
+| Select pistol (spawn weapon)
+|-
+| '''2, 3'''
+| Select your chosen loadout weapons
+|-
+| '''4, 5, ...'''
+| Select further weapons (e.g. explosives)
 |}
-''Note: These are the main controls. Check out the [[keybinding]] section for instruction on how to change them''
+''Note: These are the default controls. Check out the [[keybinding]] section for instructions on how to change them.''
 
 ==HUD==
 [[File:Annotated GUI.png|frame|center|alt"In-game HUD"|The default HUD in-game with annotation numbers explained below (temporary image)]]<br />
@@ -97,8 +199,8 @@ Red Eclipse features a parkour system that allows players to do certain moves wh
 #Special kill notifications area: When you achieve [[Deathmatch_Scoring|special milestones]] in a match a message will display here.
 #Crosshair/Radar: The crosshair shows how much ammo you have in your current [[Weapons#clip|clip]]. The radar allows you to see where all players are relative to you, both friend and foe (the color representing their team) which this allows you to appropriately hunt as well as run away. It also shows where items and mode-specific objects (flags or the bomber ball) to guide where you should go.
 #Obituary notification area: Whenever you directly kill (not assist) a player, a message will show up here which informs of how the player died and any specific milestones.
-#Impulse meter: You regain impulse when not using any [[Impulse_moves|parkour techniques]].
-#Health meter: You regain health except in survivor and duel modes. After 3 seconds of not taking damage, you will gain 5hp every second.
-#Weapons- These are the [[weapons]] that you currently hold. The weapon you have equipped will be enlarged. You will be prompted to choose two [[Weapons#loadout_weapons|loadout weapons]] at the start of a match (which can be changed at any time). These are the main weapons in your arsenal, and the combination you choose will determine your play style. Around the map you will also find [[Weapons#Map_items|map items]] to use, and have [[Weapons#Default_weapons|default weapons]].
+#Impulse meter: You regain impulse when not using any [[Impulse_moves|parkour techniques]]. Slower movement and crouching speeds up impulse regeneration.
+#Health meter: You regain health except in survivor and duel modes. Health regeneration restores 5hp per second, but is interrupted for 3 seconds whenever you take damage.
+#Weapons- These are the [[weapons]] that you currently hold. The weapon you have currently equipped will be shown with a larger icon. Note the numbers shown here correspond to hotkeys.
 #Objective status: If not in a deathmatch game, the objective status will be shown here. Specific modes will show different arrangements- defend and control will have multiple flags show which represent all the control points in the map and their status, for example.
-#Mode/mutators: The icons here represent the mode and mutators of the match.
+#Mode/mutators: The icons here represent the [[Modes and Mutators in SVN|mode and mutators]] of the match.
