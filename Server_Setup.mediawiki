@@ -113,8 +113,7 @@ These restrictions may be modified with the ''serveropen'' variable, and the fol
 
 * For examples of servinit.cfg configurations see [[Game::server::examples|Server Examples]]
 
-* For information on weapon variables, see [[Vars::Weapons|Weapon Variables]]
-
+* For information on weapon variables, see [[Vars_and_Commands_Tables|Weapon Variables]]
 
 == Forwarding Ports ==
 
