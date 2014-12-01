@@ -1,7 +1,7 @@
 == Creating Entities ==
 
 An entity can be created through one of two ways: using the menu or console commands
-To create an entity you have to be in [[edit mode]].
+To create an entity you have to be in [[Main_Page#Map_Editing|edit mode]].
 
 *Using the menu:
 Open the main menu with 'ESC'.
