@@ -4,7 +4,7 @@ Red Eclipse allows to record the game action of a match in a compact file format
 '''Important''': Demo files are necessary evidence when reporting violations against the [[Multiplayer Guidelines]].
 
 ==Fetching demos==
-Per default, public game servers record a demo for every new match while keeping the files of the latest five matches. These demo files can be listed any time using the [[console]]:
+Per default, public game servers record a demo for every new match while keeping the files of the latest ten matches. These demo files can be listed any time using the [[console]]:
 <pre>/listdemos</pre>
 This will show a numbered list of demos including time stamps. The demo files can be downloaded using:  
 <pre>/getdemo <number></pre>
@@ -27,12 +27,3 @@ The playback speed of a demo can be altered using the variable ''sv_gamespeed'' 
 All ''dmo'' files fetched from game servers can be found in the ''demo'' subdirectory in the [[Game_Settings#Location|user content]]. Per default, these files are named according to a time-stamp format:
 <pre>YYYYMMDDhhmmss.dmo</pre>
 These files can be renamed at will, but should be kept in the ''demo'' directory such that they can be listed in the F2 menu.
-
-==Offline recording==
-It is also possible to record demo files while playing offline. Use the [[console]] command
-<pre>/recorddemo 1</pre>
-to enable recording for the following matches. The demo can be stopped before the match ends using the following command:
-<pre>/stopdemo</pre>
-Alternately, the offline game can be aborted via:
- /disconnect
-Either way, this will create a file ''demorecord'' in your [[Game_Settings#Location|user content]]. This file should be renamed (do not forget the .dmo extension) and moved to the demos subdirectory.
