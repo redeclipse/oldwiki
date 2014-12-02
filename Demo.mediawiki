@@ -8,7 +8,8 @@ Per default, public game servers record a demo for every new match while keeping
 <pre>/listdemos</pre>
 This will show a numbered list of demos including time stamps. The demo files can be downloaded using:  
 <pre>/getdemo <number></pre>
-If no number is specified, this will fetch the latest demo available. 
+If no number is specified, this will fetch the latest demo available.
+The very same procedure can be used to save demo files when playing offline, too. 
 Note that the match must end before its demo can be obtained.
 
 ==Demo playback==
