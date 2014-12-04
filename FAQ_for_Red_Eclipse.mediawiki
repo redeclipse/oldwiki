@@ -47,7 +47,7 @@ This page addresses some FAQs. The [[Readme|readme]] is also a recommended read.
 
 
 [[File:RE-icon-16x16.png]] '''''What operating systems are supported?'''''
-<p>Red Eclipse can be played under Windows XP/Vista/7, OS X, and GNU/Linux.</p>
+<p>Red Eclipse can be played under Windows XP/Vista/7, OS X, GNU/Linux and BSD.</p>
 
 
 
