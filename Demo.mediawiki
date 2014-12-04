@@ -18,7 +18,7 @@ Demo playback is only possible when playing offline. A convenient way to pick a 
 You can also start demo playback via the [[console]] and use the ''Tab'' key for auto-completion of the filename:
 <pre>/demo <filename></pre>
 
-During demo playback, the player is locked in spectator mode. The mouse scroll wheel can be used to watch the action from different points of view, and as usual, ''F9'' allows to toggle first or third person view. Note that spectator mode is also available any time during life games and can be entered using the ''Home'' key (default key bindings).
+During demo playback, the player is locked in spectator mode. The mouse scroll wheel can be used to watch the action from different points of view, and as usual, ''F9'' allows to toggle first or third person view. Note that spectator mode is also available any time during live games and can be entered using the ''Home'' key (default key bindings).
 
 The playback speed of a demo can be altered using the variable ''sv_gamespeed'' (because the variable ''gamespeed'' is among the gameplay variables stored in the file). For example, the following [[Keybinding#Onrelease|key bind]] can be used to fast-forward by holding the F key: 
 
