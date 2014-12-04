@@ -64,6 +64,9 @@ This page addresses some FAQs. The [[Readme|readme]] is also a recommended read.
 ** [[How to install#Ubuntu|Ubuntu]]
 ** [http://www.redeclipse.net/aur AUR]
 ** [http://www.redeclipse.net/chakra The Chakra] <!-- link doesn't lead anywhere -->
+* BSD ports are available for:
+** [https://www.freshports.org/games/redeclipse/ FreeBSD]
+** [ftp://ftp.openbsd.com/ports/games/redeclipse/ OpenBSD]
 * Or download the developmental [http://www.redeclipse.net/devel SVN version], which is hosted by [http://icculus.org/ icculus].
 
 
