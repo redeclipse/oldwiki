@@ -1,7 +1,1 @@
-In [[Main Page|Red Eclipse]] we have a small number of [[weapons]] compared to other fast-paced FPSs. However, that doesn't mean that
-there aren't many different strategies for them!
-= Weapon Guides =
-[[Melee]]
-[[Pistol]]
-[[Sword]]
-[[Shotgun]]
+#REDIRECT [[Weapons]]
