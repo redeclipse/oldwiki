@@ -9,7 +9,7 @@ Most matches of Red Eclispe are played with two competing teams and a time limit
 |[[File:Deathmatch.png|64px]]
 |One way to score points is to finish off enemies, while killing team mates or blowing up yourself is penalized with point loss. This is the heart of the ''Deathmatch'' (DM) game mode. 
 |}
-Additional points are awarded according to the [[Deathmatch Scoring|deathmatch scoring system]]. In other popular game modes, there are team objectives that offer more options to score points.
+Additional points are awarded according to the [[Deathmatch Scoring|deathmatch scoring system]]. This system determines the scores of individual players, while team scores are objective based in other modes than ''Deathmatch''. 
 {|
 |[[File:Capture.png|64px]]
 | ''[[Capture the Flag]]''
