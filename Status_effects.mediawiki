@@ -1,0 +1,35 @@
+==Status effects==
+==Buffs==
+A buff is a strong, temporary status enhancement that players can receive in [[Modes_and_Mutators_in_SVN|capture or defend]] games. The buff implies
+{|
+|[[file:buff.png|64px]]
+|
+* +25% attack (outgoing damage is multiplied by 1.25)
+* +25% defense (incoming damage is divided by 1.25)
+* health regenerates up to 150
+* 40% faster regeneration (7 health per second)
+|}
+Players get buffed when '''defending'''
+{|
+|[[file:point.png|64px]]
+|
+*a secured ''control point'' in ''defend'' games,
+*the flag in their ''team base'' or
+|-
+|[[file:flag.png|64px]]
+|
+* a team mate who carries their ''flag''.
+* Note: The ''flag'' carrier is not buffed.
+|}
+===Ailments===
+Some [[Weapons_in_SVN|weapons]] induce status ailments that inflict some damage over time and last for about five seconds. Useful to delay enemy health recovery. Multiple effects can be stacked. 
+{|
+|[[file:shock.png|64px]]
+|''Shock''- Slows down movement greatly. Deals 2 damage per second. Caused by the [[file:zappercol.png|20px]]zapper and by [[file:minecol.png|20px]]mines.
+|-
+|[[file:burn.png|64px]] 
+|''Burn''- Deals 3 damage per second. Can be negated with the secondary fire of the [[file:flamercol.png|20px]]flamer or by entering water (as long as the burnt body part is submerged). Caused by [[file:grenadecol.png|20px]]grenades, [[file:rocketcol.png|20px]]rockets and the [[file:flamercol.png|20px]]flamer.
+|-
+|[[file:bleed.png|64px]]
+|''Bleed''- Deals 3 damage per second. Caused by the secondary fire of the [[file:shotguncol.png|20px]]shotgun and by the [[file:swordcol.png|20px]]sword.
+|}
