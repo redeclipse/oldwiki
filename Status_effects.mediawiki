@@ -1,13 +1,13 @@
 ==Status effects==
 ==Buffs==
-A buff is a strong, temporary status enhancement that players can receive in [[Modes_and_Mutators_in_SVN|capture or defend]] games. The buff implies
+A buff is a strong, temporary status enhancement that players can receive in [[Modes_and_Mutators_in_SVN|capture, bomber or defend]] games. The buff implies
 {|
 |[[file:buff.png|64px]]
 |
 * +25% attack (outgoing damage is multiplied by 1.25)
 * +25% defense (incoming damage is divided by 1.25)
-* health regenerates up to 150
-* 40% faster regeneration (7 health per second)
+* health regenerates up to 150 hp
+* +40% faster regeneration (7 hp per second)
 |}
 Players get buffed when '''defending'''
 {|
