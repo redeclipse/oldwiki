@@ -14,12 +14,14 @@ Players get buffed when '''defending'''
 |[[file:point.png|64px]]
 |
 *a secured ''control point'' in ''defend'' games,
+*their ''base'' in ''bomber'' games,
 *the flag in their ''team base'' or
 |-
 |[[file:flag.png|64px]]
 |
 * a team mate who carries their ''flag''.
-* Note: The ''flag'' carrier is not buffed.
+* Note: The ''flag'' carrier is not buffed and
+* dropped flags have no buffing power.
 |}
 ===Ailments===
 Some [[Weapons_in_SVN|weapons]] induce status ailments that inflict some damage over time and last for about five seconds. Useful to delay enemy health recovery. Multiple effects can be stacked. 
