@@ -18,7 +18,7 @@
 | Stand near flag positions to capture them. Each flag you hold brings in a steady stream of points.
 |-
 |''Bomber Ball''
-| Grab the ball and deliver to the enemy base to score, but watch your bomb timer - it will explode if you hold on to it too long. Pass it to your teammates to keep it going. If the other team holds it, kill the carrier or intercept it midair. Killing an enemy while holding the ball resets the bomb timer.
+| Grab the ball and deliver to the enemy base to score, but watch your bomb timer - it will explode if you hold on to it too long. Pass it to your teammates to keep it going. If the other team holds it, kill the carrier or intercept it midair.
 |-
 |''Gauntlet''
 | One team (blue/Alpha) races to reach the goal and score points, while the other team (red/Omega) tries to shoot them before they can get there. Teams switch off halfway through the match.
