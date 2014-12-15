@@ -1,4 +1,3 @@
-==Status effects==
 ==Buffs==
 A buff is a strong, temporary status enhancement that players can receive in [[Modes_and_Mutators_in_SVN|capture, bomber or defend]] games. The buff implies
 {|
@@ -23,7 +22,7 @@ Players get buffed when '''defending'''
 * Note: The ''flag'' carrier is not buffed and
 * dropped flags have no buffing power.
 |}
-===Ailments===
+==Ailments==
 Some [[Weapons_in_SVN|weapons]] induce status ailments that inflict some damage over time and last for about five seconds. Useful to delay enemy health recovery. Multiple effects can be stacked. 
 {|
 |[[file:shock.png|64px]]
