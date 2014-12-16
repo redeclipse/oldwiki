@@ -485,7 +485,7 @@ setdesc "local" "declares a set of aliases as local to the alias (function) it w
 setdesc "newgui" "creates a new menu;^n<name> refers to the menu's variable name,^n<content> refers to the actual content of the gui itself,^n[<initscript>] is optional, and is run before the menu is created (used with ^"if (= $guipasses 0)^" to initialize variables for the menu)" "<name> <content> [<initscript>]"
 setdesc "guitab" "creates a new tab for the menu" "<name>"
 setdesc "guilist" "adds <content> to a list" "<content>"
-setdesc "gui]spring" "adds weight to a menu for pushing elements more/less to one side;^n[<value>] strength of the spring, defaults to 1;^nexample: guistrut 45 1; guilist [ guispring ; guitext ^"centered^"; guispring ]" "[<value>]"
+setdesc "guispring" "adds weight to a menu for pushing elements more/less to one side;^n[<value>] strength of the spring, defaults to 1;^nexample: guistrut 45 1; guilist [ guispring ; guitext ^"centered^"; guispring ]" "[<value>]"
 setdesc "guistrut" "adds spacing to a menu;^nif [<bool>] is 1, it wraps the guistrut in a guilist (adds spacing in the alternate direction),^n^"guistrut 5 1^" is the same as ^"guilist [ guistrut 5 ]^"" "<amount> [<bool>]"
 setdesc "guibar" "draws either a vertical or a horizontal line, depending on the nesting of guilist"
 setdesc "guitext" "creates a text element;^n<text> can be a raw string or a variable,^n[<icon>] is the path to an image, example: ^"textures/bomb^",^n[<colour>] is a hexadecimal colour code, example: 0xFF0000, ^n [<iconcolour>] acts on the <icon> just like <colour> acts on the <text>" "<text> [<icon>] [<colour> [<iconcolour]"
