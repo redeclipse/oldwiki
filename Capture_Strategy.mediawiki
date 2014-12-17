@@ -31,3 +31,6 @@ This is a confusing mutator, new players might struggle to grasp the tactics nee
 
 ====Multi+Survivor====
 Adding Multi mutator brings two more teams into play. At each round it is possible to capture once each color of the flag, and a capture ends the round. This means that it is possible to gain up to 3 points for a team at one round, if one member gathers all three enemy flags and brings them to the base. One strategy might be to try to gather enemy flags and give them to one teammate, since after the first flag is captured, all the flags and teams are reset, and if a teammate was holding another enemy flag, it is a lost point.
+
+===Defend===
+Another mutator, exclusive for this mode is 'Defend'. In this mode, the flag can only be carried by the enemy team, and if dropped, must be defended until the timer resets and the flag flies back to its base. Scoring is more rare under this mutator than others, and the usual situation is the [[#Standoff|standoff]]. Moreover, dropped flag is not easy to defend, as it's helpless against the enemy team players, and it is relatively easy stealing again. One common strategy is to try to lure the opponent with the flag to a place that's easier to defend and/or well-hidden from others, otherwise even if the flag is dropped, it may be grabbed again very quickly.
