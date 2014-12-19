@@ -15,3 +15,5 @@
 * [[World_Vars| World Variables]]
 * [[Commands|Commands]]
 * [[Aliases|Aliases]]
+* [[Engine_Vars|Engine Variables]]
+* [[Auto-generated_Vars|Auto-generated Variables]]
