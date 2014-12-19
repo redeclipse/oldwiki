@@ -1,4 +1,9 @@
-Note: The client-server protocol normally changes between releases, so you might not be able to play on servers that are running the stable version.
+Development version (usually referred to as SVN), is a newer version of Red Eclipse, that's still being developed. If you want to help test the game, or experience the newer features, use this guide to obtain the latest version of the game.
+
+Notes:
+# The client-server protocol normally changes between releases, so you might not be able to play on servers that are running the stable version.
+# If you experience a bug or other unwanted behaviour, and want to submit a bug report, see [[Debug]] for instructions.
+
 
 == Windows ==
 
