@@ -102,7 +102,7 @@ This page lists common control options for editing mode. For more information, c
 |Open Console History
 |F11 Key (Page Up/Page Down keys Scroll History)
 |-
-|Take Screenshot
+|[[Taking screenshots|Take Screenshot]]
 |F12 Key (My Documents/my Games/Red Eclipse)
 |-
 |Quick Texture Menu (recent textures)
