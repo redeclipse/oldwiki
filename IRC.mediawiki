@@ -17,7 +17,9 @@ on the channel is able to answer your question, and others may not actually
 be in front of their computer at the time you ask. You can expect delays of up
 to a few hours (or more) for an answer to your queries, if you are unable to
 remain in the channel for long periods, please consider using the forums
-instead.
+instead. It is advised to read the [[Guide]] and the [[FAQ]] before asking a
+question, even if the answer to your question is not there, you might learn
+something new.
 
 The native language of the majority of people in the channel is English. Please
 use English when talking in the channel for long periods of time. If you wish
