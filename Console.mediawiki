@@ -2,7 +2,7 @@
 
 
 
-The Tilde key (~) and the Forward Slash key (/) open the Console. The Console is used to issue commands not bound to any key. An important function of the console is Auto-complete.
+The Tilde key (~) and the Forward Slash key (/) open the Console. The Console is used to issue [[commands]] not bound to any key. An important function of the console is Auto-complete.
 
 Console commands may also be issued from the chat (t)
 
