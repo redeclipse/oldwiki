@@ -1,6 +1,6 @@
 == The Basics ==
 * [http://redeclipse.net Red Eclipse] is a free casual arena first person shooter game. 
-* The game features fun innovations such as parkour, impulse boosts, dashing, and other tricks.
+* The game features fun innovations such as [[Impulse moves|parkour]], impulse boosts, dashing, and other tricks.
 * You can play it right now on your computer running Windows, OS X, Linux, or BSD.
 * The current engine technology being used is the aging [http://cubeengine.com/ Cube 2 Engine].
 * We have been given an opportunity to migrate to the upgraded engine used in [http://tesseract.gg/ Tesseract].
@@ -35,7 +35,7 @@ A few random ideas that we can/might accomplish:
 * Much cleaner user interface using Tesseract's new widgets.
 
 == Video ==
-* Quin introduces. (some joke about my beard and how it is trustworthy?)
+* [[Client_Command_Line_Options#AUTHORS|Quin]] introduces. (some joke about my beard and how it is trustworthy?)
 * RE 1.5 release, and list a few cool new features.
 * Explain (and show?) Tesseract's benefits.
 * Some footage of parkour, gunplay, and stuff.
