@@ -1,4 +1,4 @@
-This is an overview of the servers that are normally available, in order to help you find one whose settings and/or geographical location may suit you best. Private, locked, and edit-mode servers are not listed. If you're aware of more accurate or complete information regarding server operators or location, or the existence of a new server that isn't yet on this list, fill it in at the appropriate spot.
+This is an overview of the servers that are normally available, in order to help you find one whose settings and/or geographical location may suit you best. Private, locked, and edit-mode servers are not listed. If you're aware of more accurate or complete information regarding server operators or location, or the existence of a new server that isn't yet on this list, fill it in at the appropriate spot. If you want to set up your own server, refer to [[Server Setup]] and [[Server Example Configurations]].
 
 === play.redeclipse.net ===
 '''IP''': 74.82.3.216:28801<br>
