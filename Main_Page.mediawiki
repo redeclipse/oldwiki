@@ -94,6 +94,7 @@ __NOTOC__ __NOEDITSECTION__
 == [[File:File_edit.png|45px]] Scripting ==
 * [[Scripting Tutorial]]
 * [[Scripting Workings]]
+* [[Entity Linking#Scriptable Events|Scriptable Events]]
 </td>
 </tr>
 
