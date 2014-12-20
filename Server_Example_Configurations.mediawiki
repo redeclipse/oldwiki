@@ -1,8 +1,8 @@
 == Server Examples ==
 
-If you have a nice server example, feel free to share it here.
+If you have a nice server example, feel free to share it here. For info on running the server, see [[Server Command Line Options]] or read the manual.
 
-=== Edit Mode Server ===
+=== [[Editing Info|Edit]] Mode Server ===
 
 '''servexec.cfg:'''
 <pre>
@@ -57,7 +57,7 @@ sv_holdmaps "" // hold bomber-ball maps
 sv_trialmaps "" // time-trial maps
 </pre>
 
-=== 1 vs 1, 2 vs 2 Survivor Team Arena Server ===
+=== 1 vs 1, 2 vs 2 [[GameModes and Mutators#Modes|Survivor]] Team Arena Server ===
 
 * This server has quick respawn, quick map rotation, and voting disabled
 
