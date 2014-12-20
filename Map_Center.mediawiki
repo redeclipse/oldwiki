@@ -59,3 +59,4 @@ A classic TDM map styled after an abandoned city, Center is a staple of online m
 * Snipe near cover, open roofs will leave you vulnerable to other people with Rifles.
 * Wallkick repeatedly to scale the sides of the buildings.
 * The rocket spawns on top of the biggest building in the middle - choose your target(s) carefully.
+* Mine the vents and entrances to the base to defend against attacks.
