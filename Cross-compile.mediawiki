@@ -4,12 +4,11 @@ Cross compiling is the process of compiling code to run on a different platform 
 == For Windows from GNU/Linux ==
 * Install mingw-w64 or equivalent, on a Debian-like system, this can be done via
  sudo apt-get install mingw-w64
-* Compile for x86 and amd64 using the commands
+* Compile for x86 and amd64 using the commands. Of course you need to [[Obtain development version#Download via SVN|obtain the source code]] before this step.
  make -C src/ PLATFORM=CROSSMINGW clean install
  make -C src/ PLATFORM=CROSSMINGW64 clean install
 
 * Note: If on Ubuntu 12.04, the package g++-mingw-w64 may also be required.
-
 
 == For GNU/Linux from Windows ==
 * Don't. Just don't.
