@@ -27,13 +27,12 @@ Properties can be set during creation or after creation.
 To modify properties after creation, select the entity you wish to change by clicking on it.
 After that, either 
 *press the Period key (.) to change properties (/entset) directly to the value you want them...
-*or hold the corresponding Number Key to the parameter you wish to change while scrolling with the Scroll Wheel.(→[[Controls]])
+*or hold the corresponding Number Key to the parameter you wish to change while scrolling with the Scroll Wheel.(→[[Editing Controls|Controls]])
 
 To move an entity, left-click the face corresponding to the axis you wish to move it on and drag it to the new position.
 
 You can change if entities snap to the grid while moving them with:
  /entselsnap (0|1)
-
 
 == Types of Entities ==
 
