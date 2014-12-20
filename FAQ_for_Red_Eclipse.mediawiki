@@ -16,7 +16,7 @@ This page addresses some FAQs. The [[Readme|readme]] is also a recommended read.
 <ul>
 <li>''Varied movement''
 {| style="font-size:95%"
-| Through the [[Game::play|Impulse]] system, the player is allowed a variety of moves to approach any situation.
+| Through the [[Impulse_moves|Impulse]] system, the player is allowed a variety of moves to approach any situation.
 |}
 
 <li>''Equally-balanced weapons''
@@ -35,7 +35,7 @@ This page addresses some FAQs. The [[Readme|readme]] is also a recommended read.
 |}
 </ul>
 
-<li>Red Eclipse also has a built-in, real-time, in-game map editor, which has a low learning curve and can even be used cooperatively online.
+<li>Red Eclipse also has a built-in, real-time, in-game map editor, which has a low learning curve and can even be used cooperatively online. See the [[Editing Info]] page for more.
 
 
 <li>The game also has an extensive list of changeable [[Game::vars|gameplay variables]] for the weapons (model and HUD color, name, damage, projectile customization, physics) and environment (gravity, player movement, Impulse customization), allowing for custom modes and weapons.
