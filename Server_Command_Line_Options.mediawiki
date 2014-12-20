@@ -41,7 +41,7 @@ The recommended way to change the settings of the server is to create and edit t
 ; '''-g'''''logfile''
 : Output log to ''logfile''. Path is set relative to ''homedir''.
 
-=== Server configuration options ===
+=== Server [[Server Example Configurations|configuration]] options ===
 
 ; '''-ss'''{0..3}
 : Sets server type. 0 for local only, 1 for private, 2 for public, 3 for dedicated. Defaults to 1.
