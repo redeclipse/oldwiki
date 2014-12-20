@@ -1,12 +1,12 @@
 == Instructions for contributing ==
 
-This page contains a copy of the file data/usage.cfg from the Red Eclipse source, it is intended as a place to contribute descriptions for variables and commands, such that they may be added to the Red Eclipse on-screen help and to the auto-generated wiki pages.
+This page contains a copy of the file data/usage.cfg from the Red Eclipse source, it is intended as a place to contribute descriptions for [[variables]] and [[commands]], such that they may be added to the Red Eclipse on-screen help and to the auto-generated wiki pages.
 
 * Check here and at http://svn.icculus.org/*checkout*/redeclipse/data/config/usage.cfg that you are not adding a duplicate
 * Please follow the format exactly
 * Please use a good clarification for parameters (e.g. <clientnum>) where appropriate
 ** Please use <value> as a generic description otherwise
-* Entries can be added either besides similar entries, or towards the end (but before the weapon vars loop)
+* Entries can be added either besides similar entries, or towards the end (but before the [[Weapons|weapon]] vars loop)
 ** Weapon vars should be added within the substitution loops
 
 == usage.cfg ==
