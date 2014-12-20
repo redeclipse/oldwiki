@@ -125,7 +125,7 @@ Many of these options will, if used, be permanently saved in the init.cfg file.
 
 == AUTHORS ==
 
-Red Eclipse's main developers are Quinton "quin" Reeves and Lee "eihrul" Salzman
+Red Eclipse's [[Contributors#Team Lead|main developers]] are Quinton "quin" Reeves and Lee "eihrul" Salzman
 
 This manual page was written by Martin Erik Werner &lt;[mailto:martinerikwerner@gmail.com martinerikwerner@gmail.com]&gt;
 
