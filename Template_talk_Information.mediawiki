@@ -1,2 +1,3 @@
 Is it correct to add <nowiki>[[User:]]</nowiki> to the author? Wouldn't it create a lot of [[Special:WantedPages|wanted pages]]? --[[User:Swooboo|Swooboo]] ([[User talk:Swooboo|talk]]) 17:10, 21 December 2014 (EST)
+
 Also, is it possible to take the date of the format YYYY-MM-DD HH:mm:SS and convert it to itself + "%% Days ago" ? --[[User:Swooboo|Swooboo]] ([[User talk:Swooboo|talk]]) 17:14, 21 December 2014 (EST)
