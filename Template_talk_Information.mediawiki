@@ -1,0 +1,1 @@
+Is it correct to add <nowiki>[[User:]]</nowiki> to the author? Wouldn't it create a lot of [[Special:WantedPages|wanted pages]]? --[[User:Swooboo|Swooboo]] ([[User talk:Swooboo|talk]]) 17:10, 21 December 2014 (EST)
