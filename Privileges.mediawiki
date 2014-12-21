@@ -68,7 +68,7 @@ Of course, [[Bot|bots]] are not related to player accounts, but they have their 
 
 ===Levels and lock variables===
 
-The levels shown [[#Privs_Icons|above]] (column '''lvl''') refer to the usage of certain server variables that define the minimum privs required to perform a specific action. This allows server owners to give more liberal rights to lower player levels. The same levels can also be used to restrict map editing, joining a game or even connecting to the server. To learn more about these variables, search for ''lock'' in the ''variables'' menu, which is accessible from the game's main menu.
+The levels shown [[#Privs icons|above]] (column '''lvl''') refer to the usage of certain server variables that define the minimum privs required to perform a specific action. This allows server owners to give more liberal rights to lower player levels. The same levels can also be used to restrict map editing, joining a game or even connecting to the server. To learn more about these variables, search for ''lock'' in the ''variables'' menu, which is accessible from the game's main menu.
 
 ===Local privs===
 
