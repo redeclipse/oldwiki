@@ -20,13 +20,13 @@ The below table gives an overview of all the icons and their meaning.
 |[[File:nobody.png|40px]]
 |none
 |0
-|anonymous player
+|players that did not identify
 |-
 |
 |[[File:player.png|40px]]
 |player
 |1
-|registered player
+|players with regular accounts
 |-
 |[[File:localsupporter.png|40px]]
 |[[File:supporter.png|40px]]
