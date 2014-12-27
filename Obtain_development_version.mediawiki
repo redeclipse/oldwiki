@@ -34,7 +34,7 @@ An experimental build service for Windows binary executables has been set up usi
 
 The automation is set up to normally publish corresponding executables about 30 minutes after SVN has changed.
 
-Do note that these executables needs to be downloaded separately, and due to limitations of the build service, they are stored in "Fedora" RPM archives rather than ZIP.
+Do note that these executables need to be downloaded separately, and due to limitations of the build service, they are stored in "Fedora" RPM archives rather than ZIP.
 
 In order to download and use the pre-built executables:
 # Go to http://software.opensuse.org/download.html?project=home:arand2&package=redeclipse-win
