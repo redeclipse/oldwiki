@@ -48,9 +48,9 @@ In order to download and use the pre-built executables:
 
 ===Download via SVN===
 * Open the terminal
-* Install subversion and the build & run dependencies of redeclipse, on a Debian-like system this would be done using
- sudo apt-get install subversion build-essential libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl1.2-dev
-* Checkout the SVN repository via
+* Install subversion and the build & run dependencies of Red Eclipse. On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command
+ sudo apt install subversion build-essential libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl1.2-dev
+* Checkout the SVN repository with the command
  svn co svn://svn.icculus.org/redeclipse redeclipse-svn
 This will download Red Eclipse to the "redeclipse-svn" directory within the current working directory.
 
