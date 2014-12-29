@@ -1,3 +1,5 @@
+{{Proposed deletion|reason=This page seems to have been only a test for the automatic generation of pages. Sorry Arand.}}
+
 {| border="1" class="wikitable sortable"
 ! Name&nbsp;&&nbsp;Parameters
 ! class="unsortable"|Description
