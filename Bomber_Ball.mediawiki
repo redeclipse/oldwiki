@@ -1,0 +1,1 @@
+Bomber Ball is a [[GameModes_and_Mutators|game mode]] in Red Eclipse, in which every team has a base, and there is one ball that spawns on the map. The objective is to get the ball to the enemy base, thus destroying it.
