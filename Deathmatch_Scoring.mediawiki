@@ -21,10 +21,9 @@ The core objective of the entire game, land the killing shot on an enemy to earn
 ==Point-penalties ==
 ===Team kills===
 {|
-|In team games, you have teammates for a reason, so don't kill them! Doing so brings a harsh penalty: -6 points are lost for each team kill. This penalty is increased to 12 points for team kills on a secured control point or a team mate that carries a flag or ball (in defend, capture and bomber games, respectively). There is only one exception: No points are lost for kills attributed to residual damage (bleeding, electric shock, or burn). Avoid team kills at all costs, as too many will get you automatically kicked and banned from the server!
+|In team games, you have teammates for a reason, so don't kill them! Doing so brings a harsh penalty: -6 points are lost for each team kill. There is only one exception: No points are lost for kills attributed to residual damage (bleeding, electric shock, or burn). Avoid team kills at all costs, as too many will get you automatically kicked and banned from the server!
 |[[file:warning.png|64px]]
 |}
-
 
 ===Suicide===
 If you hit yourself with your own weapon and run out of health (this includes exploding yourself with grenades or hitting your own mines), this counts as a team kill and is subject to the above scoring. However, there are other ways to die both accidental and on purpose: jumping into an abyss or off the edge of the map, a lava pit or other map hazard (causing you to collide with invisible death material). Also, you can press ''K'' at any time to immediately commit suicide. None of these options are desirable, bringing a penalty of -3 (pressing ''K'' while holding a grenade brings a penalty of -6).
