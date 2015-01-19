@@ -90,7 +90,7 @@ If either one of these modes are selected, regardless of game type, players' sco
 * Killing a team mate who carries a flag: -12 points (including the team kill penalty).
 
 ===Defend-and-control===
-* Fragging an opponent who is defending one of their control points: 3 points (on top of the points already awarded for the frag). 
+* Fragging an opponent who is defending one of their control points: 6 points (including the award for the frag). 
 * Standing near a control point of your own color: 1 point every 2.5 seconds, the same rate at which it adds to your team score. In non-King games, you can leave a control point and it will continue to provide points for your team as long as it remains your color, but it will no longer give points to your own score until you come back into its buff zone.
 * Killing a team mate that defends a secured control point: -12 points.
 
