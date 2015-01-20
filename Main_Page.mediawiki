@@ -30,6 +30,7 @@ __NOTOC__ __NOEDITSECTION__
 * [[Main Page (French)|Wiki en français]]
 * [[Trademark_Policy|Trademark Policy]]
 * [[Multiplayer_Guidelines|Multiplayer Guidelines]]
+* [[Privileges|User accounts and privileges]]
 </td>
 <td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Info_g.png|45px]] General Information ==
