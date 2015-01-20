@@ -89,11 +89,15 @@ In objective based team games, frags and bonus elements of the Deathmatch Scorin
 |}
 
 ===Capture-the-flag===
+{|
+|
 * Fragging an opponent who holds your flag: 6 points (including the awarded for the frag).
 * Picking up an opponent's flag: 3 points. 
 * Returning your flag to your base: 5 points. If the Quick Mutator is active, you can score this simply by touching the flag; note that there is no bonus for picking up your own flag.
 * Capturing an opponent's flag: 5 points.
 * Killing a team mate who carries a flag: -12 points (including the team kill penalty).
+|[[File:capture.png|64px]]
+|}
 
 ===Defend-and-control===
 * Fragging an opponent who is defending one of their control points: 6 points (including the award for the frag). 
