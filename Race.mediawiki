@@ -1,0 +1,37 @@
+
+{|
+|[[file:race.png|128px]]
+|Race across maps set up as a course and complete more finished laps than opponents, carefully managing your limited impulse and executing parkour moves with the '''Q''' button. Reaching a checkpoint will allow you to respawn from that spot.
+|}
+
+==tips & strategy==
+
+* During a Race, players do not spawn with a weapon. Melee attacks are also not effective against opponents unless the Gauntlet mutator is active. The only objective is to finish laps.
+* Race mode offers an excellent opportunity to learn and practice the more advanced parkour moves in Red Eclipse, and can be an essential tool to performing your best in other modes.
+* When competing with the Timed mutator, if you wish to begin the lap again instead of starting from a checkpoint, press '''K''' to suicide (there is no penalty).
+* Remember, in Race completing laps is more important than the individual times of each lap. Suiciding or dying from a map hazard is very counter-productive to winning!
+* The non-combative nature of Race matches can make it a less hectic or competitive mode. Just run some laps and relax a little!
+* There are many unofficial Race maps to explore, created by the Red Eclipse community. You can find them on the [http://www.redeclipse.net/forum Red Eclipse forum]
+
+==mode-specific mutators==
+
+===timed===
+
+{|
+|[[file:racetimed.png|128px]]
+|Instead of competing for the most number of laps, players
+and teams compete for the fastest overall lap time.
+|}
+
+===endurance===
+{|
+|[[file:raceendurance.png|128px]]
+|Your impulse meter is not restored upon death or checkpoint respawn. Also slows down impulse regeneration, so plan your route carefully!
+|}
+
+===gauntlet===
+{|
+|[[file:racegauntlet.png|128px]]
+|One team races to reach the goal and score points, while the other teams try to
+attack them before they can reach the end. Afer a set time, the roles are switched.
+|}
