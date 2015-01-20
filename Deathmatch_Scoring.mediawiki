@@ -109,12 +109,16 @@ In objective based team games, frags and bonus elements of the Deathmatch Scorin
 |}
 
 ===Bomber-ball===
+{|
+|
 * Fragging an opponent who holds the ball: 6 points (including the award for the frag). 
 * Picking up the ball: 3 points. 
 * Scoring a goal: 5 points. 
 * Killing a team mate who holds the ball: -12 points (including the team kill penalty).
 * Scoring an own goal: -5 points, and -1 point to the team score. Note that simply carrying the ball over your base does not count as an own goal; you have to throw the ball and let it fly or bounce into your goal to earn this dubious achievement. It is impossible to score an own goal if Touchdown is selected. 
 * In the Hold mutator, deathmatch scores are not used. Instead, each player's listed score will simply be their contribution to the team score, if it's a team game. Players score 1 point for each second they hold onto the ball, with a penalty of -10 points for holding onto the ball too long and having the timer run out. No other actions affect the points in the Hold mutator.
+|[[File:bomber.png|64px]]
+|}
 
 ===Time-trial===
 The scoring system in TTime-trial games is usually limited to the lap count of each player and team - or the fastest lap time when the Timed mutator is active. Even though deathmatch scoring awards can be earned in Gauntlet Trial, they have no effect on a players score.
