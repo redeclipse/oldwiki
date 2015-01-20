@@ -33,10 +33,10 @@ __NOTOC__ __NOEDITSECTION__
 </td>
 <td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Info_g.png|45px]] General Information ==
-* [[How to Play]]
-* [[GameModes and Mutators]]
+* [[How to Play]]  [[Guide|(SVN version)]]
+* [[GameModes and Mutators]]  [[Modes and Mutators in SVN|(SVN version)]]
 * [[Official Maps]]
-* [[Weapons]]
+* [[Weapons]]  [[Weapons in SVN|(SVN version)]]
 * [[Deathmatch_Scoring|Scoring system]]
 * [[Impulse moves|Impulse moves in detail]]
 * [[Screenshots]]
