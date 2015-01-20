@@ -82,7 +82,11 @@ If you hit yourself with your own weapon and run out of health (this includes ex
 In objective based team games, frags and bonus elements of the Deathmatch Scoring System have no impact on the team scores. However, this scoring system is still applied to individual player scores, while certain actions related to the team objective give additional bonus points.
 
 ===Duel and survivor===
-If either one of these modes are selected, regardless of game type, players' scores are replaced by a different system that tracks the number of rounds they've scored in, and thus their contribution to the team score if it's a team game. In a survivor deathmatch, the winning team only receives 1 point per round regardless of how many players are still alive, but each surviving player at the end gets a point to their own credit. The one exception is that multi-survivor Capture the Flag offers the unique possibility of earning up to 3 points per round (by capturing all 3 other flags simultaneously).
+{|
+|If either one of these modes are selected, regardless of game type, players' scores are replaced by a different system that tracks the number of rounds they've scored in, and thus their contribution to the team score if it's a team game. In a survivor deathmatch, the winning team only receives 1 point per round regardless of how many players are still alive, but each surviving player at the end gets a point to their own credit. The one exception is that multi-survivor Capture the Flag offers the unique possibility of earning up to 3 points per round (by capturing all 3 other flags simultaneously).
+|[[File:Duel.png|64px]]
+|[[File:Survivor.png|64px]]
+|}
 
 ===Capture-the-flag===
 * Fragging an opponent who holds your flag: 6 points (including the awarded for the frag).
