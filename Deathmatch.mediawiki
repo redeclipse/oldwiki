@@ -1,0 +1,19 @@
+
+{|
+|[[file:deathmatch.png|128px]]
+|Attack enemy players gathering frags, assists, sprees and other bonuses to score points according to the [[Deathmatch Scoring]] System. The team or individual with the most points at the end wins!
+|}
+
+==tips & strategy==
+
+* In a team match, working together is the key to success. Scoring an assist means a higher overall score for your team, and multiple players can overtake an enemy much faster.
+* In a Free-for-All match (also popular with the duel & survivor mutators), target groups of players close to you with high-spread ammo weapons, or target solitary players using weapons that require greater accuracy. To lose focus means to lose points!
+* Regardless of what mutators are active, always avoid team kills. You and/or your team will lose points quickly if you neglect to avoid friendly fire, especially when it comes to explosives.
+* Using the flamer's secondary fire you can put out flames on yourself by pointing at the ground, and on others by pointing at them (which causes no harm to teammates).
+* In Survivor Deathmatch, remember that to survive is everything, while the total amount of frags matters far less. Maintain a low profile and target the most difficult opponents first.
+* In Classic Deathmatch, map control can be the difference between winning and losing. Learn the locations of your favorite weapon spawns and plan accordingly.
+* In Duel Deathmatch, awareness of the location of your opponent at all times is very important. Choose a radar style that suits you from the options menu, or when radar is disabled (in the Hard mutator for example) turn music volume down to hear footsteps.
+
+==Mode specific mutators==
+
+Deathmatch is the most basic game mode, and as such, there are '''no game specific mutators''' for this mode. In return, Deathmatch is the most commonly played game mode for some popular mutators, such as [[Duel]] or [[Free for all]].
