@@ -1,11 +1,11 @@
 {|
 |[[File:bomber.png|128px]]
-|Secure the bomber-ball and deliver it to the enemy base to destroy it, but watch the timer! If the timer runs out, the ball will explode and you with it. Press '''F''' to throw it before this happens, or hold %1 and lock target on a teammate to pass the ball, resetting the timer.
+|Secure the bomber-ball and deliver it to the enemy base to destroy it, but watch the timer! If the timer runs out, the ball will explode and you with it. Press '''F''' to throw it before this happens, or hold '''F''' and lock target on a teammate to pass the ball, resetting the timer.
 |}
 
 ==tips & strategy==
 * Just as in Capture-the-Flag, being close to your team base provides a powerful buff that enhances attack, defense, health regeneration and max health.
-* One of the most important keys in Bomber-Ball is %1. With it you can throw the ball before it explodes, throw it inside an enemey goal or pass it to teammates.
+* One of the most important keys in Bomber-Ball is '''F'''. With it you can throw the ball before it explodes, throw it inside an enemey goal or pass it to teammates.
 * Holding '''F''' will lock target on the nearest teammate in the center of your sight, and releasing will pass the ball directly to them instead of a normal throw (regardless of how far away they are from you).
 * Pointing directly up in the air and throwing the ball can often allow you to catch it easily again, while defending the point where it will fall. This is especially useful in Free-for-All Hold Bomber-Ball.
 
