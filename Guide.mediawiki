@@ -27,7 +27,7 @@ Additional points are awarded according to the [[Deathmatch Scoring|deathmatch s
 Further [[Modes and Mutators in SVN|game modes]] are ''map editing'' and ''race''. A large array of general or mode specific [[Modes and Mutators in SVN#mutators|mutators]] offers a wide variety of additional or alternate game rules.
 
 ==Weapons overview==
-The below table gives a short summary of the available weapon types. Each [[Weapons in SVN|weapon]] comes with two unique fire modes that encourage different [[Weapons in SVN#weapon strategy|strategies]]. Usually, all players are equipped with a pistol and two chosen [[Weapons in SVN#loadout weapons|loadout weapons]], while additional explosives can be collected in the arena. Enemies can also be damaged by crashing into them while performing a parkour move, such as [[impulse_moves|kicks, slides or wall runs]].
+The below table gives a short summary of the available weapon types. Each [[Weapons in SVN|weapon]] comes with two unique fire modes that encourage different [[Weapon strategy (SVN)|strategies]]. Usually, all players are equipped with a pistol and two chosen [[Weapons in SVN#loadout weapons|loadout weapons]], while additional explosives can be collected in the arena. Enemies can also be damaged by crashing into them while performing a parkour move, such as [[impulse_moves|kicks, slides or wall runs]].
 {|class="wikitable"
 |-
 |rowspan=2|
