@@ -24,7 +24,7 @@ Additional points are awarded according to the [[Deathmatch Scoring|deathmatch s
 | Grab the ball and deliver to the enemy base to score, but watch your bomb timer - it will explode if you hold on to it too long. Pass it to your teammates to keep it going. If the other team holds it, kill the carrier or intercept it midair. Killing an enemy while holding the ball resets the bomb timer.
 |}
 
-Further [[Modes and Mutators in SVN|game modes]] are ''map editing'' and ''time trial''. A large array of general or mode specific [[Modes and Mutators in SVN#mutators|mutators]] offers a wide variety of additional or alternate game rules.
+Further [[Modes and Mutators in SVN|game modes]] are ''map editing'' and ''race''. A large array of general or mode specific [[Modes and Mutators in SVN#mutators|mutators]] offers a wide variety of additional or alternate game rules.
 
 ==Weapons overview==
 The below table gives a short summary of the available weapon types. Each [[Weapons in SVN|weapon]] comes with two unique fire modes that encourage different [[Weapons in SVN#weapon strategy|strategies]]. Usually, all players are equipped with a pistol and two chosen [[Weapons in SVN#loadout weapons|loadout weapons]], while additional explosives can be collected in the arena. Enemies can also be damaged by crashing into them while performing a parkour move, such as [[impulse_moves|kicks, slides or wall runs]].
