@@ -1,0 +1,28 @@
+
+{|
+|[[File:Defend.png|128px]]
+|Secure and defend control points scattered around the map by standing near them for a set period of time. Overthrow enemy control points then secure them for your own team to gain an advantage. Every secured control point provides a steady stream of points, the team with the most points at the end wins!
+|}
+
+==tips & strategy==
+* Secured control points provide a powerful buff when in close proximity that enhances attack, defense, health regeneration and max health.
+* If your team is ahead and controls several more points than the enemy, switch focus to defense of the points you control.
+* In Defend-and-Control mode the right side of the screen holds a quick reference to see which teams control which points, and which are neutral.
+* Controlling the enemy base point for long is very difficult and rarely worth it, as enemy spawn points are often right next to this point. Concentrate first on the other points in the map unless the opportunity is too perfect to pass up.
+
+==mode-specific mutators==
+
+===king===
+{|
+|[[file:defendking.png|128px]]
+|There is only one control point in this mutator, located near the center of the map.
+To make things harder, points are only given when players are in proximity to it.
+The objective: make your team king of the hill.
+|}
+
+===quick===
+{|
+|[[file:defendquick.png|128px]]
+|Control points are secured much more quickly in this mutator. When capturing enemy control
+points there is no neutral state, the point is captured immediately for your team.
+|}
