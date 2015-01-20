@@ -4,7 +4,10 @@ Scoring in Red Eclipse is handled using a very intricate Deathmatch Scoring Syst
 ==Point-gain==
 
 ===Frags and assists===
-The core objective of the entire game, land the killing shot on an enemy to earn a frag and 3 points. If you did not kill an opponent, but chipped in with a hit over the previous 5.0 seconds before death, your name is mentioned in the obituary line for an assist, and you receive one point. Multiple players can receive assists on the same kill, and in a team game this can result in multiple points from assists for the same team. Also note that it doesn't only count damage-dealing attacks, but some weapons that result in near-misses will still give off shockwaves that push players around, and one of those, no matter how slight, still qualifies you to receive an assist. This leads to the somewhat odd result that players can still earn assists even in Instagib mode.
+{|
+|The core objective of the entire game, land the killing shot on an enemy to earn a frag and 3 points. If you did not kill an opponent, but chipped in with a hit over the previous 5.0 seconds before death, your name is mentioned in the obituary line for an assist, and you receive one point. Multiple players can receive assists on the same kill, and in a team game this can result in multiple points from assists for the same team. Also note that it doesn't only count damage-dealing attacks, but some weapons that result in near-misses will still give off shockwaves that push players around, and one of those, no matter how slight, still qualifies you to receive an assist. This leads to the somewhat odd result that players can still earn assists even in Instagib mode.
+|[[File:Deathmatch.png|64px]]
+|}
 
 ===Headshots===
 {|
