@@ -121,6 +121,8 @@ In objective based team games, frags and bonus elements of the Deathmatch Scorin
 |}
 
 ===Time-trial===
+{|
+|
 The scoring system in TTime-trial games is usually limited to the lap count of each player and team - or the fastest lap time when the Timed mutator is active. Even though deathmatch scoring awards can be earned in Gauntlet Trial, they have no effect on a players score.
-
-*Note: Race is the new game mode for Time-trial in Red Eclipse 1.5.
+|[[File:racetimed.png|64px]]
+|}
