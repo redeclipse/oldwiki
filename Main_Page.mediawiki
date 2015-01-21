@@ -36,7 +36,7 @@ __NOTOC__ __NOEDITSECTION__
 == [[File:Info_g.png|45px]] General Information ==
 * [[How to Play]]  [[Guide|(SVN version)]]
 * [[GameModes and Mutators]]  [[Modes and Mutators in SVN|(SVN version)]]
-* [[Official Maps]]
+* [[Official Maps]]  [[Official_Maps_in_SVN|(SVN version)]]
 * [[Weapons]]  [[Weapons in SVN|(SVN version)]]
 * [[Deathmatch_Scoring|Scoring system]]
 * [[Impulse moves|Impulse moves in detail]]
