@@ -16,4 +16,4 @@
 
 ==Mode specific mutators==
 
-Deathmatch is the most basic game mode, and as such, there are '''no game specific mutators''' for this mode. In return, Deathmatch is the most commonly played game mode for some popular mutators, such as [[Duel]] or [[Free for all]].
+Deathmatch is the most basic game mode, and as such, there are '''no game specific mutators''' for this mode. In return, Deathmatch is the most commonly played game mode for some popular mutators, such as [[Mutator Tips#duel|Duel]] or [[Mutator Tips#free-for-all|Free for all]].
