@@ -1,0 +1,11 @@
+{{Racemap
+|mapname=Absorption
+|author=Unnamed
+|difficulty=Easy to moderate
+|checkpoints=5
+|laptime=75-120s
+|description=A stylish map with large curved walls and plenty of open room for freestyle running. Which means that there are several shortcuts to explore.
+==Tips==
+* The floor in the first room has a special surface pattern that slows you down, so jump and boost to get     moving. 
+* Inspect your environment and be creative. You may find alternate and faster routes.
+}}
