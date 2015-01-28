@@ -26,7 +26,7 @@ You may use the marks without prior written permission (subject to the following
 #* "Substantially unmodified" for source code means built from the source code provided by The Red Eclipse project, possibly with minor modifications including but not limited to: the enabling or disabling of certain features by default, translations into other languages, changes required for compatibility with a particular operating system distribution, the inclusion of bug-fix patches, or the bundling of additional extensions.
 #* "Substantially unmodified" for gameplay and art means using the game data provided by The Red Eclipse project, possibly with minor modifications, for example including additional maps, artwork, and sounds. The gameplay and art needs to closely resemble that of Red Eclipse in it's unmodified form, and not create an unfair advantage in gameplay.
 #: '''Example:''' You may modify Red Eclipse to start in windowed mode by default, but if you set the gravity in the game to zero, this counts as a substantial modification.
-#: '''Example:''' You may modify the laser beams to be green instead of purple, but if you change all the weapon models into fresh fruits. this counts as a substantial modification.
+#: '''Example:''' You may modify the laser beams to be green instead of purple, but if you change all the weapon models into fresh fruits, this counts as a substantial modification.
 # To identify Red Eclipse as a distinct component of a software offering.
 # To factually refer to The Red Eclipse project itself, its products, or its protocols.
 #: '''Example:''' You may use "Bob's Add-ons for Red Eclipse" or "Bob's forum for Red Eclipse" but not "Bob's Red Eclipse".
@@ -55,7 +55,7 @@ The Red Eclipse project reserves the sole right to:
 
 ==Other Use==
 
-If you have questions regarding the policy, or if any of the examples are unclear, feel free to contact the Red Eclipse project, for example via the forums.
+If you have questions regarding the policy, or if any of the examples are unclear, feel free to contact the Red Eclipse project, for example via the Red Eclipse forums.
 
 If you would like to use the Red Eclipse marks for any other use, please contact us and we'll discuss a way to make that happen. We don't have strong objections to people using the name for their websites and businesses, but we do need the chance to review such use.
 
@@ -106,12 +106,12 @@ If you currently have a product that is using the Red Eclipse marks in a way tha
    needs to closely resemble that of Red Eclipse in it's unmodified form, and not
    create an unfair advantage in gameplay.
  
-   Example: You may modify Red Eclipse to start in windowed mode by default, but
-            if you set the gravity in the game to zero, this counts as a
-            substantial modification.
+  Example: You may modify Red Eclipse to start in windowed mode by default, but
+           if you set the gravity in the game to zero, this counts as a
+           substantial modification.
  
    Example: You may modify the laser beams to be green instead of purple, but if
-            you change all the weapon models into fresh fruits. this counts as a
+            you change all the weapon models into fresh fruits, this counts as a
             substantial modification.
  
  2. To identify Red Eclipse as a distinct component of a software offering.
@@ -167,7 +167,7 @@ If you currently have a product that is using the Red Eclipse marks in a way tha
  2. Modify this policy to preserve the rights of Red Eclipse, the public, the
     community, and the users.
     The latest version of the Red Eclipse Mark Policy should be available at
-    <http://www.redeclipse.net/wiki/Trademark_Policy>
+    <http://redeclipse.net/wiki/Trademark_Policy>
  
  3. Grant exceptions to this policy, of any kind and for any reason whatsoever,
     other clauses notwithstanding.
@@ -194,25 +194,25 @@ If you currently have a product that is using the Red Eclipse marks in a way tha
  
    Attribution
  
- This text is Copyright © 2011, the Red Eclipse Team
+ This text is Copyright (C) 2011-2015, the Red Eclipse Team
  and is available under a Creative Commons Attribution-ShareAlike 3.0 Unported
  License <http://creativecommons.org/licenses/by-sa/3.0/>
  
  A large portion of the content in this text is based on
  <http://wiki.documentfoundation.org/TradeMark_Policy>
- which is Copyright © 2011, The Document Foundation
+ which is Copyright (C) 2011, The Document Foundation
  and is available under a Creative Commons Attribution-ShareAlike 3.0 Unported
  License <http://creativecommons.org/licenses/by-sa/3.0/>
  
  Additionally, some content is based on
  <http://www.softwarefreedom.org/resources/2008/foss-primer.html#x1-700005.6>
- which is Copyright © 2006, 2007, 2008, Software Freedom Law Center, Inc.
+ which is Copyright (C) 2006, 2007, 2008, Software Freedom Law Center, Inc.
  and is available under a Creative Commons Attribution-ShareAlike 3.0 US
  License <http://creativecommons.org/licenses/by-sa/3.0/us/>
 
 ==Content on This page==
 
-This page is Copyright © 2011, the Red Eclipse Team
+This page is Copyright © 2011-2015, the Red Eclipse Team
 and is available under a [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike 3.0 Unported License]
 
 A large portion of the content on this page is based on http://wiki.documentfoundation.org/TradeMark_Policy
