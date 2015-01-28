@@ -1,0 +1,10 @@
+{{Racemap
+|mapname=Steelrat
+|author=D.a.M.i.E.n. and TristamK
+|difficulty=Moderate
+|checkpoints=5
+|description=Find your way through this abandoned outpost and reach the shuttle to complete your rescue mission.
+==Tips==
+*At the end of the first corridor, there is a large vent that acts as a pusher you can use to your advantage.
+*In the room with the spikes you can step on the floating barrels. There is even a respawn checkpoint down there.
+}}
