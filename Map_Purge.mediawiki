@@ -1,0 +1,10 @@
+
+{{Racemap
+|mapname=Purge
+|author=Derek ''JoJo'' Stegall
+|difficulty=Moderate
+|checkpoints=8
+|description = A crazy map design with a virtual reality theme, combined with wild platforming action and some strong pushers. Can you find your way through this maze without getting derezzed?
+==Tips== 
+Soon you will find a section that requires some wall running. If you have difficulties reaching the far end, try to tap '''Q''' rather than holding the key.
+}}
