@@ -35,3 +35,19 @@ and teams compete for the fastest overall lap time.
 |One team races to reach the goal and score points, while the other teams try to
 attack them before they can reach the end. Afer a set time, the roles are switched.
 |}
+
+==Official race maps==
+<gallery>
+file:Absorption.png |[[Map_Absorption|Absorption]]
+file:Cyanide.png |[[Map_Cyanide|Cyanide]]
+file:Decomposition.png |[[Map_Decomposition|Decomposition]]
+file:Escape.png |[[Map_Escape|Escape]]
+file:Hinder.png |[[Map_Hinder|Hinder]]
+file:Neodrive.png |[[Map_Neodrive|Neodrive]]
+file:Purge.png |[[Map_Purge|Purge]]
+file:Relax.png |[[Map_Relax|Relax]]
+file:Steelrat.png |[[Map_Steelrat|Steelrat]]
+file:Testchamber.png |[[Map_Testchamber|Testchamber]]
+file:Tonatiuh.png |[[Map_Tonatiuh|Tonatiuh]]
+file:Wardepot.png |[[Map_Wardepot|Wardepot]]
+</gallery>
