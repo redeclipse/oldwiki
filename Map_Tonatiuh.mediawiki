@@ -1,0 +1,14 @@
+{{Racemap
+|mapname=Tonatiuh
+|author=Bonifarz
+|difficulty=Moderate to advanced
+|checkpoints=16
+|turrets=24
+|laptime=85-120s
+|description = A mysterious temple with many traps and hidden passages to explore. The difficulty curve is rather steep for an official race map, and an impulse launch is needed to finish a lap.
+==Tips==
+* The various secret passages will not work as shortcuts, but alternate routes allow you to sneak past your enemies in gauntlet games.
+* In onslaught-gauntlet games, gun turrets will pose an additional challenge. 
+* In the large room with the golden sphere, there are several options for a wall run.
+* For players who have not mastered the impulse launch, the final jump of this map can be rather frustrating.
+}}
