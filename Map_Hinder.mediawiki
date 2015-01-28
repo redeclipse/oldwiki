@@ -1,0 +1,7 @@
+{{Racemap
+|mapname=Hinder
+|author=Jonathan ''W!CK3D'' Roels
+|difficulty=beginner friendly
+|checkpoints=5
+|description=Hinder is definitely one of the earliest and hottest race maps. The first section may have a daunting look, but this map is actually a great choice for novice runners.
+}}
