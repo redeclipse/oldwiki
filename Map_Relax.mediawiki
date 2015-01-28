@@ -1,1 +1,12 @@
-{{Racemap|laptime=28-40s}}
+{{Racemap
+|author=Bonifarz
+|difficulty=very easy
+|checkpoints=none
+|laptime=28-40s
+|description=
+Relax is a very easy race map with a rainbow theme and strictly tubular geometry. There are no traps or other deadly hazards, and players cannot fall off the map. This makes Relax suitable for beginners, even though the environment can be disorienting.
+
+==Tips==
+*Climbing up walls can be tricky, because all surfaces are curved.
+*Should you get lost, follow the direction of the colored sparks.
+}}
