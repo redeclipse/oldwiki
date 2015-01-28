@@ -1,25 +1,10 @@
 == Guidelines for Connecting to the Red Eclipse Master Server ==
 
-The Red Eclipse Team provides the play.redeclipse.net master server for the
-benefit of the Red Eclipse Community. We impose a general set of guidelines
-for any server/user which connects to the play.redeclipse.net master server.
-The team reserves the right to block any attempt to connect to the master
-server at their discretion. Access to services provided by the project are
-considered to be a privilege, not a right.
+The Red Eclipse Team provides the play.redeclipse.net master server for the benefit of the Red Eclipse Community. We impose a general set of guidelines for any server/user which connects to the play.redeclipse.net master server. The team reserves the right to block any attempt to connect to the master server at their discretion. Access to services provided by the project are considered to be a privilege, not a right.
 
-These guidelines are imposed to ensure the integrity of both the Red Eclipse
-game, and its community. If you do not agree to these terms, you should not
-connect to the play.redeclipse.net master server, or any servers which are
-connected to it. These guidelines are not designed to limit your opinion or
-freedoms granted to you by the open source licenses employed by the project,
-nor do they cover usage of the game in either offline play or on servers
-which are not connected to the Red Eclipse master.
+These guidelines are imposed to ensure the integrity of both the Red Eclipse game, and its community. If you do not agree to these terms, you should not connect to the play.redeclipse.net master server, or any servers which are connected to it. These guidelines are not designed to limit your opinion or freedoms granted to you by the open source licenses employed by the project, nor do they cover usage of the game in either offline play or on servers which are not connected to the Red Eclipse master.
 
-If you have questions or comments regarding these guidelines please contact
-the Red Eclipse Team. Any person seeking to modify their game or server for
-use on the master server should first seek permission from the Red Eclipse
-Team, each modification must be approved and will be done on a case-by-case
-basis.
+If you have questions or comments regarding these guidelines please contact the Red Eclipse Team. Any person seeking to modify their game or server for use on the master server should first seek permission from the Red Eclipse Team, each modification must be approved and will be done on a case-by-case basis.
 
 === Guidelines for Servers ===
 
@@ -30,7 +15,6 @@ basis.
 ** Giving one player double the health of other players permanently is not permitted.
 
 * If the gameplay of the server is modified substantially this must be indicated clearly, preferably through the use of "servermotd".
-** If you wish to disable one or more weapons on the server, use the '''sv_''<weapon>''modes''' or '''sv_''<weapon>''muts''' variables. Letting players wield a weapon, but changing variables so that weapon doesn't actually work (such as by setting its damage output to 0), is not allowed.
 
 * If the source code of the server is modified substantially you must contact the Red Eclipse Team to check that the changes are permitted.
 
@@ -70,15 +54,6 @@ basis.
 
 * Failure by a moderator to follow or uphold the rules may result in their access being immediately revoked, without warning.
 
-=== Attribution ===
+== Attribution ==
 
-This text is Copyright (C) 2011-2014, the Red Eclipse Team
-and is available under a Creative Commons Attribution-ShareAlike 3.0 Unported
-License:
-
-http://creativecommons.org/licenses/by-sa/3.0/
-
-
-This text was automatically generated from guidelines.txt
-Please edit only that file and regenerate this wiki text via:
- make guidelines-wiki
+This text is Copyright (C) 2011-2015, the Red Eclipse Team and is available under a Creative Commons Attribution-ShareAlike 3.0 Unported License <http://creativecommons.org/licenses/by-sa/3.0/>
