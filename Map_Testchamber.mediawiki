@@ -1,0 +1,11 @@
+{{Racemap
+|mapname=Testchamber
+|author=Quinton Reeves
+|difficulty=beginner friendly
+|checkpoints=7
+|laptime=17-30s
+|description = Test chamber is one of the earliest maps of Red Eclipse and a true all-time-favorite. With plenty of checkpoints, this is a great race map not only for beginners. 
+==Tips==
+* For a traditional testchamber experience, use the endurance mutator.
+* Without said mutator, the pace can get very fast, which gives experienced runners an even bigger advantage.
+}}
