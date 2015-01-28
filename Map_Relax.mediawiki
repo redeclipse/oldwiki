@@ -1,4 +1,5 @@
 {{Racemap
+|mapname=Relax
 |author=Bonifarz
 |difficulty=very easy
 |checkpoints=none
