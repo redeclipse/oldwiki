@@ -32,3 +32,42 @@ You also must be far enough away from the goal before attempting a shot!
 |One team spawns with the ball at their goal while all others try to prevent the
 team from scoring at another goal. Afer a set time, the roles are switched.
 |}
+
+==bomber maps==
+<gallery>
+file:Affluence.png |[[Map_Affluence|Affluence]]
+file:Ares.png |[[Map_Ares|Ares]]
+file:Battlefield.png |[[Map_Battlefield|Battlefield]]
+file:Canals.png |[[Map_Canals|Canals]]
+file:Canyon.png |[[Map_Canyon|Canyon]]
+file:Cargo.png |[[Map_Cargo|Cargo]]
+file:Center.png |[[Map_Center|Center]]
+file:Conflict.png |[[Map_Conflict|Conflict]]
+file:Condensation.png |[[Map_Condensation|Condensation]]
+file:Convolution.png |[[Map_Convolution|Convolution]]
+file:Darkness.png |[[Map_Darkness|Darkness]]
+file:Deathtrap.png |[[Map_Deathtrap|Deathtrap]]
+file:Deli.png |[[Map_Deli|Deli]]
+file:Depot.png |[[Map_Depot|Depot]]
+file:Dropzone.png |[[Map_Dropzone|Dropzone]]
+file:Dutility.png |[[Map_Dutility|Dutility]]
+file:Echo.png |[[Map_Echo|Echo]]
+file:Enyo.png |[[Map_Enyo|Enyo]]
+file:Erosion.png |[[Map_Erosion|Erosion]]
+file:Fortitude.png |[[Map_Fortitude|Fortitude]]
+file:Futuresport.png |[[Map_Futuresport|Futuresport]]
+file:Linear.png |[[Map_Linear|Linear]]
+file:Mist.png |[[Map_Mist|Mist]]
+file:Nova.png |[[Map_Nova|Nova]]
+file:Octavus.png |[[Map_Octavus|Octavus]]
+file:Pumpstation.png |[[Map_Pumpstation|Pumpstation]]
+file:Rooftop.png |[[Map_Rooftop|Rooftop]]
+file:Stone.png |[[Map_Stone|Stone]]
+file:Suspended.png |[[Map_Suspended|Suspended]]
+file:Tower.png |[[Map_Tower|Tower]]
+file:Tribal.png |[[Map_Tribal|Tribal]]
+file:Vault.png |[[Map_Vault|Vault]]
+file:Venus.png |[[Map_Venus|Venus]]
+file:Warp.png |[[Map_Warp|Warp]]
+file:Wet.png |[[Map_Wet|Wet]]
+</gallery>
