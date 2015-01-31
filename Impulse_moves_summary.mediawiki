@@ -17,6 +17,6 @@ and refill the meter more quickly. You can do at most 6 parkour moves before you
 * ''Wall Kick'': Jump at a wall and press '''Q''' to bounce off it. Look either up or down to adjust the height of your momentum.
 * ''Wall Climb'': Jump at a wall, look directly up or down vertically and hold '''Q'''. If you bounce off instead, you are facing the wall instead of a vertical angle.
 * ''Dash'': Double-tap a movement key quickly to perform an evasive maneuver (also works side-to-side for a strafing effect, or even backwards).
-* ''Slide'': Hold '''Shift''' to crouch and then do a ''Dash''. Alternately, jump forward and press '''Shift''' when you land (or whenever you hit solid ground after being airborne).
+* ''Slide'': Hold '''Shift''' to crouch and then do a ''Dash''. Deals damage and propels the opponent upwards. Alternately, jump forward and press '''Shift''' when you land (or whenever you hit solid ground after being airborne).
 * ''Launch'': During a ''Slide'', look directly up (important) and press '''Space'''. Reaching the full potential height of a ''Launch'' requires very precise timing. You cannot ''Boost'' after a ''Launch'', unless you do a ''Wall Kick'' or ''Vault''.
 * ''Multi Slide'': During a ''Slide'', look down and press '''Space'''. This allows you to chain ''Slides'' and build momentum, that can be used to ''Launch'' even higher or move across flat terrain very quickly.
