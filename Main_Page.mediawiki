@@ -22,7 +22,7 @@ __NOTOC__ __NOEDITSECTION__
 <tr>
 <td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
 == [[File:Team.png|45px]] Community ==
-* [[Fundraiser_2014|2014 Fundraiser]]
+* [[Fundraiser_2015|2015 Fundraiser]]
 * [[IRC|Chat with the community]]
 * [[Contributors|Project contributors]]
 * [[Copyright_and_Licensing_for_Contributions|Copyright and Licensing for Contributions]]
