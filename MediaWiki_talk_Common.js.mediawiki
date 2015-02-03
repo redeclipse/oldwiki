@@ -1,0 +1,1 @@
+I don't get what the function you put here is good for, but the corresponding collection of scripts on wikipedia (https://en.wikipedia.org/wiki/MediaWiki:Common.js) provides some useful features, such as collapsible tables, which can be nice for navigation bar templates at the bottom of related pages.
