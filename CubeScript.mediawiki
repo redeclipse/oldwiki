@@ -1,20 +1,27 @@
-CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engine]. In Red Eclipse, it can be used to
+CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engine]. 
+
+In Red Eclipse, it can be used to
 
 * create your own graphical user interfaces (guis)
-* customize and modify any of the [http://svn.icculus.org/redeclipse/data/config in-game menus]
+* customize and modify any of the [http://svn.icculus.org/redeclipse/data/config/menus in-game menus]
 * design scripted events in your maps using [[Entity_Linking#Scriptable_Events|trigger]] entities
 * run any sequence of [[Vars_and_Commands_Tables|commands or variable settings]] you can enter in the [[console]]
 * evidently, this includes [[Variables|variable mods]], such as a set of weapons with modified characteristics.
+ 
 
 ==Running scripts==
 
 Scripts are typically saved as '''cfg''' files in the [[Game_Settings#User_Content|user content directory]]. Then the scripts can be executed using
    /exec <scriptname>
 
+Notes:
 
-You can also save modified versions of the games config files in the corresponding subdirectory of your [[Game_Settings#User_Content|user content]]. For example, if you want to modify one of the [
-http://svn.icculus.org/redeclipse/data/config in-game menus], you could save the modified file in 
-   <user>/data/config/
+*If [[Vars_and_Commands_Tables|commands or variables]] are entered via the [[console]], each line usually begins with a slash (/). In script files, there are no such leading spaces.
+
+*Scripts can be executed automatically using [[Game_Settings#autoexec.cfg|autoexec.cfg]].
+
+*You can also save modified versions of the games config files in the corresponding subdirectory of your [[Game_Settings#User_Content|user content]]. For example, if you want to modify the server menu [http://svn.icculus.org/redeclipse/data/config/servers.cfg /redeclipse/data/config/menus/servers.cfg], you could save the modified file in 
+   <user>/data/config/menus/servers.cfg
 
 ==Creating guis==
 
