@@ -1,0 +1,29 @@
+CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engine]. In Red Eclipse, it can be used to
+
+* create your own graphical user interfaces (guis)
+* customize and modify any of the [http://svn.icculus.org/redeclipse/data/config in-game menus]
+* design scripted events in your maps using [[Entity_Linking#Scriptable_Events|trigger]] entities
+* run any sequence of [[Vars_and_Commands_Tables|commands or variable settings]] you can enter in the [[console]]
+* evidently, this includes [[Variables|variable mods]], such as a set of weapons with modified characteristics.
+
+==Running scripts==
+
+Scripts are typically saved as '''cfg''' files in the [[Game_Settings#User_Content|user content directory]]. Then the scripts can be executed using
+   /exec <scriptname>
+
+
+You can also save modified versions of the games config files in the corresponding subdirectory of your [[Game_Settings#User_Content|user content]]. For example, if you want to modify one of the [
+http://svn.icculus.org/redeclipse/data/config in-game menus], you could save the modified file in 
+   <user>/data/config/
+
+==Creating guis==
+
+Graphical user interfaces in Red Eclipse can be created with various gui* commands. Enter gui in in the [[console]] and hit the Tab key to cycle through auto-completed commands. The in-game documentation will give you further usage instructions. Some gui commands can be rather complicated to use. Often, it is best to just look at an example config file. Note that all of the [http://svn.icculus.org/redeclipse/data/config in-game menus] are written in cubescript, so there are plenty of advanced examples to explore.
+
+==Cube script tutorials==
+
+Here is a list of external tutorial resources. 
+* http://sauerbraten.org/docs/config.html#cubescript<br>
+* https://github.com/Hirato/lamiae/wiki/CubeScript<br>
+* http://quadropolis.us/node/2336<br>
+* http://www.sandboxgamemaker.com/wiki/index.php?title=Cubescript
