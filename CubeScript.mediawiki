@@ -16,7 +16,7 @@ Scripts are typically saved as '''cfg''' files in the [[Game_Settings#User_Conte
 
 Notes:
 
-*If [[Vars_and_Commands_Tables|commands or variables]] are entered via the [[console]], each line usually begins with a slash (/). In script files, there are no such leading spaces.
+*If [[Vars_and_Commands_Tables|commands or variables]] are entered via the [[console]], each line usually begins with a slash (/). In script files, there are no such leading slashes.
 
 *Scripts can be executed automatically using [[Game_Settings#autoexec.cfg|autoexec.cfg]].
 
