@@ -30,7 +30,7 @@ basis.
 ** Giving one player double the health of other players permanently is not permitted.
 
 * If the gameplay of the server is modified substantially this must be indicated clearly, preferably through the use of "servermotd".
-** If you wish to disable one or more weapons on the server, use the "sv_<weapon>modes" or "sv_<weapon>muts" variables. Letting players wield a weapon, but changing variables so that weapon doesn't actually work (such as by setting its damage output to 0), is not allowed.
+** If you wish to disable one or more weapons on the server, use the "sv_<weapon>disabled" variable. Letting players wield a weapon, but changing variables so that weapon doesn't actually work (such as by setting its damage output to 0), is not allowed.
 
 * If the source code of the server is modified substantially you must contact the Red Eclipse Team to check that the changes are permitted.
 
