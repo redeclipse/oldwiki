@@ -20,9 +20,6 @@ Notes:
 
 *Scripts can be executed automatically using [[Game_Settings#autoexec.cfg|autoexec.cfg]].
 
-*You can also save modified versions of the games config files in the corresponding subdirectory of your [[Game_Settings#User_Content|user content]]. For example, if you want to modify the server menu [http://svn.icculus.org/redeclipse/data/config/servers.cfg /redeclipse/data/config/menus/servers.cfg], you could save the modified file in 
-   <user>/data/config/menus/servers.cfg
-
 ==Creating guis==
 
 Graphical user interfaces in Red Eclipse can be created with various gui* commands. Enter gui in in the [[console]] and hit the Tab key to cycle through auto-completed commands. The in-game documentation will give you further usage instructions. Some gui commands can be rather complicated to use. Often, it is best to just look at an example config file. Note that all of the [http://svn.icculus.org/redeclipse/data/config in-game menus] are written in cubescript, so there are plenty of advanced examples to explore.
