@@ -1,11 +1,9 @@
-{{Proposed deletion|reason=Obsolete. Auto-generated variables pages are the newer, better way.}}
 
-*** THIS IS A WORK IN PROGRESS, PLEASE IGNORE THIS PAGE
+In Red Eclipse, all hud elements can be customized via client side variables.
 
-*** Index of Terms can go here (Inventory, Events, etc.)
+The following list gives only some examples of the many variables related to the user interface.
 
-
-== "C" Vars ==
+'''NOTE''': This text was taken from an old variables page and should be verified and updated before linking it from other articles.
 
 <p style="font-size:125%"><b>chatconsize</b> <em>L</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -25,8 +23,7 @@
     </tr>
 </table>
 
- Sets the amount of lines to show in the Chat Console. <b>This does NOT include Overflow lines.</b>
-
+Sets the amount of lines to show in the Chat Console. <b>This does NOT include Overflow lines.</b>
 
 <p style="font-size:125%"><b>chatconblend</b> <em>O</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -46,8 +43,7 @@
     </tr>
 </table>
 
- Sets the opacity of the Chat Console.
-
+Sets the opacity of the Chat Console.
 
 <p style="font-size:125%"><b>conblend</b> <em>O</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -67,8 +63,7 @@
     </tr>
 </table>
 
- Sets the opacity of the Console. <b>This does NOT include Obituaries and Affinity Events!</b> (Flag, Bomb)
-
+Sets the opacity of the Console. <b>This does NOT include Obituaries and Affinity Events!</b> (Flag, Bomb)
 
 <p style="font-size:125%"><b>concenter</b> <em>B</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -93,8 +88,7 @@
     </tr>
 </table>
 
- Toggles alignment of Console.
-
+Toggles alignment of Console.
 
 <p style="font-size:125%"><b>consize</b> <em>L</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -114,10 +108,7 @@
     </tr>
 </table>
 
- Sets the amount of lines to show in the Console. <b>This does NOT include Overflow lines.</b>
-
-
-== "E" Vars ==
+Sets the amount of lines to show in the Console. <b>This does NOT include Overflow lines.</b>
 
 <p style="font-size:125%"><b>eventblend</b> <em>O</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -137,8 +128,7 @@
     </tr>
 </table>
 
- Sets the opacity of Event Icons. (First Blood, 2x, 3x, Headshot, etc.)
-
+Sets the opacity of Event Icons. (First Blood, 2x, 3x, Headshot, etc.)
 
 <p style="font-size:125%"><b>eventiconfade</b> <em>T</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -158,8 +148,7 @@
     </tr>
 </table>
 
- Sets how long Event Icons should stay on screen.
-
+Sets how long Event Icons should stay on screen.
 
 <p style="font-size:125%"><b>eventoffset</b> <em>V</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -179,8 +168,7 @@
     </tr>
 </table>
 
- Sets the offset for the Event Icons in your HUD. Negative values move it downward, positive values move it upward.
-
+Sets the offset for the Event Icons in your HUD. Negative values move it downward, positive values move it upward.
 
 <p style="font-size:125%"><b>eventscale</b> <em>S</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -200,10 +188,7 @@
     </tr>
 </table>
 
- Sets the scale of Event Icons that appear in your HUD
-
-
-== "F" Vars ==
+Sets the scale of Event Icons that appear in your HUD
 
 <p style="font-size:125%"><b>fullconblend</b> <em>O</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -223,10 +208,7 @@
     </tr>
 </table>
 
- Sets the opacity of the "Full" Console. This is when the Console is open, and <b>includes Obituaries and Affinity Events.</b> (Flag, Bomb) Excluding those two elements, <b>conblend</b> takes precedence over this variable, yet only affects everything else.
-
-
-== "H" Vars ==
+Sets the opacity of the "Full" Console. This is when the Console is open, and <b>includes Obituaries and Affinity Events.</b> (Flag, Bomb) Excluding those two elements, <b>conblend</b> takes precedence over this variable, yet only affects everything else.
 
 <p style="font-size:125%"><b>hudblend</b> <em>O</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -246,7 +228,7 @@
     </tr>
 </table>
 
- Sets the opacity of the entire HUD as a whole. This includes both Consoles, mouse pointer, and Inventory.
+Sets the opacity of the entire HUD as a whole. This includes both Consoles, mouse pointer, and Inventory.
 
 
 <p style="font-size:125%"><b>hudsize</b> <em>S</em></p>
@@ -267,10 +249,7 @@
     </tr>
 </table>
 
- Sets the size of the entire HUD as a whole. This includes both Consoles, Menus, Inventory, etc.
-
-
-== "I" Vars ==
+Sets the size of the entire HUD as a whole. This includes both Consoles, Menus, Inventory, etc.
 
 <p style="font-size:125%">inventoryblend<b></b> <em>O</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -290,8 +269,7 @@
     </tr>
 </table>
 
- Sets the opacity of the Inventory.
-
+Sets the opacity of the Inventory.
 
 <p style="font-size:125%"><b>inventorycolour</b> <em>S</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -317,8 +295,7 @@
     </tr>
 </table>
 
- Toggles the color of the Weapon icons in the Weapon Bar.
-
+Toggles the color of the Weapon icons in the Weapon Bar.
 
 <p style="font-size:125%"><b>inventoryglow</b> <em>S</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -338,8 +315,7 @@
     </tr>
 </table>
 
- Sets the size of the "glow" in the Inventory. The "glow" is the splatter/explosion image behind Inventory items. 
-
+Sets the size of the "glow" in the Inventory. The "glow" is the splatter/explosion image behind Inventory items. 
 
 <p style="font-size:125%"><b>inventoryglowblend</b> <em>O</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -359,8 +335,7 @@
     </tr>
 </table>
 
- Sets the opacity of the "glow" in the Inventory. 
-
+Sets the opacity of the "glow" in the Inventory. 
 
 <p style="font-size:125%"><b>inventoryimpulse</b> <em>S</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -386,8 +361,7 @@
     </tr>
 </table>
 
- Sets how the Impulse Meter is displayed.
-
+Sets how the Impulse Meter is displayed.
 
 <p style="font-size:125%"><b>inventoryimpulseskew</b> <em>V</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -407,8 +381,7 @@
     </tr>
 </table>
 
- Sets the size of the ring of the Impulse Meter.
-
+Sets the size of the ring of the Impulse Meter.
 
 <p style="font-size:125%"><b>inventorysize</b> <em>S</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -428,8 +401,7 @@
     </tr>
 </table>
 
- Sets the size of the Inventory as a whole. 
-
+Sets the size of the Inventory as a whole. 
 
 <p style="font-size:125%"><b>inventorytone</b> <em>S</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -457,8 +429,7 @@
     </tr>
 </table>
 
- Sets the tone of various Inventory elements.
-
+Sets the tone of various Inventory elements.
 
 <p style="font-size:125%"><b>inventoryweapids</b> <em>S</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -484,10 +455,7 @@
     </tr>
 </table>
 
- Sets how to display the slot number of the Weapons in the Weapon Bar.
-
-
-== "N" Vars ==
+Sets how to display the slot number of the Weapons in the Weapon Bar.
 
 <p style="font-size:125%"><b>noticescale</b> <em>S</em></p>
 <table width="75%" border="1px" cellspacing="3" cellpadding="3">
@@ -507,4 +475,4 @@
     </tr>
 </table>
 
- Sets the size of the Notices.
+Sets the size of the Notices.
