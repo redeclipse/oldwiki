@@ -3,16 +3,16 @@ CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engin
 In Red Eclipse, it can be used to
 
 * create your own graphical user interfaces (guis)
-* customize and modify any of the [http://svn.icculus.org/redeclipse/data/config/menus in-game menus]
+* customize and modify any of the [http://svn.icculus.org/redeclipse/config/menus in-game menus]
 * design scripted events in your maps using [[Entity_Linking#Scriptable_Events|trigger]] entities
 * run any sequence of [[Vars_and_Commands_Tables|commands or variable settings]] you can enter in the [[console]]
 * evidently, this includes [[Variables|variable mods]], such as a set of weapons with modified characteristics.
- 
+
 
 ==Running scripts==
 
-Scripts are typically saved as '''cfg''' files in the [[Game_Settings#User_Content|user content directory]]. Then the scripts can be executed using
-   /exec <scriptname>
+Scripts are typically saved as '''cfg''' files in the [[Game_Settings#User_Content|user content directory]]. For example, the script ''myvars.cfg'' can be executed using
+   /exec myvars.cfg
 
 Notes:
 
@@ -20,14 +20,147 @@ Notes:
 
 *Scripts can be executed automatically using [[Game_Settings#autoexec.cfg|autoexec.cfg]].
 
-==Creating guis==
 
-Graphical user interfaces in Red Eclipse can be created with various gui* commands. Enter gui in in the [[console]] and hit the Tab key to cycle through auto-completed commands. The in-game documentation will give you further usage instructions. Some gui commands can be rather complicated to use. Often, it is best to just look at an example config file. Note that all of the [http://svn.icculus.org/redeclipse/data/config in-game menus] are written in cubescript, so there are plenty of advanced examples to explore.
+==CubeScript tutorials==
 
-==Cube script tutorials==
+Here is a list of external resources. These tutorials are useful to learn more about (advanced) scripting with CubeScript.
 
-Here is a list of external tutorial resources. 
 * http://sauerbraten.org/docs/config.html#cubescript<br>
 * https://github.com/Hirato/lamiae/wiki/CubeScript<br>
 * http://quadropolis.us/node/2336<br>
 * http://www.sandboxgamemaker.com/wiki/index.php?title=Cubescript
+
+
+==Creating menus==
+
+In Red Eclipse menus can be created with various gui elements. To see how they work, one can just look at an example config file. Note that all of the [http://svn.icculus.org/redeclipse/config/menus in-game menus] are written in cubescript, so there are plenty of advanced examples.
+
+The following list describes most of the available gui elements and commands, which are not covered by the external tutorials linked above.
+
+
+===newgui=== 
+creates a new menu;
+
+Arguments:
+*<name> refers to the menu's variable name,
+*<content> refers to the actual content of the gui itself,
+*[<initscript>] is optional, and is run before the menu is created (used with ^"if (= $guipasses 0)^" to initialize variables for the menu)
+
+===guitab=== 
+creates a new tab for the menu
+
+===guilist=== 
+adds <content> to a list. Guilists can be nested to arrange gui elements horizontally and vertically.
+
+===guispring=== 
+adds weight to a menu for pushing elements more/less to one side;
+
+Arguments:
+*[<value>] strength of the spring, defaults to 1;
+example: guistrut 45 1; guilist [ guispring ; guitext ^"centered^"; guispring ]
+
+===guistrut=== 
+adds spacing to a menu;
+
+Arguments:
+*if [<bool>] is 1, it wraps the guistrut in a guilist (adds spacing in the alternate direction),
+*^"guistrut 5 1^" is the same as ^"guilist [ guistrut 5 ]^"
+
+===guibar=== 
+draws either a vertical or a horizontal line, depending on the nesting of guilist
+
+===guitext=== 
+creates a text element;
+
+Arguments:
+*<text> can be a raw string or a variable,
+*[<icon>] is the path to an image, example: ^"textures/bomb^",
+*[<colour>] is a hexadecimal colour code, example: 0xFF0000, 
+* [<iconcolour>] acts on the <icon> just like <colour> acts on the <text>
+
+===guibutton=== 
+creates a button;
+
+Arguments:
+*<name> refers to the button's variable name,
+*<action> defines what the button does,
+*[<alt-act>] defines what the button does when right-clicked,
+*[<icon>] is the path to an image, example: ^"textures/bomb^",
+*[<colour>] is a hexadecimal colour code, example: 0xFF0000
+
+===guiimage=== 
+creates a clickable image;
+
+Arguments:
+*<path> is the path to an image, example: ^"textures/bomb^",
+*[<action>] defines what clicking the image does,
+*[<scale>] defines the scale of the image,
+*[<overlaid>] whether or not the image is overlaid with guioverlaytex (true/false),
+*[<alt-path>] alternate image to use if <path> cannot be loaded,
+*[<alt-act>] defines what the image does when right clicked,
+*[<colour>] is a hexadecimal colour code, example: 0xFF0000
+
+===guicheckbox=== 
+creates a checkbox;
+
+Arguments:
+*<name> a text string shown to the right of the checkbox,
+*<varible> refers to the alias/var that the checkbox controls,
+*[<on>] is the value given to <variable> when the checkbox is on, and vice-versa for [<off>], if these are not specified, 1/0 is assumed,
+*[<onchange>] is the action taken whenever the checkbox is toggled,
+*[<colour>] is a hexadecimal colour code, example: 0xFF0000
+
+===guiradio=== 
+creates a radio button;
+
+Arguments:
+*<name> a text string shown to the right of the radio button,
+*<var> refers to the alias/var that the radio button controls,
+*<value> is the value given to <var> when selected,
+*[<onchange>] is the action taken whenever the button is toggled,
+*[<colour>] is a hexadecimal colour code, example: 0xFF0000
+
+===guifield=== 
+creates a text field;
+
+Arguments:
+*<var> refers to the alias/variable the guifield controls,
+*<maxlength> defines the maximum number of characters/length of the field, negative values allow the field to expand downward as needed,
+*[<onchange>] is the action taken when the guifield value changes,
+*[<colour>] is a hexadecimal colour code, example: 0xFF0000
+
+===guikeyfield=== 
+creates a key field (each key being a separate element);
+
+Arguments:
+*<var> refers to the alias/variable the guikeyfield controls,
+*<maxlength> defines the maximum number of characters/length of the field, negative values allow the field to expand downward as needed,
+*[<onchangge>] is the action taken when the guikeyfield value changes,
+*[<colour>] is a hexadecimal colour code example: 0xFF0000
+
+===guibitfield=== 
+creates a checkbox for the bitwise and of <var> and <bit>;
+
+Arguments:
+*<name> a text string shown to the right of the checkbox,
+*<varible> refers to an alias/var that holds bitwise information,
+*<bit> is the bit of <var> that the checkbox controls, given as a power of 2,
+*[<onchange>] is the action taken whenever the checkbox is toggled,
+*[<colour>] is a hexadecimal colour code, example: 0xFF0000.
+example: guibitfield ^"allow votes for trial games^" modelockfilter $modebitrace
+
+===cleargui===
+Closes all open menus; If an integer argument is given, it goes back steps in the stack of open menus.
+
+===guibackground=== 
+creates a colored background;
+
+Arguments:
+*<colour> is in hexadecimal, example: 0xFF0000,
+*[<levels>] specifies how many guilist levels to go back
+
+===guifont=== 
+sets the text font to be used in the block, see data/fonts for options
+
+===guiheader=== 
+sets the header title of the menu, replacing the first argument of ''newgui'' in the title bar.
