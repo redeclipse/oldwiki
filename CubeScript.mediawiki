@@ -56,8 +56,8 @@ adds <content> to a list. Guilists can be nested to arrange gui elements horizon
 adds weight to a menu for pushing elements more/less to one side;
 
 Arguments:
-*[<value>] strength of the spring, defaults to 1;
-example: guistrut 45 1; guilist [ guispring ; guitext ^"centered^"; guispring ]
+*[<value>] optional weight factor;
+example: guilist [ guispring ; guitext ^"centered^"; guispring ]
 
 ===guistrut=== 
 adds spacing to a menu;
@@ -149,9 +149,6 @@ Arguments:
 *[<colour>] is a hexadecimal colour code, example: 0xFF0000.
 example: guibitfield ^"allow votes for trial games^" modelockfilter $modebitrace
 
-===cleargui===
-Closes all open menus; If an integer argument is given, it goes back steps in the stack of open menus.
-
 ===guibackground=== 
 creates a colored background;
 
@@ -164,3 +161,6 @@ sets the text font to be used in the block, see data/fonts for options
 
 ===guiheader=== 
 sets the header title of the menu, replacing the first argument of ''newgui'' in the title bar.
+
+===cleargui===
+Closes all open menus; If an integer argument is given, it goes back <value> steps in the stack of open menus.
