@@ -1,6 +1,6 @@
 Welcome to the discussion portal! Use this place to discuss the wiki in general for items such as reporting abusive behavior, suggesting major changes to a popular page, etc., so users can collaborate together in making a better wiki.
 
-Simply edit this page to create a new topic (see below).
+Simply edit this page to create a new topic (see how below).
 <div class="mw-collapsible mw-collapsed">
 '''Example usage''':
 <div class="mw-collapsible-content">
