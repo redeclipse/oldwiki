@@ -40,7 +40,7 @@
 * [[Deathmatch_Scoring|Scoring system]]
 * [[Keybinding|How to bind keys]]
 * [[Game_Settings|Settings and Config]]
-* [[User content|Using custom maps]]
+* [[User_Content|Using custom maps]]
 * [[Demo|Demos guide]]
 * ''outdated'' [[Server_List|List of public servers]]
 * [[Vars_and_Commands_Tables|Variables/Commands]] [[Vars_and_Commands_in_SVN|(SVN)]]
