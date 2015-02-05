@@ -28,11 +28,12 @@ Describing the issue (and 'sign' using --~~~~ at the end). --~~~~
 </div>
 </div>
 
-== Example ==
-Hello, this is just a humble example. Please post new issues below this. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
-
 == Migration to github ==
 I realize that we got used to the term SVN-version as a synonym for development version. With the migration to github (see [[how to contribute]] and this [http://redeclipse.net/forum/viewtopic.php?f=4&t=597 forum-topic]), SVN-version seems not quite correct. Should we translate that as dev-version, or maybe even git-version? The latter sounds a bit strange.--[[User:Bonifarz|Bonifarz]] ([[User talk:Bonifarz|talk]]) 13:54, 5 February 2015 (EST)
+: Dev-version sounds good to me, bit long-winded but no one's going to mind I'd of thought. Luckily it's not going to be much of an issue after the 1.5 release so we shouldn't really sweat on it. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 14:37, 5 February 2015 (EST)
 
 == About this page ==
 Previously [http://redeclipse.net/forum/viewtopic.php?f=4&t=278 this] forum topic was used to collaborate, but my hope is to self-contain the happenings of the wiki from the forums, so we can talk more about the wiki and not spam the forums, in the cause to make a worthy wiki to help new players in-game and it's functions (and so their experience, leading to the the games overall exposure). What do you guys think about this? --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:13, 5 February 2015 (EST)
+
+== Example ==
+Hello, this is just a humble example. Please post new issues above this. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
