@@ -28,6 +28,10 @@ Describing the issue (and 'sign' using --~~~~ at the end). --~~~~
 </nowiki>
 </div>
 </div>
+
+== New homepage ==
+What do y'all think about it? Feel free to play around with it. I'm not quite satisfied with it yet but can't be asked to spruce the page up right now. One thing I definitely want to get back to is the icons beside all the headers- right now they feel inconsistent. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 15:17, 5 February 2015 (EST)
+
 == Migration to github ==
 I realize that we got used to the term SVN-version as a synonym for development version. With the migration to github (see [[how to contribute]] and this [http://redeclipse.net/forum/viewtopic.php?f=4&t=597 forum-topic]), SVN-version seems not quite correct. Should we translate that as dev-version, or maybe even git-version? The latter sounds a bit strange.--[[User:Bonifarz|Bonifarz]] ([[User talk:Bonifarz|talk]]) 13:54, 5 February 2015 (EST)
 : Dev-version sounds good to me, bit long-winded but no one's going to mind I'd of thought. Luckily it's not going to be much of an issue after the 1.5 release so we shouldn't really sweat on it. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 14:37, 5 February 2015 (EST)
