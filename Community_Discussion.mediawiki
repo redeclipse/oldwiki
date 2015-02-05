@@ -1,1 +1,36 @@
-Use this page to discuss the project (temp)
+Welcome to the discussion portal! Use this place to discuss the wiki in general for items such as reporting abusive behavior, suggesting major changes to a popular page, etc., so users can collaborate together in making a better wiki.
+
+Previously [http://redeclipse.net/forum/viewtopic.php?f=4&t=278 this] forum topic was used, but the hope is to self-contain the happenings on the wiki from the forums.
+
+To use
+<div class="mw-collapsible mw-collapsed">
+Example usage:
+<div class="mw-collapsible-content">
+== Topic point/Summary ==
+Describing the issue (and 'sign' using <nowiki>--~~~~</nowiki> at the end). --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
+: Type a colon (:) before entering a reply and sign. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
+:: Type two colons ("::") to reply to a reply. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
+: When there's already a reply and you want to make a different point just use one colon to start a different reply tree --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
+: And --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
+:: so --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
+::: on --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
+
+
+'''Code'''
+ <nowiki>
+== Topic point/Summary ==
+Describing the issue (and 'sign' using --~~~~ at the end). --~~~~
+: Type a colon (:) before entering a reply and sign. --~~~~
+:: Type two colons ("::") to reply to a reply. --~~~~
+: When there's already a reply and you want to make a different point just use one colon to start a different reply tree --~~~~
+: And --~~~~
+:: so --~~~~
+::: on --~~~~
+</nowiki>
+</div>
+</div>
+
+== Discussion ==
+
+== Example ==
+Hello, this is just a humble example. Please post new issues below this. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 09:06, 5 February 2015 (EST)
