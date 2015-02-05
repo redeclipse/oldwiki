@@ -1,59 +1,20 @@
 == The game ==
 
-== What is Red Eclipse? ==
+=== What is Red Eclipse? ===
 [http://www.redeclipse.net/ Red Eclipse] is a Red Eclipse is an open-source arena shooter, created from the Cube2 engine, similar to games in the [http://en.wikipedia.org/wiki/Unreal_Tournament Unreal Tournament] series. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[Weapons]], Red Eclipse provides fast paced and accessible gameplay. [[What is Red Eclipse#About|here]].
 
-
-
-[[File:RE-icon-16x16.png]] '''''What makes Red Eclipse unique?'''''
-<ul>
-<li>Red Eclipse is different from other games in its gameplay formula, which hopes to shift the focus of skill from controlling a map's items to strictly coordination in combat. It does this in several ways:
-
-<ul>
-<li>''Varied movement''
-{| style="font-size:95%"
-| Through the [[Impulse_moves|Impulse]] system, the player is allowed a variety of moves to approach any situation.
-|}
-
-<li>''Equally-balanced weapons''
-{| style="font-size:95%"
-| All [[Game::weapons|weapons]] are balanced in hopes of standing 1:1 against any other weapon in combat, in contrast with other hierarchical systems, in which certain weapons are preferred over others.
-|}
-
-<li>''Unlimited ammunition and regenerative health''
-{| style="font-size:95%"
-| Eliminating these as factors allows for more equal combat situations.
-|}
-
-<li>''No power-ups or items''
-{| style="font-size:95%"
-|Due to the above no items are needed - time taken to regain health and load ammo is the limiting factor rather than lacking in health packs and ammunition on a map.
-|}
-</ul>
-
-<li>Red Eclipse also has a built-in, real-time, in-game map editor, which has a low learning curve and can even be used cooperatively online. See the [[Editing Info]] page for more.
-
-
-<li>The game also has an extensive list of changeable [[Game::vars|gameplay variables]] for the weapons (model and HUD color, name, damage, projectile customization, physics) and environment (gravity, player movement, Impulse customization), allowing for custom modes and weapons.
-
-
-<li>Lastly, Red Eclipse is a totally [http://www.gnu.org/philosophy/free-sw.html Free] project, and is developed by and for the community at no cost to the end user.
-</ul>
+=== What operating systems are supported? ===
+Red Eclipse can be played under Windows XP/Vista/7, OS X, GNU/Linux and BSD.
 
 
 
-[[File:RE-icon-16x16.png]] '''''What operating systems are supported?'''''
-<p>Red Eclipse can be played under Windows XP/Vista/7, OS X, GNU/Linux and BSD.</p>
+=== How long has the game been in development? ===
+Red Eclipse was branched from the now-defunct [https://sourceforge.net/projects/bloodfrontier/ Blood Frontier] project. Blood Frontier development started in 2007, and Red Eclipse was formed Spring of 2011. Red Eclipse 1.0 Ides Edition debuted on [http://en.wikipedia.org/wiki/Ides_of_march March 15], 2011. [[What is Red Eclipse#History|See history]].
 
 
 
-[[File:RE-icon-16x16.png]] '''''How long has the game been in development?'''''
-<p>Red Eclipse was branched from the now-defunct [https://sourceforge.net/projects/bloodfrontier/ Blood Frontier] project. Blood Frontier development started in 2007, and Red Eclipse was formed Spring of 2011. Red Eclipse 1.0 Ides Edition debuted on [http://en.wikipedia.org/wiki/Ides_of_march March 15], 2011.</p>
-
-
-
-[[File:RE-icon-16x16.png]] '''''Where can I get the game?'''''
-<p>Red Eclipse is available for download at no cost.</p>
+=== can I get the game? ===
+Red Eclipse is available for download at no cost.
 * The [http://www.redeclipse.net/download latest release] can be downloaded for all operating systems on [https://sourceforge.net/ SourceForge].
 * GNU/Linux packages can also be found on:
 ** [[How to install#Debian|Debian]]
@@ -65,24 +26,22 @@
 ** [ftp://ftp.openbsd.com/ports/games/redeclipse/ OpenBSD]
 * Or download the developmental [http://www.redeclipse.net/devel SVN version], which is hosted by [http://icculus.org/ icculus].
 
-
-
-[[File:RE-icon-16x16.png]] '''''What are my rights?'''''
-<p>Red Eclipse is a [http://www.gnu.org/philosophy/free-sw.html Free] and [http://www.opensource.org/ Open Source] game.</p> 
+=== What are my rights? ===
+Red Eclipse is a [http://www.gnu.org/philosophy/free-sw.html Free] and [http://www.opensource.org/ Open Source] game. 
 * Red Eclipse itself and the Cube Engine 2 are under the [http://en.wikipedia.org/wiki/Zlib_License zlib License].
 * All content in the game is Free, and no more strict than the Creative Commons [http://creativecommons.org/licenses/by-sa/3.0/ CC-BY-SA] license.
 * For more details, see [http://svn.icculus.org/*checkout*/redeclipse/doc/license.txt license.txt] and [http://svn.icculus.org/*checkout*/redeclipse/doc/trademark.txt trademark.txt].
 
 
 
-[[File:RE-icon-16x16.png]] '''''What are my rights regarding Game Servers?'''''
+=== What are my rights regarding game servers? === 
 * Anyone may run any number of servers that they wish, and can be listed on the Red Eclipse Master Server, ''however, only if they are in compliance with the guidelines, rules and policies outlined in [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt]''.
 ** Players must also abide by a set of guidelines as well, and are advised to view the '''latter half''' of [http://svn.icculus.org/*checkout*/redeclipse/doc/guidelines.txt guidelines.txt].
 * Any player or server found to not be in compliance with these guidelines are susceptible to denial of access to the Red Eclipse Master Server either temporarily or indefinitely.
 
 
 
-[[File:RE-icon-16x16.png]] '''''Where else can I get help or discuss the game?'''''
-<p>Apart from this wiki, and playing on the game servers, you can:</p>
+=== Where else can I get help or discuss the game? ===
+Apart from this wiki, and playing on the game servers, you can:
 * Participate in the game [http://redeclipse.net/forum forum].
 * Connect to [irc://irc.freenode.net irc.freenode.net] IRC network, and join #redeclipse channel, or use the [http://webchat.freenode.net/?channels=redeclipse webchat page] if you're not familiar with [[IRC]].
