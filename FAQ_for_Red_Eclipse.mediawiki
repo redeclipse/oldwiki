@@ -1,11 +1,7 @@
-[[File:Title-bar-1.png|640px]]
-----
-This page addresses some FAQs. The [[Readme|readme]] is also a recommended read.
+== The game ==
 
-
-
-[[File:RE-icon-16x16.png]] '''''What is Red Eclipse?'''''
-<p>[http://www.redeclipse.net/ Red Eclipse] is a [http://en.wikipedia.org/wiki/Multiplayer multiplayer] [http://en.wikipedia.org/wiki/First-person_shooter first-person shooter], similar to games in the [http://en.wikipedia.org/wiki/Unreal_Tournament Unreal Tournament] series.</p>
+== What is Red Eclipse? ==
+[http://www.redeclipse.net/ Red Eclipse] is a Red Eclipse is an open-source arena shooter, created from the Cube2 engine, similar to games in the [http://en.wikipedia.org/wiki/Unreal_Tournament Unreal Tournament] series. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[Weapons]], Red Eclipse provides fast paced and accessible gameplay. [[What is Red Eclipse#About|here]].
 
 
 
