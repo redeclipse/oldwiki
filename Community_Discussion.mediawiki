@@ -1,3 +1,4 @@
+{{TOC}}
 Welcome to the discussion portal! Use this place to discuss the wiki in general for items such as reporting abusive behavior, suggesting major changes to a popular page, etc., so users can collaborate together in making a better wiki.
 
 Simply edit this page to create a new topic (see how below).
@@ -27,7 +28,6 @@ Describing the issue (and 'sign' using --~~~~ at the end). --~~~~
 </nowiki>
 </div>
 </div>
-
 == Migration to github ==
 I realize that we got used to the term SVN-version as a synonym for development version. With the migration to github (see [[how to contribute]] and this [http://redeclipse.net/forum/viewtopic.php?f=4&t=597 forum-topic]), SVN-version seems not quite correct. Should we translate that as dev-version, or maybe even git-version? The latter sounds a bit strange.--[[User:Bonifarz|Bonifarz]] ([[User talk:Bonifarz|talk]]) 13:54, 5 February 2015 (EST)
 : Dev-version sounds good to me, bit long-winded but no one's going to mind I'd of thought. Luckily it's not going to be much of an issue after the 1.5 release so we shouldn't really sweat on it. --[[User:Honno|Honno]] ([[User talk:Honno|talk]]) 14:37, 5 February 2015 (EST)
