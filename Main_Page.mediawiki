@@ -16,6 +16,7 @@ __NOTOC__ __NOEDITSECTION__
 == [[File:Dev-icon.png|45px]] Development == __NOEDITSECTION__
 * [[Obtain_development_version|How to obtain our SVN version]]
 * [[Cross-compile|Cross-compiling]]
+* [[How to contribute]]
 </td>
 </tr>
 
