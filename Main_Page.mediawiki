@@ -1,81 +1,75 @@
-[[File:Re-wiki-logo.png]]
-
-__NOTOC__ __NOEDITSECTION__
-
-<table cellspacing="10" style="width:100%">
-<tr>
-<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
-
-== [[File:Wait.png|45px]] Introduction == __NOEDITSECTION__
-* [http://www.redeclipse.net/ Red Eclipse Home Page]
-* [[What_is_Red_Eclipse|What is Red Eclipse?]]
-* [[How_to_install| How to install Red Eclipse]]
-* [[FAQ_for_Red_Eclipse|FAQs]]
-</td>
-<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
-== [[File:Dev-icon.png|45px]] Development == __NOEDITSECTION__
-* [[Obtain_development_version|How to obtain our SVN version]]
-* [[Cross-compile|Cross-compiling]]
-* [[How to contribute]]
-</td>
-</tr>
-
-<tr>
-<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
-== [[File:Team.png|45px]] Community ==
-* [[Fundraiser_2015|2015 Fundraiser]]
-* [[IRC|Chat with the community]]
-* [[Contributors|Project contributors]]
-* [[Copyright_and_Licensing_for_Contributions|Copyright and Licensing for Contributions]]
-* [http://www.redeclipse.net/forum Red Eclipse Forum]
-* [[Main Page (French)|Wiki en français]]
-* [[Trademark_Policy|Trademark Policy]]
+<!-- Some template elements courtesy from Wikipedia and the Minecraft Wiki -->
+<!-- Header -->
+{| style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"
+| rowspan="2" |
+<!-- Logo -->
+{| style="width:320px; border:none; background:none;"
+| style="text-align:center; white-space:nowrap; color:#000;" |
+<div style="border:none; color:#000;">[[File:Re-wiki-logo.png|link=Main Page]]</div>
+<div style="top:+0.2em; font-size:95%;">the community run wiki for [http://redeclipse.net/ Red Eclipse].</div>
+|}
+<!-- Community navigation -->
+| style="width:20%" |
+* [http://www.redeclipse.net/forum Forums]
+* [https://kiwiirc.com/client/chat.freenode.net/?nick=guest|?#redeclipse IRC] [[IRC|(details)]]
+* [[Community:Discussion|Discuss the wiki]]
+| style="width:20%" |
 * [[Multiplayer_Guidelines|Multiplayer Guidelines]]
 * [[Privileges|User accounts and privileges]]
-</td>
-<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
-== [[File:Info_g.png|45px]] General Information ==
-* [[How to Play]]  [[Guide|(SVN version)]]
-* [[GameModes and Mutators]]  [[Modes and Mutators in SVN|(SVN version)]]
-* [[Official Maps]]  [[Official_Maps_in_SVN|(SVN version)]]
-* [[Weapons]]  [[Weapons in SVN|(SVN version)]]
+* [[FAQ_for_Red_Eclipse|FAQ]]
+| style="width:20%" |
+* [[Contributors|Project contributors]]
+* [[Trademark_Policy|Trademark Policy]]
+* '''[http://redeclipse.net/ Main site]'''
+|-
+| colspan="3" style="padding:0; margin:0; text-align:center;" |
+{{flatlist|
+* [[Special:RecentChanges|Recent changes]]
+* [[Special:NewPages|New pages]]
+* [[Special:WantedPages|Missing pages]]
+}}
+|}
+<!-- Main content -->
+{| style="width: 100%; margin:4px 0 0 0; background:none; border-spacing: 0px;"
+<!-- Left -->
+| style="width:55%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; color:#000;" |
+<!-- Left-Left -->
+{| style="width:50%; vertical-align:top; float:left"
+<!-- General info -->
+{{PContainers|header=General info|headerstyle=background:#cedff2|image=Info_g.png|content=
 * [[Deathmatch_Scoring|Scoring system]]
-* [[Impulse moves|Impulse moves in detail]]  [[Impulse moves summary|(SVN version)]]
-* [[Screenshots]]
 * [[Keybinding|How to bind keys]]
 * [[Game_Settings|Settings and Config]]
-* [[Connect_to_Server|Connecting to a Server]]
-* [[Client_Command_Line_Options|Client command-line options]]
-
-</td>
-</tr>
-
-<tr>
-<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
-== [[File:Server.png|45px]] Server Hosting ==
+* [[User content|Using custom maps]]
+* [[Demo|Demos guide]]
+* ''outdated'' [[Server_List|List of public servers]]
+* [[Vars_and_Commands_Tables|Variables/Commands]] [[Vars_and_Commands_in_SVN|(SVN)]]
+}}
+|-
+<!-- Server hosting -->
+{{PContainers|header=Server hosting|headerstyle=background:#cedff2|image=Server.png|content=
 * [[Server Setup]]
-** [[Server_GameFilters|Game Filters]]
-** [[Server_Example_Configurations|Configuration Examples]]
+* [[Server_GameFilters|Game Filters]]
+* [[Server_Example_Configurations|Configuration Examples]]
 * [[Admin_Guide|Admin Guide]]
-* [[Server_List|List of public servers]]
 * [[Server_Command_Line_Options|Server command-line options]]
-</td>
-<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
-== [[File:Variables.png|45px]] Variables and Commands ==
-* [[Variables|General Vars Information]]
-** [[Vars_and_Commands_Tables| Vars and Commands Tables]]
-** [[Vars_Changes_1.3.1_to_1.4|Vars Changes 1.3.1 to 1.4]]
-** [[Vars_and_Commands_in_SVN|Vars and Commands in SVN]]
-* [[Contribute_Descriptions|Contribute Descriptions]]
-</td>
-</tr>
-
-<tr>
-<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 1em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
-== [[File:Edit-icon.png|45px]] Map Editing ==
+}}
+|-
+<!-- Development -->
+{{PContainers|header=Development|headerstyle=background:#cedff2|image=Dev-icon.png|content=
+* [[How to install]]
+* [[Cross-compile|Cross-compiling]]
+* [[Client_Command_Line_Options|Client command-line options]]
+* [[Contribute Descriptions]]
+* [[License]] [[Copyright_and_Licensing_for_Contributions|(for contributions)]]
+}}
+|}
+<!-- Left-Right -->
+{| style="width:50%; vertical-align:top; float:right;"
+<!-- Mapping -->
+{{PContainers|header=Mapping||headerstyle=background:#cedff2|image=Edit-icon.png|content=
 * [[Editing Controls]]
 * [[Console|Using the Console]]
-* [[User Content]]
 * [[Saving/Loading_Maps|Saving and Loading Maps]]
 * [[Texturing]]
 * [[Lighting]]
@@ -89,15 +83,47 @@ __NOTOC__ __NOEDITSECTION__
 * [[Waypoints]]
 * [[Editing_Info|Editing Info/Indicators]]
 * [[Mapping Tips]]
-* [http://sauerbraten.org/docs/editref.html Cube2: Sauerbraten - Editing Reference (specifics may differ)]
-* [http://sauerbraten.org/docs/models.html Cube2: Sauerbraten - Model Reference (specifics may differ)]
-</td>
-<td style="width:50%;margin:0; margin-top:10px; margin-right:5px; border:1px solid #dfdfdf; padding:0 0em 1em 1em; background-color:#EEE9E9; align:right;vertical-align:top;">
-== [[File:File_edit.png|45px]] Scripting ==
+* [http://sauerbraten.org/docs/editref.html Cube2 - Editing Reference (specifics may differ)]
+* [http://sauerbraten.org/docs/models.html Cube2 - Model Reference (specifics may differ)]  [[Official_Maps_in_SVN|(SVN)]]
+}}
+|-
+<!-- Scripting -->
+{{PContainers|header=Scripting||headerstyle=background:#cedff2|image=File_edit.png|content=
 * [[CubeScript]]
 * [[CubeScript#Creating_menus|Creating menus]]
 * [[Entity Linking#Scriptable Events|Scriptable Events]]
-</td>
-</tr>
+}}
+|}
+<!-- Some gap between them boxes -->
+| style="border:1px solid transparent;" |
+<!-- Right -->
+| style="width:45%; border:1px solid #cedff2; background:#fff4f4; vertical-align:top;"|
+{| style="width:100%; vertical-align:top;"
+{{PContainers|header=New to the game?||headerstyle=background:#ffe5e5|image=Ffa.png|content=
+; [[Guide|Beginner's guide]]
+: ''unfinished'' An introduction the basics of Red Eclipse, aimed at absolute beginners in how the games work.
+; [[Weapons]] [[Weapons in SVN|(SVN)]]
+: ''unfinished'' Information on the available weapons and strategy guides (SVN only) written by experienced players. 
+; [[Impulse moves]]
+: A list of all the impulse moves (parkour) that can be done in-game.
+: The excellent '''[http://redeclipse.net/forum/viewtopic.php?f=5&t=246&hilit=tuto Tuto (tutorial) map ]''' is highly recommended for an accessible learning approach- for all skill levels!
+; [[GameModes and Mutators|Modes and Mutators]] [[Modes and Mutators in SVN|(SVN)]]
+: Description of the different game types available. 
+; [[Official Maps]]  [[Official_Maps_in_SVN|(SVN)]]
+: Collection of he maps that come packaged in the game.
+}}
+|-
+{{PContainers|header=About the game||headerstyle=background:#ffe5e5|image=Team.png|content=
+Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[Weapons_in_SVN|weapons]], Red Eclipse provides fast paced and accessible gameplay. [http://redeclipse.net/wiki/What_is_Red_Eclipse Find out more]
+}}
+|-
+{{PContainers|header=2015 Fundraiser||headerstyle=background:#ffe5e5|image=Wait.png|content=
+Eihrul ([http://sauerbraten.org/lee/ see résumé]) has offered to port Red Eclipse from the [http://sauerbraten.org/ Cube2 engine] to the more modern and advanced [http://tesseract.gg/ Tesseract engine]. This is in hopes to attract more players to the game as well as take advantage of the new features the engine offers.
+* [http://redeclipse.net/forum/viewtopic.php?f=4&t=476 Find out more]
+* [[Fundraiser_2014|Planning page]]
 
-</table>
+[http://redeclipse.net/forum/viewtopic.php?f=4&t=476&start=50#p5147 Update]:  The fundraiser is on indefinite hold.
+}}
+|}
+|}
+__NOTOC__ __NOEDITSECTION__
