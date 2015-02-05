@@ -36,4 +36,4 @@ Red Eclipse is a [http://www.gnu.org/philosophy/free-sw.html Free] and [http://w
 === Where else can I get help or discuss the game? ===
 Apart from this wiki, and playing on the game servers, you can:
 * Participate in the game [http://redeclipse.net/forum forum].
-* Connect to [irc://irc.freenode.net irc.freenode.net] IRC network, and join #redeclipse channel, or use the [https://kiwiirc.com/client/chat.freenode.net/?nick=guest%7C?#redeclipse] if you're not familiar with [[IRC]].
+* Connect to [irc://irc.freenode.net irc.freenode.net] IRC network, and join #redeclipse channel, or use[https://kiwiirc.com/client/chat.freenode.net/?nick=guest%7C?#redeclipse KiwiIRC] if you're not familiar with [[IRC]].
