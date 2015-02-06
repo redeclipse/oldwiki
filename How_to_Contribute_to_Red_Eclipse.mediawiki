@@ -43,18 +43,18 @@ Here's a rundown of how to setup a new repository:
 
 If you are unsure about how to license your work, Creative Commons provides a handy selection tool for their licenses at http://creativecommons.org/choose/ and Red Eclipse content is generally licensed "CC by-sa" (Attribution-ShareAlike), unless otherwise specified: http://creativecommons.org/licenses/by-sa/3.0/
 
-===Helpful Things===
+===Forum Utilities===
 
-The following BBcodes are available to reference GIT information here on the forum:
+The following BBcodes are available to reference GIT information on the [http://redeclipse.net/forum/ forum]:
 
-*    git: references a git commit in a specific module. Example (gives "base:6400eeaa71021f54ddc9cf730e7b1503dbe69101"):
+*    git: references a git commit in a specific module. Example (gives "[http://redeclipse.net/git/base/commit/6400eeaa71021f54ddc9cf730e7b1503dbe69101 base:6400eeaa71021f54ddc9cf730e7b1503dbe69101]"):
 
         [git=base]6400eeaa71021f54ddc9cf730e7b1503dbe69101[/git]
 
-*    issue: references a git issue in a specific module. Example (gives "base:issue:1"):
+*    issue: references a git issue in a specific module. Example (gives "[http://redeclipse.net/git/base/issues/1 base:issue:1]"):
 
         [issue=base]1[/issue]
 
-*    pull: references a git pull request in a specific module. This is superfluous as PR's are actually issues. Example (gives "base:pull:2"):
+*    pull: references a git pull request in a specific module. This is superfluous as PR's are actually issues. Example (gives "[http://redeclipse.net/git/base/pull/2 base:pull:2]"):
 
         [pull=base]2[/pull]
