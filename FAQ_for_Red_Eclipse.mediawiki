@@ -47,22 +47,5 @@ Development version- unstable releases showcasing what new changes have been mad
 == In-game ==
 
 === List of slang ===
-{|
-| frag
-| A kill
-|-
-| nade
-| A grenade
-|-
-| sg
-| Shotgun
-|-
-| gg
-| Good game
-|-
-| ffa
-| Free-For-All
-|-
-| pzap
-| The sound a rifle shot makes
-|}
+
+See [[glossary]].
