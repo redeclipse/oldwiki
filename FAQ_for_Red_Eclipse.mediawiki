@@ -1,4 +1,4 @@
-== The game ==
+== General ==
 
 === What is Red Eclipse? ===
 [http://www.redeclipse.net/ Red Eclipse] is a Red Eclipse is an open-source arena shooter, created from the Cube2 engine, similar to games in the [http://en.wikipedia.org/wiki/Unreal_Tournament Unreal Tournament] series. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[weapons]], Red Eclipse provides fast paced and accessible gameplay. [[What is Red Eclipse#About|here]].
@@ -37,3 +37,32 @@ Red Eclipse is a [http://www.gnu.org/philosophy/free-sw.html Free] and [http://w
 Apart from this wiki, and playing on the game servers, you can:
 * Participate in the game [http://redeclipse.net/forum forum].
 * Connect to [irc://irc.freenode.net irc.freenode.net] IRC network, and join #redeclipse channel, or use[https://kiwiirc.com/client/chat.freenode.net/?nick=guest%7C?#redeclipse KiwiIRC] if you're not familiar with [[IRC]].
+
+
+== Wiki ==
+
+=== What does 'devel' mean? ===
+Development version- unstable releases showcasing what new changes have been made to RE. Find out more [http://redeclipse.net/wiki/Obtain_development_version here].
+
+== In-game ==
+
+=== List of slang ===
+{|
+| frag
+| A kill
+|-
+| nade
+| A grenade
+|-
+| sg
+| Shotgun
+|-
+| gg
+| Good game
+|-
+| ffa
+| Free-For-All
+|-
+| pzap
+| The sound a rifle shot makes
+|}
