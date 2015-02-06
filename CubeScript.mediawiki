@@ -3,7 +3,7 @@ CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engin
 In Red Eclipse, it can be used to
 
 * create your own graphical user interfaces (guis)
-* customize and modify any of the [http://svn.icculus.org/redeclipse/config/menus in-game menus]
+* customize and modify any of the [https://github.com/red-eclipse/base/tree/master/config/menus in-game menus]
 * design scripted events in your maps using [[Entity_Linking#Scriptable_Events|trigger]] entities
 * run any sequence of [[Vars_and_Commands_Tables|commands or variable settings]] you can enter in the [[console]]
 * evidently, this includes [[Variables|variable mods]], such as a set of weapons with modified characteristics.
@@ -33,7 +33,7 @@ Here is a list of external resources. These tutorials are useful to learn more a
 
 ==Creating menus==
 
-In Red Eclipse menus can be created with various gui elements. To see how they work, one can just look at an example config file. Note that all of the [http://svn.icculus.org/redeclipse/config/menus in-game menus] are written in cubescript, so there are plenty of advanced examples.
+In Red Eclipse menus can be created with various gui elements. To see how they work, one can just look at an example config file. Note that all of the [https://github.com/red-eclipse/base/tree/master/config/menus in-game menus] are written in cubescript, so there are plenty of advanced examples.
 
 The following list describes most of the available gui elements and commands, which are not covered by the external tutorials linked above.
 
