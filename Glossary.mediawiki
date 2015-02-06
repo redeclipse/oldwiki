@@ -27,7 +27,7 @@
 |[[deathmatch]], a basic game mode.
 |-
 |''dmo''
-|file format for recorded game protocols, which allow [[demo]] playback of the game action, so the matches can be replayed from any point of view.
+|file format for recorded game protocols, which allows [[demo]] playback of the game action, so the matches can be replayed from any point of view.
 |-
 |''dnc''
 |[[defend-and-control]] or just ''defend'', a game mode.
@@ -85,4 +85,6 @@
 |-
 |''trial''
 |time-trial, the former mode name for [[race]] games in versions 1.0 to 1.4.
+|''wpt''
+|file format to store [[waypoints]] for a map, a navigation mesh that allows bots to move much more efficiently.
 |}
