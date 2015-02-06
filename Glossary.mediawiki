@@ -1,0 +1,88 @@
+{|
+!term or acronym
+!explanation
+|-
+|''afk''
+|away from keyboard. When spectators go AFK, they can and should alter their ''/name'' accordingly. Going AFK on a nearly full server is considered disruptive and can result in a kick.
+|-
+|''auth''
+|authentication, a key for registered players to identify. Often used as synonym for player accounts or [[privileges]].
+|-
+|''bb''
+|[[bomber-ball]], a game mode.
+|-
+|''bot''
+|usually refers to an A.I. controlled player. Not to confuse with ''aim-bot'', a client side modification that is considered ''cheating'' according to the [[Multiplayer Guidelines]].
+|-
+|''cc''
+|creative-commons license, typically used for [[Copyright_and_Licensing_for_Contributions|licensing of contributions]].
+|-
+|''cfg''
+|file format (raw text) to store configuration data and [[cubeScript]]. Also used for map configuration data, such as lists of textures, sounds and mapmodels in use.
+|-
+|''ctf''
+|[[capture-the-flag]] or just ''capture'', a popular game mode.
+|-
+|''dm''
+|[[deathmatch]], a basic game mode.
+|-
+|''dmo''
+|file format for recorded game protocols, which allow [[demo]] playback of the game action, so the matches can be replayed from any point of view.
+|-
+|''dnc''
+|[[defend-and-control]] or just ''defend'', a game mode.
+|-
+|''ent''
+|[[entities]] placed on maps, such as weapons, mapmodels or enemies.
+|-
+|''ffa''
+|[[Mutator_Tips#free-for-all|free-for-all]], a game mutator to play without teams.
+|-
+|''gg''
+|Good game, a typical chat comment at the end of a match.
+|-
+|''insta''
+|[[mutator Tips#instagib|instagib]], a game mutator for one-hit-kills, disabled by default.
+|-
+|''irc''
+|Internet Relay Chat. The official [[IRC]] channel for Red Eclipse is #redeclipse on the Freenode Network. Game servers can be configured to relay chat from or to IRC, and the game client has a basic IRC menu built-in.
+|-
+|''mat''
+|[[materials]] define special properties of map volumes, such as filling an area with water or clipping. 
+|-
+|''mod''
+|moderator, a player with elevated [[privileges]]. Mod can also stand for client modifications.
+|-
+|''mpz''
+|file format to store most content of a map, including all geometry, entity positions and lightmaps.
+|-
+|''nade'' 
+|[[Weapons_in_SVN#grenade|grenade]], a collectible explosive weapon.
+|-
+|''ogg''
+|container format for vorbis audio, used for music and sound files.
+|-
+|''op''
+|operator, a player with advanced [[privileges]].
+|-
+|''pzap''
+|a typical taunt or chat comment, echoism of a rifle shot.
+|-
+|''sg''
+|[[Weapons_in_SVN#Shotgun|shotgun]], a short ranged loadout weapon.
+|-
+|''smg''
+|[[weapons_in_SVN#SMG|sub-machine-gun]], a rapid fire loadout weapon.
+|-
+|''spec''
+|spectate or going into spectator mode, allows to watch the game action from any player's point of view.
+|-
+|''svn''
+|subversion, a software versioning and revision control system. SVN [[Obtain_development_version#SVN_History|was used]] for Red Eclipse prior to the migration to github.
+|-
+|''tk''
+|[[deathmatch_Scoring#Team_kills|team kill]]. Killing your team mates is penalized with point loss, and players can get kicked or banned automatically for a certain number of team kills.
+|-
+|''trial''
+|time-trial, the former mode name for [[race]] games in versions 1.0 to 1.4.
+|}
