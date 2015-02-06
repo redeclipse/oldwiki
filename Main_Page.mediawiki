@@ -43,7 +43,7 @@
 * [[User_Content|Using custom maps]]
 * [[Demo|Demos guide]]
 * ''outdated'' [[Server_List|List of public servers]]
-* [[Vars_and_Commands_Tables|Variables/Commands]] [[Vars_and_Commands_in_SVN|(SVN)]]
+* [[Vars_and_Commands_Tables|Variables/Commands]], [[Vars_and_Commands_in_SVN|(devel)]]
 }}
 |-
 <!-- Server hosting -->
@@ -85,7 +85,7 @@
 * [[Editing_Info|Editing Info/Indicators]]
 * [[Mapping Tips]]
 * [http://sauerbraten.org/docs/editref.html Cube2 - Editing Reference (specifics may differ)]
-* [http://sauerbraten.org/docs/models.html Cube2 - Model Reference (specifics may differ)]  [[Official_Maps_in_SVN|(SVN)]]
+* [http://sauerbraten.org/docs/models.html Cube2 - Model Reference (specifics may differ)]  
 }}
 |-
 <!-- Scripting -->
@@ -103,14 +103,14 @@
 {{PContainers|header=New to the game?||headerstyle=background:#ffe5e5|image=Ffa.png|content=
 ; [[Guide|Beginner's guide]]
 : ''unfinished'' An introduction the basics of Red Eclipse, aimed at absolute beginners in how the games work.
-; [[Weapons]] [[Weapons in SVN|(SVN)]]
-: ''unfinished'' Information on the available weapons and strategy guides (SVN only) written by experienced players. 
-; [[Impulse moves]]
+; [[Weapons]], [[Weapons in SVN|(devel)]],  [[Weapon_strategy_(SVN)|strategy (devel)]]
+: General information on the available weapons and strategy guides (devel version only, to be expanded and/or merged).
+; [[Impulse moves]],  [[impulse moves summary|summary (devel)]]
 : A list of all the impulse moves (parkour) that can be done in-game.
 : The excellent '''[http://redeclipse.net/forum/viewtopic.php?f=5&t=246&hilit=tuto Tuto (tutorial) map ]''' is highly recommended for an accessible learning approach- for all skill levels!
-; [[GameModes and Mutators|Modes and Mutators]] [[Modes and Mutators in SVN|(SVN)]]
+; [[GameModes and Mutators|Modes and Mutators]], [[Modes and Mutators in SVN|(devel)]]
 : Description of the different game types available. 
-; [[Official Maps]]  [[Official_Maps_in_SVN|(SVN)]]
+; [[Official Maps]],  [[Official_Maps_in_SVN|(devel)]]
 : Collection of he maps that come packaged in the game.
 }}
 |-
