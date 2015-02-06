@@ -16,7 +16,8 @@ Notes:
 For example
  cd /c/Users/me/Documents
 * Clone recursively (to also initialize and clone the submodules)
- git clone --recursive https://github.com/red-eclipse/base.git
+ git clone --recursive https://github.com/red-eclipse/base.git redeclipse-git
+This will download Red Eclipse to the "redeclipse-git" directory within the current working directory.
 
 ==== Update Existing Clone ====
 * Start git-bash and change to the clone directory
@@ -58,8 +59,8 @@ In order to download and use the pre-built executables:
 * Install Git and the build & run dependencies of Red Eclipse. On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command
  sudo apt-get install git build-essential libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl1.2-dev
 * Clone the Git repository with the command
- git clone --recursive https://github.com/red-eclipse/base.git
-This will download Red Eclipse to the "base" directory within the current working directory.
+ git clone --recursive https://github.com/red-eclipse/base.git redeclipse-git
+This will download Red Eclipse to the "redeclipse-git" directory within the current working directory.
 
 ===Compile===
 * Use standard GNU make to compile
