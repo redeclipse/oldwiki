@@ -20,7 +20,7 @@ For example
 This will download Red Eclipse to the "redeclipse-git" directory within the current working directory.
 
 ==== Update Existing Clone ====
-* Start git-bash and change to the clone directory
+* Start git-bash and change to the "redeclipse-git" clone directory
 * Fetch and merge the new changes in the base repository
  git pull
 * Fetch and checkout the submodule changes
@@ -36,8 +36,8 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
 * Click "OK" and wait for the clone to complete
 
 ==== Update Existing Clone ====
-* Right click on the directory and choose "TortoiseGit"->"Pull" and then click "OK"
-* Right click on the directory and choose "TortoiseGit"->"Submodule Update" and then click "OK"
+* Right click on the clone directory and choose "TortoiseGit"->"Pull" and then click "OK"
+* Right click on the clone directory and choose "TortoiseGit"->"Submodule Update" and then click "OK"
 
 ===Unofficial executables===
 An experimental build service for Windows binary executables has been set up using the [https://build.opensuse.org/package/show/home:arand2/redeclipse-win openSUSE Open Build Service]. And automated using the preconfigurred GitHub "Obs" Service.
