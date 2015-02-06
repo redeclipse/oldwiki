@@ -85,6 +85,7 @@
 |-
 |''trial''
 |time-trial, the former mode name for [[race]] games in versions 1.0 to 1.4.
+|-
 |''wpt''
 |file format to store [[waypoints]] for a map, a navigation mesh that allows bots to move much more efficiently.
 |}
