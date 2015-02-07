@@ -7,11 +7,27 @@ Notes:
 
 == Windows ==
 
+===Github Windows App===
+<span style="color:red">WARNING: NOT RECOMMENDED</span>
+==== Clone ====
+* Download and install Github for Windows from https://windows.github.com/
+* Follow install directions
+* In your browser, navigate to the RE Github repository page, https://www.github.com/red-eclipse/base
+* In the right sidebar, above download zip, you will see a link that says "Clone in Desktop", click on it
+* Select Github
+* Let Github do its thing
+* Done!
+
+==== Updating ====
+* Go the the repository in Github for Windows
+* Press the Sync button in the top right corner
+* Done!
+
 === git-bash ===
 * Download and install Git from http://msysgit.github.io/
 
 ==== Initial Clone ====
-* Start git-bash
+* Start git-bash 
 * Change to the directory where the clone should be stored
 For example
  cd /c/Users/me/Documents
