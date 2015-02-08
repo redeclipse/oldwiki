@@ -33,6 +33,7 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
 * Right click on the directory
 * Click on "Git Clone..."
 * In the "Url:" blank, enter https://github.com/red-eclipse/base.git
+* Checkmark "Recursive" if you want the data submodule
 * Click "OK" and wait for the clone to complete
 
 ==== Update Existing Clone ====
