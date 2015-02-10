@@ -1,11 +1,12 @@
 
+
 This page gives strategy tips for various game mutators and can be accessed from the in-game help menu. For those mutators specific to certain game modes, see the corresponding [[Modes and Mutators in SVN#Modes|mode pages]].
 
 ==multi==
 
 {|
+|[[File:multi_mut.png|80px]]
 |Play with four teams instead of two (by default Kappa & Sigma, in addition to Alpha & Omega).
-|[[File:multi_mut.png|128px]]
 |}
  
 * Multi matches are best suited to large groups of players on symmetrical maps.
@@ -16,8 +17,8 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==free-for-all==
 
 {|
+|[[File:ffa.png|80px]]
 |There are no teams, just every player for themselves in a Free-for-All showdown! This mutator is not available in Capture-the-Flag or Defend-and-Control modes.
-|[[File:ffa.png|128px]]
 |}
  
 * The most important thing to remember in Free-for-All: no target or enemy is safe from your fire! Don't hesitate to let loose in a frenzy at everyone and everything you see.
@@ -30,12 +31,12 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==co-op==
 
 {|
+|[[File:coop.png|80px]]
 |All human players are forced onto the same team, battling against a team of bots... and there are more of them than there are of you!
-|[[File:coop.png|128px]]
 |}
  
-* Note that there are separate vars for the balancing and skill range of bots in Co-op games. For an extra challenge, raise ^fs^fg/botskill^fS or ^fs^fg/botlimit^fS.
-* In addition to A.I. skill, each weapon has a skew variable according to it's name that affects A.I. accuracy. For example, ^fs^fg/shotgunaiskew1^fS.
+* Note that there are separate vars for the balancing and skill range of bots in Co-op games. For an extra challenge, raise '''/botskill''' or '''/botlimit'''.
+* In addition to A.I. skill, each weapon has a skew variable according to it's name that affects A.I. accuracy. For example, '''/shotgunaiskew1'''.
 * Bots may be formidable opponents in Deathmatch games, but the A.I. has problems keeping up with players in more complex modes.
 * To make a Co-op match more interesting, enable the Survivor and/or Vampire Mutators.
 * Bots are programmed in a specific way and some of their actions can be predictable, so use this to your advantage.
@@ -43,20 +44,20 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==instagib==
 
 {|
+|[[File:instagib.png|80px]]
 |Players spawn with only 1 HP, so any hit is lethal. Unless the Medieval or Kaboom mutators are also selected, players only spawn with the rifle. All rifle spawns on the map become grenade spawns.
-|[[File:instagib.png|128px]]
 |}
  
 * Instagib matches are very fast-paced and hectic. While it may be easier to frag opponents, you are also fragged much more often yourself (the respawn time is shortened to reflect this).
 * Rifle shots normally inflict splash damage, but this is disabled in Instagib games. So aim carefully!
 * Remember, you can also attack opponents with melee kicks or certain other parkour moves in Instagib.
 * Instagib is a very effective way to build your skill quickly with the Rifle's primary and secondary fire.
-* To mix up an Instagib match, change the spawn weapon using ^fs^fg/instaweapon^fS.
+* To mix up an Instagib match, change the spawn weapon using '''/instaweapon'''.
 ==medieval==
 
 {|
+|[[File:medieval.png|80px]]
 |Players only spawn with swords. All sword spawns on the map become grenade spawns.
-|[[File:medieval.png|128px]]
 |}
  
 * Grenades still spawn in the Medieval mutator, but mines are disabled by default.
@@ -67,8 +68,8 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==kaboom==
 
 {|
+|[[File:kaboom.png|80px]]
 |Players only spawn with grenades and mines. Grenades and mines reload in this mutator like a normal loadout weapon, though your carry capacity remains default.
-|[[File:kaboom.png|128px]]
 |}
  
 * On some maps, there are additional rockets that spawn only in Kaboom games.
@@ -79,21 +80,21 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==duel==
 
 {|
+|[[File:duel.png|80px]]
 |Only two players spawn at a time, the rest are placed in a queue. The winning team or individual continues to the next round, while the loser always gets placed at the end of the queue.
-|[[File:duel.png|128px]]
 |}
  
 * For obvious reasons, the rocket does not spawn in the Duel mutator (though other explosives do by default).
 * Duel matches are often very frustrating between two players of different skill level. However, there is much to be learned from other players when spectating! Don't let the length of a queue distract you from learning new strategy.
 * Duels are typically carried out on smaller and more compact maps, which is why there is a separate map list for this mutator.
 * Without health regeneration, every action toward opponents becomes a calculated risk. Be as cautious in your offense as your defense.
-* If desired, game music can be silenced using ^fs^fg/musicvol 0^fS. This will allow you to hear your opponent's footsteps and parkour moves!
+* If desired, game music can be silenced using '''/musicvol 0'''. This will allow you to hear your opponent's footsteps and parkour moves!
 * For an extra challenge, combine Duel with the Hard mutator for disabled radar.
 ==survivor==
 
 {|
+|[[File:survivor.png|80px]]
 |All players spawn as normal, but there is no health regeneration. The last player or team standing wins the round. Players that die are placed in a queue to respawn in the next round.
-|[[File:survivor.png|128px]]
 |}
 
  
@@ -105,8 +106,8 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==classic==
 
 {|
+|[[File:classic.png|80px]]
 |Everyone spawns with only one spawn weapon (by default, the pistol). The rest of the weapons can be found at spawn points, scattered around the map.
-|[[File:classic.png|128px]]
 |}
  
 * In addition to weapon spawn points, fragged players drop their weapons upon death to be picked up by other players (but will disappear after a few seconds).
@@ -117,8 +118,8 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==onslaught==
 
 {|
+|[[File:onslaught.png|80px]]
 |Enemy drones and sentry turrets spawn in the middle of the action. If one of them kills you, you lose points!
-|[[File:onslaught.png|128px]]
 |}
 
  
@@ -130,8 +131,8 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==freestyle==
 
 {|
+|[[File:freestyle.png|80px]]
 |There are no impulse limits, the impulse meter is never depleted so get your parkour on!
-|[[File:freestyle.png|128px]]
 |}
 
  
@@ -143,8 +144,8 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==vampire==
 
 {|
+|[[File:vampire.png|80px]]
 |Damage dealt to enemies causes you to regenerate the same amount of health. The default cap in this mutator is 300 health.
-|[[File:vampire.png|128px]]
 |}
 
  
@@ -156,8 +157,8 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==resize==
 
 {|
+|[[File:resize.png|80px]]
 |As your health decreases, you become smaller and your speed decreases. The opposite is true when you gain health.
-|[[File:resize.png|128px]]
 |}
 
  
@@ -169,8 +170,8 @@ This page gives strategy tips for various game mutators and can be accessed from
 ==hard==
 
 {|
+|[[File:hard.png|80px]]
 |Players spawn without a radar. There is no health regeneration in this mutator.
-|[[File:hard.png|128px]]
 |}
 
  
