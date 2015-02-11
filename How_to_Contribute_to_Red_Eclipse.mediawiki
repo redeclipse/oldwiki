@@ -43,6 +43,14 @@ Here's a rundown of how to setup a new repository:
 
 If you are unsure about how to license your work, Creative Commons provides a handy selection tool for their licenses at http://creativecommons.org/choose/ and Red Eclipse content is generally licensed "CC by-sa" (Attribution-ShareAlike), unless otherwise specified: http://creativecommons.org/licenses/by-sa/3.0/
 
+====A Note on Commit Messages====
+
+As of yet, there are no strict rules for formatting of commit messages. However, it is good practice to keep commit messages clean and simple while providing a relatively clear idea of what the commit entails. The following is a well-formatted commit message template that is widely used and well regarded. This template is merely a ''suggestion'', it need not be strictly adhered to or followed at all.
+
+[http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html Commit Message Template by Tim Pope]
+
+Beyond that, [http://git-scm.com/book/ch5-2.html#Commit-Guidelines here is a helpful section] in the ''Pro Git'' book that briefly covers creating good commits.
+
 ===Forum Utilities===
 
 The following BBcodes are available to reference GIT information on the [http://redeclipse.net/forum/ forum]:
