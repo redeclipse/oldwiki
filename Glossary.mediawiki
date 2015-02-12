@@ -1,9 +1,10 @@
-{|
-!term or acronym
-!explanation
+
+The following list explains some commonly used terms and acronyms.
+
+{|class="wikitable"
 |-
-|''afk''
-|away from keyboard. When spectators go AFK, they can and should alter their ''/name'' accordingly. Going AFK on a nearly full server is considered disruptive and can result in a kick.
+|style="width: 7%"|''afk''
+|away from keyboard. When spectators go AFK, they can and should alter their ''/name'' accordingly. Going AFK on a nearly full server can result in a kick.
 |-
 |''auth''
 |authentication, a key for registered players to identify. Often used as synonym for player accounts or [[privileges]].
@@ -36,10 +37,10 @@
 |[[entities]] placed on maps, such as weapons, mapmodels or enemies.
 |-
 |''ffa''
-|[[Mutator_Tips#free-for-all|free-for-all]], a game mutator to play without teams.
+|[[mutator_Tips#free-for-all|free-for-all]], a game mutator to play without teams.
 |-
 |''gg''
-|Good game, a typical chat comment at the end of a match.
+|good game, a typical chat comment at the end of a match.
 |-
 |''insta''
 |[[mutator Tips#instagib|instagib]], a game mutator for one-hit-kills, disabled by default.
@@ -56,6 +57,9 @@
 |''mpz''
 |file format to store most content of a map, including all geometry, entity positions and lightmaps.
 |-
+|''muts''
+|game [[mutator Tips|mutators]], special game rules that can be added and combined for a more diverse game experience. 
+|-
 |''nade'' 
 |[[Weapons_in_SVN#grenade|grenade]], a collectible explosive weapon.
 |-
@@ -67,6 +71,9 @@
 |-
 |''pzap''
 |a typical taunt or chat comment, echoism of a rifle shot.
+|-
+|''runner''
+|players with a preference for parkour and agile game-play, like [[race]] games or hit-and-run tactics in [[capture-the-flag]] or [[bomber-ball]] games.
 |-
 |''sg''
 |[[Weapons_in_SVN#Shotgun|shotgun]], a short ranged loadout weapon.
