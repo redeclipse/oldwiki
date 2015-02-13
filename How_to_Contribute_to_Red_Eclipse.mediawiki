@@ -28,8 +28,8 @@ Here's a rundown of how to setup a new repository:
 
 ===Issue Reporting Guidelines===
 
-*    Find an issue in the Red Eclipse game and/or engine, verify that you can reproduce the problem and provide steps on how to do so.
-*    Check on the forums or issue tracker to see if your issue has already been reported and/or resolved upstream (in the development version).
+*    Find an issue in the ''development version'' of Red Eclipse game and/or engine, verify that you can reproduce the problem and provide steps on how to do so.
+*    Check on the forums or issue tracker to see if your issue has already been reported and/or resolved upstream.
 *    When you have verified that the issue still exists and needs to be fixed, submit it to the appropriate git module as an issue or pull request.
 *    Provide a good description along with a link to your original forum topic (if applicable).
 *    Attach, or provide direct links to, any files which demonstrates your issue and any patches you might have here.
