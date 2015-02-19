@@ -110,7 +110,7 @@
 ; [[GameModes and Mutators|Modes and Mutators]], [[Modes and Mutators in SVN|(devel)]]
 : Description of the different game types available. 
 ; [[Official Maps]],  [[Official_Maps_in_SVN|(devel)]]
-: Collection of he maps that come packaged in the game.
+: Collection of the maps that come packaged in the game.
 }}
 |-
 {{PContainers|header=About the game||headerstyle=background:#ffe5e5|image=Team.png|content=
