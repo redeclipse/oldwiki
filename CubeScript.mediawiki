@@ -35,8 +35,7 @@ Here is a list of external resources. These tutorials are useful to learn more a
 
 In Red Eclipse menus can be created with various gui elements. To see how they work, one can just look at an example config file. Note that all of the [https://github.com/red-eclipse/base/tree/master/config/menus in-game menus] are written in cubescript, so there are plenty of advanced examples.
 
-The following list describes most of the available gui elements and commands, which are not covered by the external tutorials linked above.
-
+The following list describes most of the available gui elements and commands, which are not covered by the external tutorials linked above. These commands typically have some optional arguments, which are shown in [brackets] and can be rather complicated to use. The ordering of the arguments matters. For instance, if you want to specify the colour (third argument) of a button, a texture (second argument) must be given as well, which can be an empty string "" (i.e. no texture used).
 
 ===newgui=== 
 creates a new menu;
@@ -44,7 +43,7 @@ creates a new menu;
 Arguments:
 *''name'' refers to the menu's variable name,
 *''content'' refers to the actual content of the gui itself,
-*[''initscript''] is optional, and is run before the menu is created (used with ^"if (= $guipasses 0)^" to initialize variables for the menu)
+*[''initscript''] is optional, and is run before the menu is created (used with "if (= $guipasses 0)" to initialize variables for the menu)
 
 ===guitab=== 
 creates a new tab for the current menu. Note: The first tab of each menu is already impied by newgui.
@@ -69,14 +68,14 @@ adds weight to a menu for pushing elements more/less to one side;
 
 Arguments:
 *[''value''] optional weight factor;
-example: guilist [ guispring ; guitext ^"centered^"; guispring ]
+example: guilist [ guispring ; guitext "centered"; guispring ]
 
 ===guistrut=== 
 adds spacing to a menu;
 
 Arguments:
 *if [''bool''] is 1, it wraps the guistrut in a guilist (adds spacing in the alternate direction),
-*^"guistrut 5 1^" is the same as ^"guilist [ guistrut 5 ]^"
+*"guistrut 5 1" is the same as "guilist [ guistrut 5 ]"
 
 ===guibar=== 
 draws either a vertical or a horizontal line, depending on the nesting of guilist
@@ -86,7 +85,7 @@ creates a text element;
 
 Arguments:
 *''text'' can be a raw string or a variable,
-*[''icon''] is the path to an image, example: ^"textures/bomb^",
+*[''icon''] is the path to an image, example: "textures/bomb",
 *[''colour''] is a hexadecimal colour code, example: 0xFF0000, 
 * [''iconcolour''] acts on the ''icon'' just like ''colour'' acts on the ''text''
 
@@ -97,14 +96,14 @@ Arguments:
 *''name'' refers to the button's variable name,
 *''action'' defines what the button does,
 *[''alt-act''] defines what the button does when right-clicked,
-*[''icon''] is the path to an image, example: ^"textures/bomb^",
+*[''icon''] is the path to an image, example: "textures/bomb",
 *[''colour''] is a hexadecimal colour code, example: 0xFF0000
 
 ===guiimage=== 
 creates a clickable image;
 
 Arguments:
-*''path'' is the path to an image, example: ^"textures/bomb^",
+*''path'' is the path to an image, example: "textures/bomb",
 *[''action''] defines what clicking the image does,
 *[''scale''] defines the scale of the image,
 *[''overlaid''] whether or not the image is overlaid with guioverlaytex (true/false),
@@ -159,7 +158,7 @@ Arguments:
 *''bit'' is the bit of ''var'' that the checkbox controls, given as a power of 2,
 *[''onchange''] is the action taken whenever the checkbox is toggled,
 *[''colour''] is a hexadecimal colour code, example: 0xFF0000.
-example: guibitfield ^"allow votes for trial games^" modelockfilter $modebitrace
+example: guibitfield "allow votes for trial games" modelockfilter $modebitrace
 
 ===guislider===
 creates a slider, depending on the use of guilist
@@ -203,7 +202,7 @@ Arguments
 *''text'' is the hover text,
 *[''width''] adjusts the width of the box,
 
-example: if (=s $guirolloveraction ^"disconnect^") [guitooltip ^"leave the current game (server)^"]" "''text'' [''width'']"
+example: if (=s $guirolloveraction "disconnect") [guitooltip "leave the current game (server)"]" "''text'' [''width'']"
 
 ===guibackground===
 creates a colored background;
