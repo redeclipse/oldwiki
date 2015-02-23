@@ -1,15 +1,13 @@
-CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engine]. 
+CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engine]. Such scripts can be entered via the [[console]] or executed via files in the [[Game_Settings#User_Content|user content directory]]. This allows to customize many aspects of the game client without the need to compile any sources.
 
-In Red Eclipse, it can be used to
+==Use of CubeScript==
 
-* create your own graphical user interfaces (guis)
-* customize and modify any of the [https://github.com/red-eclipse/base/tree/master/config/menus in-game menus]
-* design scripted events in your maps using [[Entity_Linking#Scriptable_Events|trigger]] entities
-* run any sequence of [[Vars_and_Commands_Tables|commands or variable settings]] you can enter in the [[console]]
-* evidently, this includes [[Variables|variable mods]], such as a set of weapons with modified characteristics.
+To give a first overview, CubeScript can be used to
+* customize any of the in-game [[menus]] or create your own custom [[menus]],
+* design scripted events in your maps using [[Entity_Linking#Scriptable_Events|trigger]] entities,
+* or run any sequence of [[Vars_and_Commands_Tables|commands or variable settings]] you can enter in the [[console]].
 
-
-==Running scripts==
+==Executing scripts==
 
 Scripts are typically saved as '''cfg''' files in the [[Game_Settings#User_Content|user content directory]]. For example, the script ''myvars.cfg'' can be executed using
    /exec myvars.cfg
@@ -20,7 +18,6 @@ Notes:
 
 *Scripts can be executed automatically using [[Game_Settings#autoexec.cfg|autoexec.cfg]].
 
-
 ==CubeScript tutorials==
 
 Here is a list of external resources. These tutorials are useful to learn more about (advanced) scripting with CubeScript.
@@ -29,3 +26,5 @@ Here is a list of external resources. These tutorials are useful to learn more a
 * https://github.com/Hirato/lamiae/wiki/CubeScript<br>
 * http://quadropolis.us/node/2336<br>
 * http://www.sandboxgamemaker.com/wiki/index.php?title=Cubescript
+
+These tutorials do not cover the gui elements used to create [[menus] in Red Eclipse.
