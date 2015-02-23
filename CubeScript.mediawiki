@@ -2,10 +2,42 @@ CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engin
 
 ==Applications==
 
-To give a first overview, CubeScript can be used to
-* customize any of the in-game [[menus]] or create new custom [[menus]],
+CubeScript can be used to
+* customize any of the existing in-game [[menus]] or create new [[menus]] from scratch,
 * design scripted events in a map using [[Entity_Linking#Scriptable_Events|trigger]] entities,
 * or run any sequence of [[Vars_and_Commands_Tables|commands or variable settings]] that can be entered in the [[console]].
+
+==Usage descriptions in the console==
+
+In the regular chat (or team chat) prompt, a leading forward slash (/) allows to execute commands via the console. The same can be done via the tilde (~) or forward slash (/) keys (per default). The console supports tab-completion, which is useful to cycle through the available [[Vars_and_Commands_Tables|commands and variables]]. For many of these, usage instructions are shown as they are entered. This can be default values of a variable or explanations of a command's arguments. Note that most game variables can be set in the console by simply entering their name, followed by a new value as an argument, for example
+
+  /playername frogger_afk
+
+==Alias lookups and containers==
+
+New aliases (variables) can be defined with the alias command or an assignment, which are equivalent as shown below
+
+  alias pi 3.14159
+  pi = 3.14159
+
+The value of the alias can be looked up either via the $ (getalias) or the @ (macro) token. The below example uses the syntax typical for commands that are evaluated to return a result value: The command (a sine function) is followed by one or several arguments (our alias lookup), and a bracket container is used to substitute the result (so it is printed via echo).
+
+  /echo "hello world"
+  /echo (cos $pi)
+  /echo (cos @pi)
+
+The differences between the $ and @ tokens are subtle, complicated to understand in detail, and likely to cause unexpected results. Though, for basic scripting, the $ token should be perfectly sufficient and save to use, with one important exception:
+
+When writing [[menus]] that use buttons in a loop, the button actions (or any ''onchange'' arguments) should use the @ token for the control variable. (For a detailed explanation, the external tutorials linked below can be consulted.)
+
+  newgui example [
+      looplist i $weapname [
+          guibutton $i [echo @i]
+      ]
+  ]
+  showgui example
+
+This example script also shows the use of square brackets to form a block of code that serves as one argument of a command. This is the only sane way to split a command on several lines, preferably with an indention of four spaces.
 
 ==Executing scripts==
 
@@ -18,6 +50,35 @@ Notes:
 
 *Scripts can be executed automatically using [[Game_Settings#autoexec.cfg|autoexec.cfg]].
 
+==Special string formatting==
+
+As a side note, there are some special tags to format strings with colours or icons, which can be fun to use, for instance in chat messages or in a /servermotd.
+
+* ^n  - newline
+* ^"  - a double quote sign
+* ^t  - a (useless) tab
+* ^f  - a format code as follows:
+** ^f() - allows to insert a texture, for example "^f(textures/modes/race)hurry up!"
+** ^f[] - use a hex code to colourize the text, for instance "^f["$zappercolour"]pzap!"
+** ^fC  - use a predefined colour C
+
+The single letter codes for predefined colours are:
+
+'''r'''ed, '''g'''reen, '''b'''lue,
+'''cyan''', '''m'''agenta, '''y'''ellow,
+'''w'''hite, gr'''a'''y and blac'''k''',
+'''v'''iolet, '''p'''ink and brow'''n''''.
+
+Most of these colours are also available in a darker shade using a capital letter.
+
+Furthermore, the letter z can be followed by two more colour tags to create flashing texts, for example 
+  "^fzyoBoOoM!"
+Flashing texts should be used with '''caution''', as they can be very annoying - excessive use can get you muted.
+
+Finally, the ^fs tag can be used to store the current colour, and push it back with a ^fS tag.
+  "^frRed^fs^fbBlue^fSRed"
+
+
 ==CubeScript tutorials==
 
 Here is a list of external resources. These tutorials are useful to learn more about (advanced) scripting with CubeScript.
@@ -27,4 +88,4 @@ Here is a list of external resources. These tutorials are useful to learn more a
 * http://quadropolis.us/node/2336<br>
 * http://www.sandboxgamemaker.com/wiki/index.php?title=Cubescript
 
-These tutorials do not cover the gui elements used to create [[menus]] in Red Eclipse. For details, read the corresponding [[menus|article]].
+These tutorials do not cover the gui elements used to create [[menus]] in Red Eclipse. For details, see the corresponding [[menus|article]], and most of all, have a look at the existing game menus.
