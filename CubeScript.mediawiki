@@ -65,7 +65,7 @@ As a side note, there are some special tags to format strings with colours or ic
 The single letter codes for predefined colours are:
 
 '''r'''ed, '''g'''reen, '''b'''lue,
-'''cyan''', '''m'''agenta, '''y'''ellow,
+'''c'''yan, '''m'''agenta, '''y'''ellow,
 '''w'''hite, gr'''a'''y and blac'''k''',
 '''v'''iolet, '''p'''ink and brow'''n''''.
 
@@ -77,7 +77,6 @@ Flashing texts should be used with '''caution''', as they can be very annoying -
 
 Finally, the ^fs tag can be used to store the current colour, and push it back with a ^fS tag.
   "^frRed^fs^fbBlue^fSRed"
-
 
 ==CubeScript tutorials==
 
