@@ -90,7 +90,7 @@
 <!-- Scripting -->
 {{PContainers|header=Scripting||headerstyle=background:#cedff2|image=File_edit.png|content=
 * [[CubeScript]]
-* [[CubeScript#Creating_menus|Creating menus]]
+* [[Menus|Creating menus]]
 * [[Entity Linking#Scriptable Events|Scriptable Events]]
 }}
 |}
