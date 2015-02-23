@@ -210,7 +210,7 @@ Arguments
 *''text'' is the hover text,
 *[''width''] adjusts the width of the box,
 
-example: if (=s $guirolloveraction "disconnect") [guitooltip "leave the current game (server)"]" "''text'' [''width'']"
+example: if (=s $guirolloveraction "disconnect") [guitooltip "leave the current game (server)"]
 
 ===guibackground===
 creates a colored background;
