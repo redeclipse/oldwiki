@@ -20,15 +20,15 @@ New aliases (variables) can be defined with the alias command or an assignment, 
   alias pi 3.14159
   pi = 3.14159
 
-The value of the alias can be looked up either via the $ (getalias) or the @ (macro) token. The below example uses the syntax typical for commands that are evaluated to return a result value: The command (a sine function) is followed by one or several arguments (our alias lookup), and a bracket container is used to substitute the result (so it is printed via echo).
+The value of the alias can be looked up either via the $ (getalias) or the @ (macro) token. The below example is typical for commands that are evaluated to return a result value: The command (a sine function) is followed by one or several arguments (our alias lookup), and a bracket container is used to substitute the result (so it is printed via echo).
 
   /echo "hello world"
   /echo (cos $pi)
   /echo (cos @pi)
 
-The differences between the $ and @ tokens are subtle, complicated to understand in detail, and likely to cause unexpected results. Though, for basic scripting, the $ token should be perfectly sufficient and save to use, with one important exception:
+The differences between the $ and @ tokens are subtle, complicated to understand in detail, and likely to cause unexpected results. In the above example, the @pi lookup should actually be in square brackets - here it gives the seemingly correct result only by chance.
 
-When writing [[menus]] that use buttons in a loop, the button actions (or any ''onchange'' arguments) should use the @ token for the control variable. (For a detailed explanation, the external tutorials linked below can be consulted.)
+For basic scripting, though, the $ token should be perfectly sufficient and save to use, with one important exception: When writing [[menus]] that use buttons in a loop, the button actions (or any ''onchange'' arguments) should use the @ token for the control variable. (For a detailed explanation, the external tutorials linked below can be consulted.)
 
   newgui example [
       looplist i $weapname [
