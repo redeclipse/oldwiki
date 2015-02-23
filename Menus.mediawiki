@@ -1,0 +1,231 @@
+
+All menus or guis of Red Eclipse are written in [[CubeScript]] using a set of gui commands. This means the menus can be simply modified with a text editor, without the need to compile any source code. The existing menus are therefore conveniently customized - and they also provide a large set of examples for creating your own custom menus. Such menus could be used in a campaign-like map, or for example to execute administrative commands.
+
+==Accessing the in-game menus==
+
+The game-menus are found in a subdirectory of the Red Eclipse install directory:
+  /config/menus/
+The corresponding link to the development version on github is [https://github.com/red-eclipse/base/tree/master/config/menus here].
+
+When customizing the in-game menus, it is highly recommended to leave the files unmodified in the install directory, and work on a copy in the [[Game_Settings#User_Content|user content directory]]. In this case, the in-game menus can be overriden by executing the modified script
+
+  exec mymenu.cfg
+
+==A minimalistic example==
+The following script will define and display a menu with just a title and one text line.
+
+  newgui hello [
+      guitext "hello world"
+  ]
+  showgui hello
+
+==A test alias==
+If you are familiar with the use of aliases and [[CubeScript]], you can quickly test and preview gui commands via the [[console]]. For example, the following alias can be used:
+
+  testgui = [ newgui test [ @arg1 ] ; showgui test ]
+
+To reproduce the minimalistic example above, this alias can be used as follows:
+  /testgui [guitext "hello world"]
+
+This may seem fairly complicated, but it can be convenient to read the usage descriptions and quickly check how the commands work.
+
+==Use of gui commands==
+
+The following sections describe many of the available gui elements and commands, which are usually not covered in  external [[CubeScript]] tutorials. These commands typically have some optional arguments, which are shown in [brackets] and can be rather complicated to use.
+
+If a command is entered in the [[console]], usage instructions are indicated in many cases. This also holds true for many gui commands, and roughly corresponds to the following descriptions.
+
+The ordering of a command's arguments matters. This means that, for instance, if you want to specify the colour (third argument) of a guibutton, a texture (second argument) must be given as well:
+  guitext "just a test line" "" 0xffff00 
+In this case, the empty texture string "" simply means that no icon is shown next to the button.
+
+==Creation and display of menus==
+
+===newgui=== 
+creates a new menu;
+
+Arguments:
+*''name'' refers to the menu's variable name,
+*''content'' refers to the actual content of the gui itself,
+*[''initscript''] is optional, and is run before the menu is created (used with "if (= $guipasses 0)" to initialize variables for the menu)
+
+===guitab=== 
+creates a new tab for the current menu. Note: The first tab of each menu is already impied by newgui.
+
+===showgui===
+shows a menu created via newgui;
+
+Arguments:
+*''name'' refers to the menu's variable name,
+*[''tab''] is the index for the tab to show (and not the tab's title)
+
+===cleargui===
+Closes all open menus; If an integer argument is given, it goes back ''value'' steps in the stack of open menus.
+
+==Basic gui elements==
+===guitext=== 
+creates a text element;
+
+Arguments:
+*''text'' can be a raw string or a variable,
+*[''icon''] is the path to an image, example: "textures/bomb",
+*[''colour''] is a hexadecimal colour code, example: 0xFF0000, 
+* [''iconcolour''] acts on the ''icon'' just like ''colour'' acts on the ''text''
+
+===guibutton=== 
+creates a button;
+
+Arguments:
+*''name'' refers to the button's variable name,
+*''action'' defines what the button does,
+*[''alt-act''] defines what the button does when right-clicked,
+*[''icon''] is the path to an image, example: "textures/bomb",
+*[''colour''] is a hexadecimal colour code, example: 0xFF0000
+
+===guiimage=== 
+creates a clickable image;
+
+Arguments:
+*''path'' is the path to an image, example: "textures/bomb",
+*[''action''] defines what clicking the image does,
+*[''scale''] defines the scale of the image,
+*[''overlaid''] whether or not the image is overlaid with guioverlaytex (true/false),
+*[''alt-path''] alternate image to use if ''path'' cannot be loaded,
+*[''alt-act''] defines what the image does when right clicked,
+*[''colour''] is a hexadecimal colour code - useful to colourize icons, e.g. for weapons or teams
+
+===guicheckbox=== 
+creates a checkbox;
+
+Arguments:
+*''name'' a text string shown to the right of the checkbox,
+*''variable'' refers to the alias/var that the checkbox controls,
+*[''on''] is the value given to ''variable'' when the checkbox is on, and vice-versa for [''off''], if these are not specified, 1/0 is assumed,
+*[''onchange''] is the action taken whenever the checkbox is toggled,
+*[''colour''] is a hexadecimal colour code, example: 0xFF0000
+
+===guiradio=== 
+creates a radio button;
+
+Arguments:
+*''name'' a text string shown to the right of the radio button,
+*''var'' refers to the alias/var that the radio button controls,
+*''value'' is the value given to ''var'' when selected,
+*[''onchange''] is the action taken whenever the button is toggled,
+*[''colour''] is a hexadecimal colour code, example: 0xFF0000
+
+===guifield=== 
+creates a text field;
+
+Arguments:
+*''var'' refers to the alias/variable the guifield controls,
+*''maxlength'' defines the maximum number of characters/length of the field, negative values allow the field to expand downward as needed,
+*[''onchange''] is the action taken when the guifield value changes,
+*[''colour''] is a hexadecimal colour code, example: 0xFF0000
+
+==Gui layout commands==
+
+===guilist=== 
+adds ''content'' to a list. Guilists can be nested to arrange gui elements horizontally and vertically. 
+
+This also allows to structure the layout in order to use guibars, guisliders and coloured guibackgrounds
+
+===guispring=== 
+adds weight to a menu for pushing elements more/less to one side;
+
+Arguments:
+*[''value''] optional weight factor;
+example: guilist [ guispring ; guitext "centered"; guispring ]
+
+===guistrut=== 
+adds spacing to a menu;
+
+Arguments:
+*if [''bool''] is 1, it wraps the guistrut in a guilist (adds spacing in the alternate direction),
+*"guistrut 5 1" is the same as "guilist [ guistrut 5 ]"
+
+===guibar=== 
+draws either a vertical or a horizontal line, depending on the nesting of guilist
+
+==Advanced gui elements==
+===guikeyfield=== 
+creates a key field (each key being a separate element);
+
+Arguments:
+*''var'' refers to the alias/variable the guikeyfield controls,
+*''maxlength'' defines the maximum number of characters/length of the field, negative values allow the field to expand downward as needed,
+*[''onchangge''] is the action taken when the guikeyfield value changes,
+*[''colour''] is a hexadecimal colour code example: 0xFF0000
+
+===guibitfield=== 
+creates a checkbox for the bitwise and of ''var'' and ''bit'';
+
+Arguments:
+*''name'' a text string shown to the right of the checkbox,
+*''variable'' refers to an alias/var that holds bitwise information,
+*''bit'' is the bit of ''var'' that the checkbox controls, given as a power of 2,
+*[''onchange''] is the action taken whenever the checkbox is toggled,
+*[''colour''] is a hexadecimal colour code, example: 0xFF0000.
+example: guibitfield "allow votes for trial games" modelockfilter $modebitrace
+
+===guislider===
+creates a slider, depending on the use of guilist
+
+Arguments:
+*''var'' is an integer that the slider controls,
+*''min'' and ''max'' give the valid range for ''var'',
+*[''onchange''] is the action taken when the slider is moved,
+*[''reverse''] (1) flips the slider,
+*[''scroll''] (1) enables scrolling also on the parent guilist,
+*[''colour''] is a hex colour (hover text),
+*[''style''] (1) draws a bar instead of a point,
+*[''slidercolour''] is a hex colour (bar/point).
+example: guislider raceweapon 0 11
+
+
+===guilistslider=== 
+Similar to guislider, but using a list instead of a range for the values.
+
+Arguments
+*''var'' is an integer that the slider controls,
+*''list'' holds the values for ''var'',
+*the folowing arguments are equivalent to those of guislider
+
+example: guilistslider raceweapon [0 1 2 3 4 5 6 7 8 9 10 11] 
+
+===guinameslider=== 
+Similar to guislider, but using two lists with labels and values.
+
+Arguments
+*''var'' is an integer that the slider controls,
+*''names'' and ''list'' are the hover texts and values for ''var''
+*the folowing arguments are equivalent to those of guislider
+
+example: guinameslider raceweapon $weapname [0 1 2 3 4 5 6 7 8 9 10 11] 
+    
+===guitooltip=== 
+creates a text box attached to the mouse pointer;
+
+Arguments
+*''text'' is the hover text,
+*[''width''] adjusts the width of the box,
+
+example: if (=s $guirolloveraction "disconnect") [guitooltip "leave the current game (server)"]" "''text'' [''width'']"
+
+===guibackground===
+creates a colored background;
+
+Arguments:
+*''colour'' is in hexadecimal, example: 0xFF0000,
+*[''blend''] is the opacity of the colour, ranges from 0 (invisible) to 1 (opaque),
+*[''bordercolour''] is the colour of the border,^n[''borderblend''] is the opacity of the border,
+*[''border''] determines if the border is drawn (0 or 1),
+*[''levels''] specifies how many guilist levels to go back
+
+==Gui formatting options==
+
+===guifont=== 
+sets the text font to be used in the block, see data/fonts for options
+
+===guiheader=== 
+sets the header title of the menu, replacing the first argument of ''newgui'' in the title bar.
