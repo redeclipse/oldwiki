@@ -80,15 +80,15 @@ As a side note, there are some special tags to format strings with colours or ic
 '''r'''ed, '''g'''reen, '''b'''lue,
 '''c'''yan, '''m'''agenta, '''y'''ellow,
 '''w'''hite, gr'''a'''y, blac'''k''',
-'''v'''iolet, '''p'''ink and brow'''n''''.
+'''v'''iolet, '''p'''ink and brow'''n'''.
 
-Most of these colours are also available in a darker shade using a capital letter.
+For most of these colours, a capital letter will result in a darker shade (except for K, V and N).
 
 Furthermore, the letter z can be followed by two more colour tags to create flashing texts, for example 
   "^fzyoBoOoM!"
 Flashing texts should be used with '''caution''', as they can be very annoying - excessive use can get you muted.
 
-Finally, the ^fs tag can be used to store the current colour, and push it back with a ^fS tag.
+Finally, the ^fs tag stores the current colour, such that it can be restored with a ^fS tag.
   "^frRed^fs^fbBlue^fSRed"
 
 ==CubeScript tutorials==
