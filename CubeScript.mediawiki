@@ -91,6 +91,40 @@ Flashing texts should be used with '''caution''', as they can be very annoying -
 Finally, the ^fs tag stores the current colour, such that it can be restored with a ^fS tag.
   "^frRed^fs^fbBlue^fSRed"
 
+==Example: Rainbow chat==
+
+Below is an example how the colour formats discussed above can be used in a chat script.
+
+    rainbowchat = [
+        out = ""
+        i = 0
+        loop k $numargs [
+            word = $(format "arg%1" (+ $k 1))
+            loop j (stringlen $word) [
+                out = (format "%1^fz%2%3" $out (substring "rygcbvmr" $i 2) (substring $word $j 1)) 
+                if (> $i 5) [i = 0 ] [i = (+ $i 1)]
+            ]
+            out = (concat $out "")
+        ]
+        if (< (stringlen $out) 128) [
+            say $out
+        ] [
+            echo (format "This message is %1 chars long - the usual limit is 127. Each letter takes up 5." (stringlen $out)
+        ]
+    ]
+    
+    setcomplete rainbowchat 1
+    listcomplete rainbowchat [
+        "BoOoM"
+        "Good game!"
+        "What the f*** was this?!?"
+        "go for it!"
+        "yeeeehaw!"
+        "what a mess >_< "
+    ]
+
+This defines a new command '/rainbowchat', which supports auto-completion - also for some predefined phrases. The following text is then parsed such that it is displayed in flashing rainbow colours. Since this inserts plenty of format tags, the overall length of the message is quite limited.
+
 ==CubeScript tutorials==
 
 For further reading, there are some detailed, external resources, such as the excellent tutorials by Hirato. For reference, here is also the corresponding documentation from sauerbraten.
