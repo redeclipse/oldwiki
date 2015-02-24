@@ -22,12 +22,12 @@ The following script will define and display a menu with just a title and one te
 ==A test alias==
 If you are familiar with the use of aliases and [[CubeScript]], you can quickly test and preview gui commands via the [[console]]. For example, the following alias can be used:
 
-  testgui = [ newgui test [ @arg1 ] ; showgui test ]
+  /testgui = [ newgui test [ @arg1 ] ; showgui test ]
 
 To reproduce the minimalistic example above, this alias can be used as follows:
   /testgui [guitext "hello world"]
 
-This may seem fairly complicated, but it can be convenient to read the usage descriptions and quickly check how the commands work.
+This may seem fairly complicated, but it can be convenient to read the [[CubeScript#Usage_descriptions_in_the_console|usage descriptions]] and quickly check how the commands work.
 
 ==Use of gui commands==
 
