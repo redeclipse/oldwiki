@@ -4,31 +4,49 @@ CubeScript is the scripting language of the [http://cubeengine.com/ Cube 2 engin
 
 CubeScript can be used to
 * customize any of the existing in-game [[menus]] or create new [[menus]] from scratch,
-* design scripted events in a map using [[Entity_Linking#Scriptable_Events|trigger]] entities,
-* or run any sequence of [[Vars_and_Commands_Tables|commands or variable settings]] that can be entered in the [[console]].
+* enhance a custom map with [[Entity_Linking#Scriptable_Events|scripted events using triggers]],
+* write macros to automatize some actions or
+* load a set of game variables, such as weapon mods.
 
 ==Usage descriptions in the console==
 
-In the regular chat (or team chat) prompt, a leading forward slash (/) allows to execute commands via the console. The same can be done via the tilde (~) or forward slash (/) keys (per default). The console supports tab-completion, which is useful to cycle through the available [[Vars_and_Commands_Tables|commands and variables]]. For many of these, usage instructions are shown as they are entered. This can be default values of a variable or explanations of a command's arguments. Note that most game variables can be set in the console by simply entering their name, followed by a new value as an argument, for example
+In the regular chat (or team chat) prompt, a leading forward slash (/) allows to execute commands via the console. The same can be done via the tilde (~) or forward slash (/) keys (per default).
+
+The console supports tab-completion, which is very useful to cycle through the available [[Vars_and_Commands_Tables|commands and variables]]. Just start typing and hit the ''Tab'' key to find matching commands or vars.
+
+For many commands and game variables, usage instructions are shown as they are entered. This usually includes default values of a variable and explanations of a command's arguments. Note that most game variables can be set in the console by simply entering their name, followed by a new value as an argument, for example the player name.
 
   /playername frogger_afk
 
 ==Alias lookups and containers==
 
-New aliases (variables) can be defined with the alias command or an assignment, which are equivalent as shown below
+New aliases (variables) can be defined with the alias command or an assignment, which are equivalent as shown below.
 
-  alias pi 3.14159
-  pi = 3.14159
+  /alias pi 3.14159
+  /pi = 3.14159
 
-The value of the alias can be looked up either via the $ (getalias) or the @ (macro) token. The below example is typical for commands that are evaluated to return a result value: The command (a sine function) is followed by one or several arguments (our alias lookup), and a bracket container is used to substitute the result (so it is printed via echo).
+The value of the alias can be looked up either via the $ (getalias) or the @ (macro) token.
 
   /echo "hello world"
+  /echo $pi  
+
+The below example is typical for commands that are evaluated to return a result value: The command (a sine function) is followed by one or several arguments (our alias lookup), and a bracket container is used to substitute the result (so it is printed via echo).
+
   /echo (cos $pi)
   /echo (cos @pi)
 
 The differences between the $ and @ tokens are subtle, complicated to understand in detail, and likely to cause unexpected results. In the above example, the @pi lookup should actually be in square brackets - here it gives the seemingly correct result only by chance.
 
-For basic scripting, though, the $ token should be perfectly sufficient and save to use, with one important exception: When writing [[menus]] that use buttons in a loop, the button actions (or any ''onchange'' arguments) should use the @ token for the control variable. (For a detailed explanation, the external tutorials linked below can be consulted.)
+For basic scripting, though, the $ token should be perfectly sufficient and save to use, with one important exception: For [[menus]] that use buttons in a loop, the button actions (or any ''onchange'' arguments) should use the @ token for a lookup of the control variable. (For a detailed explanation, the external tutorials linked below can be consulted.) Such a [[menus|menu]] can be created from the console as follows.
+
+  /newgui example [looplist i $weapname [guibutton $i [echo @i]]]
+  /showgui example
+
+On a single line, this example looks fairly complicated. Usually such scripts or [[menus]] are written in a text editor and saved as a ''cfg'' file. This will also make it easier to discuss the use of square bracket containers.
+
+==Writing scripts==
+
+If commands or variables are entered via the console, each line usually begins with a slash (/). In script files, however, there are no such leading slashes. The previous example (a test menu of weapon names) can be written as follows.
 
   newgui example [
       looplist i $weapname [
@@ -37,18 +55,15 @@ For basic scripting, though, the $ token should be perfectly sufficient and save
   ]
   showgui example
 
-This example script also shows the use of square brackets to form a block of code that serves as one argument of a command. This is the only sane way to split a command on several lines, preferably with an indention of four spaces.
+This example script shows the use of square brackets to form a block of code that serves as one argument of a command. This is the only sane way to split a command on several lines, preferably with an indention of four spaces. 
 
 ==Executing scripts==
 
-Scripts are typically saved as '''cfg''' files in the [[Game_Settings#User_Content|user content directory]]. For example, the script ''myvars.cfg'' can be executed using
+Scripts are typically saved as ''cfg'' files in the [[Game_Settings#User_Content|user content directory]]. For example, the script in the file ''myvars.cfg'' can be executed using
+
    /exec myvars.cfg
 
-Notes:
-
-*If [[Vars_and_Commands_Tables|commands or variables]] are entered via the [[console]], each line usually begins with a slash (/). In script files, there are no such leading slashes.
-
-*Scripts can be executed automatically using [[Game_Settings#autoexec.cfg|autoexec.cfg]].
+Note that once you entered /exec, the ''Tab'' key can be used for auto-completion of filenames. Furthermore, scripts can be executed automatically using [[Game_Settings#autoexec.cfg|autoexec.cfg]].
 
 ==Special string formatting==
 
@@ -60,13 +75,11 @@ As a side note, there are some special tags to format strings with colours or ic
 * ^f  - a format code as follows:
 ** ^f() - allows to insert a texture, for example "^f(textures/modes/race)hurry up!"
 ** ^f[] - use a hex code to colourize the text, for instance "^f["$zappercolour"]pzap!"
-** ^fC  - use a predefined colour C
-
-The single letter codes for predefined colours are:
+** ^fC  - use the predefined colour C, or one of the below single letter colour codes:
 
 '''r'''ed, '''g'''reen, '''b'''lue,
 '''c'''yan, '''m'''agenta, '''y'''ellow,
-'''w'''hite, gr'''a'''y and blac'''k''',
+'''w'''hite, gr'''a'''y, blac'''k''',
 '''v'''iolet, '''p'''ink and brow'''n''''.
 
 Most of these colours are also available in a darker shade using a capital letter.
@@ -80,11 +93,11 @@ Finally, the ^fs tag can be used to store the current colour, and push it back w
 
 ==CubeScript tutorials==
 
-Here is a list of external resources. These tutorials are useful to learn more about (advanced) scripting with CubeScript.
+For further reading, there are some detailed, external resources, such as the excellent tutorials by Hirato. For reference, here is also the corresponding documentation from sauerbraten.
 
-* http://sauerbraten.org/docs/config.html#cubescript<br>
 * https://github.com/Hirato/lamiae/wiki/CubeScript<br>
-* http://quadropolis.us/node/2336<br>
 * http://www.sandboxgamemaker.com/wiki/index.php?title=Cubescript
+* http://quadropolis.us/node/2336<br>
+* http://sauerbraten.org/docs/config.html#cubescript<br>
 
-These tutorials do not cover the gui elements used to create [[menus]] in Red Eclipse. For details, see the corresponding [[menus|article]], and most of all, have a look at the existing game menus.
+These tutorials do not cover the gui elements used to create [[menus]] in Red Eclipse. For details, see the corresponding [[menus|article]], and most of all, have a look at the existing game [[menus]].
