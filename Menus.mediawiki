@@ -49,6 +49,13 @@ Arguments:
 *''content'' refers to the actual content of the gui itself,
 *[''initscript''] is optional, and is run before the menu is created (used with "if (= $guipasses 0)" to initialize variables for the menu)
 
+===guiheader=== 
+sets the header title of the menu, replacing the first argument of ''newgui'' in the title bar.
+
+===guistayopen=== 
+
+Usually, clicking a button or image to trigger an action will close the menu. This rule does not apply to buttons or images in a guistayopen block.
+
 ===guitab=== 
 creates a new tab for the current menu. Note: The first tab of each menu is already impied by newgui.
 
@@ -58,6 +65,9 @@ shows a menu created via newgui;
 Arguments:
 *''name'' refers to the menu's variable name,
 *[''tab''] is the index for the tab to show (and not the tab's title)
+
+===guicount=== 
+Returns the number of menus in the current gui stack.
 
 ===cleargui===
 Closes all open menus; If an integer argument is given, it goes back ''value'' steps in the stack of open menus.
@@ -114,14 +124,7 @@ Arguments:
 *[''onchange''] is the action taken whenever the button is toggled,
 *[''colour''] is a hexadecimal colour code, example: 0xFF0000
 
-===guifield=== 
-creates a text field;
 
-Arguments:
-*''var'' refers to the alias/variable the guifield controls,
-*''maxlength'' defines the maximum number of characters/length of the field, negative values allow the field to expand downward as needed,
-*[''onchange''] is the action taken when the guifield value changes,
-*[''colour''] is a hexadecimal colour code, example: 0xFF0000
 
 ==Gui layout commands==
 
@@ -147,7 +150,40 @@ Arguments:
 ===guibar=== 
 draws either a vertical or a horizontal line, depending on the nesting of guilist
 
+===guibackground===
+creates a colored background;
+
+Arguments:
+*''colour'' is in hexadecimal, example: 0xFF0000,
+*[''blend''] is the opacity of the colour, ranges from 0 (invisible) to 1 (opaque),
+*[''bordercolour''] is the colour of the border,^n[''borderblend''] is the opacity of the border,
+*[''border''] determines if the border is drawn (0 or 1),
+*[''levels''] specifies how many guilist levels to go back
+
+===guifont=== 
+sets the text font to be used in a block
+''font'' is a keyword, e.g. emphasis or small
+''block'' is a block of gui elements for which ''font'' is used
+
+nexample: newgui font-preview [loopfiles i config/fonts cfg [guifont $i [guitext $i]]]
+
+note: This will preview all of the available ''font'' options.
+
 ==Advanced gui elements==
+
+===guifield=== 
+creates a text field;
+
+Arguments:
+*''var'' is the variable the guifield controls,
+*''maxlength'' is the width in characters, negative values allow the field to expand downward,
+*[''onchange''] is the action taken when the value changes,
+*[''colour''] is a hex colour, e.g. 0xFF0000, 
+*[''focus''] (1) will keep the input field in focus,
+*[''parent''] allows to pass the input,^n[''height''] is the number of lines to show with a scroll bar,
+*[''promt''] is a text shown when ''var'' is empty,
+*[''immediate''] (1) updates ''var'' already while typing.
+
 ===guikeyfield=== 
 creates a key field (each key being a separate element);
 
@@ -202,9 +238,15 @@ Arguments
 *the folowing arguments are equivalent to those of guislider
 
 example: guinameslider raceweapon $weapname [0 1 2 3 4 5 6 7 8 9 10 11] 
-    
+
+==Hover effects==    
+
+===guinohitfx===
+
+Hover effects are disabled for all buttons or images in a guinohitfx block. This is useful for images that do not act as buttons.
+
 ===guitooltip=== 
-creates a text box attached to the mouse pointer;
+creates a text box attached to the mouse pointer
 
 Arguments
 *''text'' is the hover text,
@@ -212,20 +254,18 @@ Arguments
 
 example: if (=s $guirolloveraction "disconnect") [guitooltip "leave the current game (server)"]
 
-===guibackground===
-creates a colored background;
+===guirollovername=== 
+Returns the text label or image path of the gui element at the current mouse position.
 
-Arguments:
-*''colour'' is in hexadecimal, example: 0xFF0000,
-*[''blend''] is the opacity of the colour, ranges from 0 (invisible) to 1 (opaque),
-*[''bordercolour''] is the colour of the border,^n[''borderblend''] is the opacity of the border,
-*[''border''] determines if the border is drawn (0 or 1),
-*[''levels''] specifies how many guilist levels to go back
+===guirolloveraction=== 
+Returns the action of a button or image or the variable of a checkbox or radio at the current mouse position.
 
-==Gui formatting options==
+===guirollovertype=== 
+Returns the type of the gui element at the current mouse position, e.g. text, image or checkbox.
 
-===guifont=== 
-sets the text font to be used in the block, see data/fonts for options
+==Glue functions==
 
-===guiheader=== 
-sets the header title of the menu, replacing the first argument of ''newgui'' in the title bar.
+A collection of aliases for some gui commands are found in the file
+  /config/menus/glue.cfg
+
+For example, this allows to create centered text (using springs) or boxed frames in menu. These aliases are also used in many of the in-game menus.
