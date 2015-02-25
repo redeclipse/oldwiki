@@ -165,7 +165,7 @@ sets the text font to be used in a block
 ''font'' is a keyword, e.g. emphasis or small
 ''block'' is a block of gui elements for which ''font'' is used
 
-nexample: newgui font-preview [loopfiles i config/fonts cfg [guifont $i [guitext $i]]]
+example: newgui font-preview [loopfiles i config/fonts cfg [guifont $i [guitext $i]]]
 
 note: This will preview all of the available ''font'' options.
 
