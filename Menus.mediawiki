@@ -1,7 +1,8 @@
 
 All menus or guis of Red Eclipse are written in [[CubeScript]] using a set of gui commands. This means the menus can be simply modified with a text editor, without the need to compile any source code. The existing menus are therefore conveniently customized - and they also provide a large set of examples for creating your own custom menus. Such menus could be used in a campaign-like map, or for example to execute administrative commands.
 
-==Accessing the in-game menus==
+==Preface==
+===Accessing the in-game menus===
 
 The game-menus are found in a subdirectory of the Red Eclipse install directory:
   /config/menus/
@@ -11,7 +12,7 @@ When customizing the in-game menus, it is highly recommended to leave the files 
 
   exec mymenu.cfg
 
-==A minimalistic example==
+===A minimalistic example===
 The following script will define and display a menu with just a title and one text line.
 
   newgui hello [
@@ -19,7 +20,7 @@ The following script will define and display a menu with just a title and one te
   ]
   showgui hello
 
-==A test alias==
+===A test alias===
 If you are familiar with the use of aliases and [[CubeScript]], you can quickly test and preview gui commands via the [[console]]. For example, the following alias can be used:
 
   /testgui = [ newgui test [ @arg1 ] ; showgui test ]
@@ -29,7 +30,7 @@ To reproduce the minimalistic example above, this alias can be used as follows:
 
 This may seem fairly complicated, but it can be convenient to read the [[CubeScript#Usage_descriptions_in_the_console|usage descriptions]] and quickly check how the commands work.
 
-==Use of gui commands==
+===Use of gui commands===
 
 The following sections describe many of the available gui elements and commands, which are usually not covered in  external [[CubeScript]] tutorials. These commands typically have some optional arguments, which are shown in [brackets] and can be rather complicated to use.
 
@@ -73,6 +74,9 @@ Returns the number of menus in the current gui stack.
 Closes all open menus; If an integer argument is given, it goes back ''value'' steps in the stack of open menus.
 
 ==Basic gui elements==
+
+Note: The [[Menus#guifield|guifield]] command is also useful as a basic gui element, however, some of its optional arguments imply advanced features.
+
 ===guitext=== 
 creates a text element;
 
@@ -124,8 +128,6 @@ Arguments:
 *[''onchange''] is the action taken whenever the button is toggled,
 *[''colour''] is a hexadecimal colour code, example: 0xFF0000
 
-
-
 ==Gui layout commands==
 
 ===guilist=== 
@@ -151,7 +153,7 @@ Arguments:
 draws either a vertical or a horizontal line, depending on the nesting of guilist
 
 ===guibackground===
-creates a colored background;
+creates a colored background for the current guilist block;
 
 Arguments:
 *''colour'' is in hexadecimal, example: 0xFF0000,
@@ -162,8 +164,8 @@ Arguments:
 
 ===guifont=== 
 sets the text font to be used in a block
-''font'' is a keyword, e.g. emphasis or small
-''block'' is a block of gui elements for which ''font'' is used
+*''font'' is a keyword, e.g. emphasis or small
+*''block'' is a block of gui elements for which ''font'' is used
 
 example: newgui font-preview [loopfiles i config/fonts cfg [guifont $i [guitext $i]]]
 
@@ -180,7 +182,8 @@ Arguments:
 *[''onchange''] is the action taken when the value changes,
 *[''colour''] is a hex colour, e.g. 0xFF0000, 
 *[''focus''] (1) will keep the input field in focus,
-*[''parent''] allows to pass the input,^n[''height''] is the number of lines to show with a scroll bar,
+*[''parent''] allows to pass the input,
+*[''height''] is the number of lines to show with a scroll bar,
 *[''promt''] is a text shown when ''var'' is empty,
 *[''immediate''] (1) updates ''var'' already while typing.
 
@@ -265,7 +268,7 @@ Returns the type of the gui element at the current mouse position, e.g. text, im
 
 ==Glue functions==
 
-A collection of aliases for some gui commands are found in the file
+A collection of aliases for some gui commands is found in the file
   /config/menus/glue.cfg
 
 For example, this allows to create centered text (using springs) or boxed frames in menu. These aliases are also used in many of the in-game menus.
