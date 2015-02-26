@@ -104,7 +104,7 @@ Below is an example how the colour formats discussed above can be used in a chat
                 out = (format "%1^fz%2%3" $out (substring "rygcbvmr" $i 2) (substring $word $j 1)) 
                 if (> $i 5) [i = 0 ] [i = (+ $i 1)]
             ]
-            out = (concat $out "")
+            out = (format "%1 " $out)
         ]
         if (< (stringlen $out) 128) [
             say $out
