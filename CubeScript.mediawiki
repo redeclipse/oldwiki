@@ -95,9 +95,9 @@ Finally, the ^fs tag stores the current colour, such that it can be restored wit
 
 Below is an example how the colour formats discussed above can be used in a chat script.
 
+    i = 0
     rainbowchat = [
         out = ""
-        i = 0
         loop k $numargs [
             word = $(format "arg%1" (+ $k 1))
             loop j (stringlen $word) [
@@ -109,7 +109,7 @@ Below is an example how the colour formats discussed above can be used in a chat
         if (< (stringlen $out) 128) [
             say $out
         ] [
-            echo (format "This message is %1 chars long - the usual limit is 127. Each letter takes up 5." (stringlen $out)
+            echo (format "This message is %1 chars long - the usual limit is 127. Each letter takes up 5." (stringlen $out))
         ]
     ]
     
