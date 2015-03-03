@@ -180,3 +180,14 @@ This page gives strategy tips for various game mutators and can be accessed from
 * No matter what radar style you have chosen, it is completely disabled during a Hard match. The element of suprise rests in the hands of every player.
 * Remember, not only have you lost track of players and teammates, you also won't see explosives (including the rocket) spawn on your radar. Check their spawn points frequently.
 * For a truly brutal Red Eclipse, try a Free-for-All Freestyle Onslaught Hard Deathmatch on a large map.
+==basic==
+
+{|
+|[[File:pistol.png|80px]]
+|No collectable items will spawn in the arena.
+|}
+
+
+*If you want a match without grenades, mines and rockets, try the basic mutator.
+*Forget about map control: Focus on your enemies and team objective!
+*For a showdown with pistols and parkour only, combine the classic and basic mutators.
