@@ -3,6 +3,6 @@
 |author=Unnamed
 |difficulty=Moderate
 |checkpoints=6
-|laptime=55-70s
+|laptime=50-70s
 |description=Stunning visuals, wicked traps and a good flow - Decomposition offers all it takes for a great race experience.
 }}
