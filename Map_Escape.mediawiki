@@ -4,6 +4,7 @@
 |author=Goku
 |difficulty=Moderate
 |checkpoints=12
+|laptime=60-120s
 |turrets=16
 |description=A truly crazy and very colorful map - recommended for onslaught-gauntlet trial. There are several other (unofficial) versions of Escape, some of which pose a very difficult challenge.
 }}
