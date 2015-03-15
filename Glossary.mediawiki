@@ -24,6 +24,9 @@ The following list explains some commonly used terms and acronyms.
 |''ctf''
 |[[capture-the-flag]] or just ''capture'', a popular game mode.
 |-
+|''dac''
+|[[defend-and-control]] or just ''defend'', a game mode.
+|-
 |''dm''
 |[[deathmatch]], a basic game mode.
 |-
