@@ -2,6 +2,7 @@
 |mapname=Neodrive
 |author= Kirill ''TristamK'' Kolesnikov
 |difficulty=Easy to moderate
+|laptime=32-50s
 |checkpoints=10
 |description = Neodrive draws some inspiration from the traditional [[map Testchamber]] and offers some excellent flow and map design.
 }}
