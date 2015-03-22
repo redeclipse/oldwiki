@@ -2,9 +2,10 @@
 |mapname=Wardepot
 |difficulty=Easy to moderate
 |author= Kirill ''TristamK'' Kolesnikov
+|laptime=40-65s
 |checkpoints=8
 |description=Infiltrate the war depot complex and find your way to the covered submarine dock.
 ==Tips==
-*The finish a lap, try to enter the submarine.
-*If you have problems finding your way, use the command ''/routeid 1'' to get some visual clue where to go.
+*The finish a lap, find and enter the submarine.
+*If you have problems finding your way, enable display of routes via the help menu (F1).
 }}
