@@ -1,243 +1,313 @@
+In most games all players are equipped with a pistol and two of their favorite loadout weapons. Furthermore, explosive weapons can be collected in the arena, such as grenades, mines and rockets, unless these are disabled via the ''basic'' mutator.
+==Loadout weapons==
+These weapons can be chosen in the ''profile'' game menu, and it is even possible to change the weapon selection mid-match by pressing the ''comma'' key (per default). Note that one or both of the loadout weapon slots can be randomized. All of loadout weapons come with an unlimited supply of ammo, but must be reloaded when the clip is empty. Each weapon has two unique fire modes.
+
 {|
-|+
-| <h2>'''Fist'''</h2> [[File:Melee.png|64px]]
-|-
-| ''Weapon Number''
-| 0
-|-
-| ''Weapon Color''
-| Gray
-|-
-| ''Summary''
-| For those who are too lazy to even bring a knife to a gun fight, or just like to bare-knuckle brawl against folks with actual weapons.
-|-
-| ''Primary Fire''
-| A quick punch.
-|-
-| ''Alternate Fire''
-| None
-|-
-| ''Note''
-| Only seen in Time-trial.
-
-|+
-| <h2>'''Pistol'''</h2> [[File:Pistol.png|64px]]
-|-
-| ''Weapon Number''
-| 1
-|-
-| ''Weapon Color''
-| Gray
-|-
-| ''Summary''
-| A robot's best friend and a helpful side arm to finish off baddies.
-|-
-| ''Clip''
-| 10 Bullets
-|-
-| ''Primary Fire''
-| Semi-automatic, quick rate of fire, fires one shot at a time. Remember to crouch for more accurate shots.
-|-
-| ''Alternate Fire''
-| Semi-automatic, fires a scattering of rouds that do very little damage. Lower rate of fire than primary. Intended to interrupt enemy health regeneration.
-|-
-|-
-| ''Note''
-| Does not spawn in maps. Default spawn weapon.
-
-|+
-| <h2>'''Sword'''</h2> [[File:Sword.png|64px]]
-|-
-| ''Weapon Number''
-| 2
-|-
-| ''Weapon Color''
-| Blue
-|-
-| ''Summary''
-| The one knife you will want to bring to a gun fight. This energy spewing shard of metal will serve you and all of your limb-chopping needs.
-|-
-| ''Clip''
-| None
-|-
-| ''Primary Fire''
-| "Automatic". A quick, horizontal swing. Induces bleeding. Has a short range, but a wide hitting arc.
-|-
-| ''Alternate Fire''
-| "Automatic". A slower, vertical swing. Induces bleeding and does massive damage. Has a longer range, but a very narrow hitting arc.
-|-
-
-|+
-| <h2>'''Shotgun'''</h2> [[File:Shotgun.png|64px]]
-|-
-| ''Weapon Number''
-| 3
-|-
-| ''Weapon Color''
-| Yellow
-|-
-| ''Summary''
-| Drop on by with this tube of flak and lay out your foes with a couple close shots, or lob a heated ball of metal their way and watch them scatter.
-|-
-| ''Clip''
-| 8 Shotgun Shells
-|-
-| ''Primary Fire''
-| Semi-automatic, fires off a quick buckshot. Auto-reload.
-|-
-| ''Alternate Fire''
-| Semi-automatic, lobs out a ball of flak, which splits into stray shards when hitting a surface. Aim for the ground in front of your enemy and hit them with the bounce of flak shards. Induces bleeding. Uses two shotgun shells. Auto-reload.
-|-
-
-|+
-| <h2>'''SMG'''</h2> [[File:Smg.png|64px]]
-|-
-| ''Weapon Number''
-| 4
-|-
-| ''Weapon Color''
-| Orange
-|-
-| ''Summary''
-| Pump the bad guys full of bullets quickly, accurately, efficiently, and of course, in style.
-|-
-| ''Clip''
-| 40 Bullets
-|-
-| ''Primary Fire''
-| Automatic. Fires off the clip in quick succession. Crouching for more accuracy is a good tactic.
-|-
-| ''Alternate Fire''
-| Automatic. Launches a ball of flak that explodes on impact or after a few seconds, launching flak in all directions. Uses 4 bullets.
-|-
-
-|+
-| <h2>'''Flamer'''</h2> [[File:Flamer.png|64px]]
-|-
-| ''Weapon Number''
-| 5
-|-
-| ''Weapon Color''
-| Red
-|-
-| ''Summary''
-| For the pyromaniacs and arsonists, here's a gun that will tickle your fancy. Bounce fireballs off the walls or shoot flames across the room, this one's bound to ruin someone's day.
-|-
-| ''Clip''
-| 25 Units of fuel per tank
-|-
-| ''Primary Fire''
-| "Automatic". Shoots out a medium distance, concentrated stream of flame. Induces burning.
-|-
-| ''Alternate Fire''
-| "Semi-automatic". Shoots out a fireball that will roll around bends and bounce off of level geometry. Hold down the button to shoot a bigger fireball. Induces burning.
-|-
-
-|+
-| <h2>'''Plasma'''</h2> [[File:Plasma.png|64px]]
-|-
-| ''Weapon Number''
-| 6
-|-
-| ''Weapon Color''
-| Turquoise
-|-
-| ''Summary''
-| Roll through the room with plasma shock balls or charge up this cannon and light it up with a vacuum-sucking, electric sphere of pure pwnage.
-|-
-| ''Clip''
-| 20 Charges per clip
-|-
-| ''Primary Fire''
-| Automatic. Shoots out a long range, high velocity, splash-damaging plasma ball.
-|-
-| ''Alternate Fire''
-| Semi-automatic. Shoots out a "Big Blue Ball", sucking in enemies close to it. Charge longer for a larger sphere.
-
-|+
-| <h2>'''Rifle'''</h2> [[File:Rifle.png|64px]]
-|-
-| ''Weapon Number''
-| 7
-|-
-| ''Weapon Color''
-| Purple
-|-
-| ''Summary''
-| A long-range, piercing-shot, purple nightmare to anyone out in the open smelling the roses. If you've got the aim, grab it and start sniping.
-|-
-| ''Clip''
-| 5 Beams per clip
-|-
-| ''Primary Fire''
-| Semi-automatic. Fires off an ultra long-range purple beam of energy. When opponents are further away, crouch for accuracy and lead your shots. Shoot at the ground for splash damage.
-|-
-| ''Alternate Fire''
-| Scope. Scroll the mouse wheel for different zoom levels. Zoomed shots do more damage and even penetrate multiple targets, but have no splash damage.
-
-|+
-| <h2>'''Grenade'''</h2> [[File:Grenade.png|64px]]
-|-
-| ''Weapon Number''
-| 8
-|-
-| ''Weapon Color''
-| Green
-|-
-| ''Summary''
-| The buddy of any pin-pulling SOB that steps into the arena.
-|-
-| ''Clip''
-| None. You can hold up to two grenades at a time.
-|-
-| ''Primary Fire''
-| Press to throw. Hold to charge, the longer you cook it the sooner explodes after being thrown. Your velocity affects its trajectory - lunge forward to throw further, or jump or fall for different effects. Causes burning. Press K to go "kamikaze".
-|-
-| ''Alternate Fire''
-| Press to throw. Hold to charge. Your velocity affects its trajectory - lunge forward to throw further, or jump or fall for different effects. Causes burning. Press K to go "kamikaze". Sticks to level geometry.
-
-|+
-| <h2>'''Rocket'''</h2> [[File:Rocket.png|64px]]
-|-
-| ''Weapon Number''
-| 9
-|-
-| ''Weapon Color''
-| Brown
-|-
-| ''Summary''
-| The most powerful beast of a weapon in the arena, and yet has the least ergonomically designed handle...
-|-
-| ''Clip''
-| 1 Rocket, does not reload.
-|-
-| ''Primary Fire''
-| Fires out a straight shot. Cook for a quicker explosion. Splash damage. Causes burning.
-|-
-| ''Alternate Fire''
-| Fires out a guided shot - look to aim the rocket through the air. Cook for a quicker explosion. Splash damage. Causes burning.
-|-
-| ''Note''
-| Spawn on the middle of the map.
-
-|+
-| <h2>'''Melee'''</h2> [[File:Melee.png|64px]]
-|-
-| ''Weapon Number''
-| None
-|-
-| ''Weapon Color''
-| None
-|-
-| ''Summary''
-| The only thing worse than an agile martial artist is a metal one that weighs a tonne.
-|-
-| ''Clip''
-| None
-|-
-| ''Punch''
-| Press Q on the ground to punch someone. You can hold any gun and can do this in any mode.
-|-
-| ''Kick''
-| Press Q in the air to kick someone, causing you to bounce higher into the air as a result. You can hold any gun and can do this in any mode.
+|align="right"|[[file:classic.png|40px]] 
+|''Exception'': When the classic game [[Modes_and_Mutators_in_SVN#mutators|mutator]] is active, loadout weapons must be collected in the arena.
 |}
+{|
+|[[file:medieval.png|40px]] [[file:swordcol.png|40px]] [[file:kaboom.png|40px]] [[file:grenadecol.png|40px]][[file:minecol.png|40px]] [[file:instagib.png|40px]] [[file:riflecol.png|40px]] 
+|Some game [[Modes_and_Mutators_in_SVN#mutators|mutators]] force players to use specific weapons. 
+|}
+
+{{Weapon}} <!-- the template's default contains the sword info-->
+
+{{Weapon
+|name=Shotgun
+|summary=Can instantly kill at point-blank. High risk, high reward weapon, popularly used in deathmatch games.
+|clip=8 shells
+|primary=Semi-automatic. Short to medium range. fires off a quick buckshot making for an array of pellets, spreading further apart at longer ranges. Auto-reload. 
+|secondary=Semi-automatic. Lobs out a large, round projectile which splits into stray shards when hitting any solid surface, a long distance or players. Moves slowly in air. Heavily affected by gravity. Induces bleeding. Uses two shells. Auto-reload.
+|strategy=
+''Shotgun primary''
+* Always aim for the torso. The shotguns primary fire is composed of pellets which individually give damage, so whilst pellets to the head cause more damage, much more pellets reach the torso. At point-blank, a short aimed at the torso will instantly kill.
+* If the opponent is not using a shotgun, run circles around them, firing instantly after the attack delay has finished. This is indicated by the red reloading circle and reloading sound effect.
+* If the opponent is using a shotgun, time yourself to dodge their attack by either to-the-side [[Impulse_moves#Double_jump|double jumps]] or [[Impulse_moves#Impulse_dash|impulse dashes]]. When in mid-range, conserve your impulse energy and simple strife side-to-side. 
+* When the opponent uses a lot of energy all at once and it's too hard to get a hit of them when moving, only shoot when they land on the ground (when jumping) or have slowed down (when dashing). Because of the long attack delay and short clip size, it's better to be careful not to waste ammo if you are not equipped with another short/mid range weapon.
+* For a more aggressive play-style, you can quickly use up a clip of the shotgun and then use a flamer or SMG (the other weapons are useful, but limited).
+''Shotgun secondary''
+* The alternative fire can be aimed for the ground in front of your enemy and hit them with the bounce of flak shards, which whilst slow can travel long distances.
+* The shards that come out can be used to hit opponents who are around a tight corner because the shards will deflect on surfaces. These shards cause bleed damage, diminishing the affected's health over time.
+* The ball itself can instantly kill when contacting an enemy, but is easy to dodge. Use it on enemies moving directly towards you or standing still.
+* Don't overuse the alternative fire at shorter ranges as the shotgun features a small clip size, long attack delay and slow time for reload. The primary fire is much more effective when the opponent moves irregularly. The same goes for the primary fire at longer ranges, as it does insignificant damage.
+* When trying to escape, use this for extra pushback (because of it's high recoil). It can be especially useful when in air and you fear a rifle user can easily hit you.
+}}
+
+{{weapon
+|name=SMG
+|summary=Vicious shooting speed with decently low recoil to be useful at any range.
+|clip=40 bullets
+|primary=Automatic. Short to long range. Fires off the clip in quick succession. Bounces off hard surfaces. 
+|secondary=Automatic. Short to long range. Launches a ball of flak that explodes on impact or after a few seconds, launching flak in all directions. Moves slowly in air. Uses 4 bullets.
+|strategy=
+''SMG primary''
+* You can fire at long ranges but against a good rifle or plasma user you will be worse off. Move in for the kill.
+* Against shotguns, flamers and swords you should keep a healthy short distance, being out of reach of any dangerous shotgun bursts, flames or quick sword cuts. If the enemy charges in using [[Impulse_moves#Double_jump|double jumps]], [[Impulse_moves#Impulse_dash|impulse dashes]] or [[Impulse_moves#power_slide|power slides]] (and so be moving quickly) you should not turn and run but impulse dash/double jump backwards to maintain that distance.
+* Crouching for more accuracy is a good tactic when you are not in danger of receiving fire.
+* Whilst mostly for show, the bouncing bullets can quite an annoyance to opponents around corners.
+''SMG secondary''
+* When the opponent is moving directly towards/away from you, use it to cause massive damage.
+* Use the alternative fire for longer ranges against a rifle player who is scoping, as they will be moving slower and therefore become easier targets.
+* The alternate fire mode can be used to hit multiple players in a confined space.
+}}
+
+{{weapon
+|name=Flamer
+|summary=Powerful in close-quarters-combat and traversing around the map.
+|clip=50 units
+|primary=Automatic. Shoots out a short distance, concentrated stream of flame. Induces burning.
+|secondary=Semi-automatic. Shoots out an air blast which greatly pushes yourself when directed at hard surfaces. Pushes others away when directed at them. Negates burning. Uses 5 units.
+|strategy=
+''Flamer primary''
+* Don't flame an enemy once and hope the burn will finish them off. The continued firing of the flamer does significant damage if you can keep firing directly at the opponent at a short range.
+* Circle around enemies to minimize being hit. [[Impulse_moves#Impulse_dash|Impulse dashes]] and [[Impulse_moves#Double_jump|double jumps]] are especially useful. Quickly consume energy with the confidence that the secondary fire can allow for quick escapes.
+''Flamer secondary''
+* The air blast does not inflict damage on team mates or yourself - useful to extinguish flames, but annoying for those who get pushed around.
+* Blast jump: During a jump, fire on the ground to gain a mighty push. This works best if you either shoot precisely downwards or while jumping backwards. 
+* Blast boost: Use an [[Impulse_moves#Impulse_boost|impulse boost]] directly after a blast jump to redirect the push and gain an impressive amount of forward momentum. 
+* When against a shotgun or sword user, use a backwards blast jump to escape a confrontation and switch to a longer-ranged weapon.
+* Should you get caught in your own flames, a blast jump will quickly remove the burn status effect.
+}}
+
+{{weapon
+|name=Plasma
+|summary=Large bullets with slow speed makes this most effective at medium range and escaping confrontations.
+|clip=20 charges
+|primary=Automatic. Shoots out a medium range, high velocity, splash-damaging plasma ball.
+|secondary=Semi-automatic. Shoots out a big plasma ball, sucking in enemies close to it and causes continuous damage on contact. Charge longer for a larger and slower moving sphere, which uses up more ammo.
+|strategy=
+''Plasma primary''
+* Keep a distance from short range weaponry.
+* If an enemy tries to close on you, try using backward (mid-air) [[Impulse_moves#Impulse_dash|impulse dashes]] to maintain a safe distance.
+* The plasma balls are effective against rifle users because their size blinds players looking directly towards you.
+* Be wary of the limited range, which makes the plasma not useful for enemies far-off.
+''Plasma secondary''
+* Charge the secondary to full to make for a devastating plasma ball, which is useful to at as a shield for any opponents trying to get close to you and control their movements to make them easy targets for your other loadout weapon (as reloading the plasma will take a long time).
+* Easily defend control points in the [[Modes_and_Mutators_in_SVN|Defend and Control]] mode by shooting a fully-charged plasma ball to give the other team(s) second thoughts on trying to capture the point.
+* Plasma balls that are only partially charged are useful for their faster speed. Whilst still quite slow, you can hit an opponent if they're standing still or have limited movement, usually when they're scoping a rifle or capturing/defending a control point.
+}}
+
+{{weapon
+|name=Zapper
+|summary=Deals shock damage to make foes easy pickings, and alone powerful at mid-ranges.
+|clip=30 charges
+|primary=Automatic. Short to medium range fast bolt shots. Induces shock.
+|secondary=Semi-automatic. Short to medium range multiple bolt shots inter-twined. Charge for heavier damage. Induces shock.
+|strategy=
+''Zapper primary''
+* Plays like a [[#SMG|SMG]] just without the bounce and having less direct damage, so use similar strategy.
+* Quickly induce shock to an opponent and then switch to another weapon for easier aim.
+* Inducing shock then burn with the flamer can cause a damaging double status effect, which can be extremely effective for hit-and-run encounters.
+''Zapper secondary''
+* Charge around corners and be in your enemies range when it's time to fire.
+* Like the primary, the secondary also plays like the [[#SMG|SMG]] secondary in that it's high damage but limited spacial adaptibility is best suited for opponents moving directly towards/away from you.
+* Use the primary for an easy hit to inflict shock, making it easier to aim the slower secondary fire at moving opponents.
+}}
+
+{{weapon
+|name=Rifle
+|summary=Shocking at long and medium ranges with a good aim.
+|clip=6 beams per clip
+|primary=Semi-automatic. fires off an ultra long-range purple beam of energy. Shoot at the ground for minor splash damage.
+|secondary=Scope. Scroll the mouse wheel for different zoom levels. Zoomed shots do more damage and even penetrate multiple targets, but have no splash damage. Must stay in scope for a short period of time for maximum damage.
+|strategy=
+''Rifle primary''
+* Useful at short ranges when an enemy has closed in to get in one hit and then switch to a more appropriate weapon.
+* From medium and long ranges, the primary can be more useful to keep track of fast moving opponents if you're not confident with the secondary, although is not a particularly quick method.
+* The attackdelay of the primary is lower then of the secondary, so can 'spammed' and still be significantly powerful.
+''Rifle secondary''
+* A rifle user will always favour the longest distance when fighting non-rifle users, so try and find a vantage point to snipe from. However, do not try and stick around one place for too long as once you have killed people a few times they will start to target you. 
+* Wait until the the rifle is fully charged (indicated by a completed circle loop around the cross-hair) before firing to shoot at maximum damage.
+* Shooting at the head will instantly kill, but it is much more easier to aim at the torso. Only try for a headshot when the opponent is still or moving directly towards/away from you.
+* Never stay still in an open area as it's likely that there are other snipers out to kill you.
+* Whilst moving will affect your accuracy, against another rifle user it is better to focus on dodging rifle shots rather than getting hits unless you're confident that you can get the first shot instantly- if that's the case, crouch or walk for better accuracy but strife side-to-side in the case of your opponent not dying.
+}}
+
+===Weapon combos===
+[[File:Shotguncol.png|64px]][[File:Riflecol.png|64px]]
+''Shotgun and Rifle''
+
+This traditional choice of loadout weapons is very popular, especially in Deathmatch games. A player with these tools of destruction prioritizes the ability to inflict heavy damage - any time, anywhere, and over any distance.
+
+[[File:Flamercol.png|64px]][[File:Zappercol.png|64px]]
+''Flamer and Zapper''
+
+This pair of weapons optimizes a players ability to outrun his enemies and to support his team mates. It serves well for hit-and-run tactics, not only in [[Capture the Flag]] games.
+
+==Explosives==
+Explosive weapons can be collected from certain spots of the arena. Unlike other weapons, they cannot be reloaded. 
+
+[[File:Kaboom.png|64px]]  Exception: In [[Modes_and_Mutators_in_SVN#mutators|kaboom]] games, players start with grenades and mines that reload over time.
+
+{{weapon
+|name=Grenade
+|summary=Can instantly kill at any range, but requires good timing and aim to be effective.
+|clip=You can hold up to two grenades at a time.
+|primary=Press to throw. Hold to charge, the longer you cook it the sooner explodes after being thrown. Your velocity affects its trajectory- lunge forward to throw further, or jump or fall for different effects. Causes burning. Bounces off level geometry and players.
+|secondary=Sticky grenades - has a smaller explosion radius than the primary fire mode, but will stick to hard surfaces rather than bouncing off. Can be attached to players.
+|strategy=
+''Grenade notes''
+* If a player dies whilst charging up the primary or secondary fire, the grenade will explode.
+* Do not kamikaze - charging up your grenade when you know you're going to die to kill your enemy - as you will lose more points by suiciding.
+* Switch weapons or press reload whilst charging either the primary or secondary to stop throwing the grenade.
+* Failing to throw after most/all of the charge time has been used will result in suiciding.
+''Grenade primary''
+* Use the bounce to get grenades around tight corners and in enclosed spaces.<br />
+''Grenade secondary''
+* This firing mode has a smaller explosion radius than the primary.
+* Timing your grenade throw to an estimated destination of an opponent can effectively damage your surprise your opponent.
+* If confident in making your grenade directly hitting your opponent, then use the secondary. When the grenade explodes when stuck to a player (as well as in close range) it will instantly kill.
+}}
+
+{{weapon
+|name=Mine
+|summary=Heavy damage and applies the [[Weapons_in_SVN#Status_effects|shock status]] effect.
+|clip=You can hold up to two mines at a time.
+|primary=Fire to throw. When in contact with a solid surface or player, it will stick. When any player comes into the small proximity of the mine, the mine will explode and they will receive heavy damage and shock.
+|secondary=Shock beam trap - the top of the mine emits a beam that extends until it hits a solid surface. Anyone who gets in contact with the beam will cause the mine to detonate and receive damage and shock from the beam. 
+|strategy=
+''Mine notes''
+* Mines emit a 'droning' sound when close by.
+* Never use this in team games unless there's a much higher chance of the enemy team(s) hitting it.
+* Switch immediately back to your loadout weapons if a player can see you, as then mines lose their surprise value
+''Mine primary''
+*Place mines in choke points so your opponent cannot see them, such as:
+** Landing points from pushers
+** Around corners
+** On edges where players will walk off
+** Destination spots from portals
+''Mine secondary''
+* Use the secondary use to block of entrances in objective-based team games- whilst they can be seen, the enemy has to waste time destroying the mines.
+}}
+
+{{weapon
+|name=Rocket
+|summary=Spawns and re-spawns on the map at long intervals, used to completely overpower your enemies.
+|clip=holds 1 rocket, does not reload.
+|primary=Fires out a straight shot. Very high splash damage. Induces burning.
+|secondary=Fires out a guided shot- aim at a target spot on the ground or on walls to guide the rocket through the air. Be careful not to make the rocket explode prematurely.
+|strategy=
+''Rocket notes''
+* Usually spawns on the middle of the map. Some maps have multiple rockets.
+* In Kaboom games, additional rockets may be available.
+* Who needs strategy? Just fire and KABOOM!
+* The secondary mode allows controlling the rocket. Jerking it too hard will bring it right back at the shooter, use with caution.
+}}
+
+==Spawn weapons==
+Spawn weapons are attacks available to all players in addition to the chosen loadout weapons. This includes a pistol and the option to use parkour moves as melee attacks. 
+
+{{weapon
+|name=Pistol
+|summary=This is the spawn-weapon: A backup handgun everyone spawns with.
+|clip=10 bullets
+|primary=Semi-automatic, quick rate of fire, fires one shot at a time.
+|secondary=Deals more damage per shot, reduced accuracy and slower rate of fire.
+|strategy=
+''Pistol notes''
+* The pistol is often underestimated due to its limited clip size. In the hands of a skilled warrior, it can be a very effective weapon, though.  
+* Best used as a back up when both your loadout weapons are used up and you know the enemy has low health
+* If you have no long-range weapon and want to deal some, use the pistol. Do not engage for any significant period of time however if the opponent has a long-range loadout weapon, as you'll be worse off.
+* The primary and secondary are both useful and it's a matter of preference for which one to use- quick spray and pray versus timely powerful shots.
+}}
+
+{{weapon
+|name=Melee
+|summary=Crash into an enemy while doing a [[impulse_moves|kick, slide or wall run]]. Kicks can be performed any time and while using any weapon: Simply jump at an opponent and press '''Q'''.
+|clip=None
+|primary=This weak punch attack is only available in [[Modes_and_Mutators#Race|race]] games. Note that players cannot attack each other in ''trial'' games without the ''gauntlet'' mutator. 
+|secondary=In ''Race'' games, the alternate attack mode has exactly the same effect as kicking at an enemy. 
+|strategy=
+''Melee notes''
+* There is no penalty in clicking Q whilst in air, so feel free to do it whenever you think there's a chance of hitting an enemy.
+* Melee is also useful in [[Modes_and_Mutators#insta|instagib]] games - one kick, one kill.
+}}
+
+==Weapon Mechanics==
+===Status effects===
+Some weapons induce status ailments that inflict some damage over time and last for about five seconds. Useful to delay enemy health recovery. Multiple effects can be stacked. 
+{|
+|[[file:shock.png|64px]]
+|''Shock''- Slows down movement greatly. Deals 2 damage per second. Caused by the [[file:zappercol.png|20px]]zapper and by [[file:minecol.png|20px]]mines.
+|-
+|[[file:burn.png|64px]] 
+|''Burn''- Deals 3 damage per second. Can be negated with the secondary fire of the [[file:flamercol.png|20px]]flamer or by entering water (as long as the burnt body part is submerged). Caused by [[file:grenadecol.png|20px]]grenades, [[file:rocketcol.png|20px]]rockets and the [[file:flamercol.png|20px]]flamer.
+|-
+|[[file:bleed.png|64px]]
+|''Bleed''- Deals 3 damage per second. Caused by the secondary fire of the [[file:shotguncol.png|20px]]shotgun and by the [[file:swordcol.png|20px]]sword.
+|}
+
+===Anatomy===
+The player model is split into 3 parts which determine how much damage is applied to them: head, torso and legs. All damage values determined by the weapon specific variables apply to the head. The torso and legs then take a variable percentage of that damage value, sometimes higher (like the flamer's secondary fire) but usually smaller then the head damage.
+===Weapon variables===
+When playing offline or as a server [[privileges|operator]], almost all aspects of game rules can be tuned and modified using the [[console]] to control thousands of [[variables]]. This includes a large [[Vars_and_Commands_Tables|array of variables]] for each weapon that give you deep control of the weapon characteristics. 
+* [[Melee_Vars|Melee Variables]]
+* [[Pistol_Vars|Pistol Variables]]
+* [[Sword_Vars|Sword Variables]]
+* [[Shotgun_Vars|Shotgun Variables]]
+* [[SMG_Vars|SMG Variables]]
+* [[Flamer_Vars|Flamer Variables]]
+* [[Plasma_Vars|Plasma Variables]]
+* [[Zapper_Vars|Zapper Variables]]
+* [[Rifle_Vars|Rifle Variables]]
+* [[Grenade_Vars|Grenade Variables]]
+* [[Mine_Vars|Mine Variables]]
+* [[Rocket_Vars|Rocket Variables]] 
+===Weapon IDs===
+Weapon numbers or IDs are used for certain variables, for instance when defining the weapon for the instagib game mutator or when referring to some particle presets. The following table gives a compact overview of the available weapons slots and their IDs.
+{|class="wikitable"
+|-
+|align="center" colspan=2|spawn
+|align="center" colspan=7|loadout weapons
+|align="center" colspan=3|explosives
+|-
+|[[file:melee.png|32px]]
+|[[file:pistol.png|32px]]
+|[[file:swordcol.png|32px]]
+|[[file:shotguncol.png|32px]]
+|[[file:smgcol.png|32px]]
+|[[file:flamercol.png|32px]]
+|[[file:plasmacol.png|32px]]
+|[[file:zappercol.png|32px]]
+|[[file:riflecol.png|32px]]
+|[[file:grenadecol.png|32px]]
+|[[file:minecol.png|32px]]
+|[[file:rocketcol.png|32px]]
+|-
+|align="center"| 0
+|align="center"| 1
+|align="center"| 2
+|align="center"| 3
+|align="center"| 4
+|align="center"| 5
+|align="center"| 6
+|align="center"| 7
+|align="center"| 8
+|align="center"| 9
+|align="center"| 10
+|align="center"| 11
+|} 
+
+===Frag and flak vars===
+Variables related to flak or fragmentation give a plethora of options for creating weapon mods. However, the use of these variables can be rather confusing. 
+* In essence, when the projectile of a weapon is destroyed (impact or expired lifetime), new flak projectiles can be created (fragmentation).
+* The corresponding ''fragweap'' variable defines which type of projectiles are created according to a [[#weapon ID]] (none for -1).
+* Further ''frag'' variables define the number and dynamics of these projectiles. 
+* A large array of ''flak'' variables has defaults inherited from their base weapon variables.
+* These ''flak'' variables define many properties of flak projectiles. The variable names refer to the type of flak created (the ID used for ''fragweap''), not the type of parent projectile.
+
+==Gallery==
+<gallery>
+File:Pistol player.jpg |Pistol
+File:Sword player 2.jpg |Sword
+File:Shotgun player.jpg |Shotgun
+File:SMG.jpg |SMG
+File:Flamer player.jpg |Flamer
+File:Plasma player.jpg |Plasma
+File:Zapper.jpg |Zapper
+File:Rifle player.jpg |Rifle
+File:Grenade player.jpg |Grenade
+File:Rocket player.jpg |Rocket
+File:Mine player.jpg |Mine
+</gallery>
