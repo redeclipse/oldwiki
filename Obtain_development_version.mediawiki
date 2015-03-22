@@ -2,7 +2,7 @@ The development version is a newer version of Red Eclipse that is still being de
 
 Notes:
 * The client-server protocol normally changes between releases, so you might not be able to play on servers that are running the stable version.
-* If you experience a bug or other unwanted behavior, and want to submit a bug report, see [[Debug]] for instructions.
+* If you experience a bug or other unwanted behaviour, and want to submit a bug report, see [[Debug]] for instructions.
 * The Red Eclipse home directory (the one containing screenshots, custom maps, configs, etc.) is now inside the Git directory itself, under the directory called "home".
 
 
@@ -42,7 +42,7 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
 * Right click on the clone directory and choose "TortoiseGit"->"Submodule Update" and then click "OK"
 
 ===Github for Windows===
-<span style="color:red">WARNING: Using GitHub for Windows requires a solid understanding of Git and UNIX, and can be confusing to unskilled users.</span>
+<span style="color:red">WARNING: Using GitHub for Windows requires a solid understanding of Git and UNIX, and can otherwise be confusing.</span>
 ==== Clone ====
 * Download and install Github for Windows from https://windows.github.com/
 * Follow install directions
@@ -56,19 +56,6 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
 * Go the the repository in Github for Windows
 * Press the Sync button in the top right corner
 * Done!
-
-===Unofficial executables===
-An experimental build service for Windows binary executables has been set up using the [https://build.opensuse.org/package/show/home:arand2/redeclipse-win openSUSE Open Build Service]. And automated using the preconfigured GitHub "Obs" Service.
-
-Do note that these executables need to be downloaded separately, and due to limitations of the build service, they are stored in "Fedora" RPM archives rather than ZIP.
-
-In order to download and use the pre-built executables:
-* Go to http://software.opensuse.org/download.html?project=home:arand2&package=redeclipse-win
-** Click on the "Fedora" logo
-** Click "Grab binary packages directly"
-** Download the redeclipse-win-1.4_git.*.x86_64.rpm package
-** Use something like [http://www.7-zip.org/ 7zip] to unpack the package
-** Copy the executables from the "bin\x86\" or "bin\amd64" folder into your current Git repository, replacing the existing executables in the corresponding directory.
 
 ==GNU/Linux==
 
