@@ -77,7 +77,7 @@ If you host a game server, you are free to specify local privs for selected play
 Where "s" is supporter, "m" is moderator, "o" is operator, and "a" is administrator.
 
 If you do not have an account, it is still possible to claim local administrator rights using a password specified in [[Server_Setup#Configuration_Files|servinit.cfg]]:
-<pre>amdinpass <password> </pre>
+<pre>adminpass <password> </pre>
 This password can be entered via the ''setpriv'' command, which also servers to claim helper status.
 <pre>/setpriv <password></pre>
 
