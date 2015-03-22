@@ -49,14 +49,8 @@ Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offe
 : Detailed information on the available weapons, including tips and strategy guides.
 ; [[impulse moves summary|Impulse moves]]
 : Learn more about parkour moves and agile game-play in Red-Eclipse.
-}}
-|-
-{{PContainers|header=2015 Fundraiser||headerstyle=background:#ffe5e5|image=Wait.png|content=
-Eihrul ([http://sauerbraten.org/lee/ see résumé]) has offered to port Red Eclipse from the [http://sauerbraten.org/ Cube2 engine] to the more modern and advanced [http://tesseract.gg/ Tesseract engine]. This is in hopes to attract more players to the game as well as take advantage of the new features the engine offers.
-* [http://redeclipse.net/forum/viewtopic.php?f=4&t=476 Find out more]
-* [[Fundraiser_2014|Planning page]]
-
-[http://redeclipse.net/forum/viewtopic.php?f=4&t=476&start=50#p5147 Update]:  The fundraiser is on indefinite hold.
+; [[Glossary]]
+: Look up some commonly used acronyms and game-play terms.
 }}
 |}
 <!-- Some gap between them boxes -->
