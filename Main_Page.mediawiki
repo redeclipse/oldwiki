@@ -15,7 +15,6 @@
 * [http://redflare.ofthings.net/ Public servers]
 | style="width:20%" |
 * [[Multiplayer_Guidelines|Multiplayer Guidelines]]
-* [[Privileges|User accounts and privileges]]
 * [[FAQ_for_Red_Eclipse|FAQ]]
 | style="width:20%" |
 * [[Contributors|Project contributors]]
@@ -49,6 +48,8 @@ Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offe
 : Detailed information on the available weapons, including tips and strategy guides.
 ; [[impulse moves summary|Impulse moves]]
 : Learn more about parkour moves and agile game-play in Red-Eclipse.
+; [[Privileges|User accounts and privileges]]
+: Explanation of the icons right next to player names. 
 ; [[Glossary]]
 : Look up some commonly used acronyms and game-play terms.
 }}
