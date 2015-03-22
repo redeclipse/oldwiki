@@ -32,8 +32,38 @@
 <!-- Main content -->
 {| style="width: 100%; margin:4px 0 0 0; background:none; border-spacing: 0px;"
 <!-- Left -->
+| style="width:45%; border:1px solid #cedff2; background:#fff4f4; vertical-align:top;"|
+{| style="width:100%; vertical-align:top;"
+{{PContainers|header=About the game||headerstyle=background:#ffe5e5|image=Team.png|content=
+Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[Weapons_in_SVN|weapons]], Red Eclipse provides fast paced and accessible gameplay. [http://redeclipse.net/wiki/What_is_Red_Eclipse Find out more]
+}}
+|-
+{{PContainers|header=New to the game?||headerstyle=background:#ffe5e5|image=Ffa.png|content=
+; [[Guide|Beginner's guide]]
+: A short introduction to Red Eclipse, covering modes, weapons and controls.
+; [[GameModes and Mutators|Modes and Mutators]]
+: Learn more about the various game types available. 
+; [[Official Maps]]
+: An overview of the maps that come packaged in the game.
+; [[Weapons]]
+: Detailed information on the available weapons, including tips and strategy guides.
+; [[impulse moves summary|Impulse moves]]
+: Learn more about parkour moves and agile game-play in Red-Eclipse.
+}}
+|-
+{{PContainers|header=2015 Fundraiser||headerstyle=background:#ffe5e5|image=Wait.png|content=
+Eihrul ([http://sauerbraten.org/lee/ see résumé]) has offered to port Red Eclipse from the [http://sauerbraten.org/ Cube2 engine] to the more modern and advanced [http://tesseract.gg/ Tesseract engine]. This is in hopes to attract more players to the game as well as take advantage of the new features the engine offers.
+* [http://redeclipse.net/forum/viewtopic.php?f=4&t=476 Find out more]
+* [[Fundraiser_2014|Planning page]]
+
+[http://redeclipse.net/forum/viewtopic.php?f=4&t=476&start=50#p5147 Update]:  The fundraiser is on indefinite hold.
+}}
+|}
+<!-- Some gap between them boxes -->
+| style="border:1px solid transparent;" |
+<!-- Left -->
 | style="width:55%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; color:#000;" |
-<!-- Left-Left -->
+<!-- Right-Left -->
 {| style="width:50%; vertical-align:top; float:left"
 <!-- General info -->
 {{PContainers|header=General info|headerstyle=background:#cedff2|image=Info_g.png|content=
@@ -64,7 +94,7 @@
 * [[License]] [[Copyright_and_Licensing_for_Contributions|(for contributions)]]
 }}
 |}
-<!-- Left-Right -->
+<!-- Right-Right -->
 {| style="width:50%; vertical-align:top; float:right;"
 <!-- Mapping -->
 {{PContainers|header=Mapping||headerstyle=background:#cedff2|image=Edit-icon.png|content=
@@ -92,37 +122,6 @@
 * [[CubeScript]]
 * [[Menus|Creating menus]]
 * [[Entity Linking#Scriptable Events|Scriptable Events]]
-}}
-|}
-<!-- Some gap between them boxes -->
-| style="border:1px solid transparent;" |
-<!-- Right -->
-| style="width:45%; border:1px solid #cedff2; background:#fff4f4; vertical-align:top;"|
-{| style="width:100%; vertical-align:top;"
-{{PContainers|header=New to the game?||headerstyle=background:#ffe5e5|image=Ffa.png|content=
-; [[Guide|Beginner's guide]]
-: ''unfinished'' An introduction the basics of Red Eclipse, aimed at absolute beginners in how the games work.
-; [[Weapons]], [[Weapons in SVN|(devel)]],  [[Weapon_strategy_(SVN)|strategy (devel)]]
-: General information on the available weapons and strategy guides (devel version only, to be expanded and/or merged).
-; [[Impulse moves]],  [[impulse moves summary|summary (devel)]]
-: A list of all the impulse moves (parkour) that can be done in-game.
-: The excellent '''[http://redeclipse.net/forum/viewtopic.php?f=5&t=246&hilit=tuto Tuto (tutorial) map ]''' is highly recommended for an accessible learning approach- for all skill levels!
-; [[GameModes and Mutators|Modes and Mutators]], [[Modes and Mutators in SVN|(devel)]]
-: Description of the different game types available. 
-; [[Official Maps]],  [[Official_Maps_in_SVN|(devel)]]
-: Collection of the maps that come packaged in the game.
-}}
-|-
-{{PContainers|header=About the game||headerstyle=background:#ffe5e5|image=Team.png|content=
-Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[Weapons_in_SVN|weapons]], Red Eclipse provides fast paced and accessible gameplay. [http://redeclipse.net/wiki/What_is_Red_Eclipse Find out more]
-}}
-|-
-{{PContainers|header=2015 Fundraiser||headerstyle=background:#ffe5e5|image=Wait.png|content=
-Eihrul ([http://sauerbraten.org/lee/ see résumé]) has offered to port Red Eclipse from the [http://sauerbraten.org/ Cube2 engine] to the more modern and advanced [http://tesseract.gg/ Tesseract engine]. This is in hopes to attract more players to the game as well as take advantage of the new features the engine offers.
-* [http://redeclipse.net/forum/viewtopic.php?f=4&t=476 Find out more]
-* [[Fundraiser_2014|Planning page]]
-
-[http://redeclipse.net/forum/viewtopic.php?f=4&t=476&start=50#p5147 Update]:  The fundraiser is on indefinite hold.
 }}
 |}
 |}
