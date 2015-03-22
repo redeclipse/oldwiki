@@ -184,7 +184,7 @@ This page gives strategy tips for various game mutators and can be accessed from
 
 {|
 |[[File:pistol.png|80px]]
-|No collectable items will spawn in the arena.
+|No collectible items will spawn in the arena.
 |}
 
 
