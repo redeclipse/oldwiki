@@ -1,6 +1,6 @@
 
 
-This page gives strategy tips for various game mutators and can be accessed from the in-game help menu. For those mutators specific to certain game modes, see the corresponding [[Modes and Mutators in SVN#Modes|mode pages]].
+This page gives strategy tips for various game mutators and can be accessed from the in-game help menu. For those mutators specific to certain game modes, see the corresponding [[GameModes and Mutators‎#Modes|mode pages]].
 
 ==multi==
 
