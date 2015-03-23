@@ -25,7 +25,7 @@ If loading the map still fails, leaving the server and connecting again might fi
 
     /reconnect
 
-If this does help either, you might already have have a map of the same name in your local map storage. Try moving or deleting the corresponding files and then reconnect to the server.
+If this not does help either, you might already have a map of the same name in your local map storage. Try moving or deleting the corresponding files and then reconnect to the server.
 
 '''Note''': Players with different map versions (of the same map name) can cause synchronization issues not only for their own client. In some cases, it may be necessary that everyone connected to the server is using the same map version.
 
