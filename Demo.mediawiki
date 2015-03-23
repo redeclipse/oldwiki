@@ -13,7 +13,7 @@ The very same procedure can be used to save demo files when playing offline, too
 Note that the match must end before its demo can be obtained.
 
 ==Demo playback==
-Demo playback is only possible when playing offline. A convenient way to pick a demo file is to open the ''offline practice'' game menu (F2) and to select the ''demo'' checkbox among the game modes at the top left.
+Demo playback is only possible when playing offline. A convenient way to pick a demo file is to open the ''offline practice'' game menu (F3) and to select the ''demo'' checkbox among the game modes at the top left.
 
 You can also start demo playback via the [[console]] and use the ''Tab'' key for auto-completion of the filename:
 <pre>/demo <filename></pre>
