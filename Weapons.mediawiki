@@ -1,21 +1,21 @@
-In most games all players are equipped with a pistol and two of their favorite loadout weapons. Furthermore, explosive weapons can be collected in the arena, such as grenades, mines and rockets, unless these are disabled via the ''basic'' mutator.
+In most games all players are equipped with a pistol and two of their favorite loadout weapons. Furthermore, explosive weapons can be collected in the arena, such as grenades, mines and rockets, unless these are disabled via the [[mutator_Tips#basic|basic]]'' mutator.
 ==Loadout weapons==
 These weapons can be chosen in the ''profile'' game menu, and it is even possible to change the weapon selection mid-match by pressing the ''comma'' key (per default). Note that one or both of the loadout weapon slots can be randomized. All of loadout weapons come with an unlimited supply of ammo, but must be reloaded when the clip is empty. Each weapon has two unique fire modes.
 
 {|
 |align="right"|[[file:classic.png|40px]] 
-|''Exception'': When the classic game [[Modes_and_Mutators_in_SVN#mutators|mutator]] is active, loadout weapons must be collected in the arena.
+|''Exception'': When the [[Mutator_Tips#classic|classic]] game mutator is active, loadout weapons must be collected in the arena.
 |}
 {|
 |[[file:medieval.png|40px]] [[file:swordcol.png|40px]] [[file:kaboom.png|40px]] [[file:grenadecol.png|40px]][[file:minecol.png|40px]] [[file:instagib.png|40px]] [[file:riflecol.png|40px]] 
-|Some game [[Modes_and_Mutators_in_SVN#mutators|mutators]] force players to use specific weapons. 
+|Some game [[Mutator_Tips|mutators]] force players to use specific weapons. 
 |}
 
 {{Weapon}} <!-- the template's default contains the sword info-->
 
 {{Weapon
 |name=Shotgun
-|summary=Can instantly kill at point-blank. High risk, high reward weapon, popularly used in deathmatch games.
+|summary=Can instantly kill at point-blank. High risk, high reward weapon, popularly used in [[Deathmatch]] games.
 |clip=8 shells
 |primary=Semi-automatic. Short to medium range. fires off a quick buckshot making for an array of pellets, spreading further apart at longer ranges. Auto-reload. 
 |secondary=Semi-automatic. Lobs out a large, round projectile which splits into stray shards when hitting any solid surface, a long distance or players. Moves slowly in air. Heavily affected by gravity. Induces bleeding. Uses two shells. Auto-reload.
@@ -84,7 +84,7 @@ These weapons can be chosen in the ''profile'' game menu, and it is even possibl
 * Be wary of the limited range, which makes the plasma not useful for enemies far-off.
 ''Plasma secondary''
 * Charge the secondary to full to make for a devastating plasma ball, which is useful to at as a shield for any opponents trying to get close to you and control their movements to make them easy targets for your other loadout weapon (as reloading the plasma will take a long time).
-* Easily defend control points in the [[Modes_and_Mutators_in_SVN|Defend and Control]] mode by shooting a fully-charged plasma ball to give the other team(s) second thoughts on trying to capture the point.
+* Easily defend control points in the [[Defend-and-control]] mode by shooting a fully-charged plasma ball to give the other team(s) second thoughts on trying to capture the point.
 * Plasma balls that are only partially charged are useful for their faster speed. Whilst still quite slow, you can hit an opponent if they're standing still or have limited movement, usually when they're scoping a rifle or capturing/defending a control point.
 }}
 
@@ -128,17 +128,17 @@ These weapons can be chosen in the ''profile'' game menu, and it is even possibl
 [[File:Shotguncol.png|64px]][[File:Riflecol.png|64px]]
 ''Shotgun and Rifle''
 
-This traditional choice of loadout weapons is very popular, especially in Deathmatch games. A player with these tools of destruction prioritizes the ability to inflict heavy damage - any time, anywhere, and over any distance.
+This traditional choice of loadout weapons is very popular, especially in [[Deathmatch]] games. A player with these tools of destruction prioritizes the ability to inflict heavy damage - any time, anywhere, and over any distance.
 
 [[File:Flamercol.png|64px]][[File:Zappercol.png|64px]]
 ''Flamer and Zapper''
 
-This pair of weapons optimizes a players ability to outrun his enemies and to support his team mates. It serves well for hit-and-run tactics, not only in [[Capture the Flag]] games.
+This pair of weapons optimizes a players ability to outrun his enemies and to support his team mates. It serves well for hit-and-run tactics, not only in [[Capture-the-flag]] games.
 
 ==Explosives==
 Explosive weapons can be collected from certain spots of the arena. Unlike other weapons, they cannot be reloaded. 
 
-[[File:Kaboom.png|64px]]  Exception: In [[Modes_and_Mutators_in_SVN#mutators|kaboom]] games, players start with grenades and mines that reload over time.
+[[File:Kaboom.png|64px]]  Exception: In [[Mutator_Tips#kaboom|kaboom]] games, players start with grenades and mines that reload over time.
 
 {{weapon
 |name=Grenade
@@ -162,7 +162,7 @@ Explosive weapons can be collected from certain spots of the arena. Unlike other
 
 {{weapon
 |name=Mine
-|summary=Heavy damage and applies the [[Weapons_in_SVN#Status_effects|shock status]] effect.
+|summary=Heavy damage and applies the [[Weapons#Status_effects|shock status]] effect.
 |clip=You can hold up to two mines at a time.
 |primary=Fire to throw. When in contact with a solid surface or player, it will stick. When any player comes into the small proximity of the mine, the mine will explode and they will receive heavy damage and shock.
 |secondary=Shock beam trap - the top of the mine emits a beam that extends until it hits a solid surface. Anyone who gets in contact with the beam will cause the mine to detonate and receive damage and shock from the beam. 
@@ -190,13 +190,13 @@ Explosive weapons can be collected from certain spots of the arena. Unlike other
 |strategy=
 ''Rocket notes''
 * Usually spawns on the middle of the map. Some maps have multiple rockets.
-* In Kaboom games, additional rockets may be available.
-* Who needs strategy? Just fire and KABOOM!
-* The secondary mode allows controlling the rocket. Jerking it too hard will bring it right back at the shooter, use with caution.
+* In [[Mutator_Tips#kaboom|Kaboom]] games, additional rockets may be available.
+* The detonation of a rocket does not only inflict heavy damage, but also has a very strong pushing effect.  
+* For rushers: Who needs strategy? Just fire and KABOOM!
 }}
 
 ==Spawn weapons==
-Spawn weapons are attacks available to all players in addition to the chosen loadout weapons. This includes a pistol and the option to use parkour moves as melee attacks. 
+Spawn weapons are available to all players in addition to the chosen loadout weapons. This includes a pistol and the option to use parkour moves as melee attacks. 
 
 {{weapon
 |name=Pistol
@@ -216,12 +216,12 @@ Spawn weapons are attacks available to all players in addition to the chosen loa
 |name=Melee
 |summary=Crash into an enemy while doing a [[impulse_moves|kick, slide or wall run]]. Kicks can be performed any time and while using any weapon: Simply jump at an opponent and press '''Q'''.
 |clip=None
-|primary=This weak punch attack is only available in [[Modes_and_Mutators#Race|race]] games. Note that players cannot attack each other in ''trial'' games without the ''gauntlet'' mutator. 
-|secondary=In ''Race'' games, the alternate attack mode has exactly the same effect as kicking at an enemy. 
+|primary=This weak punch attack is only available in [[Race]] games. Note that players cannot attack each other in ''trial'' games without the ''gauntlet'' mutator. 
+|secondary=In [[Race]] games, the alternate attack mode has exactly the same effect as kicking at an enemy. 
 |strategy=
 ''Melee notes''
 * There is no penalty in clicking Q whilst in air, so feel free to do it whenever you think there's a chance of hitting an enemy.
-* Melee is also useful in [[Modes_and_Mutators#insta|instagib]] games - one kick, one kill.
+* Melee is also useful in [[Mutator_Tips#instagib|instagib]] games - one kick, one kill.
 }}
 
 ==Weapon Mechanics==
