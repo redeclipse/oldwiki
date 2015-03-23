@@ -1,13 +1,13 @@
 
-Some servers offer the option to play on unofficial, custom maps, or to create new maps from scratch in a multiplayer editing session. In this case, new maps need to be fetched from the server.
+Some servers offer the option to play on unofficial, custom maps, or to create new maps from scratch in a multiplayer editing session. In this case, new maps are fetched from the server and stored locally.
 
 ==Map files==
 
 Usually when a player joins an editing game or a match on a custom map, all needed files for the map will be downloaded automatically:
 * ''name''.mpz - binary map content (geometry, materials, entities, light maps etc.)
 * ''name''.cfg - configuration data (lists of textures, sounds, models, scripts etc.)
-* ''name''.txt (license and README, if available)
-* ''name''.wpt (waypoints, a navigation mesh for bots, if available)
+* ''name''.txt - license/readme (if available)
+* ''name''.wpt - waypoints (a navigation mesh for bots, if available)
 
 '''Note''': Custom textures, models or sounds are not uploaded to or retrieved from a server. Maps are still playable if such custom content is missing, though.
 
@@ -25,9 +25,9 @@ If loading the map still fails, leaving the server and connecting again might fi
 
     /reconnect
 
-If this does not fix the issues either, you might already have have a map of the same name in your local map storage. Try moving or deleting the corresponding files and then reconnect to the server.
+If this does help either, you might already have have a map of the same name in your local map storage. Try moving or deleting the corresponding files and then reconnect to the server.
 
-'''Note''': Players with different map versions of the same map name can cause synchronisation issues not only for their own client. In some cases, it may be necessary that everyone connected to the server is using the same map version.
+'''Note''': Players with different map versions (of the same map name) can cause synchronization issues not only for their own client. In some cases, it may be necessary that everyone connected to the server is using the same map version.
 
 ==Local map storage==
 
