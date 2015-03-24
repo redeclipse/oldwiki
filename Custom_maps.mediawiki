@@ -6,8 +6,9 @@ Some servers offer the option to play on unofficial, custom maps, or to create n
 Usually when a player joins an editing game or a match on a custom map, all needed files for the map will be downloaded automatically:
 * ''name''.mpz - binary map content (geometry, materials, entities, light maps etc.)
 * ''name''.cfg - configuration data (lists of textures, sounds, models, scripts etc.)
-* ''name''.txt - license/readme (if available)
-* ''name''.wpt - waypoints (a navigation mesh for bots, if available)
+* ''name''.png - preview (a small screenshot)
+* ''name''.txt - [[Copyright_and_Licensing_for_Contributions|license/readme]] (if available)
+* ''name''.wpt - [[waypoints]] (a navigation mesh for bots, if available)
 
 '''Note''': Custom textures, models or sounds are not uploaded to or retrieved from a server. Maps are still playable if such custom content is missing, though.
 
@@ -25,11 +26,11 @@ If loading the map still fails, leaving the server and connecting again might fi
 
     /reconnect
 
-If this not does help either, you might already have a map of the same name in your local map storage. Try moving or deleting the corresponding files and then reconnect to the server.
+If this not does help either, you might already have a map of the same name in your [[custom maps#user map storage|user maps]]. Try moving or deleting the corresponding files and then reconnect to the server.
 
 '''Note''': Players with different map versions (of the same map name) can cause synchronization issues not only for their own client. In some cases, it may be necessary that everyone connected to the server is using the same map version.
 
-==Local map storage==
+==Temporary map storage==
 
 Any map ever retrieved from a server will be stored automatically in a subdirectory of the [[Game_Settings#User_Content|user content]] directory:
 
@@ -42,7 +43,7 @@ Linux
 OSX
     /Home/Library/Application Support/redeclipse/temp/maps
 
-==Moving and saving maps==
+==User map storage==
 
 To make a map easily accessible from the maps menu (F4), the corresponding files can be moved or copied to another subdirectory '''maps''' of the [[Game_Settings#User_Content|user content]]. For instance on linux:
 
@@ -50,8 +51,14 @@ To make a map easily accessible from the maps menu (F4), the corresponding files
 
 '''Note''': There is no need to put any custom maps in the install directory of Red Eclipse, just keep them in the maps folder of your [[Game_Settings#User_Content|user content]].
 
+==Saving maps==
+
 Of course, a copy of the current map can be saved any time, and not only during an editing game:
 
     /savemap <newmapname>
 
-This will create and possibly overwrite the corresponding ''mpz'' and ''cfg'' files in the maps folder of the [[Game_Settings#User_Content|user content]].
+This will create (and '''overwrite''') the corresponding files in the maps folder of the [[Game_Settings#User_Content|user content]]:
+
+* ''newmapname''.mpz
+* ''newmapname''.cfg
+* ''newmapname''.png
