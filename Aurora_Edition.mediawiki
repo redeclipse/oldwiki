@@ -1,0 +1,95 @@
+
+Two years in the making, Red Eclipse is back for the biggest release yet; v1.5 "Aurora Edition".
+
+We've been working hard on all areas of the game, improving weapon balance, refining the user interface, and helping new players learn the game. Included in this release is our new auto-updating mechanism, designed to keep you running the latest improvements and freshest maps.
+
+This release is also our first release as a true community built game. With a recent move to GitHub, the project is now openly developed, allowing everyone to contribute to the game we all love in a format where everyone gets a say (and learns how to contribute at the same time). If you feel like you'd have something to [[How to contribute|contribute]], come see us in action!
+
+==Downloads==
+
+Windows: http://redeclipse.net/download/windows
+
+Linux: http://redeclipse.net/download/linux
+
+Other/All: http://redeclipse.net/download/all
+
+==Weapons==
+<gallery>
+file:zappercol.png|link=Weapons#zapper|'''New weapon''': Electrocute your foes and reduce their agility with the all-purpose [[Weapons#zapper|zapper]]!
+file:flamercol.png|link=Weapons#flamer|New alternate fire mode for the [[weapons#flamer|flamer]]: Do amazing trick jumps, extinguish flames and blow away your foes.
+file:rocketcol.png|link=Weapons#rocket|New rocket model by Unnamed.
+file:plasmacol.png|link=Weapons#plasma|New plasma model by Unnamed.
+file:riflecol.png|link=weapons|Rebalanced all weapons, making for a fairer game.
+</gallery>
+
+===New main maps===
+
+<gallery>
+file:Abuse.png|link=Map_Abuse|[[Map_Abuse|Abuse]] by ballist1c
+file:Affluence.png|link=Map_Affluence|[[Map_Affluence|Affluence]] by Greaserpirate
+file:Campgrounds.png|link=Map_Campgrounds|[[Map_Campgrounds|Campgrounds]] by ballist1c and Greaserpirate
+file:Canyon.png|link=Map_Canyon|[[Map_Canyon|Canyon]] by restcoser
+file:Castle.png|link=Map_Castle|[[Map_Castle|Castle]] by Calinou
+file:Condensation.png|link=Map_Condensation|[[Map_Condensation|Condensation]] by Unnamed
+file:Convolution.png|link=Map_Convolution|[[Map_Convolution|Convolution]] by Unnamed
+file:Decay.png|link=Map_Decay|[[Map_Decay|Decay]] by Unixfreak
+file:Enyo.png|link=Map_Enyo|[[Map_Enyo|Enyo]] by Ulukai
+file:Fortitude.png|link=Map_Fortitude|[[Map_Fortitude|Fortitude]] by Max Payne
+file:Octavus.png|link=Map_Octavus|[[Map_Octavus|Octavus]] by Unixfreak
+file:Rooftop.png|link=Map_Rooftop|[[Map_Rooftop|Rooftop]] by Calinou
+</gallery>
+
+===New race maps===
+<gallery>
+file:Absorption.png|link=Map_Absorption|[[Map_Absorption|Absorption]] by Unnamed
+file:Decomposition.png|link=Map_Decomposition|[[Map_Decomposition|Decomposition]] by Unnamed
+file:Escape.png|link=Map_Escape|[[Map_Escape|Escape]] by Goku
+file:Relax.png|link=Map_Relax|[[Map_Relax|Relax]] by Bonifarz
+file:Steelrat.png|link=Map_Steelrat|[[Map_Steelrat|Steelrat]] by D.a.M.i.E.n. and TristamK
+file:Tonatiuh.png|link=Map_Tonatiuh|[[Map_Tonatiuh|Tonatiuh]] by Bonifarz
+file:Wardepot.png|link=Map_Wardepot|[[Map_Wardepot|Wardepot]] by TristamK
+</gallery>
+
+==New features and assets==
+
+Here's some interesting things that have changed:
+* Increased weapon spread when in air / impulsing
+* Rebalanced impulse system: Even faster slides, launches and vaults, but slower regeneration.
+* Support for giving AI orders ("defend", "attack", "base", "goal", "ball", "forget").
+* Ability to send a message to a specific player with "whisper".
+* Auto team balancing, so you're never stuck with uneven team counts.
+* Better physics and bounce sounds for affinities (flags/points/bombs).
+* Footstep sounds, hear people approaching!
+* Rebranded Defend-The-Flag to Defend-And-Control, with a new look.
+* Increased buffing timeout tolerances when defending affinities.
+* Slicker menus, tips and rollover help text.
+* Easy in-game access to our IRC chat channel.
+* Scoreboard redesign and better colouring.
+* Detailed in-game help menu with strategy tips for all game modes and mutators.
+
+==New data assets==
+
+* New model for control points used in Defend-and-Control and Bomber-Ball.
+* New wakawaka sound.
+* Added texture set by Unnamed.
+* Added lava texture by Nobiax, applied in maps Hinder, Nova, Tower
+
+{| class="collapsible collapsed"
+!style="text-align:left;"|New vanity items
+|-
+|
+* Blade
+* Boots
+* Chestplate
+* Crown
+* Disc
+* Fox Ears
+* Guitar
+* Mask
+* Microeye
+* Panda
+* Prongs
+* Shoulder armour
+|}
+
+__NOTOC__
