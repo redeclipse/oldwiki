@@ -93,8 +93,11 @@ file:Wardepot.png|link=Map_Wardepot|[[Map_Wardepot|Wardepot]] by TristamK
 <gallery>
 file:Echo.png|link=Map_Echo|[[Map_Echo|Echo]]
 file:Darkness.png|link=Map_Darkness|[[Map_Darkness|Darkness]]
-file:Testchamber.png|link=Map_Testchamber|[[Map_Testchamber|Testchamber]]
 file:Longestyard.png|link=Map_Longestyard|[[Map_Longestyard|Longestyard]]
+file:Mist.png|link=Map_Mist|[[Map_Mist|Mist]]
+file:Nova.png|link=Map_Nova|[[Map_Nova|Nova]]
+file:Processing.png|link=Map_Processing|[[Map_Processing|Processing]]
+file:Testchamber.png|link=Map_Testchamber|[[Map_Testchamber|Testchamber]]
 </gallery>
 
 __NOTOC__
