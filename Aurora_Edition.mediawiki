@@ -9,10 +9,10 @@ This release is also our first release as a true community built game. With a re
 
 ==Weapons==
 <gallery>
-file:zappercol.png|link=Weapons#zapper|'''New weapon''': Electrocute your foes and reduce their agility with the all-purpose [[Weapons#zapper|zapper]]!
-file:flamercol.png|link=Weapons#flamer|New alternate '''fire mode''' for the [[weapons#flamer|flamer]]: Do amazing trick jumps and blow away your foes.
-file:rocketcol.png|link=Weapons#rocket|New rocket model by Unnamed.
-file:plasmacol.png|link=Weapons#plasma|New plasma model by Unnamed.
+file:zappercol.png|link=Zapper|'''New weapon''': Electrocute your foes and reduce their agility with the all-purpose [[Weapons#Zapper|Zapper]]!
+file:flamercol.png|link=Flamer|New alternate '''fire mode''' for the [[weapons#Flamer|flamer]]: Do amazing trick jumps and blow away your foes.
+file:rocketcol.png|link=Rocket|New [[Weapons#Rocket|rocket]] model by Unnamed.
+file:plasmacol.png|link=Plasma|New [[Weapons#Plasma|plasma]] model by Unnamed.
 file:riflecol.png|link=weapons|Rebalanced all [[weapons]], making for a fairer game.
 </gallery>
 
