@@ -35,6 +35,7 @@ file:buff.png|link=weapons#buffs|Increased [[weapons#buffs|buffing]] timeout tol
 * Easy in-game access to our IRC chat channel.
 * Scoreboard redesign and better colouring.
 * Detailed in-game help menu with strategy tips for all game modes and mutators.
+* Search filters to find servers and players, maps, variables and commands.
 
 ==New data assets==
 
