@@ -68,14 +68,14 @@ file:Abuse.png|link=Map_Abuse|[[Map_Abuse|Abuse]] by ballist1c
 file:Affluence.png|link=Map_Affluence|[[Map_Affluence|Affluence]] by Greaserpirate
 file:Campgrounds.png|link=Map_Campgrounds|[[Map_Campgrounds|Campgrounds]] by ballist1c and Greaserpirate
 file:Canyon.png|link=Map_Canyon|[[Map_Canyon|Canyon]] by restcoser
-file:Castle.png|link=Map_Castle|[[Map_Castle|Castle]] by Calinou
+file:Castle.png|link=Map_Castle|[[Map_Castle|Castle]] by FaTony
 file:Condensation.png|link=Map_Condensation|[[Map_Condensation|Condensation]] by Unnamed
 file:Convolution.png|link=Map_Convolution|[[Map_Convolution|Convolution]] by Unnamed
 file:Decay.png|link=Map_Decay|[[Map_Decay|Decay]] by Unixfreak
 file:Enyo.png|link=Map_Enyo|[[Map_Enyo|Enyo]] by Ulukai
 file:Fortitude.png|link=Map_Fortitude|[[Map_Fortitude|Fortitude]] by Max Payne
 file:Octavus.png|link=Map_Octavus|[[Map_Octavus|Octavus]] by Unixfreak
-file:Rooftop.png|link=Map_Rooftop|[[Map_Rooftop|Rooftop]] by Calinou
+file:Rooftop.png|link=Map_Rooftop|[[Map_Rooftop|Rooftop]] by Fatony
 </gallery>
 
 ===New race maps===
