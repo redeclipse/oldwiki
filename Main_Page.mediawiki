@@ -35,9 +35,10 @@
 {| style="width:100%; vertical-align:top;"
 {{PContainers|header=About the game||headerstyle=background:#ffe5e5|image=Team.png|content=
 Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[Weapons_in_SVN|weapons]], Red Eclipse provides fast paced and accessible gameplay. [http://redeclipse.net/wiki/What_is_Red_Eclipse Find out more]
+:What's '''new''' in Red Eclipse 1.5, [[Aurora Edition]]?
 }}
 |-
-{{PContainers|header=New to the game?||headerstyle=background:#ffe5e5|image=Ffa.png|content=
+{{PContainers|header=New to the Red Eclipse?||headerstyle=background:#ffe5e5|image=Ffa.png|content=
 ; [[Guide|Beginner's guide]]
 : A short introduction to Red Eclipse, covering modes, weapons and controls.
 ; [[GameModes and Mutators|Modes and Mutators]]
