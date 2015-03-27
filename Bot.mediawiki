@@ -25,13 +25,13 @@ By default, when there are not enough players for a specific [[Game::maps|map]],
 * botlimit - the maximum number of bots in total
 
 ==Skill and behavior==
-The range of random bot skill levels can be tuned with two variables in a range from 1 to 101:
+The range of random bot skill levels can be tuned with two variables:
 * botskillmin
 * botskillmax
-
+A skill value of 101 means that the bot reacts with full speed and precision. However, that does not necessarily mean that bots are intelligent, especially in team games with complex objectives. Other ways to make bots considerably tougher or weaker in combat are to alter their overall speed, maximum health or scale (model size).
 
 Furthermore, bots can be prevented from using their attacks.
 * aipassive 1 - never attack human players
 * aipassive 2 - do not attack anybody
 
-'''Note''' There are separate bot variables for some game mutators or modes, such as the [[mutator_Tips#coop|coop]] mutator.
+'''Note:''' There are separate bot variables for some game mutators or modes, such as the [[mutator_Tips#coop|coop]] mutator.
