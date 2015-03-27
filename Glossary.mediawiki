@@ -70,7 +70,7 @@ The following list explains some commonly used terms and acronyms.
 |container format for vorbis audio, used for music and sound files.
 |-
 |''op''
-|operator, a player with advanced [[privileges]].
+|operator, a player with advanced [[privileges]]. Or just OverPowered.
 |-
 |''pzap''
 |a typical taunt or chat comment, echoism of a rifle shot.
