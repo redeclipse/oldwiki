@@ -10,7 +10,7 @@ The following list explains some commonly used terms and acronyms.
 |authentication, a key for registered players to identify. Often used as synonym for player accounts or [[privileges]].
 |-
 |''bb''
-|[[bomber-ball]], a game mode.
+|[[bomber-ball]], a game mode. Or bye bye.
 |-
 |''bot''
 |usually refers to an A.I. controlled player. Not to confuse with ''aim-bot'', a client side modification that is considered ''cheating'' according to the [[Multiplayer Guidelines]].
