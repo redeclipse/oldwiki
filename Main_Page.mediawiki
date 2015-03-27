@@ -67,6 +67,7 @@ Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offe
 * [[Custom maps|Custom maps in online games]]
 * [[Keybinding|How to bind keys]]
 * [[Demo|How to fetch and replay demos]]
+* [[Bot|Bot orders and settings]]
 * [[Deathmatch_Scoring|Details of the Scoring system]]
 * [[Vars and Commands Tables]], [[Vars_and_Commands_in_SVN|(devel version)]]
 }}
