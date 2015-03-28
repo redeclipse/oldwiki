@@ -5,66 +5,74 @@ Key binds allow to execute predefined actions by pressing a key. These could be 
 Some of the most useful key binds can be edited via the following menu: Main menu, options, keys.
 
 Simply click the field for a given command and press the key you want for this bind.
+
 Any binds you save from the options menu are stored in a configuration file ''config.cfg'' in the [[Game_Settings#User_Content|user content]] directory.
 
-==bind command==
+A text editor can be used to edit this file, however it should be noted that a configuration file is (over-)written automatically when the Red Eclipse client is closed.
 
+==/bind and related commands==
 The file ''config.cfg'' will contain bind commands of the following syntax:
 
     bind ''KEY'' [ ''command'' ]
 
 For example:
-    bind KP1 [echo number pad 1 pressed]
+    bind KP1 [echo keypad 1 pressed]
 
 '''NOTE:''' A bind command will override any actions previously bound to that key!
 
-A text editor can be used to edit this file, however it should be noted that a configuration file is written automatically when the Red Eclipse client is closed.
+The [[console]] can be used to bind keys, too. These binds will also be saved to the file ''config.cfg'' in the [[Game_Settings#User_Content|user content]] directory. 
 
-The [[console]] can be used to bind keys, too. These binds will also be saved to the file ''config.cfg'' in the [[Game_Settings#User_Content|user content]] directory. Note that to enter commands in the console, a leading forward slash is needed
+'''Note:''' To enter commands in the console, a leading forward slash is needed on each line:
 
-    /bind ''key'' [ ''command'' ]
+    /bind ''KEY'' [ ''command'' ]
 
-In the following sections, the syntax of a configuration file is used, i.e. no leading slash.
+In the following sections, this [[console]] notation will be used. If commands are copy/pasted to a configuration file or script, the leading slash must be omitted.
 
-=== Disabling ===
-
+===Disabling a bind===
 To free a key bind, simply assign ''no action'' to that key.
-    bind "C" [ ]
+    /bind ''KEY'' [ ]
+As usual, this will remove all previous binds from that key.
 
-=== Edit Mode Keys ===
+===Edit Mode Keys===
 [[Editing Controls|Edit Mode keys]] may be bound separately from regular keys using "editbind" instead of "bind".
 
 The command to bind E to the /gettex command via the ingame console would thus be:
- /editbind "E" [gettex]
+    /editbind "E" [gettex]
 
-=== Spec Mode Keys ===
+===Spec Mode Keys===
 Spectator Mode keys may be bound separately from regular Gameplay keys using "specbind" instead of "bind".
 For example:
 
- /specbind "E" [echo "This only works while spectating"]
+    /specbind "E" [echo "This only works while spectating"]
 
-=== Onrelease ===
+===Onrelease===
 Key bindings also allow to trigger a second action when the key is released. For example, this can be used to fast-forward playback of a demo recording by holding the F key:
  /specbind "F" [sv_gamespeed 10000; onrelease sv_gamespeed 100]
 
 ===Multiple keys or actions===
 Multiple keys can be used for the same command by using multiple bind lines.
+    /bind ''KEY1'' [ ''action'' ]
+    /bind ''KEY2'' [ ''action'' ]
 In return, multiple actions can be done in a single bind command:
-    bind ''key'' [ ''action1'' ; ''action2'' ... ]
+    bind ''KEY'' [ ''action1'' ; ''action2'' ... ]
 
 ==Bind search==
+There are also commands to look up which action is bound to a given key.
 
-There are also commands to look up which action is bound to a given key
+    /echo getbind( ''KEY'' )
+    /echo getspecbind( ''KEY'' )
+    /echo geteditbind( ''KEY'' )
 
-    /echo getbind( KEY )
+To list the keys bound to a certain action, the dobindsearch alias is useful.
 
-or to list the keys bound to a certain actions
-
-    /echo (dobindsearch ACTION)
+    /echo (dobindsearch ''action'')
+    /echo (dobindsearch ''action'' spec)
+    /echo (dobindsearch ''action'' edit) 
 
 ==Defaults==
+If you think some key binds are messed up and you are not sure how to fix the issue, simply move or rename the file ''config.cfg'' in the [[Game_Settings#User_Content|user content]] directory. This should restore all default settings. However, there are certainly some settings you want to keep, such as those related to your player profile. In this case, use a text editor to get rid of "suspect" lines (any thing starting with ''bind''), and then restore the file ''config.cfg''.
 
-All default keybinds are read from a configuration file in the install directory, which holds similar commands.
+All default keybinds are read from a configuration file in the install directory, which holds similar commands as ''config.cfg'', along with many other aliases and definitions.
 
   red-eclipse/config/setup.cfg
 
