@@ -2,13 +2,16 @@ Key binds allow to execute predefined actions by pressing a key. These could be 
 
 ==Options and configuration==
 
-Some of the most useful key binds can be edited via the following menu: Main menu, options, keys.
+Some of the most useful key binds can be edited via the following menu: 
+* Main menu (Esc key)
+** options
+*** controls
 
 Simply click the field for a given command and press the key you want for this bind.
 
 Any binds you save from the options menu are stored in a configuration file ''config.cfg'' in the [[Game_Settings#User_Content|user content]] directory.
 
-A text editor can be used to edit this file, however it should be noted that a configuration file is (over-)written automatically when the Red Eclipse client is closed.
+'''Note:'''A text editor can be used to edit this file, however it should be noted that a configuration file with your latest settings is recreated automatically when the Red Eclipse client is closed.
 
 ==/bind and related commands==
 The file ''config.cfg'' will contain bind commands of the following syntax:
