@@ -1,144 +1,150 @@
-==Game modes==
+==Getting started==
+The following section provides some advice for beginners. For detailed instructions and strategy tips, consult the corresponding articles about [[GameModes_and_Mutators|game modes, mutators]] and [[weapons]].
 
+===Game modes===
 Most matches of Red Eclispe are played with two competing teams and a time limit. When the match ends, the team with the highest score wins. 
 {|
-|[[file:ffa.png|40px]][[file:multi_mut.png|40px]]
-|Exception: Teams are disabled with the ''FFA'' [[Modes and Mutators in SVN#mutators|mutator]]. The ''multi'' [[Modes and Mutators in SVN#mutators|mutator]] implies four teams instead of two.
-|}
-{|
 |[[File:Deathmatch.png|64px]]
-|One way to score points is to finish off enemies, while killing team mates or blowing up yourself is penalized with point loss. This is the heart of the ''Deathmatch'' (DM) game mode. 
+|One way to score points is to finish off enemies, while killing team mates or blowing up yourself is penalized with point loss. This is the heart of the [[Deathmatch]] (DM) game mode.
 |}
-Additional points are awarded according to the [[Deathmatch Scoring|deathmatch scoring system]]. This system determines the scores of individual players, while team scores are objective based in other modes than ''Deathmatch''. 
+The details of scoring for individual players are defined according to the [[Deathmatch Scoring|deathmatch scoring system]]. Team scores in other modes than [[Deathmatch]] are objective based. 
 {|
 |[[File:Capture.png|64px]]
-| ''[[Capture the Flag]]''
-| Steal the other team's flag and return it to your base, without letting them take yours, to score points. Standing near your team's flag regenerates to 150%, and buffs to 150% damage. When holding your team's flag, only close teammates get buffed, but not the player holding the flag.
+| ''[[Capture-the-flag]]''
+|The aim of the popular CTF game mode is to get both flags to your base. Defending the flag in your own team's base is a good strategy for beginners, as defenders get a powerful buff, and can stay just where they respawn.
 |-
 |[[File:Defend.png|64px]]
-| ''Defend and Control''
-| Stand near control points to capture them. Each control point you hold brings in a steady stream of points. The control points your team holds act like your team's flag in Capture the Flag in terms of buffing.
+| [[Defend-and-control]]
+|Use the radar to find and defend control points secured by your team. Be sure to avoid killing team mates that are defending a control point. Overthrowing enemy control points may be more challenging than defending yours.
 |-
 |[[File:Bomber.png|64px]]
-| ''Bomber Ball''
-| Grab the ball and deliver to the enemy base to score, but watch your bomb timer - it will explode if you hold on to it too long. Pass it to your teammates to keep it going. If the other team holds it, kill the carrier or intercept it midair. Killing an enemy while holding the ball resets the bomb timer.
+| [[Bomber-ball]]
+|Players defending their team's base get a strong buff, so again, this is a good idea for beginners. If you catch a bomb, throw it using the '''F''' key before it explodes. If you can move the bomb towards the enemy base, that's even better.
 |}
 
-Further [[Modes and Mutators in SVN|game modes]] are ''map editing'' and ''race''. A large array of general or mode specific [[Modes and Mutators in SVN#mutators|mutators]] offers a wide variety of additional or alternate game rules.
+Further [[Modes and Mutators in SVN|game modes]] are ''map editing'' and [[race]]. A large array of general or mode specific [[Mutator Tips|mutators]] offers a wide variety of additional or alternate game rules.
 
-==Weapons overview==
-The below table gives a short summary of the available weapon types. Each [[Weapons in SVN|weapon]] comes with two unique fire modes that encourage different [[Weapon strategy (SVN)|strategies]]. Usually, all players are equipped with a pistol and two chosen [[Weapons in SVN#loadout weapons|loadout weapons]], while additional explosives can be collected in the arena. Enemies can also be damaged by crashing into them while performing a parkour move, such as [[impulse_moves|kicks, slides or wall runs]].
+===Weapons overview===
+Usually, all players are equipped with a pistol and two chosen [[Weapons#loadout weapons|loadout weapons]], while additional [[Weapons#explosives|explosives]] can be collected in the arena.
+
 {|class="wikitable"
 |-
 |rowspan=2|
 |[[file:melee.png|40px]]
-|melee
-| Parkour moves can be used for close combat in conjunction with any other weapon.
+|[[weapons#melee|melee]]
+|Simply jump at an enemy and press '''Q'''. Works well in conjunction with close range weaponry.
 |-
 |[[file:pistol.png|40px]]
-|pistol
-|A backup handgun available for everyone. 
+|[[weapons#pistol|pistol]]
+|Do not forget your pistol. It may have a small clip size, but it can be a deadly weapon.
 |-
 |rowspan=7|loadout
 |[[file:swordcol.png|40px]]
-|sword
-|Very limited range, but devastating when at point-blank. 
+|[[weapons#sword|sword]]
+|The sword is not quite beginner-friendly, as it requires good movement skills to be used effectively.
 |-
 |[[file:shotguncol.png|40px]]
-|shotgun
-|Can instantly kill at point-blank. High risk, high reward weapon, popularly used in deathmatch games. 
+|[[weapons#shotgun|shotgun]]
+|''Recommended.'' Works best at close range and reloads automatically. 
 |-
 |[[file:smgcol.png|40px]]
-|smg
-|Vicious shooting speed with decently low recoil to be useful at any range.
+|[[weapons#SMG|SMG]]
+|The sub-machine-gun is straight forward to use, but beginners may have a hard time killing enemies.
 |-
 |[[file:flamercol.png|40px]]
-|flamer
-|Powerful in close-quarters-combat and traversing around the map. 
+|[[weapons#flamer|flamer]]
+|''Recommended''. Trick jumps are hard to master, but hitting the enemy with flames and air blasts is very easy. The latter cannot hurt team mates and even extinguishes flames.
 |-
 |[[file:plasmacol.png|40px]]
-|plasma
-|Large bullets with slow speed makes this most effective at medium range and escaping confrontations. 
+|[[weapons#plasma|plasma]]
+|Beginners should be careful with the plasma's alternate fire mode, as it is typically used to block enemy pathways, and can be a major annoyance for team mates. 
 |-
 |[[file:zappercol.png|40px]]
-|zapper
-|Deals shock damage to make foes easy pickings, and alone powerful at mid-ranges. 
+|[[weapons#zapper|zapper]]
+|A great support weapon with limited damage potential, but very effective to slow down enemies and friends alike. 
 |-
 |[[file:riflecol.png|40px]]
-|rifle
-|Shocking at long and medium ranges with a good aim. 
+|[[weapons#rifle|rifle]]
+|A great choice for those with a good aim, but needs practice to master. 
 |-
 |rowspan=3|explosives
 |[[file:grenadecol.png|40px]]
-|grenade
+|[[weapons#grenade|grenade]]
 |Can instantly kill at any range, but requires good timing and aim to be effective. 
 |-
 |[[file:minecol.png|40px]]
-|mine
-|Heavy damage and applies the shock status effect. 
+|[[weapons#mine|mine]]
+|Be careful when placing mines in your team's base. Team chat can be useful to ask or warn team mates.
 |-
 |[[file:rocketcol.png|40px]]
-|rocket
-|Spawns and re-spawns on the map at long intervals, used to completely overpower your enemies. 
+|[[weapons#rocket|rocket]]
+|Although the rocket has a large area of effect, it still requires some aim and timing to be used effectively. 
 |}
+
+
+
+The beginner's guide covers basic controls, hud elements and tips for beginners about game modes and weapons. 
 
 ==Controls==
 {|+
 | <h3>Movement</h3>
 |-
-| '''Move forward'''
+| Move forward
 | W
 |-
-| '''Move backward'''
+| Move backward
 | S
 |-
-| '''Strife left'''
+| Strafe left
 | A
 |-
-| '''Strife right'''
+| Strafe right
 | D
 |-
-| '''Jump'''
+| Jump
 | Spacebar
 |-
-| '''Crouch'''
+| Crouch
 | Left shift
 |-
-| '''Walk'''
+| Walk
 | Left ctrl
 |+
 | <h3>Combat</h3>
 |-
-| '''Primary fire'''
+| Primary fire
 | Right mouse button
 |-
-| '''Secondary fire'''
+| Secondary fire
 | Left mouse button
 |-
-| '''Kick'''
+| Cycle weapons
+| Mouse scroll wheel
+|-
+| Kick
 | Q (in air)
 |+
 | <h3>Basic Parkour</h3>
 |-
-| '''Boost'''
+| Boost
 | Spacebar while moving in air
 |-
-| '''Impulse jump'''
+| Impulse jump
 | Stop moving as you boost.
 |-
-| '''Impulse dash'''
+| Impulse dash
 | Spacebar & W/A/S/D (in air), double tap W/A/S/D (on ground)
 |-
-| '''Wall kick'''
+| Wall kick
 | Q (in air) ''facing straight at wall'' 
 |-
-| '''Wall run'''
+| Wall run
 | Q (in air) ''facing parallel to wall''
 |-
-| '''Wall climb'''
+| Wall climb
 | Q (in air) ''facing perpendicular to wall, looking upward (or downward)''
 |-
-| '''Slide'''
+| Slide
 | Shift ''after landing on the ground/when dashing''
 |-
 | colspan="2" |
@@ -146,48 +152,45 @@ Red Eclipse features a parkour system that allows players to do certain moves wh
 |+
 | <h3>Menu/HUD</h3>
 |-
-| '''Change team'''
+| Change team
 | Dot ".",F7
 |-
-| '''Change loadout weapons'''
+| Change loadout weapons
 | Comma ","
 |-
-| '''Suggest menu'''
-| F2
-|-
-| '''Vote menu'''
+| Maps menu
 | F3
 |-
-| '''Enter spectate'''
+| Vote menu
+| F4
+|-
+| Enter spectator mode
 | Home
 |-
-| '''Scoreboard'''
+| Scoreboard
 | Tab
 |-
-| '''Main menu'''
+| Main menu
 | Escape
 |+
 | <h3>Miscellaneous</h3>
 |-
-| '''Pick up/Interact'''
+| Pick up/Interact
 | E
 |-
-| '''Suicide'''
+| Suicide
 | K
 |-
-| '''Throw flag/ball'''
+| Throw flag/ball
 | F
 |-
-| '''Cycle weapons'''
-| Mouse scroll wheel
-|-
-| '''1'''
+| 1
 | Select pistol (spawn weapon)
 |-
-| '''2, 3'''
+| 2, 3
 | Select your chosen loadout weapons
 |-
-| '''4, 5, ...'''
+| 4, 5, ...
 | Select further weapons (e.g. explosives)
 |}
 ''Note: These are the default controls. Check out the [[keybinding]] section for instructions on how to change them.''
