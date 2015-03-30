@@ -4,8 +4,8 @@
 |}
 
 ==tips & strategy==
-* Secure your own team's flag by pressing %1 to make stealing it more difficult and defending it simpler.
-* You can drop a flag at any time by pressing %1. Drop your team's flag into lava or an open abyss to reset it back to the base.
+* Secure your own team's flag by pressing '''F''' to make stealing it more difficult and defending it simpler.
+* You can drop a flag at any time by pressing '''F'''. Drop your team's flag into lava or an open abyss to reset it back to the base.
 * Remember, defending your own flag is as important as stealing the flag from the enemy. Choose which role you will play and try to stick to it for at least half the match.
 * Beware of players who hold grenades in defending positions near a flag. Draw them away with your shots or bring a flamer to put out flames.
 * Being in close proximity of your team's flag will add to both your attack and defense, as well as buff your max health and health regeneration.
@@ -15,6 +15,9 @@
 * In Multi-Survivor Capture-the-Flag, up to three points may be gained per round. Try to gather several flags and capture them all at once!
 * In Defend Capture-the-Flag, lure the opponent holding your team's flag into an easily defendable location to successfully reset the flag.
 * In Protect Capture-the-Flag, press ''Q'' to use cunning parkour maneuvers and evade the enemy team long enough while holding their flag.
+
+For more detailed tips, see the in-depth guide about [[Capture Strategy]].
+
 == mode-specific mutators==
 ===quick===
 {|
