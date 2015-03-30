@@ -1,13 +1,12 @@
-==Getting started==
-The following section provides some advice for beginners. For detailed instructions and strategy tips, consult the corresponding articles about [[GameModes_and_Mutators|game modes, mutators]] and [[weapons]].
+The beginner's guide covers tips about game modes and weapons, basic controls and hud elements.
 
-===Game modes===
+==Game modes==
 Most matches of Red Eclispe are played with two competing teams and a time limit. When the match ends, the team with the highest score wins. 
 {|
 |[[File:Deathmatch.png|64px]]
 |One way to score points is to finish off enemies, while killing team mates or blowing up yourself is penalized with point loss. This is the heart of the [[Deathmatch]] (DM) game mode.
 |}
-The details of scoring for individual players are defined according to the [[Deathmatch Scoring|deathmatch scoring system]]. Team scores in other modes than [[Deathmatch]] are objective based. 
+Players can score bonus points according to the [[Deathmatch Scoring|deathmatch scoring system]]. Team scores in other modes than [[Deathmatch]] are objective based. 
 {|
 |[[File:Capture.png|64px]]
 | ''[[Capture-the-flag]]''
@@ -22,68 +21,64 @@ The details of scoring for individual players are defined according to the [[Dea
 |Players defending their team's base get a strong buff, so again, this is a good idea for beginners. If you catch a bomb, throw it using the '''F''' key before it explodes. If you can move the bomb towards the enemy base, that's even better.
 |}
 
-Further [[Modes and Mutators in SVN|game modes]] are ''map editing'' and [[race]]. A large array of general or mode specific [[Mutator Tips|mutators]] offers a wide variety of additional or alternate game rules.
+Further [[GameModes and Mutators|game modes]] are ''map editing'' and [[race]]. A large array of general or mode specific [[Mutator Tips|mutators]] offers a wide variety of additional or alternate game rules.
 
-===Weapons overview===
-Usually, all players are equipped with a pistol and two chosen [[Weapons#loadout weapons|loadout weapons]], while additional [[Weapons#explosives|explosives]] can be collected in the arena.
+==Weapons overview==
+Usually, all players are equipped with a pistol and '''two''' chosen [[Weapons#loadout weapons|loadout weapons]], while additional [[Weapons#explosives|explosives]] can be collected in the arena. Each weapon has its strategic purpose and advantages, but some weapons may be better suited for beginners than others. 
 
 {|class="wikitable"
 |-
 |rowspan=2|
 |[[file:melee.png|40px]]
-|[[weapons#melee|melee]]
+|[[weapons#Melee|Melee]]
 |Simply jump at an enemy and press '''Q'''. Works well in conjunction with close range weaponry.
 |-
 |[[file:pistol.png|40px]]
-|[[weapons#pistol|pistol]]
+|[[weapons#Pistol|Pistol]]
 |Do not forget your pistol. It may have a small clip size, but it can be a deadly weapon.
 |-
 |rowspan=7|loadout
 |[[file:swordcol.png|40px]]
-|[[weapons#sword|sword]]
+|[[weapons#Sword|Sword]]
 |The sword is not quite beginner-friendly, as it requires good movement skills to be used effectively.
 |-
 |[[file:shotguncol.png|40px]]
-|[[weapons#shotgun|shotgun]]
-|''Recommended.'' Works best at close range and reloads automatically. 
+|[[weapons#Shotgun|Shotgun]]
+|'''Recommended.''' Works best at close range and reloads automatically.
 |-
 |[[file:smgcol.png|40px]]
 |[[weapons#SMG|SMG]]
 |The sub-machine-gun is straight forward to use, but beginners may have a hard time killing enemies.
 |-
 |[[file:flamercol.png|40px]]
-|[[weapons#flamer|flamer]]
-|''Recommended''. Trick jumps are hard to master, but hitting the enemy with flames and air blasts is very easy. The latter cannot hurt team mates and even extinguishes flames.
+|[[weapons#Flamer|Flamer]]
+|'''Recommended'''. Trick jumps are hard to master, but it is easy to hit enemies with flames and air blasts. The latter cannot hurt team mates and even extinguishes flames.
 |-
 |[[file:plasmacol.png|40px]]
-|[[weapons#plasma|plasma]]
+|[[weapons#Plasma|Plasma]]
 |Beginners should be careful with the plasma's alternate fire mode, as it is typically used to block enemy pathways, and can be a major annoyance for team mates. 
 |-
-|[[file:zappercol.png|40px]]
+|[[file:Zappercol.png|40px]]
 |[[weapons#zapper|zapper]]
-|A great support weapon with limited damage potential, but very effective to slow down enemies and friends alike. 
+|'''Recommended.''' A great support weapon with limited damage potential, but very effective to slow down enemies and friends alike. 
 |-
 |[[file:riflecol.png|40px]]
-|[[weapons#rifle|rifle]]
+|[[weapons#Rifle|Rifle]]
 |A great choice for those with a good aim, but needs practice to master. 
 |-
 |rowspan=3|explosives
 |[[file:grenadecol.png|40px]]
-|[[weapons#grenade|grenade]]
+|[[weapons#Grenade|Grenade]]
 |Can instantly kill at any range, but requires good timing and aim to be effective. 
 |-
 |[[file:minecol.png|40px]]
-|[[weapons#mine|mine]]
+|[[weapons#Mine|Mine]]
 |Be careful when placing mines in your team's base. Team chat can be useful to ask or warn team mates.
 |-
 |[[file:rocketcol.png|40px]]
-|[[weapons#rocket|rocket]]
+|[[weapons#Rocket|Rocket]]
 |Although the rocket has a large area of effect, it still requires some aim and timing to be used effectively. 
 |}
-
-
-
-The beginner's guide covers basic controls, hud elements and tips for beginners about game modes and weapons. 
 
 ==Controls==
 {|+
