@@ -73,8 +73,8 @@ Nobiax
 Luckystrike
 * [https://raw.githubusercontent.com/red-eclipse/data/master/luckystrike/grass_lucky.png luckystrike/grass_lucky.png]
 * [https://raw.githubusercontent.com/red-eclipse/data/master/luckystrike/grass_lucky_alt.png luckystrike/grass_lucky_alt.png]
-* [https://raw.githubusercontent.com/red-eclipse/data/master/grass_lucky_bright.png luckystrike/grass_lucky_bright.png]
-* [https://raw.githubusercontent.com/red-eclipse/data/master/grass_lucky_green.png luckystrike/grass_lucky_green.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/luckystrike//grass_lucky_bright.png luckystrike/grass_lucky_bright.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/luckystrike/grass_lucky_green.png luckystrike/grass_lucky_green.png]
 
 = Tips & Ideas =
 
