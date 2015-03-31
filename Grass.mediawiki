@@ -62,19 +62,19 @@ There are several things you can do to change the grass and how it appears in yo
 
 Currently (as of svn 6942) there are 9 grass textures available. 
 
-* [https://svn.icculus.org/*checkout*/redeclipse/data/textures/grass.png textures/grass.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/textures/grass.png textures/grass.png]
 
 Nobiax
-* [https://svn.icculus.org/*checkout*/redeclipse/data/nobiax/grass01.png nobiax/grass01.png]
-* [https://svn.icculus.org/*checkout*/redeclipse/data/nobiax/grass02.png nobiax/grass02.png]
-* [https://svn.icculus.org/*checkout*/redeclipse/data/nobiax/grass03.png nobiax/grass03.png]
-* [https://svn.icculus.org/*checkout*/redeclipse/data/nobiax/grassbush.png nobiax/grassbush.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/nobiax/grass01.png nobiax/grass01.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/nobiax/grass02.png nobiax/grass02.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/nobiax/grass03.png nobiax/grass03.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/nobiax/grassbush.png nobiax/grassbush.png]
 
 Luckystrike
-* [https://svn.icculus.org/*checkout*/redeclipse/data/luckystrike/grass_lucky.png luckystrike/grass_lucky.png]
-* [https://svn.icculus.org/*checkout*/redeclipse/data/luckystrike/grass_lucky_alt.png luckystrike/grass_lucky_alt.png]
-* [https://svn.icculus.org/*checkout*/redeclipse/data/luckystrike/grass_lucky_bright.png luckystrike/grass_lucky_bright.png]
-* [https://svn.icculus.org/*checkout*/redeclipse/data/luckystrike/grass_lucky_green.png luckystrike/grass_lucky_green.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/luckystrike/grass_lucky.png luckystrike/grass_lucky.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/luckystrike/grass_lucky_alt.png luckystrike/grass_lucky_alt.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/grass_lucky_bright.png luckystrike/grass_lucky_bright.png]
+* [https://raw.githubusercontent.com/red-eclipse/data/master/grass_lucky_green.png luckystrike/grass_lucky_green.png]
 
 = Tips & Ideas =
 
