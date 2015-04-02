@@ -1,0 +1,82 @@
+__TOC__
+This is a list of active and major inactive clans.
+
+== Active Clans ==
+
+{| border="1"
+! Name
+! Tag(s)
+! Leader
+! Link
+|-
+|ACE
+|*ACE*
+|Duck
+|http://zaquest.org:8080
+|-
+|DOOM
+|>DOOM<
+|BruceW
+|http://redoomclan.tk
+|-
+|DejaVu
+|#DejaVu#
+|Dejan
+|http://dejavuclanre.enjin.com
+|-
+|Ghosts
+|<nowiki>[Ghosts]</nowiki>
+|Piggybear
+|http://ghostclanre.tk
+|-
+|Alliance
+|{Alliance}, <nowiki>[Alliance]</nowiki>
+|sharidan2214
+|http://allianceclan.iclanwebsites.com
+|-
+|Mapping Hell
+|[MH]
+|?
+|http://mappinghell.net
+|-
+|}
+
+== Inactive or Disbanded Clans ==
+
+{| border="1"
+! Name
+! Tag(s)
+! Last Leader
+! Link
+|-
+|Epsilon
+|ɛ:
+|Bobbo (?)
+|
+|-
+|Blaze
+|<blaze>
+|Anaki
+|
+|-
+|Wazu
+|<nowiki>[Wazu]</nowiki>
+|Wazubaba (?)
+|http://www.gamestreet.net/guilds/1588
+|-
+|Russian Mafia
+|[RM]
+|Temka (?)
+|
+|-
+|FrogTeam
+|/FROGTEAM
+|?
+|
+|-
+|Existence
+|[eX]
+|Ballistic
+|http://exre.enjin.com/
+|-
+|}
