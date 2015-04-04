@@ -53,7 +53,7 @@ file:buff.png|link=weapons#buffs|Increased [[weapons#buffs|buffing]] timeout tol
 * Chestplate
 * Crown
 * Disc
-* Fox Ears
+* Fox Ears (They Flap!)
 * Guitar
 * Mask
 * Microeye
