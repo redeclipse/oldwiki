@@ -14,25 +14,25 @@ This is a list of active and major inactive clans.
 |Duck
 |http://zaquest.org:8080
 |-
-|DOOM
-|>DOOM<
-|BruceW
-|http://redoomclan.tk
+|Alliance
+|{Alliance}, <nowiki>[Alliance]</nowiki>
+|sharidan2214
+|http://allianceclan.iclanwebsites.com
 |-
 |DejaVu
 |#DejaVu#
 |Dejan
 |http://dejavuclanre.enjin.com
 |-
+|DOOM
+|>DOOM<
+|BruceW
+|http://redoomclan.tk
+|-
 |Ghosts
 |<nowiki>[Ghosts]</nowiki>
 |Piggybear
 |http://ghostclanre.tk
-|-
-|Alliance
-|{Alliance}, <nowiki>[Alliance]</nowiki>
-|sharidan2214
-|http://allianceclan.iclanwebsites.com
 |-
 |Mapping Hell
 |[MH]
@@ -49,34 +49,34 @@ This is a list of active and major inactive clans.
 ! Last Leader
 ! Link
 |-
-|Epsilon
-|ɛ:
-|Bobbo (?)
-|
-|-
 |Blaze
 |<blaze>
 |Anaki
 |
 |-
-|Wazu
-|<nowiki>[Wazu]</nowiki>
-|Wazubaba (?)
-|http://www.gamestreet.net/guilds/1588
-|-
-|Russian Mafia
-|[RM]
-|Temka (?)
-|
-|-
-|FrogTeam
-|/FROGTEAM
-|?
+|Epsilon
+|ɛ:
+|Bobbo (?)
 |
 |-
 |Existence
 |[eX]
 |Ballistic
 |http://exre.enjin.com/
+|-
+|FrogTeam
+|/FROGTEAM
+|?
+|
+|-
+|Russian Mafia
+|[RM]
+|Temka (?)
+|
+|-
+|Wazu
+|<nowiki>[Wazu]</nowiki>
+|Wazubaba (?)
+|http://www.gamestreet.net/guilds/1588
 |-
 |}
