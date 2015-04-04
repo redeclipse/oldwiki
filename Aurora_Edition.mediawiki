@@ -25,7 +25,7 @@ file:bot.png|link=bots|Support for giving AI orders, like attack or defend.
 File:Multi_mut.png|link=guide|Auto team balancing, so you're never stuck with uneven team counts.
 file:buff.png|link=weapons#buffs|Increased [[weapons#buffs|buffing]] timeout tolerances when defending affinities.
 </gallery>
-* Increased weapon spread when in air / impulsing
+* Increased weapon spread when in air / impulsing.
 * Better physics and bounce sounds for affinities (flags/points/bombs).
 * Footstep sounds, hear people approaching!
 
