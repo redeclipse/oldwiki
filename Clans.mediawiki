@@ -20,7 +20,7 @@ This is a list of active and major inactive clans.
 |http://allianceclan.iclanwebsites.com
 |-
 |DejaVu
-|#DejaVu#
+|#DejaVu#, #dv#
 |Dejan
 |http://dejavuclanre.enjin.com
 |-
