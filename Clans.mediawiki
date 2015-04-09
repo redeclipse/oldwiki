@@ -12,7 +12,7 @@ This is a list of active and major inactive clans.
 |ACE
 |*ACE*
 |Duck
-|http://zaquest.org:8080
+|http://reaceclan.tk
 |-
 |Alliance
 |{Alliance}, <nowiki>[Alliance]</nowiki>
