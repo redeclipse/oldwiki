@@ -87,7 +87,7 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
 ===Prerequisites===
 * Install xcode such that xcodebuild is in your shell path
  xcode-select --install
- Get [Brew brew.sh]
+ Get http://brew.sh/
  brew install git
  brew install Caskroom/cask/xquartz
 * Make sure the directory ~/Library/Frameworks exists
