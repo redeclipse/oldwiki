@@ -85,27 +85,30 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
 == OS X ==
 
 ===Prerequisites===
-* Install xcode such that xcodebuild is in your shell path (These instructions were created for xcode 3.2.6 but they should work on other versions too)
+* Install xcode such that xcodebuild is in your shell path
+ xcode-select --install
+ Get [Brew brew.sh]
+ brew install git
+ brew install Caskroom/cask/xquartz
 * Make sure the directory ~/Library/Frameworks exists
 * Download, mount, and copy the .framework folder from each of the following to ~/Library/Frameworks/
- http://www.libsdl.org/release/SDL-1.2.14.dmg
- http://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.10.dmg 
- http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.11.dmg
+ http://www.libsdl.org/release/SDL-1.2.15.dmg
+ http://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.12.dmg 
+ http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.12.dmg
 
 ===Compile===
 * Open the terminal
 * Navigate to the location that you downloaded Red Eclipse
- cd /path/to/redeclipse-svn
+ cd /path/to/redeclipse-git
 * (Clean previous builds)
- xcodebuild -project src/xcode/redeclipse.xcodeproj clean -configuration Debug
+ xcodebuild -project src/xcode/redeclipse.xcodeproj clean -configuration Release
 * Build using xcode
- xcodebuild -project src/xcode/redeclipse.xcodeproj -configuration Debug -alltargets
-* Remove the existing build from the bin directory
- rm -rf bin/redeclipse.app
+ xcodebuild -project src/xcode/redeclipse.xcodeproj -configuration Release -alltargets
 * Copy the new build to the bin directory
- cp -r src/xcode/build/Debug/redeclipse.app bin
+ cp src/xcode/build/UninstalledProducts/redeclipse.app/Contents/MacOS/redeclipse bin/redeclipse.app/Contents/MacOS/redeclipse_universal
+ chmod +x bin/redeclipse.app/Contents/MacOS/redeclipse_universal
 * To start Red Eclipse, simply double-click the "Red Eclipse" application in the bin/ directory, or execute
- bin/redeclipse.app/Contents/MacOS/redeclipse
+ ./bin/redeclipse.app/Contents/MacOS/redeclipse
 
 == Using Development Version Settings and Regular Settings in Tandem ==
 
@@ -130,30 +133,13 @@ The following instructions will setup a directory named "home" inside the Red Ec
 Where '''<path/dir name>''' is either the path to a directory outside of the Red Eclipse SVN folder, or just a name, which will create a folder inside that directory, for example
  set APP_OPTIONS=-hhome
 
-===GNU/Linux===
+===GNU/Linux and OSX===
 * In the Red Eclipse development version directory, open the '''redeclipse.sh''' file in a text editor (like gedit)
 On line 12 you will see
  APP_OPTIONS=""
 * Simply add '''''-h<path/dir name>''''' to the end of that line
 Where '''<path/dir name>''' is either the path to a directory outside of the Red Eclipse SVN folder, or just a name, which will create a folder inside that directory, for example
  APP_OPTIONS="-hhome"
-
-===OS X===
-* In the your Red Eclipse development version directory, in the subfolder '''bin/redeclipse.app/Contents/MacOS/''' open the '''redeclipse''' file in a text editor (like TextEdit)
-On line 6 through 10 you will see
- if [ $osxver -ge 10600 ]; then
-         exec "${0}_universal" "$@"
- else   
-         exec "${0}_compatible" "$@"
- fi
-* Simply add '''''-h<path/dir name>''''' before the "$@" in both those lines
-Where '''<path/dir name>''' is either the path to a directory outside of the Red Eclipse SVN folder, or just a name, which will create a folder inside that directory, for example
- if [ $osxver -ge 10600 ]; then
-         exec "${0}_universal" -h../home "$@"
- else   
-         exec "${0}_compatible" -h../home "$@"
- fi
-
 
 == SVN History ==
 The history of the project prior to the move to Git is available via the (read-only) repository
