@@ -91,7 +91,7 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
  brew install git
  brew install Caskroom/cask/xquartz
 * Make sure the directory ~/Library/Frameworks exists
-* Download, mount, and copy the .framework folder from each of the following to ~/Library/Frameworks/
+* Download, mount, and copy the .framework from each of the following to (~)/Library/Frameworks/
  http://www.libsdl.org/release/SDL-1.2.15.dmg
  http://www.libsdl.org/projects/SDL_image/release/SDL_image-1.2.12.dmg 
  http://www.libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.12.dmg
