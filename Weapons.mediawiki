@@ -90,19 +90,20 @@ These weapons can be chosen in the ''profile'' game menu, and it is even possibl
 
 {{weapon
 |name=Zapper
-|summary=Deals shock damage to make foes easy pickings, and alone powerful at mid-ranges.
-|clip=30 charges
-|primary=Automatic. Short to medium range fast bolt shots. Induces shock.
-|secondary=Semi-automatic. Short to medium range multiple bolt shots inter-twined. Charge for heavier damage. Induces shock.
+|summary=A great support weapon that allows to slow enemy movement.
+|clip=35 charges
+|primary=Fires bolts of lightning, very rapid fire rate, precise, but limited damage.
+|secondary=Strong bursts of electricity that deal damage over time and induce [[Weapons#shock|shock]] to slow down enemies.
 |strategy=
 ''Zapper primary''
 * Plays like a [[#SMG|SMG]] just without the bounce and having less direct damage, so use similar strategy.
-* Quickly induce shock to an opponent and then switch to another weapon for easier aim.
-* Inducing shock then burn with the flamer can cause a damaging double status effect, which can be extremely effective for hit-and-run encounters.
+* Compared to the SMG, zapper shots are more precise, travel more quickly and offer an even faster fire rate.
+* The damage output may be weak, but this fire mode works well to finish off weakened opponents.
 ''Zapper secondary''
-* Charge around corners and be in your enemies range when it's time to fire.
-* Like the primary, the secondary also plays like the [[#SMG|SMG]] secondary in that it's high damage but limited spacial adaptibility is best suited for opponents moving directly towards/away from you.
-* Use the primary for an easy hit to inflict shock, making it easier to aim the slower secondary fire at moving opponents.
+* Inflict shock on enemy flag or bomb carriers to make them easy pickings.
+* When the enemy is shocked, you may want to switch to a more offensive weapon.
+* Inducing shock, then burn or bleed will cause a damaging double status effect, which can be effective for hit-and-run encounters.
+
 }}
 
 {{weapon
