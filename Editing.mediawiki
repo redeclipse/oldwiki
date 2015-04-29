@@ -1,0 +1,23 @@
+{|
+|[[file:Editing.png|128px]]
+|Create your own custom maps or edit an existing map using a wide variety of textures, models, entities and world variables. If your creation is worthy it could be included in Red Eclipse!
+|}
+
+To learn more about mapping and the edit game mode, the following articles are recommended:
+* [[Editing Controls]]
+* [[Console|Using the Console]]
+* [[Saving/Loading_Maps|Saving and Loading Maps]]
+* [[Texturing]]
+* [[Lighting]]
+* [[Blendmap]]
+* [[Entities]]
+* [[Materials]]
+* [[Grass]]
+* [[Mapmodels]]
+* [[Height_Mapping|Height Mapping/Terrain]]
+* [[Skybox|Skyboxes and Fog]]
+* [[Waypoints]]
+* [[Editing_Info|Editing Info/Indicators]]
+* [[Mapping Tips]]
+* [http://sauerbraten.org/docs/editref.html Cube2 - Editing Reference (specifics may differ)]
+* [http://sauerbraten.org/docs/models.html Cube2 - Model Reference (specifics may differ)]
