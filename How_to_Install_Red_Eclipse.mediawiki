@@ -1,0 +1,24 @@
+== Windows ==
+
+* Download [http://redeclipse.net/download/windows the Windows installer].
+* When it is done, double click the resulting EXE installer.
+* Run through the prompts to install Red Eclipse on your computer.
+* Run the shortcut placed in your Start Menu.
+
+== Linux ==
+
+* Download [http://redeclipse.net/download/linux the Linux tarball].
+* When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME).
+* Extract the contents into your home directory using your favourite archive utility.
+** Terminal command: ''tar -jxvf redeclipse_X.Y.Z_linux.tar.bz2''
+* Enter the resulting folder (which will be called ''~/redeclipse-X.Y.Z'' where X.Y.Z is the version number of the package).
+* Run ''redeclipse.sh''
+
+== OS X ==
+
+* Download [http://redeclipse.net/download/osx the OS X tarball].
+* When it is done, click the resulting TAR.BZ2 file in your downloads folder on the dock.
+* Archive utility will extract the contents into the same folder and open a Finder window with ''redeclipse.app'' highlighted.
+* Drag and drop the ''redeclipse.app'' package to your favourite location (Desktop, Applications folder, whatever).
+* Run ''redeclipse.app''
+* If the operating system complains that it can't run an unsigned package, simply right (or cmd) click and select ''Open''. In future you will be able to run the app as normal, this will override the warning for all future attempts.
