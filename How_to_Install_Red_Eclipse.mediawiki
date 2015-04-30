@@ -3,22 +3,25 @@
 * Download [http://redeclipse.net/download/windows the Windows installer].
 * When it is done, double click the resulting EXE installer.
 * Run through the prompts to install Red Eclipse on your computer.
-* Run the shortcut placed in your Start Menu.
+* Run the <code>Red Eclipse</code> shortcut placed in your Start Menu.
 
 == Linux ==
 
 * Download [http://redeclipse.net/download/linux the Linux tarball].
-* When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME).
+* When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME = /home/username).
 * Extract the contents into your home directory using your favourite archive utility.
-** Terminal command: ''tar -jxvf redeclipse_X.Y.Z_linux.tar.bz2''
-* Enter the resulting folder (which will be called ''~/redeclipse-X.Y.Z'' where X.Y.Z is the version number of the package).
-* Run ''redeclipse.sh''
+** Terminal command: <code>tar -jxvf redeclipse_X.Y.Z_linux.tar.bz2</code>
+* Enter the resulting folder (which will be called <code>~/redeclipse-X.Y.Z</code> where X.Y.Z is the version number of the package).
+* Run <code>./redeclipse.sh</code>
+* For auto updates you will need to install <code>git</code> and <code>curl</code> (something like: <code>sudo apt-get install git curl</code>).
 
 == OS X ==
 
 * Download [http://redeclipse.net/download/osx the OS X tarball].
 * When it is done, click the resulting TAR.BZ2 file in your downloads folder on the dock.
-* Archive utility will extract the contents into the same folder and open a Finder window with ''redeclipse.app'' highlighted.
-* Drag and drop the ''redeclipse.app'' package to your favourite location (Desktop, Applications folder, whatever).
-* Run ''redeclipse.app''
-* If the operating system complains that it can't run an unsigned package, simply right (or cmd) click and select ''Open''. In future you will be able to run the app as normal, this will override the warning for all future attempts.
+* Archive utility will extract the contents into the same folder and open a Finder window with <code>redeclipse.app</code> highlighted.
+* Drag and drop the <code>redeclipse.app</code> package to your favourite location (Desktop, Applications folder, whatever).
+* Run <code>redeclipse.app</code>. If this is the first time running the app, the operating system complains that it can't run an unsigned package, simply right (or cmd) click and select <code>Open</code>. In future you will be able to run the app as normal, this will override the warning for all future attempts.
+
+== If you get stuck ==
+Don't panic! If you have trouble working out how to install and run the game, you can get assistance on our [http://redeclipse.net/chat live chat] or [http://redeclipse.net/forum forums]. Just be ready to provide as much information as possible, especially what operating system you're on and which package exactly you're trying to install!
