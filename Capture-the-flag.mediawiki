@@ -85,3 +85,6 @@ file:Venus.png |[[Map_Venus|Venus]]
 file:Warp.png |[[Map_Warp|Warp]]
 file:Wet.png |[[Map_Wet|Wet]]
 </gallery>
+
+
+{{Modes}}
