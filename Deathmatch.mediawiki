@@ -1,4 +1,3 @@
-{{Modes}}
 {|
 |[[file:deathmatch.png|128px]]
 |Attack enemy players gathering frags, assists, sprees and other bonuses to score points according to the [[Deathmatch Scoring]] System. The team or individual with the most points at the end wins!
@@ -17,3 +16,6 @@
 ==Mode specific mutators==
 
 Deathmatch is the most basic game mode, and as such, there are '''no game specific mutators''' for this mode. In return, Deathmatch is the most commonly played game mode for some popular mutators, such as [[Mutator Tips#duel|Duel]] or [[Mutator Tips#free-for-all|Free for all]].
+
+
+{{Modes}}
