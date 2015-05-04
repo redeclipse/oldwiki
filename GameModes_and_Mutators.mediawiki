@@ -156,3 +156,6 @@ Red Eclipse has a variety of different game modes to choose from, with mutators 
 | ''Gauntlet''
 | One team (blue/Alpha) races to reach the goal and score points, while the other team (red/Omega) tries to shoot them before they can get there. Teams switch off halfway through the match.
 |}
+
+
+{{Modes}}
