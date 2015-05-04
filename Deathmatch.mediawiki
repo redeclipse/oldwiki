@@ -1,4 +1,4 @@
-
+{{Modes}}
 {|
 |[[file:deathmatch.png|128px]]
 |Attack enemy players gathering frags, assists, sprees and other bonuses to score points according to the [[Deathmatch Scoring]] System. The team or individual with the most points at the end wins!
