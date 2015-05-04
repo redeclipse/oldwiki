@@ -51,3 +51,6 @@ file:Testchamber.png |[[Map_Testchamber|Testchamber]]
 file:Tonatiuh.png |[[Map_Tonatiuh|Tonatiuh]]
 file:Wardepot.png |[[Map_Wardepot|Wardepot]]
 </gallery>
+
+
+{{Modes}}
