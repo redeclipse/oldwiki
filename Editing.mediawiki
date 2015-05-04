@@ -21,3 +21,6 @@ To learn more about mapping and the edit game mode, the following articles are r
 * [[Mapping Tips]]
 * [http://sauerbraten.org/docs/editref.html Cube2 - Editing Reference (specifics may differ)]
 * [http://sauerbraten.org/docs/models.html Cube2 - Model Reference (specifics may differ)]
+
+
+{{Modes}}
