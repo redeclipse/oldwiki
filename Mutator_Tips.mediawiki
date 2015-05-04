@@ -191,3 +191,6 @@ This page gives strategy tips for various game mutators and can be accessed from
 *If you want a match without grenades, mines and rockets, try the basic mutator.
 *Forget about map control: Focus on your enemies and team objective!
 *For a showdown with pistols and parkour only, combine the classic and basic mutators.
+
+
+{{Modes}}
