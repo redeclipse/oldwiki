@@ -50,9 +50,11 @@ This page gives strategy tips for various game mutators and can be accessed from
  
 * Instagib matches are very fast-paced and hectic. While it may be easier to frag opponents, you are also fragged much more often yourself (the respawn time is shortened to reflect this).
 * Rifle shots normally inflict splash damage, but this is disabled in Instagib games. So aim carefully!
+* Grenades are also weakened - explosion radius is half the normal. Time your bombs!
 * Remember, you can also attack opponents with melee kicks or certain other parkour moves in Instagib.
 * Instagib is a very effective way to build your skill quickly with the Rifle's primary and secondary fire.
 * To mix up an Instagib match, change the spawn weapon using '''/instaweapon'''.
+
 ==medieval==
 
 {|
