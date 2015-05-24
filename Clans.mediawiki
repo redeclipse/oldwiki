@@ -14,11 +14,6 @@ This is a list of active and major inactive clans.
 |Duck
 |http://reaceclan.tk
 |-
-|Alliance
-|{Alliance}, <nowiki>[Alliance]</nowiki>
-|sharidan2214
-|http://allianceclan.iclanwebsites.com
-|-
 |DejaVu
 |#DejaVu#, #dv#
 |Dejan
@@ -58,6 +53,11 @@ This is a list of active and major inactive clans.
 ! Tag(s)
 ! Last Leader
 ! Link
+|-
+|Alliance
+|{Alliance}, <nowiki>[Alliance]</nowiki>
+|sharidan2214
+|http://allianceclan.iclanwebsites.com
 |-
 |Blaze
 |<blaze>
