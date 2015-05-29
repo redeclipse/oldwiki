@@ -25,4 +25,4 @@
 * Run <code>redeclipse.app</code>. If this is the first time running the app, the operating system complains that it can't run an unsigned package, simply right (or cmd) click and select <code>Open</code>. In future you will be able to run the app as normal, this will override the warning for all future attempts.
 
 == If you get stuck ==
-Don't panic! If you have trouble working out how to install and run the game, you can get assistance on our [http://redeclipse.net/chat live chat] or [http://redeclipse.net/forum forums]. Just be ready to provide as much information as possible, especially what operating system you're on and which package exactly you're trying to install!
+Don't panic! If you have trouble working out how to install and run the game, you can get assistance on our [http://redeclipse.net/chat live chat] or [http://redeclipse.net/forum forums]. Please be ready to provide as much information as possible, especially what operating system you're on and specifically which package you're trying to install!
