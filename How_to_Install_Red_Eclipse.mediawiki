@@ -7,7 +7,7 @@
 
 == Linux ==
 * Install Git and the run dependencies of Red Eclipse. On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command 
-** <code>sudo apt-get install git curl libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl1.2-dev</code>
+** <code>sudo apt-get install git curl libsdl-mixer1.2 libsdl-image1.2</code>
 * Download [http://redeclipse.net/download/linux the Linux tarball].
 * When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME = /home/username).
 * Extract the contents into your home directory using your favourite archive utility.
