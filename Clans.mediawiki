@@ -19,11 +19,6 @@ This is a list of active and major inactive clans.
 |Dejan
 |http://dejavuclanre.enjin.com
 |-
-|DOOM
-|>DOOM<
-|BruceW
-|http://redoomclan.tk
-|-
 |Ghosts
 |<nowiki>[Ghosts]</nowiki>
 |Piggybear
@@ -63,6 +58,11 @@ This is a list of active and major inactive clans.
 |<blaze>
 |Anaki
 |
+|-
+|DOOM
+|>DOOM<
+|BruceW
+|http://redoomclan.tk
 |-
 |Epsilon
 |ɛ:
