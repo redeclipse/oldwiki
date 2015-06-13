@@ -24,11 +24,6 @@ This is a list of active and major inactive clans.
 |Piggybear
 |http://ghostclanre.tk
 |-
-|Legion
-|{Legion}
-|Wesker Hunter
-|http://www.reclanlegion.dx.am/
-|-
 |Mapping Hell
 |[MH]
 |?
@@ -78,6 +73,11 @@ This is a list of active and major inactive clans.
 |/FROGTEAM
 |?
 |
+|-
+|Legion
+|{Legion}
+|Wesker Hunter
+|http://www.reclanlegion.dx.am/
 |-
 |Russian Mafia
 |[RM]
