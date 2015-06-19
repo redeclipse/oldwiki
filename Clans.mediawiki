@@ -22,7 +22,7 @@ This is a list of active and major inactive clans.
 |DOOM
 |>DOOM<
 |?
-|
+|http://redoomclan.tk
 |-
 |Ghosts
 |<nowiki>[Ghosts]</nowiki>
