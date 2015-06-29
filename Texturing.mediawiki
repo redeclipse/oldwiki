@@ -7,7 +7,7 @@ The texture menu ('''F1''' key) allows to preview all currently loaded textures.
 Recently used textures can be applied quickly to the current selection by holding the '''Y''' key and using the scroll wheel.
 
 The texture on the currently selected face can be moved to the top of the texture list using the '''J''' key or the command
-   /gettex
+    /gettex
 
 To replace all occurrences of a texture, select any face with that texture, apply a new texture and then use the command
     /replace
@@ -20,6 +20,8 @@ When finalizing the work on a map, it is reasonable to remove all unneeded textu
     /texturecull
 '''Note:''' The default set of textures can be added back to the map's texture list using
     /exec config/map/textures.cfg
+There is also an alias that will perform both of these actions:
+    /texturerehash
 
 ==Altering textures==
 
@@ -31,107 +33,63 @@ will gradually shift the texture to the right, while the same command without a 
 
 The ''vdelta'' command is also necessary to apply different ''vshader'' settings to a texture, such changing the coloring of glow and specular lighting.
 
-Here is a list of selected ''v''-commands.
+==List of v-commands==
 
-<table cellspacing="10" style="width:100%">
-  
-<tr><td width="174">
-/gettex
-</td><td width="219">
-picks up the texture from the face currently selected. 
-Note: allfaces must of OFF
-</td></tr>
+    /vreset
+resets a texture to its original settings, negating previous v-commands.
 
-<tr><td width="174">
-/vscale ''factor''
-</td><td width="219">
-creates a scaled version of the texture face selected
-Min: /vscale .125
-</td></tr>
+    /vscale ''factor''
+creates a scaled version of the texture
+'''Note:''' Minimum factor of 0.125
 
+    /voffset ''dx dy'' 
+creates a shifted version of the texture
 
-<tr><td width="174">
-/voffset ''dx dy'' 
-</td><td width="219">
-creates a shifted version of the texture face selected
-</td></tr>
+    /vrotate N
+creates a rotated or flipped version of the texture
+* 0: no transformation (default)
+* 1: rotate 90 degrees
+* 2: rotate 180 degrees
+* 3: rotate 270 degrees
+* 4: flipped left-to-right
+* 5: flipped top-to-bottom
 
-<tr><td width="174">
-/vrotate N
-</td><td width="219">
-creates a rotated or flipped version of the texture face selected
-Default: 1
-2: rotate 90 degrees
-3: rotate 180 degrees
-4: flipped along Z axis
-5: flipped along Y axis
-</td></tr>
+    /vcolor R G B
+Adjust the red, green and blue component of the texture's colour.
+R G B are factors form 0 to 1, use larger values only with caution.
 
-<tr><td width="174">
-/vcolor R G B
-</td><td width="219">
-creates a virtual texture slot with adjustable color from the texured face currently selected
-ex: /vcolor 1.0 0.2 0.2 will create a red version
-Default: 1.0 1.0 1.0 (100% 100% 100%)
-Min: 0.0 0.0 0.0 (0% 0% 0%)
-</td></tr>
-<tr><td width="174">
-/vpalette N V
-</td><td width="219">
-applies the colour from set N with id V from the builtin palette.
+    /vpalette N V
+applies the colour from set N with id V from a built-in palette.
 
-Set "0" - Pulse Colours
-0: turn off all palette effects
-1: dark fire pulse colours
-2: bright fire pulse colours
-3: disco pulse colours (bomber-ball)
-
-Set "1" - Team Colours
-0/1/2/3: only enforced in teamplay games
-4/5/6/7: enforced at all times
-
-Set "2" - Weapon Colours
-0/1/2/3/4/5/6/7/8/9: only enforced when that weapon is able to spawn in the current game configuration
-10/11/12/13/14/15/16/17/18/19: enforced at all times
-</td></tr>
-
-<tr><td width="174">
-/vreset
-</td><td width="219">
-resets a vtexture to its original settings
-</td></tr>
-
-<tr><td width="174">
-/replace
-</td><td width="219">
-repeats the last texture change across the entire map
-Note: allfaces must be OFF
-</td></tr>
+*Set "0" - Pulse Colours
+**0: turn off all palette effects
+**1: dark fire pulse colours
+**2: bright fire pulse colours
+**3: disco pulse colours (bomber-ball)
 
 
-<tr><td width="174">
-/vdelta vshaderparam specscale R G B
-</td><td width="219">
+*Set "1" - Team Colours
+**0/1/2/3: only enforced in teamplay games
+**4/5/6/7: enforced at all times
+
+
+*Set "2" - Weapon Colours
+**0/1/2/3/4/5/6/7/8/9: only enforced when that weapon is able to spawn in the current game configuration
+**10/11/12/13/14/15/16/17/18/19: enforced at all times
+
+    /vdelta vshaderparam specscale R G B
 adjusts the specularity color and brightness of a texture
+
 ex: /vdelta vshaderparam specscale 0.2 0.2 1.0 will make the texture shine blue
-ex: /vdelta vshaderparam specscale 0.02 0.02 0.02 will remove the shine
-</td></tr>
 
-<tr><td width="174">
-/vdelta vshaderparam parallaxscale ''scale'' ''offset''
-</td><td width="219">
-adjusts the parallax (pseudo-3d) effect, a deformation of the texture based on its normal map.
-</td></tr>
+This needs a texture with a normalmap.
 
-<tr><td width="174">
-/vdelta vshaderparam glowcolor R G B
-</td><td width="219">
+    /vdelta vshaderparam parallaxscale ''scale'' ''offset''
+adjusts the parallax, a deformation of the texture based on its normal map.
+Both the scale and offset for this distortion usually take small values, like 0.02.
+Larger values easily lead to strange effects due to negative "distances" to the observer (fish-eye).
+
+    /vdelta vshaderparam glowcolor R G B
 adjusts the 3d glow color of a texture.
-</td></tr>
 
-
-<tr><td width="174">
-/texturecull
-</td><td width="219">
-removes all texures not used in the map from the maps .cfg
-</td></tr>
+This needs a texture with a glowmap.
