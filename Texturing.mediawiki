@@ -118,9 +118,9 @@ ex: /vdelta vshaderparam specscale 0.02 0.02 0.02 will remove the shine
 </td></tr>
 
 <tr><td width="174">
-/vdelta vshaderparam parallaxscale R G B
+/vdelta vshaderparam parallaxscale ''scale'' ''offset''
 </td><td width="219">
-adjusts the 3d hightmap effect of a texture.
+adjusts the parallax (pseudo-3d) effect, a deformation of the texture based on its normal map.
 </td></tr>
 
 <tr><td width="174">
