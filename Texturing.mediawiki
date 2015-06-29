@@ -11,12 +11,10 @@ The texture on the currently selected face can be moved to the top of the textur
 
 To replace all occurrences of a texture, select any face with that texture, apply a new texture and then use the command
     /replace
-The same can be done only for the currently selected volume using
-    /replaceinsel
 
 ==Culling and loading textures==
 
-When finalizing the work on a map, it is reasonable to remove all unneeded texture definitions from the configuration. This can be done with the command
+When finalizing a map, it is reasonable to remove all unneeded texture definitions from the configuration. This can be done with the command
     /texturecull
 '''Note:''' The default set of textures can be added back to the map's texture list using
     /exec config/map/textures.cfg
@@ -40,12 +38,13 @@ resets a texture to its original settings, negating previous v-commands.
 
     /vscale ''factor''
 creates a scaled version of the texture
-'''Note:''' Minimum factor of 0.125
+
+'''Note:''' The factor must not be smaller than 0.125
 
     /voffset ''dx dy'' 
 creates a shifted version of the texture
 
-    /vrotate N
+    /vrotate ''N''
 creates a rotated or flipped version of the texture
 * 0: no transformation (default)
 * 1: rotate 90 degrees
@@ -54,11 +53,21 @@ creates a rotated or flipped version of the texture
 * 4: flipped left-to-right
 * 5: flipped top-to-bottom
 
-    /vcolor R G B
+    /vscroll ''vx vy''
+Creates a moving texture with the given horizontal and vertical scrolling speed.
+
+    /vcolor ''R G B''
 Adjust the red, green and blue component of the texture's colour.
 R G B are factors form 0 to 1, use larger values only with caution.
 
-    /vpalette N V
+    /valpha ''outer inner''
+Specifies the alpha value of a texture: 1.0 is fully opaque, smaller values are transparent.
+
+A second alpha value can be used to make the inner or reverse side of each face visible as well.
+
+'''Note''': This only takes effect when the texture is inside alpha [materials|material].
+
+    /vpalette ''N V''
 applies the colour from set N with id V from a built-in palette.
 
 *Set "0" - Pulse Colours
@@ -77,7 +86,7 @@ applies the colour from set N with id V from a built-in palette.
 **0/1/2/3/4/5/6/7/8/9: only enforced when that weapon is able to spawn in the current game configuration
 **10/11/12/13/14/15/16/17/18/19: enforced at all times
 
-    /vdelta vshaderparam specscale R G B
+    /vdelta vshaderparam specscale ''R G B''
 adjusts the specularity color and brightness of a texture
 
 ex: /vdelta vshaderparam specscale 0.2 0.2 1.0 will make the texture shine blue
@@ -89,7 +98,14 @@ adjusts the parallax, a deformation of the texture based on its normal map.
 Both the scale and offset for this distortion usually take small values, like 0.02.
 Larger values easily lead to strange effects due to negative "distances" to the observer (fish-eye).
 
-    /vdelta vshaderparam glowcolor R G B
+    /vdelta vshaderparam glowcolor ''R G B''
 adjusts the 3d glow color of a texture.
 
 This needs a texture with a glowmap.
+
+    /vcoastscale ''factor''
+This does not affect the visuals of a texture, but the mechanical properties of the face.
+
+The larger the value, the more difficult it gets to make sharp turns when walking on the surface.
+
+For example, a coastscale of 20 may be suitable for an ice texture.
