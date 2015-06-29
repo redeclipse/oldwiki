@@ -1,7 +1,37 @@
 
-== ADVANCED TEXTURING ==
 
+==Basic usage==
 
+The texture menu ('''F1''' key) allows to preview all currently loaded textures. Clicking the preview will apply it to the currently selected geometry (cube faces). The list of available textures is sorted dynamically: Whenever a texture is used, it is moved to the top of the list. 
+
+Recently used textures can be applied quickly to the current selection by holding the '''Y''' key and using the scroll wheel.
+
+The texture on the currently selected face can be moved to the top of the texture list using the '''J''' key or the command
+   /gettex
+
+To replace all occurrences of a texture, select any face with that texture, apply a new texture and then use the command
+    /replace
+The same can be done only for the currently selected volume using
+    /replaceinsel
+
+==Culling and loading textures==
+
+When finalizing the work on a map, it is reasonable to remove all unneeded texture definitions from the configuration. This can be done with the command
+    /texturecull
+'''Note:''' The default set of textures can be added back to the map's texture list using
+    /exec config/map/textures.cfg
+
+==Altering textures==
+
+There are various ''v''-commands to create texture variations, e.g. by altering the scale, tinting or shader properties. Whenever such a command is applied to the selected face, a new texture slot is added to the current texture list ('''F1''' menu/ '''Y''' key). Most of these commands will replace the corresponding parameter(s) of a texture.
+
+'''Note''': If the texture command is preceded by a ''vdelta'' command, the settings are not overridden, but added or merged. For instance, repeatedly using
+   vdelta voffset 0.125 0
+will gradually shift the texture to the right, while the same command without a ''vdelta'' will keep an offset of ''1/8 0''.
+
+The ''vdelta'' command is also necessary to apply different ''vshader'' settings to a texture, such changing the coloring of glow and specular lighting.
+
+Here is a list of selected ''v''-commands.
 
 <table cellspacing="10" style="width:100%">
   
@@ -13,14 +43,21 @@ Note: allfaces must of OFF
 </td></tr>
 
 <tr><td width="174">
-/vscale #
+/vscale ''factor''
 </td><td width="219">
 creates a scaled version of the texture face selected
 Min: /vscale .125
 </td></tr>
 
+
 <tr><td width="174">
-/vrotate #
+/voffset ''dx dy'' 
+</td><td width="219">
+creates a shifted version of the texture face selected
+</td></tr>
+
+<tr><td width="174">
+/vrotate N
 </td><td width="219">
 creates a rotated or flipped version of the texture face selected
 Default: 1
@@ -97,34 +134,4 @@ adjusts the 3d glow color of a texture.
 /texturecull
 </td><td width="219">
 removes all texures not used in the map from the maps .cfg
-</td></tr>
-
-<tr><td width="174">
-/setgrass
-</td><td width="219">
-the selected texture will use a specified image as grass across the map. (ex. /setgrass textures/grass.png)
-</td></tr>
-
-<tr><td width="174">
-/grasscolour 
-</td><td width="219">
-sets the color of grass as RGB values (ex. /grasscolour 100 255 100)
-</td></tr>
-
-<tr><td width="174">
-/grassheight
-</td><td width="219">
-sets the height of grass
-</td></tr>
-
-<tr><td width="174">
-/grassblend
-</td><td width="219">
-sets the transparency of grass
-</td></tr>
-
-<tr><td width="174">
-/grassdist
-</td><td width="219">
-sets the distance at which grass becomes visible
 </td></tr>
