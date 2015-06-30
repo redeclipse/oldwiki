@@ -65,7 +65,7 @@ Specifies the alpha value of a texture: 1.0 is fully opaque, smaller values are 
 
 A second alpha value can be used to make the inner or reverse side of each face visible as well.
 
-'''Note''': This only takes effect when the texture is inside alpha [materials|material].
+'''Note''': This only takes effect when the texture is inside alpha [[materials|material]].
 
     /vpalette ''N V''
 applies the colour from set N with id V from a built-in palette.
@@ -109,3 +109,9 @@ This does not affect the visuals of a texture, but the mechanical properties of 
 The larger the value, the more difficult it gets to make sharp turns when walking on the surface.
 
 For example, a coastscale of 20 may be suitable for an ice texture.
+
+    /vlayer ''N''
+Creates a two-layer texture for use with a [[blendmap]].
+
+    /setgrass ''texture''
+Applies [[grass]] to the texture.
