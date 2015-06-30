@@ -37,7 +37,7 @@ Usually, all players are equipped with a pistol and '''two''' chosen [[Weapons#l
 |[[weapons#Pistol|Pistol]]
 |Do not forget your pistol. It may have a small clip size, but it can be a deadly weapon.
 |-
-|rowspan=7|loadout
+|rowspan=7|Loadout
 |[[file:swordcol.png|40px]]
 |[[weapons#Sword|Sword]]
 |The sword is not quite beginner-friendly, as it requires good movement skills to be used effectively.
@@ -59,14 +59,14 @@ Usually, all players are equipped with a pistol and '''two''' chosen [[Weapons#l
 |Beginners should be careful with the plasma's alternate fire mode, as it is typically used to block enemy pathways, and can be a major annoyance for team mates. 
 |-
 |[[file:Zappercol.png|40px]]
-|[[weapons#zapper|zapper]]
+|[[weapons#zapper|Zapper]]
 |'''Recommended.''' A great support weapon with limited damage potential, but very effective to slow down enemies and friends alike. 
 |-
 |[[file:riflecol.png|40px]]
 |[[weapons#Rifle|Rifle]]
 |A great choice for those with a good aim, but needs practice to master. 
 |-
-|rowspan=3|explosives
+|rowspan=3|Explosives
 |[[file:grenadecol.png|40px]]
 |[[weapons#Grenade|Grenade]]
 |Can instantly kill at any range, but requires good timing and aim to be effective. 
