@@ -3,29 +3,26 @@ This page lists common control options for editing mode. For more information, c
 == Basic Editing Keybinds ==
 
 {| border="1" cellpadding="5" cellspacing="0"
-|Toggle Walk / Edit Mode
+|Open Texture Palette
 |F1 Key
 |-
-|Open Texture Palette
+|Toggle Walk / Edit Mode
 |F2 Key
 |-
 |Open Edit Menu
 |F3 Key
 |-
-|Select Cube Face
-|Left Mouse Button
+|Select Cube Face(s)
+|Left Mouse Button (drag)
 |-
 |Add to Selection
 |Right Mouse Button
 |-
-|Select Corners
-|Middle Mouse Button
+|Select Corner(s)
+|Middle Mouse Button (drag)
 |-
-|Deselect All
+|Deselect all
 |Spacebar
-|-
-|Change the Size of the Grid
-|Hold G Key + Mouse Scroll Wheel
 |-
 |Create / Destroy Cube
 |Mouse Scroll Wheel
@@ -36,14 +33,20 @@ This page lists common control options for editing mode. For more information, c
 |Push / Pull Selected Face
 |Hold F Key + Scroll Mouse Wheel
 |-
+|Delete selected entities and/or geometry 
+|Backspace Key
+|-
+|change entity properties
+|Hold a Number Keys (1 to 9) + Scroll Wheel
+|-
+|Change the Size of the Grid
+|Hold G Key + Mouse Scroll Wheel
+|-
 |Undo
 |Z Key
 |-
 |Redo
-|I Key
-|-
-|Move Selected Area
-|Hold U key, pressing copies+deletes selection, releasing pastest selection into paste box 
+|O Key
 |-
 |Copy Selected Area
 |C Key
@@ -51,11 +54,17 @@ This page lists common control options for editing mode. For more information, c
 |Paste Selected Area
 |V Key
 |-
+|Cut and paste on release
+|Move the selection while holding the U key
+|-
 |Flip Selected Area
 |X Key
 |-
 |Rotate Selected Area Per Selected Face
 |Hold R Key + Mouse Scroll Wheel
+|-
+|Toggle [[Height Mapping]] mode
+|H Key
 |-
 |Link Entities
 |L Key
@@ -67,12 +76,12 @@ This page lists common control options for editing mode. For more information, c
 |K Key
 |-
 |Toggle Material Volumes
-|M Key
+|Plus Key (+)
 |-
 |Toggle Fullbright
 |B Key
 |-
-|Toggle Edit Helper
+|Cycle paste-grid / cursor
 |Tab Key
 |-
 |Open Console 
@@ -84,10 +93,10 @@ This page lists common control options for editing mode. For more information, c
 |Patch Existing Lightmap
 |F5 Key
 |-
-|Recalculate Lightmap Quick
+|Recalculate Lightmap Quickly
 |F6 Key
 |-
-|Recalculate Lightmap Full
+|Recalculate full Lightmap
 |F7 Key
 |-
 |Save Map
@@ -97,7 +106,7 @@ This page lists common control options for editing mode. For more information, c
 |F9 Key
 |-
 |Toggle Geometry Outlines On / Off
-|O Key
+|Equals Key (=)
 |-
 |Open Console History
 |F11 Key (Page Up/Page Down keys Scroll History)
@@ -115,13 +124,13 @@ This page lists common control options for editing mode. For more information, c
 |Click the large Texture Preview Thumbnail
 |-
 |Toggle ALL FACES texturing style style
-|0 (zero) Key
+|Minus Key (-)
 |-
 |Toggle Texture Brush Modes
 |P Key 
 |}
 
-== Advanced Selecting ==
+== Advanced Selection ==
 
 {| border="1" cellpadding="5" cellspacing="0"
 |/entfind
@@ -138,5 +147,16 @@ ex: /entfindinsel light will select all light entities within the selected area
 |-
 |/entcancel
 |deselects all entities while leaving area selected
-|key Home
+|END Key
+|}
+
+== Online editing ==
+{| border="1" cellpadding="5" cellspacing="0"
+|/getmap
+|fetch/update [[custom maps]] from the server
+|Delete Key
+|-
+|/sendmap
+|upload map to server, so others can fetch it
+|Insert Key
 |}
