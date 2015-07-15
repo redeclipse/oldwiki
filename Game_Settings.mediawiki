@@ -33,8 +33,7 @@ The exact location varies on different versions of Windows, but the path can eas
 
 ==== Mac/OSX ====
 
- /Home/Library/Application Support/redeclipse
-
+ /Users/<username>/Library/Application Support/Red Eclipse
 
 === autoexec.cfg ===
 
