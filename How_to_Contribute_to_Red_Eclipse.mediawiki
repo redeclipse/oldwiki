@@ -4,11 +4,10 @@ This [http://redeclipse.net/forum/viewtopic.php?f=8&t=598 guide] is a basic intr
 
 Red Eclipse development is done with GIT. From there, you are able to create Issues or Pull Requests (these link to the "base" module, there are separate modules for "data" and "site"). If you are unfamiliar with GIT it is recommended to read a few tutorials on the net in order to avoid asking embarrassing questions. GitHub brings the advantage of a familiar interface with a robust set of features aimed at improving collaborative development and built to handle most of what users need from it, including help documentation.
 
-The tree is split up into the following "modules":
+The tree is split up into the following:
 
-*    base: https://github.com/red-eclipse/base (Issues, Pull Requests) - The base environment, including everything needed to build the game.
-*    data: https://github.com/red-eclipse/data (Issues, Pull Requests) - Everything that belongs in the data folder. This is included as a submodule in "base".
-*    site: https://github.com/red-eclipse/site (Issues, Pull Requests) - The entirety of the website, minus runtime config and data.
+* base: https://github.com/red-eclipse/base - The base environment, including everything needed to build the game.
+* site: https://github.com/red-eclipse/site - The entirety of the website, minus runtime config and data.
 
 If you are on Windows and don't like the official GitHub application you can try MSysGit or TortoiseGit. If you are on Linux you should be able to obtain the git command line tools from your distribution/package manager.
 
