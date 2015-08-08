@@ -13,7 +13,7 @@ If you get a permission denied error during install, right click the installer a
 * Download [http://redeclipse.net/download/linux the Linux tarball].
 * When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME = /home/username).
 * Extract the contents into your home directory using your favourite archive utility.
-** Terminal command: <code>tar -jxvf redeclipse_X.Y.Z_linux.tar.bz2</code>
+** Terminal command: <code>tar -jxvf redeclipse_X.Y.Z_nix.tar.bz2</code>
 * Enter the resulting folder (which will be called <code>~/redeclipse-X.Y.Z</code> where X.Y.Z is the version number of the package).
 * Run <code>./redeclipse.sh</code>
 
