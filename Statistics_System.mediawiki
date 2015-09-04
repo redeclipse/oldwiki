@@ -1,0 +1,18 @@
+The statistics system, introduced after 1.5.3, records results of games and sends them to a central database on the master server. The exact process is as follows:
+
+==To Enable in servinit.cfg==
+<source lang=text>
+sv_serverstats 1 //Your server must have the s flag in it's auth for this to take effect.
+</source>
+
+==Sending Process==
+*Before the server will send statistics, '''sv_serverstats''' must be 1 and the server must have the '''s''' (statistics) flag on it's auth handle.
+*To be sent to the master server, a game needs to meet one of the following:
+**Entered intermission.
+**Be timed race and have at least one finished lap. (So race records are kept even for unfinished games.)
+*The server will then send the game statistics to the master server.
+*The master server will save the game statistics to it's sqlite database and return the game ID for the server to display.
+
+==Web Interface==
+The statistics web interface/API is at http://redeclipse.net:28700<br>
+It runs alongside the master server and reads from the sqlite database to return sorted data about games, maps, players, modes, and weapons.<br>
