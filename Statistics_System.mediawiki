@@ -1,4 +1,4 @@
-The statistics system, introduced after 1.5.3, records results of games and sends them to a central database on the master server. The exact process is as follows:
+The statistics system, introduced after 1.5.3, records results of games and sends them to a central database on the master server.
 
 ==To Enable in servinit.cfg==
 <source lang=text>
