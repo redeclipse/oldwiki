@@ -2,7 +2,7 @@
 |mapname=Cyanide
 |author=Ricky Thomson
 |difficulty=Moderate
-|laptime=37-60s
+|laptime=29-60s
 |checkpoints=8
 |turrets=8
 |description=The corridors and hallways of Cyanide are perfectly suited for a game of onslaught-gauntlet-race, as it is one of the few maps with turrets for this game mode.
