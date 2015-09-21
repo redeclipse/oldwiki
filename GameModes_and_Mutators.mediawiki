@@ -129,8 +129,8 @@ Red Eclipse has a variety of different game modes to choose from, with mutators 
 {|class="wikitable"
 |-
 |[[File:Bomberbasket.png|64px]]
-|style="width: 10%"| ''Touchdown''
-| You cannot pass the ball into the goal to score. You have to carry it all the way there yourself.
+|style="width: 10%"| ''Basket''
+| The ball must be thrown into the goal to score, using the '''F''' key at a minimal distance.
 |-
 |[[File:Bomberhold.png|64px]]
 | ''Hold''
