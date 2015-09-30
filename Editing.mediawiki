@@ -5,6 +5,7 @@
 
 To learn more about mapping and the edit game mode, the following articles are recommended:
 * [[Editing Controls]]
+* [[Octree]]
 * [[Console|Using the Console]]
 * [[Saving/Loading_Maps|Saving and Loading Maps]]
 * [[Texturing]]
