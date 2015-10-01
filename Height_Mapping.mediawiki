@@ -11,7 +11,7 @@ Red Eclipse uses an [[octree]] representation of map geometry, so creating heigh
 
 [[file:heightmapping.gif|thumb|An example of using the circle-2-1 brush for heightmapping]]
 
-The '''H''' allows to toggle heightmap mode on and off (per default). The left '''Alt''' key will also disable heightmap mode (and [[blendmap]] mode). When heightmap mode is active, the mouse wheel can be used to pull and push vertexes on the selected surface geometry. It is recommended to select an area before entering heightmap mode, such that there is a well defined boundary for heightmapping.
+The '''H''' key allows to toggle heightmap mode on and off (per default). The left '''Alt''' key will also disable heightmap mode (and [[blendmap]] mode). When heightmap mode is active, the mouse wheel can be used to pull and push vertexes on the selected surface geometry. It is recommended to select an area before entering heightmap mode, such that there is a well defined boundary for heightmapping.
 
 ==Brushes==
 A set of different brushes is available which allow the heightmap tool to manipulate a group of vertexes:
