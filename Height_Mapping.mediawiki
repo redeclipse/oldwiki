@@ -1,53 +1,44 @@
-== HEIGHT MAPPING ==
 
-'''Hints'''
+The heightmap tool allows to manipulate surface geometry while [[editing]] maps.
 
-* This feature is not available when editing with other players.
+==Heightmaps and cubes==
 
+A heightmap is a piece of geometry where vertexes on a horizontal grid (xy) have different height values (z). This is typically used to create terrain geometry in outdoor areas (hills and valleys).
 
-== Toggle Height Mapping Mode ==
+Red Eclipse uses an [[octree]] representation of map geometry, so creating heightmaps is straight forward: Cube vertexes are pushed and pulled such that the surface geometry remains continuous (keeping vertexes of neighbouring cubes shared). This can be done conveniently with the heightmap tool, which does not only move the vertexes, but also pushes and pulls cubes automatically as needed.
 
+==Usage==
 
-'''Left Alt Key''' or '''H''' key enables Height Mapping Mode (cursor becomes green)
+[[file:heightmapping.gif|thumb|An example of using the circle-2-1 brush for heightmapping]]
 
-Left Click to Exit mode. Height Mapping is dependent on the Area Selected and the Grid Size (see Change Size of Grid [[Map::controls]])
+The '''H''' allows to toggle heightmap mode on and off (per default). The left '''Alt''' key will also disable heightmap mode (and [[blendmap]] mode). When heightmap mode is active, the mouse wheel can be used to pull and push vertexes on the selected surface geometry. It is recommended to select an area before entering heightmap mode, such that there is a well defined boundary for heightmapping.
 
+==Brushes==
+A set of different brushes is available which allow the heightmap tool to manipulate a group of vertexes:
 
-[[File:Kr1 heightmap 1 select.png]]
+* Circle 1-0
+* Circle 2-1
+* Circle 4-2-1 
+* Square 3x3 
+* Square 5x5 
+* Square 7x7 
+* Smooth 3x3 
+* Smooth 5x5 
+* Smooth 7x7 
+* Noise 25x25 
 
-
-
-== Select a brush ==
-
-You can cycle forwards and backwards through the brushes with
- /selectbrush 1
- /selectbrush -1
-In SVN (prospective 1.3) this is available via holding '''K''' and scrolling the '''mouse wheel'''
-
-A '''message''' should appear at the '''top left''' of your screen:
-
-
-[[File:Kr1 heightmap 2 selectbrush.png]]
-
-== Raise / Lower Terrain ==
-
-Place the cursor on a face and Scroll the Mouse Wheel.
+For example, ''Square 3x3'' means that a grid of 3 by 3 vertexes is moved up or down by the same amount. Circle brushes will move vertexes around the selection slightly. Smoothening brushes help to flatten out wiggles.
 
 
-[[File:Kr1 heightmap 3 brush.png]]
-
-
+To change the current heightmap brush, hold the '''K''' key (default) and use the mouse wheel.
 
 == Tipps & Tricks ==
 
-
-
-'''Natural Terrain example'''
-
+===Natural Terrain example===
 * Use standard-grid-size
-
 * Use circle 4-2-1 brush to paint some terrain
-
 * Use noise 25x25 brush to make the terrain looking more random
-
 * Smooth the terrain with smooth 5x5 brush
+
+===Point brush===
+The brush ''Circle 1-0'' moves a single vertex, so it is useful for fine-tuning the geometry. This can be useful not only when creating heightmap geometry. In some cases, this can be much more convenient than selecting vertexes with the middle mouse button.
