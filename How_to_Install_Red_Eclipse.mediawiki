@@ -8,16 +8,14 @@
 If you get a permission denied error during install, right click the installer and [http://windows.microsoft.com/en-us/windows7/how-do-i-run-an-application-once-with-a-full-administrator-access-token Run as Administrator]. Alternatively, you can change the install location to a user-writable folder (like "[My] Documents") during the install process.
 
 == Linux ==
-* Install curl and the runtime dependencies of Red Eclipse. On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command 
-** <code>sudo apt-get install curl libsdl-mixer1.2 libsdl-image1.2</code>
+* Install git, curl and the runtime dependencies of Red Eclipse. On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command 
+** <code>sudo apt-get install git, curl libsdl-mixer1.2 libsdl-image1.2</code>
 * Download [http://redeclipse.net/download/linux the Linux tarball].
 * When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME = /home/username).
 * Extract the contents into your home directory using your favourite archive utility.
 ** Terminal command: <code>tar -jxvf redeclipse_X.Y.Z_nix.tar.bz2</code>
 * Enter the resulting folder (which will be called <code>~/redeclipse-X.Y.Z</code> where X.Y.Z is the version number of the package).
 * Run <code>./redeclipse.sh</code>
-
-For auto updates you will need to install <code>git</code> and <code>curl</code> (something like: <code>sudo apt-get install git curl</code>).
 
 == OS X ==
 
