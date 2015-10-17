@@ -27,7 +27,7 @@ This is a list of active and major inactive clans.
 |Ghosts
 |<nowiki>[Ghosts]</nowiki>
 |Piggybear
-|http://ghostclanre.tk
+|http://ghostclanre.tk [currently down]
 |-
 |Mapping Hell
 |[MH]
