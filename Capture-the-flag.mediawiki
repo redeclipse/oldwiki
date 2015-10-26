@@ -24,7 +24,6 @@ For more detailed tips, see the in-depth guide about [[Capture Strategy]].
 |[[file:capturequick.png|128px]]
 |Touching your own team's loose flag will instantly teleport it back to your base,
 instead of having to escort it there on foot.
-emphasis
 |}
 
 ===defend===
@@ -32,7 +31,7 @@ emphasis
 |[[file:capturedefend.png|128px]]
 |When your flag is taken from your base, you cannot pick it up.
 You must protect it from where it's dropped until the timer resets.
-emphasis
+
 |}
 
 ===protect===
