@@ -16,3 +16,7 @@ sv_serverstats 1 //Your server must have the s flag in its auth for this to take
 ==Web Interface==
 The statistics web interface/API is at http://redeclipse.net:28700<br>
 It runs alongside the master server and reads from the sqlite database to return sorted data about games, maps, players, modes, and weapons.<br>
+
+==Privacy==
+The only information collected by the system about a player's identity is his nickname and auth handle.<br>
+IP addresses are not collected, and tracking can only be done via auth handle. Unauthed users will only appear in game pages, they will not have a player page.
