@@ -6,10 +6,10 @@ sv_serverstats 1 //Your server must have the s flag in its auth for this to take
 </source>
 
 ==Sending Process==
-*Before the server will send statistics, '''sv_serverstats''' must be 1 and the server must have the '''s''' (statistics) flag on it's auth handle.
-*To be sent to the master server, a game needs to meet one of the following:
+*Before the server will send statistics, '''sv_serverstats''' must be 1 and the server must have the '''s''' (statistics) flag on its authentication handle.
+*To be sent to the master server, a game needs to meet at least one of the following requirements:
 **Entered intermission.
-**Be timed race and have at least one finished lap. (So race records are kept even for unfinished games.)
+**Be timed race and have at least one finished lap. (So race records are kept even for unfinished games)
 *The server will then send the game statistics to the master server.
 *The master server will save the game statistics to its sqlite database and return the game ID for the server to display.
 
@@ -18,5 +18,5 @@ The statistics web interface/API is at http://redeclipse.net:28700<br>
 It runs alongside the master server and reads from the sqlite database to return sorted data about games, maps, players, modes, and weapons.<br>
 
 ==Privacy==
-The only information collected by the system about a player's identity is his nickname and auth handle.<br>
-IP addresses are not collected, and tracking can only be done via auth handle. Unauthed users will only appear in game pages, they will not have a player page.
+The only information collected by the system about a player's identity is their nickname and their authentication handle.<br>
+IP addresses are not collected, and tracking can only be done via auth handle. Unauthenticated users will only appear in game pages, they will not have a player page.
