@@ -1,5 +1,5 @@
 == The Basics ==
-* [http://redeclipse.net Red Eclipse] is a free casual arena first person shooter game. 
+* [http://redeclipse.net Red Eclipse] is a free arena first person shooter game. 
 * The game features fun innovations such as [[Impulse moves|parkour]], impulse boosts, dashing, and other tricks.
 * You can play it right now on your computer running Windows, OS X, Linux, or BSD.
 * The current engine technology being used is the aging [http://cubeengine.com/ Cube 2 Engine].
