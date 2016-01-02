@@ -34,11 +34,6 @@ This is a list of active and major inactive clans.
 |?
 |http://mappinghell.net
 |-
-|The Fragle Bay
-|[TFB]
-|Uncle
-|http://tfb.basspistol.com
-|-
 |}
 
 == Inactive or Disbanded Clans ==
@@ -83,6 +78,11 @@ This is a list of active and major inactive clans.
 |[RM]
 |Temka (?)
 |
+|-
+|The Fragle Bay
+|[TFB]
+|Uncle
+|http://tfb.basspistol.com
 |-
 |Wazu
 |<nowiki>[Wazu]</nowiki>
