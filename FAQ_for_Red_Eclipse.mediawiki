@@ -60,7 +60,7 @@ Yes. Red Eclipse will automatically check for updates, and you will see a termin
 Then there's a problem with the updater, for instance missing permissions to replace or delete files. On windows for example, right-click the game launcher and try to "Run as administrator". If the updater still hangs or fails, try a fresh install, but that really should not be necessary.
 
 === What does 'devel' mean? ===
-This is the development version of the game, which can be [[obtain development version|obtained]] from our Github repository.
+This is the development version of the game, which can be [[obtain development version|obtained]] from our Github repository to check out upcoming features and life on the bleeding edge.
 
 === What does master and stable mean? ===
 These are the two branches of our base repository on gituhb, http://github.com/red-eclipse/base/. The stable branch is for the current release version of the game. This also includes important bug fixes that are fetched via automatic updates. The master branch is for the current development version.
