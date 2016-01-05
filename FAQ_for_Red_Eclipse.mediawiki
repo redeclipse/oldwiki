@@ -76,11 +76,20 @@ If you think someone cheats or violates the [[Multiplayer Guidelines]] in some o
 === dm, pzap, gg - what did they just say? ===
 For frequently used abbreviations and player slang, see [[glossary]].
 
-=== A green beeping thing obscured my vision - what the heck? ===
-Someone has probably just thrown a mine on you. Mines are sticky. And yes, they explode.
+=== What are those symbols near player names? ===
+These are the [[privileges]] or ranks of registered players. You can request your own player account on www.redeclipse.net/apply.
 
-=== I hit this guy many times with my shotgun, why doesn't he die? ===
-It is easy to hit someone with a shotgun, but the weapon is really only effective at close range. Each weapon has its pros and cons, and some of them are hard to master.
+=== Why is there a timer when I get killed? ===
+There is a delay before you can respawn. This adds a tactical value to defeating enemy players, as the time-out is an advantage for your team.
+
+=== I hit a guy many times with my shotgun, why didn't he die? ===
+It is easy to hit someone with a shotgun, but the weapon is really only effective at close range. Each loadout weapon has its pros and cons, and some of them are hard to master.
+
+=== How did they take away their own flag? ===
+In [[capture]] games, you can press '''F''' (per default) to pick up the flag in your own base, so the enemy cannot reach it that easily. The same button can also be used to drop a flag you carry, be it yours or the enemy's.
 
 === Why are there no ammo and health pickups? ===
 In Red Eclipse, players have an unlimited supply of weapon reloads, health regeneration and impulse energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball ... or just fraging!
+
+=== A green beeping thing obscured my vision - what the heck? ===
+Someone has probably just thrown a mine on you. Mines are sticky. And yes, they explode.
