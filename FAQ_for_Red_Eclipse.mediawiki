@@ -73,8 +73,8 @@ For frequently used abbreviations and player slang, see [[glossary]].
 === A green beeping thing obscured my vision - what the heck? ===
 Someone has probably just thrown a mine on you. Mines are sticky. And yes, they explode.
 
-=== I hit this guy many times with my shotgun, why doesn't he die?
+=== I hit this guy many times with my shotgun, why doesn't he die? ===
 It is easy to hit someone with a shotgun, but the weapon is really only effective at close range. Each weapon has its pros and cons, and some of them are hard to master.
 
-=== Why are there no ammo and health pickups?
+=== Why are there no ammo and health pickups? ===
 In Red Eclipse, players have an unlimited supply of weapon reloads, health regeneration and impulse energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball ... or just fraging!
