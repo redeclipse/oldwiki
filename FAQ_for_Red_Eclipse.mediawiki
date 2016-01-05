@@ -1,4 +1,4 @@
-== General ==
+== General information ==
 
 === What is Red Eclipse? ===
 [http://www.redeclipse.net/ Red Eclipse] is a Red Eclipse is an open-source arena shooter, created from the Cube2 engine, similar to games in the [http://en.wikipedia.org/wiki/Unreal_Tournament Unreal Tournament] series. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[weapons]], Red Eclipse provides fast paced and accessible gameplay. [[What is Red Eclipse#About|here]].
@@ -39,13 +39,42 @@ Apart from this wiki, and playing on the game servers, you can:
 * Connect to [irc://irc.freenode.net irc.freenode.net] IRC network, and join #redeclipse channel, or use[https://kiwiirc.com/client/chat.freenode.net/?nick=guest%7C?#redeclipse KiwiIRC] if you're not familiar with [[IRC]].
 
 
-== Wiki ==
+== Technical questions ==
+
+=== Where do I find screenshots, logs and other user data? ===
+The location of user content varies on different operating systems.
+==== Windows ====
+Check the "My Games" folder in your documents:
+ %USERPROFILE%\My Documents\My Games\Red Eclipse
+==== Linux ====
+See the .redeclipse user data in your home directory:
+ ~/.redeclipse
+==== Mac/OSX ====
+Check the app data in your home directory:
+ /Users/<username>/Library/Application Support/Red Eclipse
+
+=== When I launch the game, there's terminal with lots of text. Is that normal? ===
+Yes. Red Eclipse will automatically check for updates, and you will see a terminal while the updater script is running.
+
+=== That terminal just closes, and the game does not start. What's wrong? ===
+Then there's a problem with the updater, for instance missing permissions to replace or delete files. On windows for example, right-click the game launcher and try to "Run as administrator". If the updater still hangs or fails, try a fresh install, but that really should not be necessary.
 
 === What does 'devel' mean? ===
-Development version- unstable releases showcasing what new changes have been made to RE. Find out more [http://redeclipse.net/wiki/Obtain_development_version here].
+This is the development version of the game, which can be [[obtain development version|obtained]] from our Github repository.
 
-== In-game ==
+=== What does master and stable mean? ===
+These are the two branches of our base repository on gituhb, http://github.com/red-eclipse/base/. The stable branch is for the current release version of the game. This also includes important bug fixes that are fetched via automatic updates. The master branch is for the current development version.
 
-=== List of slang ===
+== Gameplay questions ==
 
-See [[glossary]].
+=== dm, pzap, gg - what did they just say? ===
+For frequently used abbreviations and player slang, see [[glossary]].
+
+=== A green beeping thing obscured my vision - what the heck? ===
+Someone has probably just thrown a mine on you. Mines are sticky. And yes, they explode.
+
+=== I hit this guy many times with my shotgun, why doesn't he die?
+It is easy to hit someone with a shotgun, but the weapon is really only effective at close range. Each weapon has its pros and cons, and some of them are hard to master.
+
+=== Why are there no ammo and health pickups?
+In Red Eclipse, players have an unlimited supply of weapon reloads, health regeneration and impulse energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball ... or just fraging!
