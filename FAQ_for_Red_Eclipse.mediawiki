@@ -77,7 +77,7 @@ If you think someone cheats or violates the [[Multiplayer Guidelines]] in some o
 For frequently used abbreviations and player slang, see [[glossary]].
 
 === What are those symbols near player names? ===
-These are the [[privileges]] or ranks of registered players. You can request your own player account on www.redeclipse.net/apply.
+These are the [[privileges]] or ranks of registered players. You can request your own player account on http://redeclipse.net/apply
 
 === Why is there a timer when I get killed? ===
 There is a delay before you can respawn. This adds a tactical value to defeating enemy players, as the time-out is an advantage for your team.
