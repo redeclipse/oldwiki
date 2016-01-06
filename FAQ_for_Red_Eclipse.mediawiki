@@ -76,6 +76,12 @@ If you think someone cheats or violates the [[Multiplayer Guidelines]] in some o
 
 == Gameplay questions ==
 
+=== What is the game objective? ===
+This depends on the current [[GameModes and Mutators|mode and mutators]] of the game, which you can look up any time in the help menu (default key: '''F1'''). Click the large icons in the help menu to learn more about the rules of the current game. These help menus provide detailed information and tips, of which most can also be read on the wiki. There is also a [[guide]] for beginners.
+
+=== Why is my player score negative? ===
+Be careful not to shoot your team mates, especially when using explosive weapons. Each team kill subtracts six points. Team kills on [[capture|flag carriers]], [[bomber-ball|bombers]] or [[defend-and-control|defenders]] even double this penalty. For details, see [[Deathmatch Scoring]].
+
 === dm, pzap, gg - what did they just say? ===
 For frequently used abbreviations and player slang, see [[glossary]].
 
@@ -92,7 +98,7 @@ It is easy to hit someone with a shotgun, but the weapon is really only effectiv
 In [[capture]] games, you can press '''F''' (per default) to pick up the flag in your own base, so the enemy cannot reach it that easily. The same button can also be used to drop a flag you carry, be it yours or the enemy's.
 
 === Why are there no ammo and health pickups? ===
-In Red Eclipse, players have an unlimited supply of weapon reloads, health regeneration and impulse energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball ... or just fraging!
+In Red Eclipse, players have an unlimited supply of weapon reloads, health regeneration and [[Impulse_moves_summary|impulse]] energy. Therefore, map control is less important, and everyone can focus on the real fun: Capturing that flag, grabbing that bomber ball ... or just fraging!
 
 === A green beeping thing obscured my vision - what the heck? ===
 Someone has probably just thrown a mine on you. Mines are sticky. And yes, they explode.
