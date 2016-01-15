@@ -2,8 +2,8 @@
 
 Red Eclipse is based on Cube Engine 2, both of which are covered under the ZLIB license, you may use the source code so long as you obey this license.
 
- Red Eclipse, Copyright (C) 2009-2013 Quinton Reeves, Lee Salzman
- Cube Engine 2, Copyright (C) 2001-2013 Wouter van Oortmerssen, Lee Salzman, Mike Dysart, Robert Pointon, and Quinton Reeves
+ Red Eclipse, Copyright (C) 2009-2016 Quinton Reeves, Lee Salzman
+ Cube Engine 2, Copyright (C) 2001-2016 Wouter van Oortmerssen, Lee Salzman, Mike Dysart, Robert Pointon, and Quinton Reeves
  http://www.opensource.org/licenses/zlib-license.php
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software. Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
@@ -18,7 +18,7 @@ Content included in the game (maps, textures, sounds, models etc.) is NOT covere
 
 In the absence of an explicit license, content is considered to be covered by the CC-BY-SA license, either version 3.0 or (at your option) any later version, you may use the content in Red Eclipse so long as you obey individual licensing criteria.
 
- Red Eclipse, Copyright (C) 2009-2013 Red Eclipse Team
+ Red Eclipse, Copyright (C) 2009-2016 Red Eclipse Team
  Creative Commons Attribution ShareAlike 3.0+ License (CC-BY-SA)
  See [[CC-BY-SA]] or http://creativecommons.org/licenses/by-sa/3.0/
 
