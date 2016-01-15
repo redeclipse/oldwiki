@@ -195,7 +195,7 @@ as described above.
 
   Attribution
 
-This text is Copyright (C) 2011-2015, the Red Eclipse Team
+This text is Copyright (C) 2011-2016, the Red Eclipse Team
 and is available under a Creative Commons Attribution-ShareAlike 3.0 Unported
 License <http://creativecommons.org/licenses/by-sa/3.0/>
 
@@ -214,7 +214,7 @@ License <http://creativecommons.org/licenses/by-sa/3.0/us/>
 
 ==Content on This page==
 
-This page is Copyright © 2011-2015, the Red Eclipse Team
+This page is Copyright © 2011-2016, the Red Eclipse Team
 and is available under a [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution-ShareAlike 3.0 Unported License]
 
 A large portion of the content on this page is based on http://wiki.documentfoundation.org/TradeMark_Policy
