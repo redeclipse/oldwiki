@@ -62,7 +62,7 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
 ===Clone via Git===
 * Open the terminal
 * Install Git and the build & run dependencies of Red Eclipse. On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command
- sudo apt-get install git build-essential libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl1.2-dev
+ sudo apt-get install git build-essential libsdl2-mixer-dev libsdl2-image-dev libsdl2-dev
 * Clone the Git repository with the command
  git clone --recursive https://github.com/red-eclipse/base.git redeclipse-git
 This will download Red Eclipse to the "redeclipse-git" directory within the current working directory.
