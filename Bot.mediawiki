@@ -28,7 +28,17 @@ By default, when there are not enough players for a specific [[Game::maps|map]],
 The skill levels of each bot are randomized in the range set by
 * botskillmin
 * botskillmax
-A skill value of 101 means that the bot reacts with full speed and precision. However, that does not necessarily mean that bots are intelligent, especially in team games with complex objectives. Other ways to make bots considerably tougher or weaker in combat are to alter their movement speed, maximum health or scale (model size).
+A skill value of 101 means that the bot reacts with full speed and precision. However, that does not necessarily mean that bots are intelligent, especially in team games with complex objectives. Other ways to make bots considerably tougher or weaker in combat are to alter their movement speed, maximum health or scale (model size). Changing the model size via ''botscale'' will scale the absolute movement speed as well. 
+
+
+=== passive A.I. (not in the development version) ===
+
+Bots can be prevented from using their attacks.
+* aipassive 0 - normal attack behavior
+* aipassive 1 - never attack human players
+* aipassive 2 - do not attack anybody
+
+=== abilities and collide (development version only) ===
 
 It is also possible to limit the abilities of bots. For this there is a bitfield variable ''botabilites'', which can be set as a sum of these flags: 
 * move/push = 1
@@ -38,16 +48,17 @@ It is also possible to limit the abilities of bots. For this there is a bitfield
 * boost   = 16
 * parkour = 32
 * melee   = 64
+* primary fire = 128
+* secondary fire = 256
+* rigid  (unaffected by push/stun) = 255
 
-The move flag also controls if bots can be pushed around, and the variable ''botspeed'' controls their actual movement speed. Changing the model size via ''botscale'' will scale the absolute movement speed as well. 
+The variable ''botcollide'' and ''botteamdamage'' define who can be attacked or damaged by the A.I., respectively.
+* players = 1
+* bots = 2
+* enemies = 4
+* ghosts = 8
+
 
 '''Note:''' There are similar variables for drones, grunts and turrets in [[Mutator_Tips#onslaught|onslaught]] mode.
-
-Furthermore, bots can be prevented from using their attacks.
-* aipassive 0 - normal attack behavior
-* aipassive 1 - never attack human players
-* aipassive 2 - do not attack anybody
-
-
 
 '''Note:''' There are separate bot variables for some game mutators or modes, such as the [[mutator_Tips#coop|coop]] mutator.
