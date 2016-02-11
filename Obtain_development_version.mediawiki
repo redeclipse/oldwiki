@@ -1,6 +1,3 @@
-
-
-
 The development version is a newer version of Red Eclipse that is still being developed. If you want to help test the game, or experience the newer features, use this guide to obtain the latest development version of the game. Red Eclipse development repositories and issue trackers are hosted on [https://github.com/red-eclipse GitHub].
 
 Notes:
