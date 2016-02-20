@@ -5,7 +5,7 @@
 
 === Windows ===
 
-* Copy the [http://svn.icculus.org/*checkout*/redeclipse/doc/examples/servinit.cfg servinit.cfg] example template from '''doc\examples''' to the root Red Eclipse directory (copy to the same directory as server.bat)
+* Copy the [https://raw.githubusercontent.com/red-eclipse/base/stable/doc/examples/servinit.cfg servinit.cfg] example template from '''doc\examples''' to the root Red Eclipse directory (copy to the same directory as server.bat)
 * Edit these files with a text editor as appropriate
 * Start the server by executing server.bat, an icon should appear in the taskbar. Click on it to view the console.
 
@@ -18,7 +18,7 @@ For details on locating your Red Eclipse home directory, refer to the [[Game_Set
 
 This is normally the case if you installed Red Eclipse via your package manager, or using the "system-install" make target.
 
-* Copy the [http://svn.icculus.org/*checkout*/redeclipse/doc/examples/servinit.cfg servinit.cfg] example template from '''/usr/share/doc/redeclipse/examples/''' to your homedir, using
+* Copy the [https://raw.githubusercontent.com/red-eclipse/base/stable/doc/examples/servinit.cfg servinit.cfg] example template from '''/usr/share/doc/redeclipse/examples/''' to your homedir, using
  cp /usr/share/doc/redeclipse/examples/servinit.cfg ~/.redeclipse/
 * Edit these files in the homedir as appropriate
 * Start the server via
@@ -28,7 +28,7 @@ This is normally the case if you installed Red Eclipse via your package manager,
 
 This is the case if you are running Red Eclipse directly from the unpacked tarball distributed via redeclipse.net (and others).
 
-* The [http://svn.icculus.org/*checkout*/redeclipse/doc/examples/servinit.cfg servinit.cfg] example template is located in '''doc/examples'''
+* The [https://raw.githubusercontent.com/red-eclipse/base/stable/doc/examples/servinit.cfg servinit.cfg] example template is located in '''doc/examples'''
 ** Copy these files either to your homedir
  cp doc/examples/servinit.cfg ~/.redeclipse/
 :* or to the root redeclipse directory
@@ -63,7 +63,7 @@ If you want to configure a setting simply remove the "//" in front of it and cha
 
 === '''servinit.cfg''' ===
 
-[http://svn.icculus.org/*checkout*/redeclipse/doc/examples/servinit.cfg servinit.cfg] contains the configuration settings for a Red Eclipse server. As of Red Eclipse v1.4 Elara, the settings defined in servinit.cfg are set as the server's "default" settings, and using '''resetvars''' will simply restore the default settings, rather than re-executing '''servexec.cfg''', which is now defunct and no longer used in Red Eclipse.
+[https://raw.githubusercontent.com/red-eclipse/base/stable/doc/examples/servinit.cfg servinit.cfg] contains the configuration settings for a Red Eclipse server. As of Red Eclipse v1.4 Elara, the settings defined in servinit.cfg are set as the server's "default" settings, and using '''resetvars''' will simply restore the default settings, rather than re-executing '''servexec.cfg''', which is now defunct and no longer used in Red Eclipse.
 
 
 ==== Admin Password ====
