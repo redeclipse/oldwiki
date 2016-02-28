@@ -74,6 +74,11 @@ Development of Red Eclipse is [http://redeclipse.net/forum/viewtopic.php?f=4&t=5
 === I found a cheater, what can I do? ===
 If you think someone cheats or violates the [[Multiplayer Guidelines]] in some other way, you can open a topic on the [http://redeclipse.net/forum forums]. Be sure to attach a [[demo]] record of the game, so the problem can be investigated. Convictable cheaters will be sanctioned accordingly.
 
+===How can i change the chat colour?===
+This is a semi-official feature. You can set the alias ''saytextcolour'' to a hex colour value, for example yellow:
+    /saytextcolour = 0xffff00
+Only use bright colours with good contrast. A value of -1 will take your profile colour instead.
+
 == Gameplay questions ==
 
 === What is the game objective? ===
