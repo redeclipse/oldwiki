@@ -39,6 +39,9 @@ Many commands use client numbers, abbreviated as "cn", to refer to specific play
 |-
 |'''ban''' <cn> <reason>
 |Temporarily bans a player from the server. The optional reason attribute allows moderators to explain why the player was banned.
+|-
+|'''addpriv''' <cn> <priv>
+|Give temporary privileges to a player. <priv> can be 2 - supporter, 3 - moderator, 4 - operator, 5 - administrator.
 |}
 
 ==Administration Commands==
