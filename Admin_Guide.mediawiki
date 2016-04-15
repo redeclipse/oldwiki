@@ -42,6 +42,9 @@ Many commands use client numbers, abbreviated as "cn", to refer to specific play
 |-
 |'''addpriv''' <cn> <priv>
 |Give temporary privileges to a player. <priv> can be 2 - supporter, 3 - moderator, 4 - operator, 5 - administrator.
+|-
+|'''resetpriv''' <cn>
+|Removes temporary privileges from a player.
 |}
 
 ==Administration Commands==
