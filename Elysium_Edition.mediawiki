@@ -1,0 +1,38 @@
+''This article is a draft. It helps to collect notes for the upcoming release, so feel free to edit the text.''
+
+Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new features:
+
+* Statistics System
+** Detailed statistics for each player account
+** Race leader boards and game stats for each map
+** Stats for overall weapon usage and effectiveness
+** Weekly leader boards for special achievements (?)
+
+
+* New spawn weapon: Claws
+** Pull yourself towards the enemy for some hack and slash action
+** Perform grabs on ledges and walls to save impulse energy
+
+
+* New deathmatch mutators
+** Gladiator: Use the claws to push the enemy out of the new arenas
+** Old school: Disable deathmatch bonus points and assists
+
+
+* Rule improvements
+* Lost flags will reset right where the carrier left solid ground.
+* The rifle can now stay again in zoom mode
+* (?) many tweaks to weapon balance (name a few?)
+
+
+* Engine improvements
+** vslot commands for texture varuations wok in multiplayer editing
+** undo/redo support in multiplayer editing
+** performance tweaks (?)
+** (?)
+
+
+* User interface
+** Improvements to the skin system
+** Complete overhaul of the map editing menus
+** Enhanced menus for game options, player profile and weapon help
