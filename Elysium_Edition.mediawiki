@@ -20,13 +20,13 @@ Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new feature
 
 
 * Rule improvements
-* Lost flags will reset right where the carrier left solid ground.
-* The rifle can now stay again in zoom mode
-* (?) many tweaks to weapon balance (name a few?)
+** Lost flags will reset right where the carrier left solid ground.
+** The rifle can now stay again in zoom mode
+** (?) many tweaks to weapon balance (name a few?)
 
 
 * Engine improvements
-** vslot commands for texture varuations wok in multiplayer editing
+** vslot commands for texture variations wok in multiplayer editing
 ** undo/redo support in multiplayer editing
 ** performance tweaks (?)
 ** (?)
@@ -35,4 +35,4 @@ Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new feature
 * User interface
 ** Improvements to the skin system
 ** Complete overhaul of the map editing menus
-** Enhanced menus for game options, player profile and weapon help
+** Enhanced menus for game options, player profile, vars and weapon help
