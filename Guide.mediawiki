@@ -18,7 +18,7 @@ Players can score bonus points according to the [[Deathmatch Scoring|deathmatch 
 |-
 |[[File:Bomber.png|64px]]
 | [[Bomber-ball]]
-|Players defending their team's base get a strong buff, so again, this is a good idea for beginners. If you catch a bomb, throw it using the '''F''' key before it explodes. If you can move the bomb towards the enemy base, that's even better.
+|Locate the bomber-ball using the radar and deliver it to the enemy base. When you carry the ball, hold the '''F''' key to lock on team mates. Release '''F''' to pass the ball and reset the timer before the ball detonates!
 |}
 
 Further [[GameModes and Mutators|game modes]] are ''map editing'' and [[race]]. A large array of general or mode specific [[Mutator Tips|mutators]] offers a wide variety of additional or alternate game rules.
