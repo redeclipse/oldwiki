@@ -19,6 +19,12 @@ Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new feature
 ** Old school: Disable deathmatch bonus points and assists
 
 
+* New vanity items
+** witch hat, staff, pumpkin, glasses, cap and headphones
+** new slots for many more options to combine vanities
+** slot based menu for vanity selection
+
+
 * Rule improvements
 ** Lost flags will reset right where the carrier left solid ground.
 ** The rifle can now stay again in zoom mode
@@ -26,13 +32,14 @@ Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new feature
 
 
 * Engine improvements
-** vslot commands for texture variations wok in multiplayer editing
-** undo/redo support in multiplayer editing
-** performance tweaks (?)
-** (?)
+** (?) SDL2 (someone else should explain this part...)
+** undo/redo and vslot (texture variations) support in multiplayer editing
+** some new editing features, such as mapmodel spin and prefab previews
 
 
 * User interface
 ** Improvements to the skin system
-** Complete overhaul of the map editing menus
-** Enhanced menus for game options, player profile, vars and weapon help
+** Complete overhaul of the editing menus with plenty of new mapping utilities
+** expansion of the options menus to conveniently customize the client
+** favs menu - save your favorite game selections for quick voting
+** many small improvements, such as bitfield support in the vars menu
