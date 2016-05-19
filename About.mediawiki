@@ -1,0 +1,89 @@
+{{Infobox video game
+| title     = Red Eclipse
+| image     = Red Eclipse.png
+| caption   = The Red Eclipse logo
+| developer = Quinton Reeves, Lee Salzman
+| engine    = [[Cube 2: Sauerbraten|Cube Engine 2]]
+| released = '''Version 1.0''': <br/> {{date|2011-03-26}} <br/> '''Version 1.5.3 (''Stable'')''': <br/> {{date|2015-07-17}}
+| genre     = [[First-person shooter]], [[Third-person shooter]]
+| modes     = [[Multiplayer]], [[Single-player]]
+| platforms = [[Cross-Platform]]
+}}
+
+'''''Red Eclipse''''' is a [[Cross-platform|multi-platform]], [[Free software|free]], and [[open source]] [[first-person shooter|first-person]] arena shooter that runs on a somewhat modified [[Cube 2: Sauerbraten|Cube Engine 2]]. The game is centered on [[multiplayer]] based action, but can also be played offline against [[Computer game bot|bots]].<ref>{{cite web |url=http://www.pcgamer.com/2011/03/31/marchs-best-free-pc-games/ |title=March's best free PC games |author=Lewis Denby |date=March 31, 2011 |work=pcgamer.com |publisher =PC Gamer |accessdate=Nov 28, 2011}}</ref>
+
+== Gameplay ==
+[[File:Red Eclipse screenshot (Elara 1.4.1).png|thumb|Red Eclipse screenshot (Elara 1.4.1)]]
+''Red Eclipse'' is a multiplayer first-person arena shooter with a style of play comparable ''[[Quake III Arena]]'' or ''[[Unreal Tournament]]'',<ref>{{cite web |url=http://www.joystiq.com/2011/03/18/free-open-source-fps-red-eclipse-hits-version-1-0/ |title=Free, open source FPS 'Red Eclipse' hits version 1.0 |author=Mike Schramm |date=March 18, 2011 |work=joystiq.com |publisher=Joystiq |accessdate=April 17, 2011}}</ref>
+<ref>{{cite web |url=http://www.geeky-gadgets.com/red-eclipse-version-1-0-open-source-fps-game-released-18-03-2011/ |title=Red Eclipse Version 1.0 Open Source FPS Game Released (video) |author=Julian Horsey |date=March 18, 2011 |work=geeky-gadgets.com |publisher=Geeky Gadgets |accessdate=April 17, 2011}}</ref> though the lead developer claims it was intended as a subversion of common mechanics in the arena FPS subgenre. <ref>{{cite web |url=http://forum.freegamedev.net/viewtopic.php?f=72&t=1955&p=19659#p19659|title=Re: Xonotic vs Red Eclipse|last1=Reeves|first1=Quinton|date=2011-09-09|website=FreeGameDev Forum|accessdate=2014-03-23}}</ref>
+
+The game consists of a variety of [[Game mode#Game modes|modes]], which can be extended with any of fourteen "mutators". For example, the "Deathmatch" mode can be used in conjunction with the "Instagib" and/or "Survivor" mutators, changing how the game is played. This allows players to experience more flexibility and variety when playing the same mode. There are also seven mode-exclusive mutators, which can only be played in certain modes.
+
+Aside from the more traditional modes of its genre - among them "[[Deathmatch (gaming)|Deathmatch]]", "[[Capture the flag|Capture the Flag]]", and "Defend and Control" (akin to [[King of the Hill (game)|King of the Hill]]), ''Red Eclipse'' offers two more modes of play. "Bomber-Ball" pits two teams against one another with the objective of throwing the bomb into the enemy team's "goal" before it explodes, and "Race", in which players race through a map to compete for the best times or number of laps.
+
+Bots are also available for all modes and mutators when teams are short of human players, as well as for offline practice matches.
+
+''Red Eclipse's'' weapon arsenal consists of a pistol, sword, shotgun, submachine gun, flamethrower, plasma gun, zapper, rifle, grenade, mine and rocket launcher, <ref>{{cite web |url=http://redeclipse.net/wiki/Weapons |title=Weapons - Red Eclipse Wiki |accessdate=July 3, 2015}}</ref> each with primary and alternate methods of attack. Weapons also have variables that can be changed on a server level that alter to change their behavior, such as particle size, accuracy, the reload and fire rates, and damage. Players with the correct level of access can modify these on-the-fly during a game to change the gameplay experience.
+
+=== Movement and physics ===
+The game's "Impulse" and [[parkour]] systems allow the player a variety of ways to move about a level via wall-kicking, wall-running, dashing on the ground and mid-air, and double-jumping. <ref>{{cite web |url=http://www.indiegamereviewer.com/red-eclipse-an-open-source-fast-paced-classic-shooter/ |title=Red Eclipse - An open source fast-paced classic shooter |author=Michael Brune |date=January 24, 2012 |work=indiegamereviewer.com |publisher=Indie Game Reviewer |accessdate=January 26, 2012}}</ref> Similarly to the weapon variables, there is also a list of environmental variables, allowing players to easily create their own unofficial modes. Variables pertaining to physics, such as jump height or distance, movement speed, and gravity.
+
+=== Game modes and mutators ===
+''Red Eclipse'' has six different game modes excluding the in-game editor and demo: Deathmatch, [[Capture the Flag]], Defend and Control, Bomber-ball and Race.
+
+By default, the game is on team play (Alpha team vs. Omega team) unless the player selects FFA or Multi mutators
+
+In addition to the game modes, there are fourteen mutators which extend the game modes:
+# FFA (Free For All) –  All vs. All
+# Multi – 4 teams battle
+# Coop – Humans are put on one team to fight against bots.
+# Instagib – One shot kills (Via health set to 1) and snipers only. The rifle can be changed to sword or grenades and mines using Medieval or Kaboom mutators respectively.
+# Onslaught – Adds neutral waves of bots and turrets to fight.
+# Vampire – Hurting other people increases the attacker's health.
+# Medieval – Swords only.
+# Kaboom – Grenades and mines only.
+# Classic – Weapons must be collected from spawns in the arena, similar to previous versions of the game
+# Hard – Radar and health regeneration disabled.
+# Duel – Two people at a time; other players on a server observe and wait. (With Multi mutator there are 4 players at a time)
+# Survivor – Everyone spawns at once then the last man standing wins.
+# Freestyle – Players can use unlimited impulse moves.
+# Resize – Everyone changes size depending on their health.
+# Basic – No item pickups are spawned in the arena.
+
+Furthermore, ''Red Eclipse'''s individual modes could have multiple "mutators" enabled or disabled to extend the mode, such as having Capture the Flag with the Instagib, Teamplay, and jetpack mutators, which enables one-shot-one-kill styled gameplay, and players to fly around.
+
+It also has some support for [[Cube 2: Sauerbraten|Sauerbraten]] maps, allowing players to play various Sauerbraten maps. However, due to Sauerbraten not having the same movement and game mechanics and weapons, the maps often don't play too well in Red Eclipse.
+
+==Development==
+''Red Eclipse'' is built upon the  [[Cube 2: Sauerbraten|Cube Engine 2]]. The first version 1.0 was released on the 15th of March, 2011.<ref>[https://www.rockpapershotgun.com/2011/03/20/red-eclipse-an-open-source-fps/ Red Eclipse, An Open Source FPS] on [[Rock, Paper, Shotgun]] by [[Jim Rossignol]] (March 20, 2011)</ref> The game code is under the [[Permissive free software license|permissive Free]] [[zlib License]], and the game data assets are mainly under the [[Copyleft]] License [[Creative Commons licenses|CC-BY-SA-3.0]]. <ref>{{cite web |url=http://redeclipse.svn.sourceforge.net/viewvc/redeclipse/license.txt?view=markup |title=Red Eclipse license |author=Red Eclipse Team |date=January 24, 2012 |work=sourceforge.net |publisher=Red Eclipse Team |accessdate=January 26, 2012}}</ref>
+
+==Technical details==
+[[Image:Sauer editing-1--.png|thumb|140px|right|An example of a primitive cube subdivision provided by Cube 2 engine]]
+''Red Eclipse'' utilizes the Cube 2 engine, which uses a 6-directional heightfield (or [[octree]]) world model. An octree in Red Eclipse is a cube that can be split into eight smaller cubes that can then be done the same to. This allows for complex level geometry and easier editing which can be accomplished through the game's built in editor.
+
+===Rendering engine===
+The original ''[[Cube (video game)|Cube]]'' engine's rendering engine assumed that overdraw (where polygons that do not appear in the final scene are occluded via the [[z-buffering|z-buffer]]) was more processor-intensive than sending new streams of triangles to the graphics processing every frame, which limited its performance on more modern hardware where [[memory bandwidth]] is a greater limiting factor. Instead, ''Red Eclipse'' uses the [[Rendering (computer graphics)|rendering engine]] in Cube 2, which is designed around modern graphics processing units, which perform best with huge batches of geometry already stored in video memory. Lighting is precomputed into [[lightmap]]s—image files that correspond to geometry as textures—for efficient batching, with an additional stored directional component, that allows for efficient [[shader (computer science)|shader]]-based lighting effects.
+
+== Map editor ==
+[[Image:Screenshot of Fortitude,a Red Eclipse map,being edited.png|thumb|320px|Red Eclipse uses the Cube 2 engine's map editor, which allows for maps to be easily made in-game]]
+''Red Eclipse'' retains the Cube 2 engine's built-in map editor, in which the player can to fly around the game world manipulating and deforming volumes referred to as cubes. This, as well as weapon and other entity placement is achieved in real-time, and can be done cooperatively online with other players as well. [[Artificial Intelligence|AI]] "waypoints" can also be generated dynamically as the map is played. Lighting is accomplished through precomputed [[lightmap]]s. Each cube-shaped node in the [[octree]] represents a renderable volume, simply referred to as a ''cube''. Each edge of this cube can be lengthened or shortened to deform the cube into a variety of other shapes. Corners of cubes can also be "pushed" or "pulled" to create crude curves.
+
+The [[WYSIWYG|what you see is what you get]] realtime editing ability  enables level designers to add a plethora of detail to maps, while reducing the time spent on actual creation. This is in contrast to the traditional modern [[polygon soup]] 3D engines which take a model generated as an essentially random batch of triangles from an external modelling program, and attempt to [[spatial subdivision|spatially subdivide]] the model's triangles after the fact by splitting them to fit into tree structures, such as a [[binary space partitioning|BSP tree]] or even an [[octree]], that require costly pre-processing to render.
+
+== Reception and impact ==
+[[File:IllumiRoom.png|thumbnail|[[Microsoft Research]] [[IllumiRoom]] proof-of-concept, on the screen Red Eclipse]]
+The Hungarian [[Gamestar]] website reviewed the Red Eclipse predecessor, Blood Frontier, in December 2009.<ref>[http://www.gamestar.hu/hir/blood-frontier-ingyenesen-letoltheto-43295.html Blood Frontier: ingyenesen letölthető!] on [[Gamestar]] (in Hungarian, December 2009)</ref> ''Red Eclipse'' was favourably reviewed by German game magazine [[Chip.de]] on October 2013.<ref>[http://www.chip.de/downloads/Red-Eclipse-fuer-Windows-Galactic-Edition_48022095.html Red Eclipse for Windows] ''"Die CHIP Redaktion sagt: "Red Eclipse" ist ein kostenloser Open-Source-Ego-Shooter, der durch viele Maps und eine rasante Spielmechanik punktet."'' on [[Chip.de]] (in German, October 2013)</ref>
+
+Red Eclipse was also used by researchers of the [[University of Illinois at Urbana-Champaign]] and [[Microsoft Research]] for showcasing [[IllumiRoom]], a [[augmented reality|augmented]] [[television]] screen with projectors project, on the [[Conference on Human Factors in Computing Systems|CHI 2013]].<ref>[http://research.microsoft.com/en-us/projects/illumiroom/IllumiRoom_CHI2013_BJones.pdf IllumiRoom_CHI2013] by Microsoft Research ''"The  majority of the illusions were paired with an open-source first-person shooter (Red  Eclipse). This created a rich, interactive experience, enabled by access to source code."''</ref><ref>{{cite web |title=Microsoft IllumiRoom is a coffee table projector designed for the next-generation Xbox |url=http://www.theverge.com/2013/4/29/4281228/microsoft-illumiroom-table-projector-for-next-xbox |author=Tom Warren |work=[[The Verge]] |publisher=[[Vox Media]] |date=29 April 2013 |accessdate=29 April 2013}}</ref><ref name="CHI2013Paper">{{cite journal |last1=Jones |first1=Brett R |last2=Benko |first2=Hrvoje |last3=Ofek |first3=Eyal |last4=Wilson |first4=Andrew D |year=2013 |title=IllumiRoom: Peripheral Projected Illusions for Interactive Experiences |url=http://research.microsoft.com/en-us/projects/illumiroom/IllumiRoom_CHI2013_BJones.pdf |accessdate=29 April 2013}}</ref>
+
+== See also ==
+* ''[[Cube 2: Sauerbraten]]''
+
+==References==
+<references></references>
+
+== External links ==
+* {{official website}}
+* [http://strlen.com/cube/ Official site of the Cube engines]
+* [http://redflare.ofthings.net/ The Red Eclipse gaming monitor]
+*[http://www.instructables.com/id/Red-Eclipse-Weaponry-Development/ Red Eclipse: Weaponry Development]
