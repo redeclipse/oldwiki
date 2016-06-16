@@ -28,8 +28,9 @@ By default, when there are not enough players for a specific [[Game::maps|map]],
 The skill levels of each bot are randomized in the range set by
 * botskillmin
 * botskillmax
-A skill value of 101 means that the bot reacts with full speed and precision. However, that does not necessarily mean that bots are intelligent, especially in team games with complex objectives. Other ways to make bots considerably tougher or weaker in combat are to alter their movement speed, maximum health or scale (model size). Changing the model size via ''botscale'' will scale the absolute movement speed as well. 
+A skill value of 101 means that the bot reacts with full speed and precision. However, that does not necessarily mean that bots are intelligent, especially in team games with complex objectives. Other ways to make bots considerably tougher or weaker in combat are to alter their movement speed (botspeed), maximum health or scale (model size). Changing the model size via ''botscale'' will scale the absolute movement speed as well. 
 
+''Note'': In the stable version, '''/botspeed 0''' freezes the bots completely. In the development version, this only affects their movement speed, but you can use ''/botabilities 0'' or ''512'' instead (see below).
 
 === passive A.I. (not in the development version) ===
 
@@ -50,7 +51,9 @@ It is also possible to limit the abilities of bots. For this there is a bitfield
 * melee   = 64
 * primary fire = 128
 * secondary fire = 256
-* rigid  (unaffected by push/stun) = 255
+* rigid  (unaffected by push/stun) = 512
+* affinity = 1024
+* regen = 2048
 
 The variable ''botcollide'' and ''botteamdamage'' define who can be attacked or damaged by the A.I., respectively.
 * players = 1
