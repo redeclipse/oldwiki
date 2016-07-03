@@ -206,6 +206,7 @@ Spawn weapons are available to all players in addition to the chosen loadout wea
 |primary=Semi-automatic, quick rate of fire, fires one shot at a time.
 |secondary=Deals more damage per shot, reduced accuracy and slower rate of fire.
 |strategy=
+''deadlier than you may expect''
 * The pistol is often underestimated due to its limited clip size. In the hands of a skilled warrior, it can be a very effective weapon, though.  
 * Best used as a back up when both your loadout weapons are used up and you know the enemy has low health
 * If you have no long-range weapon and want to deal some, use the pistol. Do not engage for any significant period of time however if the opponent has a long-range loadout weapon, as you'll be worse off.
@@ -219,6 +220,7 @@ Spawn weapons are available to all players in addition to the chosen loadout wea
 |primary=Basic, horizontal claw slash, best used in conjunction with an impulse kick
 |secondary=Slower and weaker claw attack that pulls you towards the enemy or performs low impulse cost wall grabs.
 |strategy=
+''move and kill with style''
 * Parkour grabs are weaker than kicks or vaults, but they save impulse energy
 * You cannot perform additional or faster moves, the rules of impulse delay and count still apply
 * The claw does not have the range, power and bleed effect of the sword, but claw frags have style!
@@ -231,8 +233,10 @@ Spawn weapons are available to all players in addition to the chosen loadout wea
 |primary=This weak punch attack is only available in [[Race]] games. Note that players cannot attack each other in ''trial'' games without the ''gauntlet'' mutator. 
 |secondary=In [[Race]] games, the alternate attack mode has exactly the same effect as kicking at an enemy. 
 |strategy=
+''unarmed combat''
 * There is no penalty in clicking Q whilst in air, so feel free to do it whenever you think there's a chance of hitting an enemy.
 * Melee is also useful in [[Mutator_Tips#instagib|instagib]] games - one kick, one kill.
+* The secondary mode variables of this "weapon" apply to impulse slides
 }}
 
 ==Weapon Mechanics==
