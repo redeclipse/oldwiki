@@ -228,15 +228,15 @@ Spawn weapons are available to all players in addition to the chosen loadout wea
 
 {{weapon
 |name=Melee
-|summary=Crash into an enemy while doing a [[impulse_moves|kick, slide or wall run]]. Kicks can be performed any time and while using any weapon: Simply jump at an opponent and press '''Q'''.
+|summary=Parkpour moves can be used to damage enemies, also while attacking with another weapon.
 |clip=None
-|primary=This weak punch attack is only available in [[Race]] games. Note that players cannot attack each other in ''trial'' games without the ''gauntlet'' mutator. 
-|secondary=In [[Race]] games, the alternate attack mode has exactly the same effect as kicking at an enemy. 
+|primary=Kicks can be performed any time: Simply jump at an opponent and press '''Q'''.
+|secondary=Crash into an enemy while doing an [[impulse_moves#Slide|impulse slide]]. Deals more damage than a kick.
 |strategy=
 ''unarmed combat''
 * There is no penalty in clicking Q whilst in air, so feel free to do it whenever you think there's a chance of hitting an enemy.
 * Melee is also useful in [[Mutator_Tips#instagib|instagib]] games - one kick, one kill.
-* The secondary mode variables of this "weapon" apply to impulse slides
+* The secondary mode variables of this "weapon" apply to impulse slides, but there is no actual primary or secondary fire mode.
 }}
 
 ==Weapon Mechanics==
