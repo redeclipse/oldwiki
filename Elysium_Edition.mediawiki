@@ -19,6 +19,14 @@ file:gladiator.png|link=Deathmatch|'''Gladiator''': Use the claws to push the en
 file:oldschool.png|link=Deathmatch|'''Old school''': Only frags counts for the team score
 </gallery>
 
+* new maps
+<gallery>
+file:discontinuity.png|[[map_discontinuity]]
+file:vorticity.png|[[map_vorticity]]
+file:disco.png|[[map_disco]]
+file:eternal.png|[[map_eternal]]
+file:torus.png|[[map_torus]]
+</gallery>
 
 * New vanity items
 ** witch hat, staff, pumpkin, glasses, cap and headphones
