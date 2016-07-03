@@ -3,7 +3,6 @@ Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new feature
 
 * Statistics System
 [[file:Stats.jpg|link=http://play.redeclipse.net:28700/]]
-** click the image to learn more
 
 * New spawn weapon and deathmatch mutators
 
