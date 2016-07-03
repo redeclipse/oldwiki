@@ -30,18 +30,12 @@ The skill levels of each bot are randomized in the range set by
 * botskillmax
 A skill value of 101 means that the bot reacts with full speed and precision. However, that does not necessarily mean that bots are intelligent, especially in team games with complex objectives. Other ways to make bots considerably tougher or weaker in combat are to alter their movement speed (botspeed), maximum health or scale (model size). Changing the model size via ''botscale'' will scale the absolute movement speed as well. 
 
-''Note'': In the stable version, '''/botspeed 0''' freezes the bots completely. In the development version, this only affects their movement speed, but you can use ''/botabilities 0'' or ''512'' instead (see below).
+===skill adjustment===
+There are also two variables to adjust the skill of each bot based on the bot's deaths and frags count: ''botskilldeaths'' and ''botskillfrags''.
 
-=== passive A.I. (not in the development version) ===
+=== abilities ===
 
-Bots can be prevented from using their attacks.
-* aipassive 0 - normal attack behavior
-* aipassive 1 - never attack human players
-* aipassive 2 - do not attack anybody
-
-=== abilities and collide (development version only) ===
-
-It is also possible to limit the abilities of bots. For this there is a bitfield variable ''botabilites'', which can be set as a sum of these flags: 
+It is possible to limit most of the bot's abilities. For this there is a bitfield variable ''botabilites'', which can be set as a sum of these flags: 
 * move/push = 1
 * jump    = 2
 * crouch  = 4
@@ -55,6 +49,7 @@ It is also possible to limit the abilities of bots. For this there is a bitfield
 * affinity = 1024
 * regen = 2048
 
+===valid targets===
 The variable ''botcollide'' and ''botteamdamage'' define who can be attacked or damaged by the A.I., respectively.
 * players = 1
 * bots = 2
@@ -62,6 +57,6 @@ The variable ''botcollide'' and ''botteamdamage'' define who can be attacked or 
 * ghosts = 8
 
 
-'''Note:''' There are similar variables for drones, grunts and turrets in [[Mutator_Tips#onslaught|onslaught]] mode.
+'''Note:''' Most of the above variables are also available for drones, grunts and turrets, i.e. neutral units that spawn in [[Mutator_Tips#onslaught|onslaught]] mode.
 
-'''Note:''' There are separate bot variables for some game mutators or modes, such as the [[mutator_Tips#coop|coop]] mutator.
+'''Note:''' There are separate bot skill and balance variables for some game mutators or modes, in particular [[mutator_Tips#coop|coop]], where players compete with a larger team of bots.
