@@ -228,7 +228,7 @@ Spawn weapons are available to all players in addition to the chosen loadout wea
 
 {{weapon
 |name=Melee
-|summary=Parkpour moves can be used to damage enemies, also while attacking with another weapon.
+|summary=Parkour moves can be used to damage enemies, also while attacking with another weapon.
 |clip=None
 |primary=Kicks can be performed any time: Simply jump at an opponent and press '''Q'''.
 |secondary=Crash into an enemy while doing an [[impulse_moves#Slide|impulse slide]]. Deals more damage than a kick.
