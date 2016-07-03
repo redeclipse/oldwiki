@@ -14,8 +14,26 @@
 * In Duel Deathmatch, awareness of the location of your opponent at all times is very important. Choose a radar style that suits you from the options menu, or when radar is disabled (in the Hard mutator for example) turn music volume down to hear footsteps.
 
 ==Mode specific mutators==
+===gladiator===
+{|
+|[[file:gladiator.png|128px]]
+|
+* Use the claws to push your enemies out of the arena. 
+* Claws and explosives have greatly increased pushback, but other weapons are disabled. 
+* This is typically combined with the basic and survivor mutators.
+|}
 
-Deathmatch is the most basic game mode, and as such, there are '''no game specific mutators''' for this mode. In return, Deathmatch is the most commonly played game mode for some popular mutators, such as [[Mutator Tips#duel|Duel]] or [[Mutator Tips#free-for-all|Free for all]].
+===old school===
+{|
+|[[file:oldschool.png|128px]]
+|
+* Only frags count for your score and team score - each kill is worth one point. 
+* This means there are no bonus points for assists, headshots, sprees etc. 
+* A team kill only subtracts one point, so the penalty is lighter than usually.
+|}
+
+
+'''Note:''' Deathmatch is also the most commonly played game mode for some popular mutators, in particular [[Mutator Tips#duel|Duel]] and [[Mutator Tips#Survivor|Survivor]].
 
 
 {{Modes}}
