@@ -1,6 +1,8 @@
-''This article is a draft. It helps to collect notes for the upcoming release, so feel free to edit the text.''
 
-Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new features:
+Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new features.
+
+
+[[file:Stats.jpg|link=http://play.redeclipse.net:28700/]]
 
 * Statistics System
 ** Detailed statistics for each player account
@@ -9,14 +11,13 @@ Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new feature
 ** Leader boards for various weekly or monthly achievements
 
 
-* New spawn weapon: Claws
-** Pull yourself towards the enemy for some hack and slash action
-** Perform grabs on ledges and walls to save impulse energy
+* New spawn weapon and deathmatch mutators
 
-
-* New deathmatch mutators
-** Gladiator: Use the claws to push the enemy out of the arena
-** Old school: Only frags counts for the team score
+<gallery>
+file:clawcol.png|link=Weapons#Claw|'''Claw''': Used for low cost parkour, or to grab and slash the enemy
+file:gladiator.png|link=Deathmatch|'''Gladiator''': Use the claws to push the enemy out of the arena!
+file:oldschool.png|link=Deathmatch|'''Old school''': Only frags counts for the team score
+</gallery>
 
 
 * New vanity items
