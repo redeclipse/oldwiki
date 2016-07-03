@@ -1,15 +1,9 @@
 
 Red Eclipse v1.5.5 "Elysium Edition" comes with an array of exciting new features.
 
-
-[[file:Stats.jpg|link=http://play.redeclipse.net:28700/]]
-
 * Statistics System
-** Detailed statistics for each player account
-** Race leader boards and game stats for each map, mode and server
-** Stats for overall weapon usage and effectiveness
-** Leader boards for various weekly or monthly achievements
-
+[[file:Stats.jpg|link=http://play.redeclipse.net:28700/]]
+** click the image to learn more
 
 * New spawn weapon and deathmatch mutators
 
