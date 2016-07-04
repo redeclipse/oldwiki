@@ -46,3 +46,6 @@ file:torus.png|[[map_torus]]
 ** expansion of the options menus to conveniently customize the client
 ** favs menu - save your favorite game selections for quick voting
 ** many small improvements, such as bitfield support in the vars menu
+
+
+To learn more about the previous release, Red Eclipse 1.5, see [[Aurora Edition]].
