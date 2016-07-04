@@ -270,7 +270,7 @@ When playing offline or as a server [[privileges|operator]], almost all aspects 
 * [[Mine_Vars|Mine Variables]]
 * [[Rocket_Vars|Rocket Variables]] 
 ===Weapon IDs===
-Weapon numbers or IDs are used for certain variables, for instance when defining the weapon for the instagib game mutator or when referring to some particle presets. The following table gives a compact overview of the available weapons slots and their IDs. For some variables, such as *fragweap*, an additional ID refers to the secondary fire mode.
+Weapon numbers or IDs are used for certain variables, for instance when defining the weapon for the instagib game mutator or when referring to some particle presets. The following table gives a compact overview of the available weapons slots and their IDs. For some variables, such as ''fragweap'', an additional ID refers to the secondary fire mode.
 {|class="wikitable"
 |-
 |
