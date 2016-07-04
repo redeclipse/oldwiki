@@ -270,14 +270,16 @@ When playing offline or as a server [[privileges|operator]], almost all aspects 
 * [[Mine_Vars|Mine Variables]]
 * [[Rocket_Vars|Rocket Variables]] 
 ===Weapon IDs===
-Weapon numbers or IDs are used for certain variables, for instance when defining the weapon for the instagib game mutator or when referring to some particle presets. The following table gives a compact overview of the available weapons slots and their IDs.
+Weapon numbers or IDs are used for certain variables, for instance when defining the weapon for the instagib game mutator or when referring to some particle presets. The following table gives a compact overview of the available weapons slots and their IDs. For some variables, such as *fragweap*, an additional ID refers to the secondary fire mode.
 {|class="wikitable"
 |-
+|
 |align="center" colspan=2|spawn
 |align="center" colspan=7|loadout weapons
 |align="center" colspan=3|explosives
 |-
-|[[file:melee.png|32px]]
+|weapon
+|[[file:clawcol.png|32px]]
 |[[file:pistol.png|32px]]
 |[[file:swordcol.png|32px]]
 |[[file:shotguncol.png|32px]]
@@ -289,7 +291,9 @@ Weapon numbers or IDs are used for certain variables, for instance when defining
 |[[file:grenadecol.png|32px]]
 |[[file:minecol.png|32px]]
 |[[file:rocketcol.png|32px]]
+|[[file:melee.png|32px]]
 |-
+|primary
 |align="center"| 0
 |align="center"| 1
 |align="center"| 2
@@ -302,7 +306,23 @@ Weapon numbers or IDs are used for certain variables, for instance when defining
 |align="center"| 9
 |align="center"| 10
 |align="center"| 11
-|} 
+|align="center"| 12
+|-
+|secondary
+|align="center"| 13
+|align="center"| 14
+|align="center"| 15
+|align="center"| 16
+|align="center"| 17
+|align="center"| 18
+|align="center"| 19
+|align="center"| 20
+|align="center"| 21
+|align="center"| 22
+|align="center"| 23
+|align="center"| 24
+|align="center"| 25
+|}
 
 ===Frag and flak vars===
 Variables related to flak or fragmentation give a plethora of options for creating weapon mods. However, the use of these variables can be rather confusing. 
