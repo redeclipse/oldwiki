@@ -221,8 +221,8 @@ Spawn weapons are available to all players in addition to the chosen loadout wea
 |secondary=Slower and weaker claw attack that pulls you towards the enemy or performs low impulse cost wall grabs.
 |strategy=
 ''move and kill with style''
-* Parkour grabs are weaker than kicks or vaults, but they save impulse energy
-* You cannot perform additional or faster moves, the rules of impulse delay and count still apply
+* Grabs are stronger than other parkour moves and they also use 50% less impulse energy
+* You cannot perform extra moves with the claw, the rules of impulse delay and count still apply
 * The claw does not have the range, power and bleed effect of the sword, but claw frags have style!
 }}
 
