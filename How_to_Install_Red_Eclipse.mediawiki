@@ -9,7 +9,7 @@ If you get a permission denied error during install, right click the installer a
 
 == Linux ==
 * Install git, curl and the runtime dependencies of Red Eclipse. On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command 
-** <code>sudo apt-get install git curl libsdl-mixer1.2 libsdl-image1.2</code>
+** <code>sudo apt-get install git curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0</code>
 * Download [http://redeclipse.net/download/linux the Linux tarball].
 * When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME = /home/username).
 * Extract the contents into your home directory using your favourite archive utility.
