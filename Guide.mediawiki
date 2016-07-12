@@ -24,18 +24,17 @@ Players can score bonus points according to the [[Deathmatch Scoring|deathmatch 
 Further [[GameModes and Mutators|game modes]] are ''map editing'' and [[race]]. A large array of general or mode specific [[Mutator Tips|mutators]] offers a wide variety of additional or alternate game rules.
 
 ==Weapons overview==
-Usually, all players are equipped with a pistol and '''two''' chosen [[Weapons#loadout weapons|loadout weapons]], while additional [[Weapons#explosives|explosives]] can be collected in the arena. Each weapon has its strategic purpose and advantages, but some weapons may be better suited for beginners than others. 
+Usually, all players are equipped with a pistol, a claw and '''two''' chosen [[Weapons#loadout weapons|loadout weapons]], while additional [[Weapons#explosives|explosives]] can be collected in the arena. Each weapon has its strategic purpose and advantages, but some weapons may be better suited for beginners than others. 
 
 {|class="wikitable"
-|-
-|rowspan=2|
-|[[file:melee.png|40px]]
-|[[weapons#Melee|Melee]]
-|Simply jump at an enemy and press '''Q'''. Works well in conjunction with close range weaponry.
-|-
+|rowspan=2|Spawn
 |[[file:pistol.png|40px]]
 |[[weapons#Pistol|Pistol]]
 |Do not forget your pistol. It may have a small clip size, but it can be a deadly weapon.
+|-
+|[[file:clawcol.png|40px]]
+|[[weapons#Claw|Claw]]
+|Works best for advanced movement techniques. You can discard (skip) this weapon in the options menu.
 |-
 |rowspan=7|Loadout
 |[[file:swordcol.png|40px]]
@@ -78,6 +77,12 @@ Usually, all players are equipped with a pistol and '''two''' chosen [[Weapons#l
 |[[file:rocketcol.png|40px]]
 |[[weapons#Rocket|Rocket]]
 |Although the rocket has a large area of effect, it still requires some aim and timing to be used effectively. 
+|-
+|
+|[[file:melee.png|40px]]
+|[[weapons#Melee|Melee]]
+|Simply jump at an enemy and press '''Q'''. Works well in conjunction with close range weaponry.
+|-
 |}
 
 ==Controls==
