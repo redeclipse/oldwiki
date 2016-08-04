@@ -22,31 +22,37 @@ Once it was accepted and merged you can delete your branch. You'll be informed w
 
 ==Multiple files==
 
-Once you have branches on your fork, you can edit the files there at will. And of course, you can also create a pull request after modifying several files. When you do so, you can and should review all changes and differences.
+Once you have branches on your fork, you can edit the text files there at will. And of course, you can also create a pull request after modifying several files. When you do so, you can and should review all changes and differences. Once the pull request is open, further changes (commits) to the same branch are possible, and will then be part of the pull request, unless it has already been merged.
 
 ==Non-text files==
 
-On github, it's easy to edit text files, such as source code or config files. But things get much more complicated when you want to submit non-text content like maps, models or icons. Maybe the easiest way to share these things is to put them on the forums, http://redeclipse.net/forum/viewforum.php?f=5. There the contribution can be discussed, and a developer can push the new content for you later.
+On github, it's easy to edit text files, such as source code or config files. But things get much more complicated when you want to submit non-text content like maps, models or icons. Maybe the easiest way to share these things is to put them on the forums, http://redeclipse.net/forum/viewforum.php?f=5. There the contribution can be discussed, and a developer can push the new content for you later. And please note that new content should always be first discussed on the forums anyway.
 
-Still, it is also possible to use pull requests for this type of contribution. Basically, you have two options: Use git console commands to commit and push your modifications. Or use some git client to do the same thing. Either way, you'll need to clone first, as described in the article about obtaining the [[obtain development version|development version]]. There you also find some clues about git and git clients. 
+To make a pull request for non-text files, you have two options: Use git console commands to commit and push your modifications. Or use some git client to do the same thing. Either way, you'll need to clone the corresponding repository first, as described in the article about obtaining the [[obtain development version|development version]]. There you also find some clues about git and git clients. 
 
-What makes things a bit tricky: You'll need to push your changes to a branch of your own fork, and then use that branch to create the pull request. For example, assume your fork is on
+What makes things a bit tricky: You'll need to push your changes to a branch of your own fork, and then use that branch to create the pull request. For example,let us assume you want to make a pull request for a new map. For this, you will first need to fork the maps repository, which is used as a submodule in the base repo:
 
-https://github.com/guy/base/
+https://github.com/red-eclipse/maps/
 
-i.e. guy is your account name on github. Then you could use the following git commands.
+Press the fork button on the top right. E.g. if your github account name is ''guy'', you will get your fork on
+
+https://github.com/guy/maps/
+
+Now you can use the following git commands:
 
 
-1) Clone from your own fork to a local directory, e.g. ''re-patch''
-  git clone https://github.com/guy/base re-patch 
-2) apply your changes, add your files etc.
-3) register new files
-  git add mynewfiles
+1) Clone from your own fork to a local directory, e.g. ''./re-maps''
+  git clone https://github.com/guy/maps re-maps
+
+2) apply your changes, i.e. copy your map files over to ''re-maps''
+
+3) register the new files
+  git add mymapname.*
+
 4) commit (and describe) your changes
   git commit -a
+
 5) push your stuff to the branch on your own fork
   git push
-6) got to your fork on the github site to create a pull request.
-https://github.com/guy/base/
 
-This example just illustrates that this can get a bit complicated. For details, see the help resources linked above.
+Finally, got to your maps fork on the github site and create a pull request as described above.
