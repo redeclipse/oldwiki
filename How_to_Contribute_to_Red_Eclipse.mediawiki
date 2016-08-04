@@ -2,7 +2,7 @@ This [http://redeclipse.net/forum/viewtopic.php?f=8&t=598 guide] is a basic intr
 
 ===Preliminaries===
 
-Red Eclipse development is done with GIT. From there, you are able to create Issues or Pull Requests (these link to the "base" module, there are separate modules for "data" and "site"). If you are unfamiliar with GIT it is recommended to read a few tutorials on the net in order to avoid asking embarrassing questions. GitHub brings the advantage of a familiar interface with a robust set of features aimed at improving collaborative development and built to handle most of what users need from it, including help documentation.
+Red Eclipse development is done with GIT. From there, you are able to create Issues or [[Pull requests]] (these link to the "base" module, there are separate modules for "data" and "site"). If you are unfamiliar with GIT it is recommended to read a few tutorials on the net in order to avoid asking embarrassing questions. GitHub brings the advantage of a familiar interface with a robust set of features aimed at improving collaborative development and built to handle most of what users need from it, including help documentation.
 
 The tree is split up into the following:
 
@@ -20,7 +20,7 @@ Here's a rundown of how to setup a new repository:
 *    Create a piece of content, come up with an idea, or decide to propose a change you want included in Red Eclipse.
 *    Then, create a thread for it, either in Maps and Mods for content, or General Discussion for ideas/proposals.
 *    Give the community a chance to provide feedback, or answer a poll (minimum time should be about 2 weeks).
-*    When you feel you have come up with a finished work, idea, or proposal, submit it to the appropriate git module as an issue or pull request.
+*    When you feel you have come up with a finished work, idea, or proposal, submit it to the appropriate git module as an issue or [[pull request]].
 *    Provide a good description along with a link to your original forum topic.
 *    Attach, or provide direct links to, any files you are attempting to have included here.
 *    Feel free to share a link to your post while we review it.
@@ -29,7 +29,7 @@ Here's a rundown of how to setup a new repository:
 
 *    Find an issue in the Red Eclipse game and/or engine, verify that you can reproduce the problem and provide steps on how to do so.
 *    Check on the forums or issue tracker to see if your issue has already been reported and/or resolved upstream.
-*    When you have verified that the issue still exists and needs to be fixed, submit it to the appropriate git module as an issue or pull request.
+*    When you have verified that the issue still exists and needs to be fixed, submit it to the appropriate git module as an issue or [[pull request]].
 *    Provide a good description along with a link to your original forum topic (if applicable).
 *    Attach, or provide direct links to, any files which demonstrates your issue and any patches you might have here.
 
@@ -62,6 +62,6 @@ The following BBcodes are available to reference GIT information on the [http://
 
         [issue=base]1[/issue]
 
-*    pull: references a git pull request in a specific module. This is superfluous as PR's are actually issues. Example (gives "[http://redeclipse.net/git/base/pull/2 base:pull:2]"):
+*    pull: references a git [[pull request]] in a specific module. This is superfluous as PR's are actually issues. Example (gives "[http://redeclipse.net/git/base/pull/2 base:pull:2]"):
 
         [pull=base]2[/pull]
