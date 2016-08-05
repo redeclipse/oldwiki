@@ -1,4 +1,4 @@
-''Red Eclipse'' is on github, http://github.com/red-eclipse/. This means the development of the game is open and community-driven, and the github site is a place to host the repositories, which offers various tools to collaborate. In other words, anyone can make their ''fork'' (working copy) of the game, modify it, and suggest their changes to be merged back with the official game. This process is what they call a '''pull request''' on github.
+''Red Eclipse'' is on github, http://github.com/red-eclipse/. This means the development of the game is open and community-driven, and the github site is not only a host for the repositories, but also a place to ease collaboration. Anyone can make their ''fork'' (working copy) of the game, modify a branch of the fork, and suggest their changes to be merged back with the official game. This process is what they call a '''pull request''' on github.
 
 ==Github help==
 
@@ -32,11 +32,11 @@ To make a pull request for non-text files, you have two options: Use git console
 
 What makes things a bit tricky: You'll need to push your changes to a branch of your own fork, and then use that branch to create the pull request. For example,let us assume you want to make a pull request for a new map. For this, you will first need to fork the maps repository, which is used as a submodule in the base repo:
 
-https://github.com/red-eclipse/maps/
+  https://github.com/red-eclipse/maps/
 
 Press the fork button on the top right. E.g. if your github account name is ''guy'', you will get your fork on
 
-https://github.com/guy/maps/
+  https://github.com/guy/maps/
 
 Now you can use the following git commands:
 
@@ -56,3 +56,23 @@ Now you can use the following git commands:
   git push
 
 Finally, got to your maps fork on the github site and create a pull request as described above.
+
+==Community repo==
+
+Community members can get access to a special github repository for extra content, such as utility scripts, art sources or custom maps:
+
+  https://github.com/red-eclipse/community
+
+This means they can commit and push new content directly to this repo, i.e. without the need to create pull requests. 
+
+So, once you have cloned the repo
+  git clone https://github.com/red-eclipse/community re-community
+new content can be pushed as described above. Before doing so, it makes sense to update your local copy first.
+  git pull
+  *add your updates*
+  git commit
+  git push
+
+One last thing. It can happen that you do a commit and then realize that you made some mistake, which you want to undo. If you have not pushed it yet to the repository, you can kill the previous commit and reset your local copy as follows:
+  git reset --hard HEAD~1
+Use ''soft'' instead of ''hard'' to only revert the commit, and keep all file modification staged.
