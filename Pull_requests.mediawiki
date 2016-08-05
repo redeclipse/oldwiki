@@ -12,11 +12,11 @@ Git is the versioning system used on github, and therefore also currently used b
 
 Let us assume you want to contribute a text description for one of the many in-game commands or variables. Or maybe you have spotted a typo in one of those descriptions. If you want to do that with a pull request on github, first navigate to the corresponding file. In this case, it is here:
 
-https://github.com/red-eclipse/base/blob/master/config/usage.cfg
+  https://github.com/red-eclipse/base/blob/master/config/usage.cfg
 
 At the top right of the code box, you'll see some buttons. Click the pen-icon to edit the file. This will automatically create a new branch on your own fork for this. If you have not forked yet, that will be done automatically after your confirmation. Apply your additions or corrections using the online file editor. Once you are done, you can review your changes with the button at the bottom. You'll be asked to create a pull request and describe your changes. Make sure the summary (commit text) is short enough and makes sense also for someone who does not see which file was changed. For example, "fix typo on usage of guitext". That's it. Your pull request will be listed here:
 
-https://github.com/red-eclipse/base/pulls
+  https://github.com/red-eclipse/base/pulls
 
 Once it was accepted and merged you can delete your branch. You'll be informed when it's save to do so. It's up to you what to do with your branch if your request has been rejected...
 
@@ -75,4 +75,4 @@ new content can be pushed as described above. Before doing so, it makes sense to
 
 One last thing. It can happen that you do a commit and then realize that you made some mistake, which you want to undo. If you have not pushed it yet to the repository, you can kill the previous commit and reset your local copy as follows:
   git reset --hard HEAD~1
-Use ''soft'' instead of ''hard'' to only revert the commit, and keep all file modification staged.
+This way, all changes are lost. Use ''soft'' instead of ''hard'' to only revert the commit, but keep all modifications you made staged, e.g. when you just want to rewrite the commit text (description).
