@@ -67,9 +67,8 @@ If you hit yourself with your own weapon and run out of health (this includes ex
 ===Dominating===
 {|
 |If you frag the same opponent 5 times, possibly interspersed with any number of kills on other players, or even with your own deaths (as long as none of them were caused by that opponent), the fifth head-to-head kill in a row will give you Dominating bonus of one point. You can have active Dominating streaks on any number of other opponents, getting a point for each one, but there are no further bonuses for any consecutive head-to-head kills beyond 5. Also, if you have a Dominating streak against someone, that player will be able to see which direction you're in on their radar, no matter how far away you are. You will not receive the same luxury against them, so be careful! In addition, the dominated player will see 'Dominated' icon over your head and near your nickname in the stats screen to , while 'Dominating' icon will appear in the same places of the dominated player to you.
-|[[file:dominating.png|64px]]
+|[[file:dominated.png|64px]][[file:dominating.png|64px]]
 |}
-
 
 ===Revenge===
 {|
