@@ -135,7 +135,7 @@ These restrictions may be modified with the ''serveropen'' variable, and the fol
 
 
 '''Default Ports'''
-{| border="1" cellpadding="0"
+{| border="1" cellpadding="2"
 |Connections
 |28801 UDP
 |-
