@@ -78,10 +78,6 @@ Red Eclipse has a variety of different game modes to choose from, with mutators 
 | ''Vampire''
 | Dealing damage to opponents causes you to regain your own health.
 |-
-|[[File:Hard.png|64px]]
-| ''Expert''
-| Any shot that doesn't hit the head will cause no damage, so watch your aim!
-|-
 |[[File:Resize.png|64px]]
 | ''Resize''
 | As your health decreases, you get smaller and start slowing down, and the converse is true for gaining health. If combined with ''instagib'', instead you get bigger every time you kill someone, until getting killed takes you back to normal size.
