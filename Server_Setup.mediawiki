@@ -166,3 +166,6 @@ Done! Run your server with:
 Red Eclipse supports a global permissions and identification system called "auth" that can be used to grant players permission to use commands on your server. In the servinit.cfg, simply place a line as so:
  addlocalop AUTHNAME FLAG
 The AUTHNAME would be that player's handle, that they recieved to use in the /authkey command. As for the FLAG argument, that can be an 'a', 'm', or 'o'. These stand for administrator, moderator, operator respectively. To take advantage of the different flags, you will have to set the sv_{mode, maps, vars, vote, spec, kick, allow, ban, mute, limit, veto, flood}lock variables.
+
+== System Requirement ==
+Hosting one or more Red Eclipse servers on your system will require a decent bandwith (20-30 Kb/s down and ~10 Kb/s up per player/ bot), but use very few compute resources, such as RAM or CPU power. Therefore, no system requirements are specified, a server should run on any supported operating system.
