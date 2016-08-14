@@ -32,19 +32,19 @@ The below table gives an overview of all the icons and their meaning.
 |[[File:supporter.png|40px]]
 |supporter
 |2
-|those who contributed in some way
+|can change most game variables
 |-
 |[[File:localmoderator.png|40px]]
 |[[File:moderator.png|40px]]
 |moderator
 |3
-|[[Admin_Guide#Moderation_Commands|game moderation]]
+|[[Admin_Guide#Moderation_Commands|can mute, kick, manage teams]]
 |-
 |[[File:localoperator.png|40px]]
 |[[File:operator.png|40px]]
 |operator
 |4
-|can change most game variables
+|[[Admin_Guide#Moderation_Commands|higher moderation, e.g. bans]]
 |-
 |[[File:localadministrator.png|40px]]
 |[[File:administrator.png|40px]]
