@@ -1,5 +1,6 @@
 To submit a [[Readme#Get_Involved|bug report]] that concerns a crash to the Red Eclipse Team, it is helpful to have a backtrace.
 
+== Windows ==
 On Windows, it is easiest to use Code::Blocks+mingw to compile a debug binary. 
 
 In Code::Blocks, click File->Open and navigate to the Red Eclipse folder on your computer, then open the sub folder named src.
@@ -8,3 +9,28 @@ Go to Debug -> Start.
 Code::Blocks will then begin compiling a debug binary, and once finished open a Red Eclipse window.
 Replicate the crash, causing a window to appear showing a stack trace. Right click this and copy to clipboard.
 Paste the backtrace with a description of what you did to cause the crash to the Red Eclipse forums.
+
+== Linux ==
+On Linux-based systems, you can use GDB to get a backtrace:
+
+First you must compile with debug symbols:
+<source lang="bash">
+make -Csrc clean && CXXFLAGS=-ggdb3 make -Csrc
+</source>
+
+Then run with GDB:
+<source lang="bash">
+gdb src/redeclipse_linux
+</source>
+
+Inside GDB, to start Red Eclipse:
+<source lang="text">
+run
+</source>
+
+Once Red Eclipse has crashed, GDB will catch this and present a prompt. At this prompt run:
+<source lang="text">
+bt full
+</source>
+
+This will produce a backtrace, copy and paste this to the Red Eclipse forum.
