@@ -68,6 +68,9 @@ These are the two branches of our base repository on gituhb, http://github.com/r
 === I found a bug, where can I report it? ===
 Technical problems can be discussed on the [http://redeclipse.net/forum/viewforum.php?f=7 forum's help board]. Evident bugs can be reported on the [https://github.com/red-eclipse/base/issues issue list], but first, please have a look at our [[How_to_contribute#Issue_Reporting_Guidelines|guidelines]].
 
+=== Red Eclipse fails with 'OpenGL 2.0 or greater is required!', but I have 2.0 or greater. ===
+On Windows, when Red Eclipse detects the renderer as 'GDI Generic' it will report a much lower GL version. This has been resolved by removing [[Game_Settings#config.cfg|config.cfg]] and [[Game_Settings#init.cfg|init.cfg]] to reset game settings.
+
 === Can I contribute to the game? ===
 Development of Red Eclipse is [http://redeclipse.net/forum/viewtopic.php?f=4&t=597 open and community driven]. Contributions can be maps created with the in-game [[editing|editor]], art assets like models, config [[cubescript|scripts]] like game menus, or modifications of the [https://github.com/red-eclipse/base/tree/master/src source code]. For further information, please read our [[How_to_contribute|guidelines]].
 
