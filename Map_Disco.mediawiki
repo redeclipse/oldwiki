@@ -1,0 +1,39 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:disco.png|thumb|center]|Map Preview]]
+|'''Author: "''bonifarz''"'''
+|-
+|'''Filename:''' ''disco''
+|-
+| '''Release Date:''' 2016-05-13
+|-
+|'''Recommended Modes:''' Gladiator
+|-
+|'''Size:''' Medium (4-6)
+|-
+|'''Complexity:''' Couldn't be simpler
+|-
+|'''Environmental Features:''' Space
+|-
+|'''Theme:''' Disco
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 0
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|}
+=== Overview ===
+One of the original Gladiator maps, Disco is a simple round platform accented by changing lights and a spinning disco ball. Don't fall off!
+
+=== Notes & Strategies ===
+
+* The grenades are located on 4 sides of the platform.
+* The rocket is above the disco ball.
