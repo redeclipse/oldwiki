@@ -1,0 +1,55 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Abuse.png|thumb|center]|Map Preview]]
+|'''Author: "''ballist1c''"'''
+|-
+|'''Filename:''' ''abuse''
+|-
+| '''Release Date:''' 2013-04-13
+|-
+|'''Recommended Modes:''' Survivor, FFA, Duel
+|-
+|'''Size:''' Medium/Small (2-6)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' Lava
+|-
+|'''Theme:''' Quake-like
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+|  '''  Zappers''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 7
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 3
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|}
+=== Review ===
+One of the most popular FFA/Duel maps in Red Eclipse, Abuse has a simple, fairly small, yet well balanced layout reminiscent of Quake. A teleporter makes the map feel smaller than it is.
+
+=== Notes & Strategies ===
+
+* You can throw mines through the portals to catch unsuspecting foes.
+* The rocket spawns on top of the central diagonal platform.
