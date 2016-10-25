@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Decay.png|thumb|center]|Map Preview]]
+|'''Author: Ricky Thomson (unixfreak)'''
+|-
+|'''Filename:''' ''decay''
+|-
+| '''Release Date:''' 2014-9-22
+|-
+|'''Recommended Modes:''' FFA
+|-
+|'''Size:''' Large (4-10)
+|-
+|'''Complexity:''' Complex
+|-
+|'''Environmental Features:''' Fans
+|-
+|'''Theme:''' Industrial
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Overview ===
+A large and sometimes confusing map, Decay makes for a fun FFA with lots of players online. 
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 4
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 16
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 15
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|}
+
+=== Notes & Strategies ===
+
+* Decay's lone rocket is located above a vertical shaft in the tallest room.
+* The fans are insta-kill. Don't fall in!
+* Most of the doors will retract.
+* The teleporter is one-way, so don't expect a round trip!
