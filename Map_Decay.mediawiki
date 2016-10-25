@@ -20,9 +20,6 @@
 |}
 
 
-=== Overview ===
-A large and sometimes confusing map, Decay makes for a fun FFA with lots of players online. 
-
 
 === Spawn Register ===
 {| border="1" cellpadding="2" width="150px"
@@ -48,6 +45,11 @@ A large and sometimes confusing map, Decay makes for a fun FFA with lots of play
 |-
 | [[File:Rocket.png|20px]] '''Rockets''' || 1
 |}
+
+=== Overview ===
+
+A large and sometimes confusing map, Decay makes for a fun FFA with lots of players online. 
+
 
 === Notes & Strategies ===
 
