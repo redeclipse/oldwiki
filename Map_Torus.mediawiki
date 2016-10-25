@@ -1,0 +1,39 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:torus.png|thumb|center]|Map Preview]]
+|'''Author: "''bonifarz''"'''
+|-
+|'''Filename:''' ''torus''
+|-
+| '''Release Date:''' 2016-05-13
+|-
+|'''Recommended Modes:''' Gladiator
+|-
+|'''Size:''' Medium (4-6)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' Space
+|-
+|'''Theme:''' Big metallic doughnut
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 4
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 0
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|}
+=== Overview ===
+One of the original Gladiator maps, Torus is a doughnut shaped platform inexplicably floating in space. Don't fall off!
+
+=== Notes & Strategies ===
+
+* The grenades are located on the inside of the torus.
+* The rocket is in the center of the torus.
