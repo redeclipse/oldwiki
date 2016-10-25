@@ -6,7 +6,7 @@
 |-
 | '''Release Date:''' 2013-04-13
 |-
-|'''Recommended Modes:''' Survivor, FFA, Duel
+|'''Recommended Modes:''' Survivor, FFA, Duel, Gladiator
 |-
 |'''Size:''' Medium/Small (2-6)
 |-
@@ -53,3 +53,4 @@ One of the most popular FFA/Duel maps in Red Eclipse, Abuse has a simple, fairly
 
 * You can throw mines through the portals to catch unsuspecting foes.
 * The rocket spawns on top of the central diagonal platform.
+* In gladiator mode, only the central area is accessible.
