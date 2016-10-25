@@ -46,7 +46,7 @@
 |-
 | [[File:Rocket.png|20px]] '''Rockets''' || 1
 |}
-=== Review ===
+=== Overview ===
 One of the most popular FFA/Duel maps in Red Eclipse, Abuse has a simple, fairly small, yet well balanced layout reminiscent of Quake. A teleporter makes the map feel smaller than it is.
 
 === Notes & Strategies ===
