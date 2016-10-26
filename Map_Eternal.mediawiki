@@ -37,4 +37,4 @@ One of the original Gladiator maps, Eternal is a relatively large Gladiator map 
 
 * The grenades are located on the inside of the platform.
 * There are a lot of mines on this level. Don't get hit!
-* The rocket is above the disco ball.
+* The rocket is above the center hole.
