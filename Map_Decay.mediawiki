@@ -37,6 +37,8 @@
 |-
 | [[File:Rifle.png|20px]] '''Rifles''' || 4
 |-
+| [[File:Zapper_grey.png|20px]] '''Zapper''' || 2
+|-
 |colspan="2" align="center"|Items
 |-
 | [[File:Grenade.png|20px]] '''Grenades''' || 16
@@ -45,7 +47,6 @@
 |-
 | [[File:Rocket.png|20px]] '''Rockets''' || 1
 |}
-
 
 === Overview ===
 
