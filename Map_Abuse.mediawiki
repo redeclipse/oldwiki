@@ -36,7 +36,7 @@
 |-
 | [[File:Rifle.png|20px]] '''Rifles''' || 2
 |-
-|  '''  Zappers''' || 2
+| [[File:Zapper_grey.png|20px]] '''  Zappers''' || 2
 |-
 |colspan="2" align="center"|Items
 |-
