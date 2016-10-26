@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Affluence.png|thumb|center]|Map Preview]]
+|'''Author: "''Greaserpirate''"'''
+|-
+|'''Filename:''' ''affluence''
+|-
+| '''Release Date:''' 2013-12-9
+|-
+|'''Recommended Modes:''' Team DM, CTF, Bomber-ball, Defend & Control
+|-
+|'''Size:''' Medium (4-8)
+|-
+|'''Complexity:''' Medium
+|-
+|'''Environmental Features:''' High-rise
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="220px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 3
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+| [[File:Zapper_grey.png|20px]] '''Zappers''' || 4 (2 in D&C)
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 6 (7 in BB)
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 7 (10 in D&C)
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1 (0 in kaboom)
+|}
+=== Overview ===
+
+Affluence is a medium-sized team map in an L shape. It is suitable for team games due to its relatively linear layout. Twin towers provide verticality, but beware the forbidden beaches below.
+
+=== Notes & Strategies ===
+
+* Affluence's large use of water and specularity makes it a relatively difficult map framerate-wise
+* The rocket past the apex of the "L" over the top of the beach, making it a risky grab. It does ''not'' spawn in kaboom games.
+* Unfortunately, you can't go down to the splendid beaches.
+* Bomber-ball and Defend & Control have different explosive quantities and locations.
