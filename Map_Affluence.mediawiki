@@ -52,7 +52,7 @@ Affluence is a medium-sized team map in an L shape. It is suitable for team game
 
 === Notes & Strategies ===
 
-* Affluence's large use of water and specularity makes it a relatively difficult map framerate-wise
+* Affluence's large use of water and specularity makes it a relatively difficult map framerate-wise.
 * The rocket past the apex of the "L" over the top of the beach, making it a risky grab. It does ''not'' spawn in kaboom games.
 * Unfortunately, you can't go down to the splendid beaches.
 * Bomber-ball and Defend & Control have different explosive quantities and locations.
