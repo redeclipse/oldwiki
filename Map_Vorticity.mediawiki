@@ -1,0 +1,55 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Vorticity.png|thumb|center]|Map Preview]]
+|'''Author: "''Unnammed''"'''
+|-
+|'''Filename:''' ''vorticity''
+|-
+| '''Release Date:''' 2016-02-03
+|-
+|'''Recommended Modes:''' Survivor, FFA, Duel
+|-
+|'''Size:''' Medium (4-6)
+|-
+|'''Complexity:''' Medium
+|-
+|'''Environmental Features:''' Center hole
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 7
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 8
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 4
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 4
+|-
+| [[File:Zapper_grey.png|20px]] '''  Zappers''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 8
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 8
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1 (4 in kaboom)
+|}
+=== Overview ===
+Vorticity is an axially-symmetrical map suitable for team and FFA games. While a beautiful map, Vorticity is one of the most difficult for the computer to render.
+
+=== Notes & Strategies ===
+
+* There is one rocket in the center of the map.
+* Rockets will spawn on the four beams in kaboom.
