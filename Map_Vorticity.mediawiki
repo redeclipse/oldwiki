@@ -8,7 +8,7 @@
 |-
 |'''Recommended Modes:''' TDM, FFA
 |-
-|'''Size:''' Medium (4-6)
+|'''Size:''' Medium (4-8)
 |-
 |'''Complexity:''' Medium
 |-
@@ -48,10 +48,9 @@
 |}
 
 === Overview ===
-Vorticity is an axially-symmetrical map suitable for team and FFA games. While a beautiful map, Vorticity is one of the most difficult for the computer to render.
-
+Vorticity is a 4 way axially-symmetrical map suitable for team and FFA games. While a beautiful map, Vorticity often struggles on lower-powered computers. 
 === Notes & Strategies ===
 
 * There is one rocket in the center of the map.
-* Rockets will spawn on the four beams in kaboom.
+* Rockets will spawn on the four beams in kaboom. (replacing the one in the center)
 * The center hole will kill you. Don't fall in!
