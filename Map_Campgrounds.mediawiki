@@ -1,6 +1,6 @@
 {| border="1" cellpadding="2" width="800px"
 |rowspan="9" width="150px"|[[File:campgrounds.png|thumb|center]|Map Preview]]
-|'''Authors: "''ballist1c''"''and "Greaserpirate"'''''
+|'''Authors: "''ballist1c''" & ''"Greaserpirate"'''''
 |-
 |'''Filename:''' ''campgrounds''
 |-
@@ -47,7 +47,7 @@
 | [[File:Rocket.png|20px]] '''Rockets''' || 1
 |}
 === Overview ===
-A new take on the Q3 map Campgrounds (Q3DM6), RE's Campgrounds features a much more open map as well as styling that both shares retro and futuristic elements. Campgrounds is suitable for FFA, but rifles may be considered a tad overpowered due to the layout.
+A new take on the Q3 map Campgrounds (Q3DM6), RE's Campgrounds features a much more open map as well as styling that both shares retro and futuristic elements. Campgrounds is suitable for FFA, but rifles may be considered a tad overpowered due to the open layout. 
 
 === Notes & Strategies ===
 
