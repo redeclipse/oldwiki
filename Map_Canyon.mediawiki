@@ -1,0 +1,59 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Canyon.png|thumb|center]|Map Preview]]
+|'''Author: "''restcoser''"'''
+|-
+|'''Filename:''' ''canyon''
+|-
+| '''Release Date:''' 2015-03-23
+|-
+|'''Recommended Modes:''' Bomber-ball, TDM, CTF
+|-
+|'''Size:''' Medium (4-8)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' None
+|-
+|'''Theme:''' Futuristic
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="250px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 3
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 3
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 2
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+| [[File:Zapper_grey.png|20px]] '''  Zappers''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 7 (2 in duel/survivor)
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 4
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1*
+|}
+*The rocket is marked not to appear in survival/duel, which it is automatically disabled for anyway.
+=== Overview ===
+
+A square, outdoors map, with two small (and unalike) buildings serving as the team bases. The fastest path is through the middle, but beware snipers combing the large open area in front of the bases. Canyon is suited for team games, be it deathmatch, bomber-ball, or capture-the-flag.
+
+=== Notes & Strategies ===
+
+* This map is not balanced. The omega base has a secret pathway into its side and the top is much more open than the alpha base. 
+* In team games, the sides will switch halfway through the match (because the map isn't balanced)
+* The rocket spawns on top of the central mesa.
+* In survivor and duels, there are only two grenades located in the vulnerable center of the map.
