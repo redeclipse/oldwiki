@@ -1,6 +1,6 @@
 {| border="1" cellpadding="2" width="800px"
 |rowspan="9" width="150px"|[[File:Vorticity.png|thumb|center]|Map Preview]]
-|'''Author: "''Unnammed''"'''
+|'''Author: "''Unammed''"'''
 |-
 |'''Filename:''' ''vorticity''
 |-
@@ -54,3 +54,4 @@ Vorticity is an axially-symmetrical map suitable for team and FFA games. While a
 
 * There is one rocket in the center of the map.
 * Rockets will spawn on the four beams in kaboom.
+* The center hole will kill you. Don't fall in!
