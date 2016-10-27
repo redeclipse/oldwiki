@@ -1,0 +1,57 @@
+{| border="1" cellpadding="2" width="600px"
+|rowspan="9" width="150px"|[[File:Enyo.png|thumb|center]|Map Preview]]
+|'''Author: Jonathan ''"Ulukai"'' de Nil'''
+|-
+|'''Filename:''' ''enyo''
+|-
+| '''Release Date:''' 2013-08-18
+|-
+|'''Recommended Modes:''' TDM, CTF, Bomber-ball
+|-
+|'''Size:''' Large (6-10)
+|-
+|'''Complexity:''' Medium
+|-
+|'''Environmental Features:''' High-rise (can fall off edges)
+|-
+|'''Theme:''' Victorian
+|-
+|'''Rocket Spawn:''' Two
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 4
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 3
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 3
+|-
+| [[File:Zapper_grey.png|20px]] '''  Zappers''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 7
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 6
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 2
+|}
+=== Overview ===
+
+Enyo is a large, nearly symmetrical, team map with a style somewhat reminiscent of Ghost. Unlike ghost, however, Enyo lacks quick-travel pushers and instead trades them for a relatively complex, but open, layout. Enyo is best suited for team games, such as TDM, CTF, or Bomber-ball. 
+
+=== Notes & Strategies ===
+
+* Enyo has ''two'' rockets, one above each base's roof.
+* Beware snipers (and the rocket) on the rooftops.
+* While the map is symmetrical, the weapon placement is not.
