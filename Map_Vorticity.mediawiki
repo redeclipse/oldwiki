@@ -21,7 +21,7 @@
 
 
 === Spawn Register ===
-{| border="1" cellpadding="2" width="150px"
+{| border="1" cellpadding="2" width="220px"
 |colspan="2" align="center"|Weapons
 |-
 |[[File:Sword.png|20px]] '''Swords''' || 7
@@ -46,6 +46,7 @@
 |-
 | [[File:Rocket.png|20px]] '''Rockets''' || 1 (4 in kaboom)
 |}
+
 === Overview ===
 Vorticity is an axially-symmetrical map suitable for team and FFA games. While a beautiful map, Vorticity is one of the most difficult for the computer to render.
 
