@@ -6,13 +6,13 @@
 |-
 | '''Release Date:''' Unknown
 |-
-|'''Recommended Modes:''' Deathmatch, Instagib, Jetpack
+|'''Recommended Modes:''' Deathmatch, Instagib
 |-
 |'''Size:''' Medium (4-8)
 |-
 |'''Complexity:''' Simple
 |-
-|'''Environmental Features:''' N/A
+|'''Environmental Features:''' Open-air, low gravity
 |-
 |'''Theme:''' Space
 |-
