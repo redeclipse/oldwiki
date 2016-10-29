@@ -47,8 +47,7 @@
 |-
 | [[File:Rocket.png|20px]] '''Rockets''' || 1
 |}
-<!--
+
 === Notes & Strategies ===
 
-* 
--->
+* Oneiroi is an open map with '''half''' the normal gravity. Don't get picked off by snipers while midair!
