@@ -1,10 +1,10 @@
 == General information ==
 
 === What is Red Eclipse? ===
-[http://www.redeclipse.net/ Red Eclipse] is a Red Eclipse is an open-source arena shooter, created from the Cube2 engine, similar to games in the [http://en.wikipedia.org/wiki/Unreal_Tournament Unreal Tournament] series. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[weapons]], Red Eclipse provides fast paced and accessible gameplay. [[What is Red Eclipse#About|here]].
+[http://www.redeclipse.net/ Red Eclipse] is an open-source arena shooter, created from the Cube2 engine, similar to games in the [http://en.wikipedia.org/wiki/Unreal_Tournament Unreal Tournament] series. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[weapons]], Red Eclipse provides fast paced and accessible gameplay. [[What is Red Eclipse#About|here]].
 
 === What operating systems are supported? ===
-Red Eclipse can be played under Windows XP/Vista/7, OS X, GNU/Linux and BSD.
+Red Eclipse can be played under Windows XP/Vista/7/8.1/10, OS X, GNU/Linux and BSD.
 
 === How long has the game been in development? ===
 Red Eclipse was branched from the now-defunct [https://sourceforge.net/projects/bloodfrontier/ Blood Frontier] project. Blood Frontier development started in 2007, and Red Eclipse was formed Spring of 2011. Red Eclipse 1.0 Ides Edition debuted on [http://en.wikipedia.org/wiki/Ides_of_march March 15], 2011. [[What is Red Eclipse#History|See history]].
@@ -29,7 +29,7 @@ Red Eclipse is a [http://www.gnu.org/philosophy/free-sw.html Free] and [http://w
 * For more details, see [https://raw.githubusercontent.com/red-eclipse/base/master/doc/license.txt license.txt] and [https://raw.githubusercontent.com/red-eclipse/base/master/doc/trademark.txt trademark.txt].
 
 === What are my rights regarding game servers? === 
-* Anyone may run any number of servers that they wish, and can be listed on the Red Eclipse Master Server, ''however, only if they are in compliance with the guidelines, rules and policies outlined in [https://raw.githubusercontent.com/red-eclipse/base/master/doc/guidelines.txt guidelines.txt]''.
+* Anyone may run up to three (3) servers, and can be listed on the Red Eclipse Master Server, ''however, only if they are in compliance with the guidelines, rules and policies outlined in [https://raw.githubusercontent.com/red-eclipse/base/master/doc/guidelines.txt guidelines.txt]''. You can request a "trusted" (more servers) and/or "statistics" (contributes to stats) server from the Red Eclipse team.
 ** Players must also abide by a set of guidelines as well, and are advised to view the '''latter half''' of [https://raw.githubusercontent.com/red-eclipse/base/master/doc/guidelines.txt guidelines.txt].
 * Any player or server found to not be in compliance with these guidelines are susceptible to denial of access to the Red Eclipse Master Server either temporarily or indefinitely.
 
