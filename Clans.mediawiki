@@ -22,7 +22,7 @@ This is a list of active and major inactive clans.
 |DOOM
 |>DOOM<
 |JDWhyte
-|
+|http://d00m.tk
 |-
 |Ghosts
 |<nowiki>[Ghosts]</nowiki>
@@ -32,7 +32,7 @@ This is a list of active and major inactive clans.
 |Koos
 |koos
 |Luis Antonio
-|
+|http://koos.enjin.com
 |-
 |Mapping Hell
 |[MH]
