@@ -29,9 +29,13 @@ The exact location varies on different versions of Windows, but the path can eas
 
 ===== Windows 8/Windows 10 =====
 
- The location varies depending on your configuration.
- If you set up your system with OneDrive, check C:\Users\<username>\OneDrive\Documents\My Games\Red Eclipse.
- Otherwise, check C:\Users\<username>\My Documents\My Games\Red Eclipse
+The location varies depending on your system's configuration.
+
+If your system is set up with OneDrive, check
+ C:\Users\<username>\OneDrive\Documents\My Games\Red Eclipse.
+
+Otherwise, check
+ C:\Users\<username>\My Documents\My Games\Red Eclipse
 
 ==== Linux ====
 
