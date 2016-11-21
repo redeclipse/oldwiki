@@ -14,7 +14,7 @@ sv_serverstats 1 //Your server must have the s flag in its auth for this to take
 *The master server will save the game statistics to its sqlite database and return the game ID for the server to display.
 
 ==Web Interface==
-The statistics web interface/API is at http://redeclipse.net:28700<br>
+The statistics web interface/API is at http://redeclipse.net/stats<br>
 It runs alongside the master server and reads from the sqlite database to return sorted data about games, maps, players, modes, and weapons.<br>
 
 ==Privacy==
