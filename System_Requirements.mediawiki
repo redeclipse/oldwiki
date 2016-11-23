@@ -1,0 +1,60 @@
+Red Eclipse has notably low minimum system requirements owing to its basis in the Cube 2 engine and large usage of static lightmaps. If your system doesn't meet these requirements, you can likely get one that does for under $100 USD used.
+
+== GPU ==
+'''Any''' graphics card that supports DirectX 10/ Open GL 2 or newer ( If it can run Minecraft, you're good):
+
+
+'''Intel:''' 
+
+GMA 4500MHD or newer (includes HD, HD 2000, HD 3000, HD 4000, HD 5000, HD 400, HD 500)
+
+
+'''ATi/AMD:''' 
+
+HD 2000 series or newer (HD3000-HD8000, Rx 200, Rx 300, Rx 400)
+
+
+'''nVidia:'''
+
+Geforce 8000 series or newer (9000, 200-1000 series)
+
+== CPU ==
+'''Any''' CPU that can boot Windows 7/ Ubuntu 14.04:
+
+
+'''Intel:''' 
+
+Pentium 4 Northwood or newer (2.0 Ghz+)
+
+Any Core 2 Duo
+
+Any Core i3/i5/i7
+
+Any Celeron/Pentium from 2006 onward
+
+Atom from Silvermont onward (2013)
+
+
+'''AMD:'''
+
+Athlon 64 or newer
+
+Any Athlon II
+
+Any Phenom/Phenom II
+
+Any Sempron
+
+Any FX 
+
+Any A4/A6/A8/A10/A12
+
+
+'''VIA:'''
+
+Seriously?
+
+== RAM ==
+1 GB DDR2 bare minimum (on Linux, with low texture sizes, with swap allocated)
+
+2 GB recommended
