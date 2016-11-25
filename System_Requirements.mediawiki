@@ -5,18 +5,21 @@ Red Eclipse has notably low minimum system requirements owing to its basis in th
 
 
 '''Intel:''' 
-
-GMA 4500MHD or newer (includes HD, HD 2000, HD 3000, HD 4000, HD 5000, HD 400, HD 500)
+HD (Nehalem/ i*-***M) or newer (2009) (includes HD 2000, HD 3000, HD 4000, HD 5000, HD 400, HD 500)
 
 
 '''ATi/AMD:''' 
 
-HD 2000 series or newer (HD3000-HD8000, Rx 200, Rx 300, Rx 400)
+HD 3000 series or newer (2009) (HD4000-HD8000, Rx 200, Rx 300, Rx 400)
+
+FireGL v*600 or newer (FireGL v*700, any FirePro, any Radeon Pro)
 
 
 '''nVidia:'''
 
-Geforce 8000 series or newer (9000, 200-1000 series)
+Geforce 8000 series or newer (2008) (9000, 200-1000 series)
+
+Quadro FX *70 or newer ( FX *80, FX *600, any non FX newer than ten years old)
 
 == CPU ==
 '''Any''' CPU that can run Windows 7/ Ubuntu 14.04 smoothly:
