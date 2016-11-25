@@ -19,20 +19,22 @@ HD 2000 series or newer (HD3000-HD8000, Rx 200, Rx 300, Rx 400)
 Geforce 8000 series or newer (9000, 200-1000 series)
 
 == CPU ==
-'''Any''' CPU that can boot Windows 7/ Ubuntu 14.04:
+'''Any''' CPU that can run Windows 7/ Ubuntu 14.04 smoothly:
 
 
 '''Intel:''' 
 
-Pentium 4 Northwood or newer (2.0 Ghz+)
+Pentium 4 Northwood or newer (S478)
 
-Any Core 2 Duo
+Any Core 2 Duo/ Core Duo/ Core Solo
 
 Any Core i3/i5/i7
 
 Any Celeron/Pentium from 2006 onward
 
 Atom from Silvermont onward (2013)
+
+Xeon newer than Prestonia (why would you have one of these still?)
 
 
 '''AMD:'''
@@ -43,16 +45,18 @@ Any Athlon II
 
 Any Phenom/Phenom II
 
-Any Sempron
+Any Sempron 
 
-Any FX 
+Any FX (e.g. FX-4100, FX-6300, FX-8320)
 
 Any A4/A6/A8/A10/A12
+
+Any Opteron except Seattle (ARMv8)
 
 
 '''VIA:'''
 
-Seriously?
+haha
 
 == RAM ==
 1 GB DDR2 bare minimum (on Linux, with low texture sizes, with swap allocated)
