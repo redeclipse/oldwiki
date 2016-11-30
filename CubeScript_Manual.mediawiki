@@ -11,8 +11,8 @@
 <ul>
 <li>Users of 4.9.x or earlier can navigate to <code>Settings --&gt; Configure Kate --&gt; Open/Save --&gt; Modes/Filetypes --&gt; Download Highlight Files</code> to get updated highlighter files, including one for CubeScript</li>
 </ul></li>
-<li><strong>TextMate, NotePad++, and SublimeText</strong> users can get one from <a href="https://github.com/srbs/CubeScript-syntax-highlighting" class="uri">https://github.com/srbs/CubeScript-syntax-highlighting</a></li>
-<li>A CubeScript major mode for <strong>Emacs</strong> can be acquired from <a href="https://github.com/rspeele/cubescript-mode" class="uri">https://github.com/rspeele/cubescript-mode</a></li>
+<li><strong>TextMate, NotePad++, and SublimeText</strong> users can get one from [https://github.com/srbs/CubeScript-syntax-highlighting|https://github.com/srbs/CubeScript-syntax-highlighting]</li>
+<li>A CubeScript major mode for <strong>Emacs</strong> can be acquired from [https://github.com/rspeele/cubescript-mode|https://github.com/rspeele/cubescript-mode]</li>
 </ol>
 <h1 id="an-overview-of-cubescript">An Overview of CubeScript</h1>
 <p>The iteration of CubeScript shipped with Lamiae included a bytecode compiler, which grants is a great many additional features and enhanced flexibility, as well as a significant bonus to speed.</p>
@@ -32,7 +32,7 @@ echo &quot;This is not a comment.&quot;</pre>
 <pre>alias myalias 5</pre>
 <p>The <strong>second</strong> method is a unique feature, the one and only existing infix operator in CubeScript, all other commands and operators use prefix notation. This invocation is of the form <code>name = body</code> and for all intents and purposes, this is equivalent to <code>alias name [body]</code>.</p>
 <pre>myalias = [echo &quot;poodles&quot;]</pre>
-<p>Aliases can also be defined through the <code>push</code> and <code>local</code> commands, but this is more a side effect of their behaviour, <code>local</code> will be discussed later in the <a href="#blocks">Blocks</a> section.</p>
+<p>Aliases can also be defined through the <code>push</code> and <code>local</code> commands, but this is more a side effect of their behaviour, <code>local</code> will be discussed later in the [[#blocks|Blocks]] section.</p>
 <p>push is of the form <code>push id value [body]</code> and pushes a value onto the alias's stack, which is used during the execution of the body. It pops the stack immediately afterwards, returning it to its previous value.</p>
 <pre>myalias = 5
 push myalias 10 [
@@ -45,9 +45,9 @@ echo $myalias</pre>
         ] = [
             echo &quot;stuff&quot;
         ]</pre>
-<p>This alias's name contains new lines and whitespace and is completely legal within CubeScript, it will be read as <code>my^n^talias^n^t^t</code>. See the <a href="#strings">Strings</a> section for move information of what that means.</p>
+<p>This alias's name contains new lines and whitespace and is completely legal within CubeScript, it will be read as <code>my^n^talias^n^t^t</code>. See the [[#strings|Strings]] section for move information of what that means.</p>
 <h3 id="lookups">Lookups</h3>
-<p>There are two ways to do look ups, the first is through the use of the <code>$</code> character, and the second through the use of the <code>@</code> character. The <code>@</code> character has rather complex and intricate rules, you may be better off familiarising yourself with the other aspects of CubeScript (<a href="#blocks">Blocks</a> especially) before trying to familiarise yourself with that.</p>
+<p>There are two ways to do look ups, the first is through the use of the <code>$</code> character, and the second through the use of the <code>@</code> character. The <code>@</code> character has rather complex and intricate rules, you may be better off familiarising yourself with the other aspects of CubeScript ([[#blocks|Blocks]] especially) before trying to familiarise yourself with that.</p>
 <p>The most basic and primitive form of the <code>$</code> based lookup is as described in the <code>push</code> example above. You simply prefix the name of an alias with the <code>$</code> character. You can also prefix it with multiple <code>$</code> characters to do recursive lookups.</p>
 <pre>printvar = [
     echo The value of (escape $arg1) is: $$arg1
@@ -65,7 +65,7 @@ myalias 1 2 3 4</pre>
 <p><code>numargs</code> is a reserved alias which documents the amount of arguments given to an invocation of an alias.</p>
 <p>You can also specify string literals to lookup, for more information on the makeup of strings, consult Strings further below. This is written in the format, <code>$&quot;myalias&quot;</code> to lookup the alias, myalias. This has the unique feature of allowing double slashes, eg <code>$&quot;//not a comment&quot;</code> will literally lookup the alias &quot;//not a comment&quot;.</p>
 <p><strong>If you're new to CubeScript, the rest of this section will likely fly over your head.</strong> It's advisable that you familiarise yourself with the other parts of CubeScript before venturing forth.</p>
-<p><code>@</code> is a macro token, and is one of CubeScript's many very Lispy features. It is very useful for generating code... from code. It works on the principles of substitution and nesting (see <a href="#blocks">Blocks</a>). <code>@</code> tokens can also be compounded to raise the level of nesting at which substitution will take place, only <code>[]</code> blocks raise the nesting level. It is an error to have more <code>@</code> tokens than there are nesting levels.</p>
+<p><code>@</code> is a macro token, and is one of CubeScript's many very Lispy features. It is very useful for generating code... from code. It works on the principles of substitution and nesting (see [[#blocks|Blocks]]). <code>@</code> tokens can also be compounded to raise the level of nesting at which substitution will take place, only <code>[]</code> blocks raise the nesting level. It is an error to have more <code>@</code> tokens than there are nesting levels.</p>
 <p><code>@</code> is a literal substitution into the code being executed. With enough tokens it is possible to make the results permanent.</p>
 <pre>myalias = 10
 foo = [
@@ -224,7 +224,7 @@ loopfiles id directory extension [body]</pre>
 <p>This is the second primitive loop command, the gotcha here is that you better make sure you pass it a block of code for the condition, and not a pre-evaluated block of code. Let's consider an example to better explain it.</p>
 <pre>tmp = 5
 while (!= $tmp 0) [ tmp = (- $tmp 1); echo $tmp ]</pre>
-<p>The above is an example of the infamous infinite loop. You can consult the <a href="#blocks">Blocks</a> section for more details on why, but basically <code>(!= $tmp 0)</code> is substituted in, and since it was true, the while loop will always be true, in spite of the fact that its body changes the value of tmp into something that would eventually evaluate to false, if the condition were ever reevaluated, which it is not. <strong>This is a very common pitfall when using the while loop, so you should make sure to watch out!</strong> The above rewritten to work correctly would look like this.</p>
+<p>The above is an example of the infamous infinite loop. You can consult the [[#blocks|Blocks]] section for more details on why, but basically <code>(!= $tmp 0)</code> is substituted in, and since it was true, the while loop will always be true, in spite of the fact that its body changes the value of tmp into something that would eventually evaluate to false, if the condition were ever reevaluated, which it is not. <strong>This is a very common pitfall when using the while loop, so you should make sure to watch out!</strong> The above rewritten to work correctly would look like this.</p>
 <pre>tmp = 5
 while [!= $tmp 0] [ tmp = (- $tmp 1); echo $tmp ]</pre>
 <p>This will print 4, 3, 2, 1 and 0, at which the condition becomes false and the loop exits.</p>
@@ -271,7 +271,7 @@ loop i (listlen &quot;my list&quot;) [
 <p><code>looplist2</code> and <code>looplist3</code> work similarly, but advance 2 and 3 elements respectively per iteration. The typical use case for such iteration is when having the list setup with key-value(-value) sets.</p>
 <pre>list = [ key value key2 value2 key3 value3 ]
 looplist2 key value $list [ echo key is (escape $key) and value is (escape $value) ]</pre>
-<p>For more information on handling lists, see the <a href="#lists">List Management</a> section.</p>
+<p>For more information on handling lists, see the [[#lists|List Management]] section.</p>
 <h3 id="loopfiles">loopfiles</h3>
 <p>loopfiles takes a directory path and filters files by extension. If the extension is omitted, all files are listed <strong>WITH</strong> their extensions.</p>
 <p>Let's try a simple example. We will print the names of each and every map available.</p>
@@ -325,7 +325,7 @@ cond [ &lt; $arg1 3 ] [
     echo $arg1 is greater than or equal to 10
 ]</pre>
 <h3 id="lazy-evaluation-advanced">Lazy Evaluation (Advanced)</h3>
-<p>You can find more background about how this works in the <a href="#blocks">Blocks</a> section further below.</p>
+<p>You can find more background about how this works in the [[#blocks|Blocks]] section further below.</p>
 <p>The short of it is, <code>()</code> blocks are executed on the spot, and the <code>&amp;&amp;</code> and <code>||</code> operators take a list of script blocks, which they execute in order from left to right. Let's take a look at the following piece of code, and see how it is evaluated.</p>
 <pre>foo = 20
 bar = 50
