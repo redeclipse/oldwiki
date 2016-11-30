@@ -119,7 +119,8 @@ Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offe
 |-
 <!-- Scripting -->
 {{PContainers|header=Scripting||headerstyle=background:#cedff2|image=File_edit.png|content=
-* [[CubeScript]]
+* [[CubeScript|Basic CubeScript Reference]]
+* [[CubeScript Manual|Advanced CubeScript Reference]]
 * [[Menus|Creating menus]]
 * [[Entity Linking#Scriptable Events|Scriptable Events]]
 }}
