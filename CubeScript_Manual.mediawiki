@@ -11,8 +11,8 @@
 <ul>
 <li>Users of 4.9.x or earlier can navigate to <code>Settings --&gt; Configure Kate --&gt; Open/Save --&gt; Modes/Filetypes --&gt; Download Highlight Files</code> to get updated highlighter files, including one for CubeScript</li>
 </ul></li>
-<li><strong>TextMate, NotePad++, and SublimeText</strong> users can get one from [https://github.com/srbs/CubeScript-syntax-highlighting|https://github.com/srbs/CubeScript-syntax-highlighting]</li>
-<li>A CubeScript major mode for <strong>Emacs</strong> can be acquired from [https://github.com/rspeele/cubescript-mode|https://github.com/rspeele/cubescript-mode]</li>
+<li><strong>TextMate, NotePad++, and SublimeText</strong> users can get one from [https://github.com/srbs/CubeScript-syntax-highlighting] or another <strong>NotePadd++</strong> from [https://github.com/IceflowRE/community/blob/ice_WIP/Cubescript_RE-N%2B%2B_UserLang.xml]</li>
+<li>A CubeScript major mode for <strong>Emacs</strong> can be acquired from [https://github.com/rspeele/cubescript-mode]</li>
 </ol>
 <h1 id="an-overview-of-cubescript">An Overview of CubeScript</h1>
 <p>The iteration of CubeScript shipped with Lamiae included a bytecode compiler, which grants is a great many additional features and enhanced flexibility, as well as a significant bonus to speed.</p>
