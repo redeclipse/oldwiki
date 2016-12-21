@@ -79,23 +79,25 @@ For example
 |-
 | 9 || 512 || Onslaught || mutsbitonslaught
 |-
-| 10 || 1024 || Jetpack || mutsbitjetpack
+| 10 || 1024 || Freestyle || mutsbitfreestyle
 |-
 | 11 || 2048 || Vampire || mutsbitvampire
 |-
-| 12 || 4096 || Expert || mutsbitexpert
+| 12 || 4096 || Resize || mutsbitresize
 |-
-| 13 || 8192 || Resize || mutsbitresize
+| 13 || 8192 || Hard || mutsbithard
 |-
-| 14 || 16384 || First mode variation
+| 14 || 16384 || Basic || mutsbitbasic
+|-
+| 15 || 32768  || First mode variation
 (ctf-quick, dtf-quick, bomber-hold, gauntlet-timed)
-|mutsbitsgsp1
+|mutsbitgsp1
 |-
-| 15 || 32768  || Second mode variation
+| 16 || 65536 || Second mode variation
 (ctf-defend, dtf-king, bomber-touchdown, gauntlet-hard)
 |mutsbitgsp2
 |-
-| 16 || 65536 || Third mode variation
+| 17 || 131072 || Third mode variation
 (ctf-protect)
 |mutsbitgsp3
 |-
