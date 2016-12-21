@@ -50,7 +50,7 @@ For example
 |-
 | 5 || 32 || Bomber-ball || modebitbomber
 |-
-| 6 || 64 || race || modebitrace
+| 6 || 64 || Race || modebitrace
 |-
 |}
 
