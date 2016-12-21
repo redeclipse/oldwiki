@@ -50,12 +50,9 @@ For example
 |-
 | 5 || 32 || Bomber-ball || modebitbomber
 |-
-| 6 || 64 || Time-trial || modebittrial
-|-
-| 7 || 128 || Gauntlet || modebitgauntlet
+| 6 || 64 || race || modebitrace
 |-
 |}
-
 
 === Mutators ===
 
