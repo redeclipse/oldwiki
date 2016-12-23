@@ -23,6 +23,15 @@ You can add texture layers with the '''texlayer''' command in a map config, for 
 [[File:Blendmap-1.jpg|thumb|A blendbrush]]
 Now that we have a layered texture, we are ready to start painting. Enable the blendbrush by pressing '''P'''. You can press '''P''' several times for different methods of applying the brush, such as erasing the blendmap or merging the blendmap. Scrolling the mouse wheel will enable you to change the brush shape and density.
 
+'''Brush modes:'''
+*'''1:''' Blends both textures, but will overwrite existing blendmapping around the brush area (a square).
+*'''2:''' Blends textures, adding to the existing blendmap in place. '''This is the most common setting.'''
+*'''3:''' Totally blanks blendmap around the brush area (full erase).
+*'''4:''' Similar to #1, except inverted: defaults to vlayer texture and paints base texture over it.
+*'''5:''' Similar to #2, except removes the vlayer according to the brush, functioning as an eraser.
+
+
+
 You'll want to first create a lightmap so we can actually see the blendmap, we'll need at least one light for this. 
  /skylight 150 130 110
  /calclight
@@ -32,6 +41,7 @@ You'll want to first create a lightmap so we can actually see the blendmap, we'l
 Now that we have a lightmap, we can draw with our brush onto the layered texture. Simply click on the texture with the brush painting mode activated. Choosing "''blend mode: merge''" will allow you to paint the layered texture on top of the base texture.
 
 To exit the blendmap painting mode, press '''P''' until you see "''blend mode: off''" in the console.
+
 
 Take note that every time you change the geometry in a map, your blendmap will start looking broken. In order to fix it after a geometry change, you want to re-run '''calclight''', as the blendmap works similar to lightmaps (it is pre-rendered).
 
