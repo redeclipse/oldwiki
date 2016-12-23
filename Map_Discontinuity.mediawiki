@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Discontinuity.png|thumb|center]|Map Preview]]
+|'''Author: Unnamed'''
+|-
+|'''Filename:''' ''discontinuity''
+|-
+| '''Release Date:''' 2015-07-20
+|-
+|'''Recommended Modes:''' Deathmatch, Race
+|-
+|'''Size:''' Large (6-10)
+|-
+|'''Complexity:''' Medium
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Industrial
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+=== Review ===
+
+A unique combination of race and deathmatch map, Discontinuity is a maze-like DM map that also happens to be among the more difficult race maps in RE.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 3
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 2
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 2
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 4
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+| [[File:Zapper_grey.png|20px]] '''  Zappers''' || 2
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 7
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 2
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+=== Notes & Strategies ===
+
+* In Race, beware the flames and lasers that pop out of the walls.
+* The condensed layout of this map in DM favors close range weapons and melee.
