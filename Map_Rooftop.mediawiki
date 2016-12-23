@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Rooftop.png|thumb|center]|Map Preview]]
+|'''Author: FaTony'''
+|-
+|'''Filename:''' ''rooftop''
+|-
+| '''Release Date:''' 2014-10-30
+|-
+|'''Recommended Modes:''' Deathmatch, CTF, BB
+|-
+|'''Size:''' Large (6-10)
+|-
+|'''Complexity:''' Medium
+|-
+|'''Environmental Features:''' Skyscraper
+|-
+|'''Theme:''' Skyscraper
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+=== Review ===
+
+Twin towers of opposing colors stand poised for conflict at the top. Watch out for people in the corridors underneath the Omega base and above the Alpha base.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 2
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 3
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 2
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 3
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 2
+|-
+| [[File:Zapper_grey.png|20px]] '''  Zappers''' || 4
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 10
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 5
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 5
+|}
+
+=== Notes & Strategies ===
+
+* In CTF, be prepared to defend the corridors above the Alpha base and below the Omega base.
+* The rocket is beneath the center bridge.
