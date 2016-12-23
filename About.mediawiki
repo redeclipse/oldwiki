@@ -19,7 +19,7 @@
 
 The game consists of a variety of [[Game mode#Game modes|modes]], which can be extended with any of fourteen "mutators". For example, the "Deathmatch" mode can be used in conjunction with the "Instagib" and/or "Survivor" mutators, changing how the game is played. This allows players to experience more flexibility and variety when playing the same mode. There are also seven mode-exclusive mutators, which can only be played in certain modes.
 
-Aside from the more traditional modes of its genre - among them "[[Deathmatch (gaming)|Deathmatch]]", "[[Capture the flag|Capture the Flag]]", and "Defend and Control" (akin to [[King of the Hill (game)|King of the Hill]]), ''Red Eclipse'' offers two more modes of play. "Bomber-Ball" pits two teams against one another with the objective of throwing the bomb into the enemy team's "goal" before it explodes, and "Race", in which players race through a map to compete for the best times or number of laps.
+Aside from the more traditional modes of its genre - among them "[[Deathmatch|Deathmatch]]", "[[Capture-the-flag|Capture the Flag]]", and "Defend and Control" (akin to [[King of the Hill (game)|King of the Hill]]), ''Red Eclipse'' offers two more modes of play. "Bomber-Ball" pits two teams against one another with the objective of throwing the bomb into the enemy team's "goal" before it explodes, and "Race", in which players race through a map to compete for the best times or number of laps.
 
 Bots are also available for all modes and mutators when teams are short of human players, as well as for offline practice matches.
 
@@ -29,7 +29,7 @@ Bots are also available for all modes and mutators when teams are short of human
 The game's "Impulse" and [[parkour]] systems allow the player a variety of ways to move about a level via wall-kicking, wall-running, dashing on the ground and mid-air, and double-jumping. <ref>{{cite web |url=http://www.indiegamereviewer.com/red-eclipse-an-open-source-fast-paced-classic-shooter/ |title=Red Eclipse - An open source fast-paced classic shooter |author=Michael Brune |date=January 24, 2012 |work=indiegamereviewer.com |publisher=Indie Game Reviewer |accessdate=January 26, 2012}}</ref> Similarly to the weapon variables, there is also a list of environmental variables, allowing players to easily create their own unofficial modes. Variables pertaining to physics, such as jump height or distance, movement speed, and gravity.
 
 === Game modes and mutators ===
-''Red Eclipse'' has six different game modes excluding the in-game editor and demo: Deathmatch, [[Capture the Flag]], Defend and Control, Bomber-ball and Race.
+''Red Eclipse'' has six different game modes excluding the in-game editor and demo: [[Deathmatch]], [[Capture-the-flag]], [[Defend-and-control]], [[Bomber-ball]] and [[Race]].
 
 By default, the game is on team play (Alpha team vs. Omega team) unless the player selects FFA or Multi mutators
 
@@ -68,7 +68,7 @@ The original ''[[Cube (video game)|Cube]]'' engine's rendering engine assumed th
 [[Image:Screenshot of Fortitude,a Red Eclipse map,being edited.png|thumb|320px|Red Eclipse uses the Cube 2 engine's map editor, which allows for maps to be easily made in-game]]
 ''Red Eclipse'' retains the Cube 2 engine's built-in map editor, in which the player can to fly around the game world manipulating and deforming volumes referred to as cubes. This, as well as weapon and other entity placement is achieved in real-time, and can be done cooperatively online with other players as well. [[Artificial Intelligence|AI]] "waypoints" can also be generated dynamically as the map is played. Lighting is accomplished through precomputed [[lightmap]]s. Each cube-shaped node in the [[octree]] represents a renderable volume, simply referred to as a ''cube''. Each edge of this cube can be lengthened or shortened to deform the cube into a variety of other shapes. Corners of cubes can also be "pushed" or "pulled" to create crude curves.
 
-The [[WYSIWYG|what you see is what you get]] realtime editing ability  enables level designers to add a plethora of detail to maps, while reducing the time spent on actual creation. This is in contrast to the traditional modern [[polygon soup]] 3D engines which take a model generated as an essentially random batch of triangles from an external modelling program, and attempt to [[spatial subdivision|spatially subdivide]] the model's triangles after the fact by splitting them to fit into tree structures, such as a [[binary space partitioning|BSP tree]] or even an [[octree]], that require costly pre-processing to render.
+The what you see is what you get (WYSIWYG) realtime editing ability  enables level designers to add a plethora of detail to maps, while reducing the time spent on actual creation. This is in contrast to the traditional modern [[polygon soup]] 3D engines which take a model generated as an essentially random batch of triangles from an external modelling program, and attempt to [[spatial subdivision|spatially subdivide]] the model's triangles after the fact by splitting them to fit into tree structures, such as a [[binary space partitioning|BSP tree]] or even an [[octree]], that require costly pre-processing to render.
 
 == Reception and impact ==
 [[File:IllumiRoom.png|thumbnail|[[Microsoft Research]] [[IllumiRoom]] proof-of-concept, on the screen Red Eclipse]]
