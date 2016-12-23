@@ -54,5 +54,5 @@ A miniature remake of a Quake map, Longestyard is a great map for fast-paced due
 
 === Notes & Strategies ===
 
-* A pusher leads to a small platform to snipe from
+* A pusher leads to a small platform to snipe from.
 * The rocket only shows up in kaboom.
