@@ -33,7 +33,65 @@
 |}
 
 
+
 '''Note:''' Deathmatch is also the most commonly played game mode for some popular mutators, in particular [[Mutator Tips#duel|Duel]] and [[Mutator Tips#Survivor|Survivor]].
 
+== Deathmatch Maps ==
+
+<gallery>
+file:Abuse.png |[[Map_Abuse|Abuse]]
+file:Affluence.png |[[Map_Affluence|Affluence]]
+file:Ares.png |[[Map_Ares|Ares]]
+file:Bath.png |[[Map_Bath|Bath]]
+file:Battlefield.png |[[Map_Battlefield|Battlefield]]
+file:Biolytic.png |[[Map_Biolytic|Biolytic]]
+file:Bloodlust.png |[[Map_Bloodlust|Bloodlust]]
+file:Campgrounds.png |[[Map_Campgrounds|Campgrounds]]
+file:Canals.png |[[Map_Canals|Canals]]
+file:Canyon.png |[[Map_Canyon|Canyon]]
+file:Cargo.png |[[Map_Cargo|Cargo]]
+file:Castle.png |[[Map_Castle|Castle]]
+file:Center.png |[[Map_Center|Center]]
+file:Colony.png |[[Map_Colony|Colony]]
+file:Conflict.png |[[Map_Conflict|Conflict]]
+file:Cutec.png |[[Map_Cutec|Cutec]]
+file:Darkness.png |[[Map_Darkness|Darkness]]
+file:Deadsimple.png |[[Map_Deadsimple|Deadsimple]]
+file:Deathtrap.png |[[Map_Deathtrap|Deathtrap]]
+file:Decay.png |[[Map_Decay|Decay]]
+file:Deli.png |[[Map_Deli|Deli]]
+file:Depot.png |[[Map_Depot|Depot]]
+file:Discontinuity.png |[[Map_Discontinuity|Discontinuity]]
+file:Dropzone.png |[[Map_Dropzone|Dropzone]]
+file:Dutility.png |[[Map_Dutility|Dutility]]
+file:Echo.png |[[Map_Echo|Echo]]
+file:Enyo.png |[[Map_Enyo|Enyo]]
+file:Erosion.png |[[Map_Erosion|Erosion]]
+file:Error.png |[[Map_Error|Error]]
+file:Futuresport.png |[[Map_Futuresport|Futuresport]]
+file:Ghost.png |[[Map_Ghost|Ghost]]
+file:Institute.png |[[Map_Institute|Institute]]
+file:Keystone2k.png |[[Map_Keystone2k|Keystone2k]]
+file:Livefire.png |[[Map_Livefire|Livefire]]
+file:Longestyard.png |[[Map_Longestyard|Longestyard]]
+file:Mist.png |[[Map_Mist|Mist]]
+file:Nova.png |[[Map_Nova|Nova]]
+file:Octavus.png |[[Map_Octavus|Octavus]]
+file:Oneiroi.png |[[Map_Oneiroi|Oneiroi]]
+file:Panic.png |[[Map_Panic|Panic]]
+file:Processing.png |[[Map_Processing|Processing]]
+file:Pumpstation.png |[[Map_Pumpstation|Pumpstation]]
+file:Rooftop.png |[[Map_Rooftop|Rooftop]]
+file:Spacetech.png |[[Map_Spacetech|Spacetech]]
+file:Stone.png |[[Map_Stone|Stone]]
+file:Suspended.png |[[Map_Suspended|Suspended]]
+file:Tower.png |[[Map_Tower|Tower]]
+file:Tribal.png |[[Map_Tribal|Tribal]]
+file:Ubik.png |[[Map_Ubik|Ubik]]
+file:Vault.png |[[Map_Vault|Vault]]
+file:Venus.png |[[Map_Venus|Venus]]
+file:Vorticity.png |[[Map_Vorticity|Vorticity]]
+file:Wet.png |[[Map_Wet|Wet]]
+ </gallery>
 
 {{Modes}}
