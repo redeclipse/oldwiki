@@ -14,11 +14,11 @@ file:oldschool.png|link=Deathmatch|'''Old school''': Only frags counts for the t
 
 * new maps
 <gallery>
-file:discontinuity.png|[[map_discontinuity]]
-file:vorticity.png|[[map_vorticity]]
-file:disco.png|[[map_disco]]
-file:eternal.png|[[map_eternal]]
-file:torus.png|[[map_torus]]
+file:discontinuity.png|[[Map_Discontinuity|Discontinuity]]
+file:vorticity.png|[[Map_Vorticity|Vorticity]]
+file:disco.png|[[Map_Disco|Disco]]
+file:eternal.png|[[Map_Eternal|Eternal]]
+file:torus.png|[[Map_Torus|Torus]]
 </gallery>
 
 * New vanity items
