@@ -1,0 +1,58 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Octavus.png|thumb|center]|Map Preview]]
+|'''Author: Ricky Thomson (unixfreak)'''
+|-
+|'''Filename:''' ''octavus''
+|-
+| '''Release Date:''' 2013-11-14
+|-
+|'''Recommended Modes:''' FFA, BB
+|-
+|'''Size:''' Large (As many as you can fit)
+|-
+|'''Complexity:''' Medium
+|-
+|'''Environmental Features:''' N/A
+|-
+|'''Theme:''' Desert
+|-
+|'''Rocket Spawn:''' Yes
+|}
+
+=== Review ===
+A remote desert outpost on a planet far away makes for a good map for lots of players. Ideal for large hold bomber-ball matches or FFA.
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Weapons
+|-
+|[[File:Sword.png|20px]] '''Swords''' || 4
+|-
+|[[File:Shotgun.png|20px]] '''Shotguns''' || 6
+|-
+|[[File:Smg.png|20px]] '''SMGs''' || 4
+|-
+|[[File:Flamer.png|20px]] '''Flamers''' || 4
+|-
+|[[File:Plasma.png|20px]] '''Plasmas''' || 6
+|-
+| [[File:Rifle.png|20px]] '''Rifles''' || 6
+|-
+| [[File:Zapper_grey.png|20px]] '''  Zappers''' || 6
+|-
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 13
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 13
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 1
+|-
+| [[File:Flag.png|20px]] '''DTF Flags''' || 7
+|}
+
+=== Notes & Strategies ===
+
+* Don't wander off into the desert, it's hot out there.
+* This map has seven D&C control points.
+* The rocket is high in the dead center of the map.
