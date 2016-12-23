@@ -1,6 +1,6 @@
 Lighting is an entity that can be added to a map in the [[Editing Info|editing mode]].
 
-== CREATING A LIGHT ==
+== Creating a Light ==
 
 
 
@@ -40,7 +40,7 @@ To change the base ambient light color for your map (shadow color)use the /ambie
 
  /ambient 25 25 25
 
-== CALCULATING LIGHTMAPS ==
+== Calculating Lightmaps ==
 
 
 <table cellspacing="10" style="width:100%">
@@ -72,3 +72,12 @@ Max: 255 255 255</td>
     <td width="219">sets the level of detail for the lightmap. A higher number creates sharper shadows.</td>
 </tr>
 </table>
+
+== Lighting Tips ==
+
+*Lights should come with accompanying geometry or mapmodels, i.e. put light entities near physical lights.
+*Lighting should be used to make textures more vibrant: create some contrast (within reason)
+*Large lights will take less time and less disk space than using more small lights to cover the same area.
+*Try to use as high of a lightprecision as reasonable: this saves disk space and reduces rendering times.
+*To keep lightprecision high, change the blurr value to 1 or 2 to un-pixelize the shadow lines.
+*While dark areas may look good, the primary purpose of a map is to be played. Consider raising the ambient light amount to avoid dark spots.
