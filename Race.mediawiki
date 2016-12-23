@@ -41,6 +41,7 @@ attack them before they can reach the end. Afer a set time, the roles are switch
 file:Absorption.png |[[Map_Absorption|Absorption]]
 file:Cyanide.png |[[Map_Cyanide|Cyanide]]
 file:Decomposition.png |[[Map_Decomposition|Decomposition]]
+file:Discontinuity.png |[[Map_Discontinuity|Discontiunity]]
 file:Escape.png |[[Map_Escape|Escape]]
 file:Hinder.png |[[Map_Hinder|Hinder]]
 file:Neodrive.png |[[Map_Neodrive|Neodrive]]
