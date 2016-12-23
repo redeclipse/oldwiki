@@ -56,3 +56,4 @@ A miniature remake of a Quake map, Longestyard is a great map for fast-paced due
 
 * A pusher leads to a small platform to snipe from.
 * The rocket only shows up in kaboom.
+* Beware mines lying on the exit of portals.
