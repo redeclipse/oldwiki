@@ -1,3 +1,4 @@
+===This map is no longer included with the game. (Removed in 1.5.6)===
 {| border="1" cellpadding="2" width="800px"
 |rowspan="9" width="150px"|[[File:linear.png|thumb|center]|Map Preview]]
 |'''Author: Mike "''mikeplus64''" Ledger'''
