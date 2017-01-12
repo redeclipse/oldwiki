@@ -10,12 +10,10 @@ file:Battlefield.png |[[Map_Battlefield|Battlefield]]
 file:Biolytic.png |[[Map_Biolytic|Biolytic]]
 file:Bloodlust.png |[[Map_Bloodlust|Bloodlust]]
 file:Campgrounds.png |[[Map_Campgrounds|Campgrounds]]
-file:Canals.png |[[Map_Canals|Canals]]
 file:Canyon.png |[[Map_Canyon|Canyon]]
 file:Cargo.png |[[Map_Cargo|Cargo]]
 file:Castle.png |[[Map_Castle|Castle]]
 file:Center.png |[[Map_Center|Center]]
-file:Colony.png |[[Map_Colony|Colony]]
 file:Conflict.png |[[Map_Conflict|Conflict]]
 file:Cutec.png |[[Map_Cutec|Cutec]]
 file:Darkness.png |[[Map_Darkness|Darkness]]
@@ -44,7 +42,6 @@ file:Oneiroi.png |[[Map_Oneiroi|Oneiroi]]
 file:Panic.png |[[Map_Panic|Panic]]
 file:Processing.png |[[Map_Processing|Processing]]
 file:Pumpstation.png |[[Map_Pumpstation|Pumpstation]]
-file:Rooftop.png |[[Map_Rooftop|Rooftop]]
 file:Spacetech.png |[[Map_Spacetech|Spacetech]]
 file:Stone.png |[[Map_Stone|Stone]]
 file:Suspended.png |[[Map_Suspended|Suspended]]
@@ -85,6 +82,13 @@ file:Purge.png |[[Map_Purge|Purge]]
 file:Torus.png |[[Map_Torus|Torus]]
  </gallery>
 
+==Former maps==
+===Removed in 1.5.8===
+<gallery>
+file:Rooftop.png |[[Map_Rooftop|Rooftop]]
+file:Colony.png |[[Map_Colony|Colony]]
+file:Canals.png |[[Map_Canals|Canals]]
+</gallery>
 ==Map lists==
 
 
