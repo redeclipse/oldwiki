@@ -1,3 +1,4 @@
+===This map is no longer included with the game. (Removed in 1.5.8)===
 {| border="1" cellpadding="2" width="800px"
 |rowspan="9" width="150px"|[[File:Canals.png|thumb|center]|Map Preview]]
 |'''Author: Jonathan "''Ulukai''" De Nil'''
