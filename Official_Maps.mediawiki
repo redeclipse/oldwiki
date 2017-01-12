@@ -89,6 +89,12 @@ file:Rooftop.png |[[Map_Rooftop|Rooftop]]
 file:Colony.png |[[Map_Colony|Colony]]
 file:Canals.png |[[Map_Canals|Canals]]
 </gallery>
+===Removed in 1.5.6===
+<gallery>
+file:Linear.png |[[Map_Linear|Linear]]
+file:Fortitude.png |[[Map_Fortitude|Fortitude]]
+</gallery>
+
 ==Map lists==
 
 
