@@ -11,7 +11,7 @@
 <ul>
 <li>Users of 4.9.x or earlier can navigate to <code>Settings --&gt; Configure Kate --&gt; Open/Save --&gt; Modes/Filetypes --&gt; Download Highlight Files</code> to get updated highlighter files, including one for CubeScript</li>
 </ul></li>
-<li><strong>TextMate, NotePad++, and SublimeText</strong> users can get one from [https://github.com/srbs/CubeScript-syntax-highlighting] or another <strong>NotePadd++</strong> from [https://github.com/IceflowRE/community/blob/ice_WIP/Cubescript_RE-N%2B%2B_UserLang.xml]</li>
+<li><strong>TextMate, NotePad++, and SublimeText</strong> users can get one from [https://github.com/srbs/CubeScript-syntax-highlighting], or alternatively for <strong>NotePad++</strong>, from [https://github.com/IceflowRE/community/blob/ice_WIP/Cubescript_RE-N%2B%2B_UserLang.xml]</li>
 <li>A CubeScript major mode for <strong>Emacs</strong> can be acquired from [https://github.com/rspeele/cubescript-mode]</li>
 </ol>
 <h1 id="an-overview-of-cubescript">An Overview of CubeScript</h1>
@@ -358,7 +358,7 @@ if (&amp;&amp; [= $foo $bar] [baz = 35; &lt; $foo $baz] [!= $bar $baz]) [
 <p>The word limit of 25 can be pretty suffocating. But there are always of getting around it. You should note that reaching this limit is bad form, and is a sign that you should probably rethink your code.</p>
 <p>The first, which is also the quickest and simplest, is simply to not bother with the branching commands, and instead rely on the code generation facilities of CubeScript. Of course, this works best if you're using a simple and predictable pattern, and this is actually used a few times within Lamiae's code.</p>
 <ol style="list-style-type: decimal">
-<li>Universal Delta</li>
+<li>Universal Delta</li>n
 <li>Hover scrolling actions for entities</li>
 <li>Quick edit menus for entities</li>
 <li>lower left editmode helper for entities.</li>
