@@ -116,7 +116,7 @@ These weapons can be chosen in the ''profile'' game menu, and it is even possibl
 ''Rifle primary''
 * Useful at short ranges when an enemy has closed in to get in one hit and then switch to a more appropriate weapon.
 * From medium and long ranges, the primary can be more useful to keep track of fast moving opponents if you're not confident with the secondary, although is not a particularly quick method.
-* The attackdelay of the primary is lower then of the secondary, so can 'spammed' and still be significantly powerful.
+* The attackdelay of the primary is lower than the secondary, so can 'spammed' and still be significantly powerful.
 ''Rifle secondary''
 * A rifle user will always favour the longest distance when fighting non-rifle users, so try and find a vantage point to snipe from. However, do not try and stick around one place for too long as once you have killed people a few times they will start to target you. 
 * Wait until the the rifle is fully charged (indicated by a completed circle loop around the cross-hair) before firing to shoot at maximum damage.
@@ -247,14 +247,14 @@ Some weapons induce status ailments that inflict some damage over time and last 
 |''Shock''- Slows down movement greatly. Deals 2 damage per second. Caused by the [[file:zappercol.png|20px]]zapper and by [[file:minecol.png|20px]]mines.
 |-
 |[[file:burn.png|64px]] 
-|''Burn''- Deals 3 damage per second. Can be negated with the secondary fire of the [[file:flamercol.png|20px]]flamer or by entering water (as long as the burnt body part is submerged). Caused by [[file:grenadecol.png|20px]]grenades, [[file:rocketcol.png|20px]]rockets and the [[file:flamercol.png|20px]]flamer.
+|''Burn''- Deals 3 damage per second. Can be negated with the secondary fire of the [[file:flamercol.png|20px]]flamer or by entering water (as long as you are at least half submerged). Caused by [[file:grenadecol.png|20px]]grenades, [[file:rocketcol.png|20px]]rockets and the [[file:flamercol.png|20px]]flamer.
 |-
 |[[file:bleed.png|64px]]
 |''Bleed''- Deals 3 damage per second. Caused by the secondary fire of the [[file:shotguncol.png|20px]]shotgun and by the [[file:swordcol.png|20px]]sword.
 |}
 
 ===Anatomy===
-The player model is split into 3 parts which determine how much damage is applied to them: head, torso and legs. All damage values determined by the weapon specific variables apply to the head. The torso and legs then take a variable percentage of that damage value, sometimes higher (like the flamer's secondary fire) but usually smaller then the head damage.
+The player model is split into 3 parts which determine how much damage is applied to them: head, torso and legs. All damage values determined by the weapon specific variables apply to the head. The torso and legs then take a variable percentage of that damage value, sometimes higher (like the flamer's secondary fire) but usually smaller than the head damage.
 ===Weapon variables===
 When playing offline or as a server [[privileges|operator]], almost all aspects of game rules can be tuned and modified using the [[console]] to control thousands of [[variables]]. This includes a large [[Vars_and_Commands_Tables|array of variables]] for each weapon that give you deep control of the weapon characteristics. 
 * [[Melee_Vars|Melee Variables]]
