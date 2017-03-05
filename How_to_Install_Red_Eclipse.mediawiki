@@ -8,8 +8,11 @@
 If you get a permission denied error during install, right click the installer and [http://windows.microsoft.com/en-us/windows7/how-do-i-run-an-application-once-with-a-full-administrator-access-token Run as Administrator]. Alternatively, you can change the install location to a user-writable folder (like "[My] Documents") during the install process.
 
 == Linux ==
-* Install git, curl and the runtime dependencies of Red Eclipse. On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command 
-** <code>sudo apt-get install git curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0</code>
+* Install git, curl and the runtime dependencies of Red Eclipse.
+** On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command:
+*** <code>sudo apt-get install git curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0</code>
+** On a Fedora system, this can be done with the command:
+*** <code>dnf install curl SDL2 SDL2_mixer SDL2_image</code>
 * Download [http://redeclipse.net/download/linux the Linux tarball].
 * When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME = /home/username).
 * Extract the contents into your home directory using your favourite archive utility.
