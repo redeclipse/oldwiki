@@ -1,3 +1,4 @@
+'''Important note:''' The information in this article is valid for the current release version, but will soon be outdated. For the upcoming menu system, see [[New ui]].
 
 All menus or guis of Red Eclipse are written in [[CubeScript]] using a set of gui commands. This means the menus can be simply modified with a text editor, without the need to compile any source code. The existing menus are therefore conveniently customized - and they also provide a large set of examples for creating your own custom menus. Such menus could be used in a campaign-like map, or for example to execute administrative commands.
 
