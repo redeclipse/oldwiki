@@ -8,6 +8,45 @@
 If you get a permission denied error during install, right click the installer and [http://windows.microsoft.com/en-us/windows7/how-do-i-run-an-application-once-with-a-full-administrator-access-token Run as Administrator]. Alternatively, you can change the install location to a user-writable folder (like "[My] Documents") during the install process.
 
 == Linux ==
+
+=== Debian/Ubuntu repository ===
+
+There is a Red Eclipse package repository hosted on openSUSE Build Service that you can use to install game and/or server. The packages provided there are newer than distributions' packages, so if you prefer to install Red Eclipse via <code>apt</code>, you should install this repository.
+
+Beware that only the latest stable release is available on the repository. It will occasionally receive updates whenenever the <code>stable</code> branch on GitHub is updated. If you want to test the latest and greatest version of Red Eclipse, you need to either use an [[#AppImage]] or install Red Eclipse [[#Install from source|from source]].
+
+The oldest supported distributions are Ubuntu 16.04 and Debian 8.0 for the client, and Ubuntu 14.04 and Debian 7.0 for the server.
+
+To install the client, just go to [https://software.opensuse.org/download/package?project=home:TheAssassin:RedEclipse&package=redeclipse this site] and follow the instructions.
+
+For the server, visit [https://software.opensuse.org/download/package?project=home:TheAssassin:RedEclipse&package=redeclipse-server this site] instead, and follow the instructions.
+
+The packages are a fork of the original Debian Red Eclipse packages, but have been improved to reduce the size of a server installation.
+
+=== AppImage ===
+
+You can install Red Eclipse's stable and development editions as an [http://appimage.org AppImage]. At the moment, only 64-bit AppImages are provided. If you need a 32-bit version, please join our [http://redeclipse.net/chat chat] and let us know.
+
+==== Stable version ====
+
+Download the latest [https://download.assassinate-you.net/red-eclipse/appimage/latest/redeclipse-stable-x86_64.AppImage stable AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-stable-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-stable-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
+
+You can easily update Red Eclipse's AppImage by using [https://github.com/probonopd/AppImageUpdate AppImageUpdate]. To do so, [https://github.com/probonopd/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage download] the latest version, make it executable, and run it:
+
+<code>./AppImageUpdate-x86_64.AppImage redeclipse-stable-x86_64.AppImage</code>
+
+==== Development version ====
+
+Download the latest [https://download.assassinate-you.net/red-eclipse/appimage/latest/redeclipse-master-x86_64.AppImage development AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-master-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-master-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
+
+You can easily update Red Eclipse's AppImage by using [https://github.com/probonopd/AppImageUpdate AppImageUpdate]. To do so, [https://github.com/probonopd/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage download] the latest version, make it executable, and run it:
+
+<code>./AppImageUpdate-x86_64.AppImage redeclipse-master-x86_64.AppImage</code>
+
+For better desktop integration (like updating AppImages with just a few clicks), check out [https://github.com/probonopd/AppImageKit#appimaged-usage appimaged].
+
+=== Install from source ===
+
 * Install git, curl and the runtime dependencies of Red Eclipse.
 ** On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command:
 *** <code>sudo apt-get install git curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0</code>
