@@ -90,4 +90,6 @@ The most confusing parameter , ''offset'', is not provided for in the GUI, nor i
 *Large lights will take less time and less disk space than using more small lights to cover the same area.
 *Try to use as high of a lightprecision as reasonable: this saves disk space and reduces rendering times.
 *To keep lightprecision high, change the blurr value to 1 or 2 to un-pixelize the shadow lines.
-*While dark areas may look good, the primary purpose of a map is to be played. Consider raising the ambient light amount to avoid dark spots.
+*While dark areas may look good, the primary purpose of a map is to be played. Consider adding more lighting to make things visible.
+*Implied sunlight may work as a global lighting option, manually adding sunlights often provides a better match to the skybox.
+*Having high ambient lighting reduces the contrast of light entities. Use light entities liberally instead of raising the ambient.
