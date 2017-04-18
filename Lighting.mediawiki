@@ -69,9 +69,15 @@ Max: 255 255 255</td>
 
 <tr>
     <td width="174">/lightlod #</td>
-    <td width="219">sets the level of detail for the lightmap. A higher number creates sharper shadows.</td>
+    <td width="219">sets the level of detail for the lightmap. A higher number creates sharper shadows. </td>
 </tr>
+<tr>
+    <td width="174">/lightthreads #</td>
+    <td width="219">changes the number of CPU threads to distribute the lightmapping job over. Setting this to the number of cores in the CPU can greatly increase performance</td>
+</tr>
+
 </table>
+
 == Sunlight ==
 Sunlight entities create rays of light that come from a defined angle rather than from a point source. While it is possible to use a conventional light entity in order to simulate global lighting, the edges of the map will have distorted shadows. 
 
