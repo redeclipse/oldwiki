@@ -6,7 +6,7 @@ Red Eclipse has notably low minimum system requirements owing to its basis in th
 
 '''Intel:''' 
 
-HD (Nehalem/ i*-***M) or newer (2009) (includes HD 2000, HD 3000, HD 4000, HD 5000, HD 400, HD 500)
+HD (Nehalem/ i*-***/Pentium/Celeron) or newer (2009) (includes HD 2000, HD 3000, HD 4000, HD 5000, HD 400, HD 500 series)
 
 
 '''ATi/AMD:''' 
