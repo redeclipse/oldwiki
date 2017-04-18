@@ -9,7 +9,7 @@ Open the Console with the Tilde Key;
 
 <tr>
     <td width="174">/savemap mapname</td>
-    <td width="219">saves the current map as My Documents/My Games/Red Eclipse/Maps/mapname.mpz</td>
+    <td width="219">saves the current map as My Documents/My Games/Red Eclipse/Maps/mapname.mpz Hotkey: F8</td>
   </tr>
 
 <tr>
