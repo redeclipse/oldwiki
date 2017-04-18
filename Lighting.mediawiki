@@ -72,6 +72,16 @@ Max: 255 255 255</td>
     <td width="219">sets the level of detail for the lightmap. A higher number creates sharper shadows.</td>
 </tr>
 </table>
+== Sunlight ==
+Sunlight entities create rays of light that come from a defined angle rather than from a point source. While it is possible to use a conventional light entity in order to simulate global lighting, the edges of the map will have distorted shadows. 
+
+To make a sunlight entity, use ''/newent sunlight [pitch] [red] [green] [blue] [offset] [flare] [flarescale]'', or select a sunlight entity from the lighting GUI. For example, 
+
+ /newent sunlight 0 255 255 255 20 0 0
+
+will create white sunlight from straight up with light appearing to radiate from a 20 degree cone.
+
+The most confusing parameter , ''offset'', is not provided for in the GUI, nor is it relevant for conventional lights. It controls the spread of the sunlight: higher values will make the sunlight appear to come from a larger area. Setting ''offset'' to -1 will make the sunlight appear to come from a point.
 
 == Lighting Tips ==
 
