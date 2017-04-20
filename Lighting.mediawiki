@@ -4,30 +4,30 @@ Lighting is an entity that can be added to a map in the [[Editing Info|editing m
 
 
 
-Creating A Spherical Light Entity: 
-Open the Console with the Tilde Key (~) or Forward Slash (/)...
+Creating a spherical light entity: 
+Open the Console with the tilde key (~) or forward slash (/)...
 
  /newent light 300 180 180 180
 
-...This will create a Light Entity with a ''radius'' of 300 and ''Red Green and Blue Values'' of 180.
+...This will create a light entity with a ''radius'' of 300 and ''Red Green and Blue Values'' of 180, or gray.
 
 
 Once an entity is created, its parameters can be changed by highlighting the Entity, then;
 pressing the Period Key to enter the desired setting through /entset, or...
 Holding the corresponding Number Key to the parameter you wish to change while scrolling the Mouse Scroll Wheel.
 
-To Move and Entity, click the face corresponding to the axis you wish to move it on with the Left Mouse Button and Drag.
+To move an entity, click the face corresponding to the axis you wish to move it on with the left mouse button and drag.
 
 
 Once you have created a Light Entity you can create a lightmap texture for your map by using the calclight command
 
  /calclight 
-or press the F3 shortcut key.
+or press the F7 shortcut key.
 
 
 If you find that calclight takes too long due to the detail in your map, raise the lightprecision to speed up calculating.
 
- /lightprecision 256
+ /lightprecision 256 [1-2048]
 
 
 To hide the lightmap and continue editing your map turn on fullbright mode
@@ -47,33 +47,33 @@ To change the base ambient light color for your map (shadow color)use the /ambie
 
 <tr>
     <td width="174">/fullbright #</td>
-    <td width="219">toggles the lightmap on/off</td>
+    <td width="219">toggles the lightmap on/off '''Hotkey: B'''</td>
 </tr>
 
 <tr>
     <td width="174">/calclight</td>
-    <td width="219">calculates the lightmap (requires at least 1 light in the map)</td>
+    <td width="219">calculates the lightmap (requires at least 1 light in the map) '''Hotkey: F7'''</td>
 </tr>
 
 <tr>
     <td width="174">/ambient RR GG BB</td>
-    <td width="219">sets the base lighting for the map (shadow color)
-Default: 25 25 25
-Max: 255 255 255</td>
+    <td width="219">sets the base lighting for the map. Higher values can prevent dark spots that are hard to see while playing at the expense of lighting contrast.
+Default: 25 25 25 (dark grey)
+Max: 255 255 255 (equivalent to fullbright)</td>
 </tr>
 
 <tr>
-    <td width="174">/lightprecision RR GG BB</td>
-    <td width="219">sets the resolution of the lightmap textures contained withing the .mpz map file .This setting greatly effects the size of the map. It is recommended that you raise this setting to keep the number of lightmap textures under 3.</td>
+    <td width="174">/lightprecision #</td>
+    <td width="219">sets the resolution of the lightmap textures contained withing the .mpz map file. This setting greatly affects the size of the map. It is recommended that you raise this setting to keep the number of lightmap textures under 3. Default lightprecision is 32; most maps are between 64 and 256 in lightprecision.</td>
 </tr>
 
 <tr>
     <td width="174">/lightlod #</td>
-    <td width="219">sets the level of detail for the lightmap. A higher number creates sharper shadows. </td>
+    <td width="219">sets the level of detail for the lightmap. A higher number creates sharper shadows, at the expense of map size. Decreasing lightprecision generally yields better results for the same map file size. Default is 0; max is 10. </td>
 </tr>
 <tr>
     <td width="174">/lightthreads #</td>
-    <td width="219">changes the number of CPU threads to distribute the lightmapping job over. Setting this to the number of cores in the CPU can greatly increase performance</td>
+    <td width="219">changes the number of CPU threads to distribute the lightmapping job over. Setting this to the number of cores in the CPU can greatly increase performance.</td>
 </tr>
 
 </table>
