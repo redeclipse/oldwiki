@@ -39,7 +39,7 @@ resets a texture to its original settings, negating previous v-commands.
     /vscale ''factor''
 creates a scaled version of the texture
 
-'''Note:''' The factor must not be smaller than 0.125
+'''Note:''' The factor must not be smaller than 0.125 nor greater than 8. Most textures are scaled to 0.5 by default.
 
     /voffset ''dx dy'' 
 creates a shifted version of the texture
