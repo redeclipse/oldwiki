@@ -3,7 +3,7 @@ The statistics system, introduced after 1.5.3, records results of games and send
 ==To Enable in servinit.cfg==
 <source lang=text>
 sv_serverstats 1 //Your server must have the s flag in its auth for this to take effect.
-sv_serverauthkey [key] //Authorization key to validate stats server.
+serverauthkey [handle] [key] //Authorization key to validate stats server. 
 </source>
 
 ==Sending Process==
