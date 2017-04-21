@@ -1,3 +1,4 @@
+=='''This map is no longer in the game.'''==
 {| border="1" cellpadding="2" width="800px"
 |rowspan="9" width="150px"|[[File:Warp.png|thumb|center]|Map Preview]]
 |'''Author: Derek "''JoJo''" Stegall and Derek "''Favorito''" Ponicki'''
