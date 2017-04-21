@@ -7,7 +7,7 @@ sv_serverauthkey [key] //Authorization key to validate stats server.
 </source>
 
 ==Sending Process==
-*Before the server will send statistics, '''sv_serverstats''' must be 1 and the server must have the '''s''' (statistics) flag on its authentication handle.
+*Before the server will send statistics, '''sv_serverstats''' must be 1 and the server must have the '''s''' (statistics) flag on its authentication handle. To get the '''s''' flag, the server must be issued a key, which may be obtained at request.
 *To be sent to the master server, a game needs to meet at least one of the following requirements:
 **Entered intermission.
 **Be timed race and have at least one finished lap. (So race records are kept even for unfinished games)
