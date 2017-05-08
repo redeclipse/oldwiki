@@ -75,13 +75,14 @@ file:Wardepot.png |[[Map_Wardepot|Wardepot]]
 <gallery>
 file:Abuse.png |[[Map_Abuse|Abuse]]
 file:Deathtrap.png |[[Map_Deathtrap|Deathtrap]]
-file:Disco.png |[[Map_Disco|Disco]]
+file:Disco.png |[[Map_Disco|'''Disco''']]
 file:Dutility.png |[[Map_Dutility|Dutility]]
-file:Eternal.png |[[Map_Eternal|Eternal]]
+file:Eternal.png |[[Map_Eternal|'''Eternal''']]
 file:Purge.png |[[Map_Purge|Purge]]
-file:Singularity.png |[[Map_Singularity|Singularity]]
-file:Torus.png |[[Map_Torus|Torus]]
+file:Singularity.png |[[Map_Singularity|'''Singularity''']]
+file:Torus.png |[[Map_Torus|'''Torus''']]
  </gallery>
+'''Note:''' Bold maps are gladiator-only.
 
 ==Former maps==
 ===Removed in 1.5.8===
