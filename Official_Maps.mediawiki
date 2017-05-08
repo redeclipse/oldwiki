@@ -121,7 +121,8 @@ file:Fortitude.png |[[Map_Fortitude|Fortitude]]
 ===sv_duelmaps===
 [[Map_Abuse|Abuse]] [[Map_Bath|Bath]] [[Map_Bloodlust|Bloodlust]] [[Map_Campgrounds|Campgrounds]] [[Map_Canyon|Canyon]] [[Map_Cargo|Cargo]] [[Map_Castle|Castle]] [[Map_Darkness|Darkness]] [[Map_Deadsimple|Deadsimple]] [[Map_Disco|Disco]] [[Map_Dutility|Dutility]] [[Map_Echo|Echo]] [[Map_Error|Error]] [[Map_Eternal|Eternal]] [[Map_Ghost|Ghost]] [[Map_Livefire|Livefire]] [[Map_Longestyard|Longestyard]] [[Map_Mist|Mist]] [[Map_Panic|Panic]] [[Map_Stone|Stone]] [[Map_Torus|Torus]] [[Map_Vault|Vault]] [[Map_Wet|Wet]] 
 ===sv_gladiatormaps===
-[[Map_Abuse|Abuse]] [[Map_Deathtrap|Deathtrap]] [[Map_Disco|Disco]] [[Map_Dutility|Dutility]] [[Map_Eternal|Eternal]] [[Map_Purge|Purge]] [[Map_Torus|Torus]] 
+[[Map_Abuse|Abuse]] [[Map_Deathtrap|Deathtrap]] [[Map_Disco|Disco]] [[Map_Dutility|Dutility]] [[Map_Eternal|Eternal]] [[Map_Purge|Purge]] [[Map_Singularity|Singularity]] [[Map_Torus|Torus]]
+
 ===sv_smallmaps===
 [[Map_Abuse|Abuse]] [[Map_Affluence|Affluence]] [[Map_Bath|Bath]] [[Map_Bloodlust|Bloodlust]] [[Map_Campgrounds|Campgrounds]] [[Map_Canyon|Canyon]] [[Map_Cargo|Cargo]] [[Map_Castle|Castle]] [[Map_Darkness|Darkness]] [[Map_Deadsimple|Deadsimple]] [[Map_Deathtrap|Deathtrap]] [[Map_Dutility|Dutility]] [[Map_Echo|Echo]] [[Map_Error|Error]] [[Map_Ghost|Ghost]] [[Map_Keystone2k|Keystone2k]] [[Map_Livefire|Livefire]] [[Map_Longestyard|Longestyard]] [[Map_Mist|Mist]] [[Map_Panic|Panic]] [[Map_Processing|Processing]] [[Map_Stone|Stone]] [[Map_Vault|Vault]] [[Map_Wet|Wet]] 
 ===sv_mediummaps===
