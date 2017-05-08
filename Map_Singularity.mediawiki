@@ -1,0 +1,39 @@
+{| border="1" cellpadding="2" width="800px"
+|rowspan="9" width="150px"|[[File:Singularity.png|thumb|center]|Map Preview]]
+|'''Author: "''Molexted''"'''
+|-
+|'''Filename:''' ''singularity''
+|-
+| '''Release Date:''' 2016-12-13
+|-
+|'''Recommended Modes:''' Gladiator
+|-
+|'''Size:''' Small (3-5)
+|-
+|'''Complexity:''' Simple
+|-
+|'''Environmental Features:''' Space
+|-
+|'''Theme:''' Bland Trak grey
+|-
+|'''Rocket Spawn:''' No
+|}
+
+
+=== Spawn Register ===
+{| border="1" cellpadding="2" width="150px"
+|colspan="2" align="center"|Items
+|-
+| [[File:Grenade.png|20px]] '''Grenades''' || 2
+|-
+| [[File:Mine.png|20px]] '''Mines''' || 0
+|-
+| [[File:Rocket.png|20px]] '''Rockets''' || 0
+|}
+=== Overview ===
+A gladiator-only map, Singularity features two platforms inexplicably skirting a deadly singularity.
+
+=== Notes & Strategies ===
+
+* The grenades are located in the middle of each platform
+* The singularity can be exploited for grenade bankshots and gravity assists, but is fatal if you get sucked in.
