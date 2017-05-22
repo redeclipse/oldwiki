@@ -1,3 +1,5 @@
+Waypoints are a set of points that the bot AI uses to navigate around the map. Without waypoints, bots are prone to running into map hazards, such as into lava or off midair platforms. The waypoint file ({mapname}.wpt) is one of the files automatically sent along with the map in multiplayer situations.
+
 <table cellspacing="10" style="width:100%">
   
 <tr><td width="174">
