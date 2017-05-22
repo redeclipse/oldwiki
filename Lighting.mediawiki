@@ -73,7 +73,7 @@ Max: 255 255 255 (equivalent to fullbright)</td>
 </tr>
 <tr>
     <td width="174">/lightthreads #</td>
-    <td width="219">changes the number of CPU threads to distribute the lightmapping job over. Setting this to the number of cores in the CPU can greatly increase performance.</td>
+    <td width="219">changes the number of CPU threads to distribute the lightmapping job over. Setting this to the number of cores in the CPU can greatly increase lightmapping performance.</td>
 </tr>
 
 </table>
@@ -88,11 +88,30 @@ To make a sunlight entity, use ''/newent sunlight [pitch] [red] [green] [blue] [
 will create white sunlight from straight up with light appearing to radiate from a 20 degree cone.
 
 The most confusing parameter , ''offset'', is not provided for in the GUI, nor is it relevant for conventional lights. It controls the spread of the sunlight: higher values will make the sunlight appear to come from a larger area. Setting ''offset'' to -1 will make the sunlight appear to come from a point.
+== Lightfx ==
+Lightfx entities can be linked to lights to allow for more interesting effects than conventional lights. Lightfx entities can be configured in a few modes: spotlight, dynlight, flicker, pulse, and glow.
 
+To create a lightfx, use
+
+ /newent lightfx
+
+Setting the ''type'' parameter to 0 (default) will put the lightfx entity into spotlight mode. When linked to a light, it will only allow the light entity to shine in the direction indicated by a cone radiating from the light entity. Changing the ''mod'' parameter will affect the spread of the light cone: higher values will create a larger cone. When using a spotlight, it is often necessary to create another light entity to create diffuse light around the light source, since the spotlight will now only shine in the direction indicated.
+
+
+Setting the ''type'' parameter to 1 will put the lightfx entity into dynlight mode. Red Eclipse's default lighting method is static, using lightmaps to paint textures with a fixed lighting value. Dynamic lighting is done in real time, allowing moving entities to affect it; however, its implementation is suboptimal and should be used sparingly.
+
+
+Setting the ''type'' parameter to 2 will put the lightfx entity into flicker mode. Flicker uses a dynamic light (which carries all the caveats of dynamic lighting), allowing the creation of a light entity that will flicker on and off. This is useful for simulating things such as failing lights, blinking indicators, or even lightning (especially when timed with the corresponding sound). Setting the ''rnd-min'' and ''rnd-max'' flags from the entity GUI can allow for random flickering. Changing ''mod'' changes the spacing between flickers.
+
+
+Setting the ''type'' parameter to 3 will put the lightfx entity into pulse mode. Like flicker, pulse is a dynamic light, which instead of sharply turning on and off, pulses more smoothly between off and on. Like flicker, pulse also can be manipulated by the ''mod'', ''rnd-min'' and ''rnd-max'' flags.
+
+
+Lastly, setting the ''type'' parameter to 4 will put the lightfx entity into glow mode. Glow creates an effect similar to dynlight, but with more opacity. Like dynlights, glow should be used sparingly.
 == Lighting Tips ==
 
 *Lights should come with accompanying geometry or mapmodels, i.e. put light entities near physical lights.
-*Lighting should be used to make textures more vibrant: create some contrast (within reason)
+*Lighting should be used to make textures more vibrant: create some contrast, without using too many clashing colors.
 *Large lights will take less time and less disk space than using more small lights to cover the same area.
 *Try to use as high of a lightprecision as reasonable: this saves disk space and reduces rendering times.
 *To keep lightprecision high, change the blurr value to 1 or 2 to un-pixelize the shadow lines.
