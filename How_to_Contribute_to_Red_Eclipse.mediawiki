@@ -8,6 +8,10 @@ The tree is split up into the following:
 
 * base: https://github.com/red-eclipse/base - The base environment, including everything needed to build the game.
 * site: https://github.com/red-eclipse/site - The entirety of the website, minus runtime config and data.
+* maps: https://github.com/red-eclipse/maps - The maps included in the game
+* community: https://github.com/red-eclipse/community - Works relevant to Red Eclipse but not included in the game.
+
+There are many other repositories containing assets from specific contributers (e.g. red-eclipse/acerspyro is the repository containing Acerspyro's contributions) and other less central aspects of Red Eclipse, such as the statistics system and the configuration files for the master server (which is the server that serves the server list when looking for servers in the server menu when you select multiplayer).
 
 If you are on Windows and don't like the official GitHub application you can try MSysGit or TortoiseGit. If you are on Linux you should be able to obtain the git command line tools from your distribution/package manager.
 
