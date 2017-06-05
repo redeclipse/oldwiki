@@ -83,3 +83,4 @@ Luckystrike
 * Try not to make grass the dominant feature of a map, remember that some players will have the setting turned off.
 * Using a surface texture with similar colours to the grass texture will make the grass appear more dense.
 * Use grass sparingly, a large open field full of grass will impact performance more greatly than a patch of grass.
+* Only one type of grass can be used per map.
