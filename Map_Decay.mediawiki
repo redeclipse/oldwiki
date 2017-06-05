@@ -10,7 +10,7 @@
 |-
 |'''Size:''' Large (4-10)
 |-
-|'''Complexity:''' Complex
+|'''Complexity:''' Byzantine
 |-
 |'''Environmental Features:''' Fans
 |-
