@@ -12,9 +12,9 @@
 |-
 |'''Complexity:''' Simple
 |-
-|'''Environmental Features:''' High-rise (can fall off)
+|'''Environmental Features:''' Red Eclipse castles are pretty tall
 |-
-|'''Theme:''' Sauer-like
+|'''Theme:''' Brick
 |-
 |'''Rocket Spawn:''' Yes
 |}
