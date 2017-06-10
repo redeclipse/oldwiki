@@ -8,48 +8,35 @@ After opening Red Eclipse, type
 to work on a map. If [name] is that of a map (e.g. /edit abuse) then the game will begin an editing session with that map; otherwise, the game will create a new map. Alternatively, after entering an edit session, you can use 
  
  /newmap [size]
-[[File:Edit newmap.png|thumb|What creating a new map should look like.]]
+[[File:Edit newmap.png|960x520px|What creating a new map should look like.]]
+
 to create a new map with dimensions of 2^[size]. Maps default to size 10 (2^10 or 1024 blocks) wide and can only be made larger than that; specifying a size smaller than 10 will default the map size to 10.
 
 After creating a new map, you should be greeted with a blank map that looks like the picture to the right.
 
 To enter edit mode, use the f2 button. You should see black lines outlining right triangles on the surface.
 
+To save the map, use the f8 key while in edit mode.
 
 
 == Part 2: The Octree ==
-
-[[File:Edit tutorial 2.png|thumb|Selecting a single cube.]]
 Cube 2 is based on an octree geometry system. An octree separates the world into nesting cubes: cubes may be "pushed" or "pulled" in order to create map geometry. Cubes can then be modified by moving their vertices inward to create nonsquare blocks (more on that later). To begin creating geometry, however, start by selecting a spot on the ground by left clicking it.
 
+[[File:Edit tutorial 2.png|960x520px|Selecting a single cube.]]
 
-
-
-
-
-
-
-
-[[File:Edit tutorial 3.png|thumb|Pulling some cubes.]]
 There will now be a white outline around the selected cube (which all but one face of which is underground). Now, to move it, we can use the scroll wheel to "push" and "pull" cubes. You may scroll the cube as far as you wish in order to create a long line of cubes:
 
+[[File:Edit tutorial 3.png|960x520px|Pulling some cubes.]]
 
-
-
-
-
-
-
-[[File:Edit tutorial 4.png|thumb|Pulling cubes out the side.]]
 We can then select a different face of one of the cubes we just created and create geometry in a different direction:
 
+[[File:Edit tutorial 4.png|960x520px|Pulling cubes out the side.]]
 
-
-
-
-
-
-
-
-[[File:Edit tutorial 5.png|thumb|Selecting an area]]
 While this is a workable way to create a level, it would be much faster if we could move a whole bunch of cubes at the same time. Fortunately, we are able to do that by selecting an area of cubes to push and pull. To do this, click one corner of the area you desire to push/pull and hold it until you place the cursor on the opposite diagonal corner of the area you want to select. In this example, you would click on the corner near 1 and then hold it until it is on the 2.
+
+[[File:Edit tutorial 5.png|960x520px|Selecting an area]]
+
+
+In this example, I pushed the selection downward in order to erase the floor and create a depression. Note how the ground now has more divisions and black lines. This is caused by forcing the engine to divide the floor into more than 4 squares  by making it irregularly shaped. To re-optimize the cube layout, use the f4 key in order to do a geometry recalculation ("remip").
+
+[[File:Editing tutorial 6.png|960x520px|Pushing a bunch of cubes]]
