@@ -40,3 +40,15 @@ While this is a workable way to create a level, it would be much faster if we co
 In this example, I pushed the selection downward in order to erase the floor and create a depression. Note how the ground now has more divisions and black lines. This is caused by forcing the engine to divide the floor into more than 4 squares  by making it irregularly shaped. To re-optimize the cube layout, use the f4 key in order to do a geometry recalculation ("remip").
 
 [[File:Editing tutorial 6.png|960x520px|Pushing a bunch of cubes]]
+
+Here's what it looks like after a remip. While there are less squares, there are still more than there was before making the depression. This is an unavoidable side effect of the octree geometry system.
+
+[[File:Editing tutorial 7.png|960x520px|Remipping]]
+
+----
+
+
+As was mentioned earlier, though, the Cube 2 octree allows for nested cubes of different sizes. So far, we have only been working with one size of cube. Using smaller cubes, we can create more detailed structures; with larger ones, we can reduce the system requirements for a large, high geometry map. To change the cube size, press [g] and use the scroll wheel. The new cube size will be indicated by the larger or smaller square that follows the cursor.
+Alternatively, you can press the [e] button to enter the editing menu and then [d] to enter the options menu. The second-to-bottom slider labeled "grid size" can be changed to change your cube size (larger sizes are bigger cubes).
+
+[[File:Editing tutorial 8.png|960x520px|A bigger brush]]
