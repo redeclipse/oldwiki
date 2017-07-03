@@ -20,7 +20,7 @@ To save the map, use the f8 key while in edit mode.
 
 
 == Part 2: The Octree ==
-Cube 2 is based on an octree geometry system. An octree separates the world into nesting cubes: cubes may be "pushed" or "pulled" in order to create map geometry. Cubes can then be modified by moving their vertices inward to create nonsquare blocks (more on that later). To begin creating geometry, however, start by selecting a spot on the ground by left clicking it.
+Cube 2 is based on an [[octree]] geometry system. An octree separates the world into nesting cubes: cubes may be "pushed" or "pulled" in order to create map geometry. Cubes can then be modified by moving their vertices inward to create nonsquare blocks (more on that later). To begin creating geometry, however, start by selecting a spot on the ground by left clicking it.
 
 [[File:Edit tutorial 2.png|960x520px|Selecting a single cube.]]
 
@@ -52,3 +52,27 @@ As was mentioned earlier, though, the Cube 2 octree allows for nested cubes of d
 Alternatively, you can press the [e] button to enter the editing menu and then [d] to enter the options menu. The second-to-bottom slider labeled "grid size" can be changed to change your cube size (larger sizes are bigger cubes).
 
 [[File:Editing tutorial 8.png|960x520px|A bigger brush]]
+
+----
+
+As you may have noticed, however, Red Eclipse maps are not exclusively cubes: they have diagonals and slants as well. To do this, select a cube with the middle mouse button (on laptops, this will often be both the left and right mouse buttons simultaneously; on a normal mouse, this will be the scroll wheel) in the corner you would like to push. 
+
+[[File:Editing tutorial 9.png|960x520px|Selecting a corner]]
+
+Notice how the selected corner has itself highlighted within the whole cube being manipulated. Now, to move the face inward, use the scroll wheel to "push" the face inward. Each cube can have each corner pushed inward through 8 levels.
+
+[[File:Editing tutorial 10.png|960x520px|Creating an angle]]
+
+Like how we pushed an area of cubes with the cube brush, we can likewise manipulate cube edges en masse, by instead selecting with the middle mouse button. Be careful not to select an area that perfectly coincides with the current cube grid size, because the editor will interpret that to mean selecting the area normally, leading to entire block pushing like we already have done. 
+
+[[File:Editing tutorial 11.png|960x520px|Manipulating multiple cubes]]
+
+== Part 3: Texturing ==
+
+While the default cube texture is nice for manipulating geometry with, finishing a map obviously requires a nice paint job. To apply a texture, select an area with the left mouse button and enter the texturing menu with [F1]. You will be greeted with a menu with a large list of textures, sorted alphabetically by the author's name. 
+
+[[File:Editing tutorial 12.png|960x520px|The texture menu]]
+
+To apply a texture to the selected surface, click on the desired texture.
+
+[[File:Editing tutorial 13.png|960x520px|A lovely warning texture]]
