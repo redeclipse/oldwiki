@@ -45,6 +45,10 @@ The following list explains some commonly used terms and acronyms.
 |''gg''
 |good game, a typical chat comment at the end of a match.
 |-
+|-
+|''gaud''
+|the official unit for gaudiness. 100° C is hot enough to vaporize your eyeballs; likewise 100 gaud is gaudy enough to do the same. For an example of a 100-gaud map, see [[Map Rooftop]]
+|-
 |''insta''
 |[[mutator Tips#instagib|instagib]], a game mutator for one-hit-kills, disabled by default.
 |-
