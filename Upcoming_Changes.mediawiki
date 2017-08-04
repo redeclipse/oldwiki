@@ -1,0 +1,106 @@
+With Red Eclipse 1.6.0 looming on the horizon, a lot of changes are being made.
+
+This page will be frequently edited to reflect the current ideology of the developers.
+
+
+== Maps marked for removal ==
+
+With Red Eclipse 1.6.0, we decided a map cleaning had to take place.
+
+As Molexted likes to refer to it, the "dumpster fire of maps" will be cleaned up.
+
+Maps that do not fit these criteria will be removed / rejected:
+
+
+* Does not fit the general style, lore or direction of the game.
+
+* The map layout does not flow well or is too simple / too open for the current game physics.
+
+* The quality of the map is poor (poor details, repetitive textures, rampant bugs) and no remake is in the pipeline.
+
+* The general concensus points to people not liking the map
+
+
+The faith of most parkour map is undecided, and thus, they have not been included here.
+Some of the maps in this list have been reworked and have been marked as such.
+Otherwise, you can find the reason for its removal next to it.
+
+* Abuse
+** Has remix: Toxic Abuse
+* Affluence
+** Undecided
+* Ares 
+** Removed, does not fit the theme of the game and the layout is too open. It is thus unsalvageable
+* Bath
+** Removed, design is unsalvageable
+* Battlefield
+** Removed, terrain unsuitable for current physics
+* Biolytic
+** Removed, people do not enjoy it
+* Bloodlust
+** Has a remix in the pipeline: Bioluminescence
+* Campgrounds
+** Removed, very poor port of a Quake 3 Arena map
+* Canyon
+** Undecided
+* Cargo
+** Undecided
+* Castle
+** Removed, unless Molexted comes up with something
+* Center
+** Remix is planned
+* Conflict
+** Keep as-is
+* Cutec
+** Removed, layout is too open
+* Darkness
+** Keep as-is
+* Deadsimple
+** Removed, poor quality, poor layout, people do not like it
+* Deathtrap
+** Removed, poor quality
+* Decay
+** Keep as-is
+* Deli
+** Keep with a remix
+* Depot
+** Remix is planned
+* Discontinuity
+** Undecided
+* Dropzone
+** Removed, too linear
+* Dutility
+** Undecided
+* Echo
+** Removed, poor layout
+* Enyo
+** Keep with a remix
+* Erosion
+** Undecided
+* Fatal Error
+** Keep as-is
+* Futuresport
+** Removed, poor layout
+* Ghost
+** Keep with a remix
+* Institute
+** Undecided
+* Keystone
+** Removed, poor layout, poor quality
+* Livefire
+** Keep with a remix
+* Longestyard
+** Undecided
+* Mist
+** Removed, poor layout
+* Nova
+** Keep as-is
+* Octavus
+** Keep as-is or with remix
+* Oneiroi
+** Removed, unplayable
+* Panic
+** Keep, remix is being made
+
+[List is incomplete, please help molex]
+All maps that do not make the final cut will be available in the "Additions pack".
