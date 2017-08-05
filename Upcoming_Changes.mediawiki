@@ -122,6 +122,8 @@ Otherwise, you can find the reason for its removal next to it.
 ** Remove, unpopular, poor layout
 * Venus
 ** Remove, performance problems and too open
+* Wet
+** Probably keeping as-is, despite somewhat plain layout
 
 
 [List is incomplete, please help molex]
