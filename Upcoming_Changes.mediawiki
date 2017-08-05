@@ -2,6 +2,10 @@ With Red Eclipse 1.6.0 looming on the horizon, a lot of changes are being made.
 
 This page will be frequently edited to reflect the current ideology of the developers.
 
+== Maps being added ==
+
+* Polaris: Duel map, very small, set far to the north in the mountains. 4 rooms, asymmetrical, no rocket.
+
 
 == Maps marked for removal ==
 
@@ -92,7 +96,7 @@ Otherwise, you can find the reason for its removal next to it.
 * Longestyard
 ** Undecided
 * Mist
-** Removed, poor layout
+** Removed, poor layout, fugly
 * Nova
 ** Keep as-is
 * Octavus
@@ -101,6 +105,13 @@ Otherwise, you can find the reason for its removal next to it.
 ** Removed, unplayable
 * Panic
 ** Keep, remix is being made
+* Processing
+** Remove? Looks pretty terrible and layout is confusing
+* Ubik
+** Keep as-is
+* Venus
+** Remove, performance problems and too open
+
 
 [List is incomplete, please help molex]
 All maps that do not make the final cut will be available in the "Additions pack".
