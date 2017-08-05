@@ -6,6 +6,7 @@ This page will be frequently edited to reflect the current ideology of the devel
 
 * Polaris: Duel map, very small, set far to the north in the mountains. 4 rooms, asymmetrical, no rocket.
 
+* Plantation: Large FFA/DAC map, asymmetrical, made a couple years ago by Rabidbutton
 
 == Maps marked for removal ==
 
@@ -48,7 +49,7 @@ Otherwise, you can find the reason for its removal next to it.
 * Canyon
 ** Undecided
 * Cargo
-** Undecided
+** Undecided, badly needs a remix to stay
 * Castle
 ** Removed, unless Molexted comes up with something
 * Center
@@ -107,8 +108,18 @@ Otherwise, you can find the reason for its removal next to it.
 ** Keep, remix is being made
 * Processing
 ** Remove? Looks pretty terrible and layout is confusing
+* Pumpstation
+** Keeping as team map only, has remix
+* Suspended
+** Keep as-is, may recieve facelift
+* Tower
+** Remove, fugly, poor layout
+* Tribal
+** Keep with a remip and remix
 * Ubik
 ** Keep as-is
+* Vault
+** Remove, unpopular, poor layout
 * Venus
 ** Remove, performance problems and too open
 
