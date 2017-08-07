@@ -29,9 +29,11 @@ Otherwise, you can find the reason for its removal next to it.
 
 == Maps being added ==
 
-* Polaris: Duel map, very small, set far to the north in the mountains. 4 rooms, asymmetrical, no rocket.
+* Polaris
+** Duel map, very small, set far to the north in the mountains. 4 rooms, asymmetrical, no rocket.
 
-* Plantation: Large FFA/DAC map, asymmetrical, made a couple years ago by Rabidbutton
+* Plantation
+** Large FFA/DAC map, asymmetrical, made a couple years ago by Rabidbutton
 
 == Maps to be kept, no change ==
 * Conflict
