@@ -2,6 +2,31 @@ With Red Eclipse 1.6.0 looming on the horizon, a lot of changes are being made.
 
 This page will be frequently edited to reflect the current ideology of the developers.
 
+
+=== '''Maps''' ===
+
+----
+
+
+
+As Molexted likes to refer to it, the "dumpster fire of maps" will be cleaned up.
+
+Maps that do not fit these criteria will be removed / rejected:
+
+
+* Does not fit the general style, lore or direction of the game.
+
+* The map layout does not flow well or is too simple / too open for the current game physics.
+
+* The quality of the map is poor (poor details, repetitive textures, rampant bugs) and no remake is in the pipeline.
+
+* The general concensus points to people not liking the map
+
+
+The faith of most parkour map is undecided, and thus, they have not been included here.
+Some of the maps in this list have been reworked and have been marked as such.
+Otherwise, you can find the reason for its removal next to it.
+
 == Maps being added ==
 
 * Polaris: Duel map, very small, set far to the north in the mountains. 4 rooms, asymmetrical, no rocket.
@@ -61,26 +86,6 @@ This page will be frequently edited to reflect the current ideology of the devel
 ** Keep with a remip and remix
 
 == Maps marked for removal ==
-
-With Red Eclipse 1.6.0, we decided a map cleaning had to take place.
-
-As Molexted likes to refer to it, the "dumpster fire of maps" will be cleaned up.
-
-Maps that do not fit these criteria will be removed / rejected:
-
-
-* Does not fit the general style, lore or direction of the game.
-
-* The map layout does not flow well or is too simple / too open for the current game physics.
-
-* The quality of the map is poor (poor details, repetitive textures, rampant bugs) and no remake is in the pipeline.
-
-* The general concensus points to people not liking the map
-
-
-The faith of most parkour map is undecided, and thus, they have not been included here.
-Some of the maps in this list have been reworked and have been marked as such.
-Otherwise, you can find the reason for its removal next to it.
 
 * Affluence
 ** Undecided
