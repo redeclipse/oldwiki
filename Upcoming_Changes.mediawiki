@@ -31,14 +31,16 @@ Otherwise, you can find the reason for its removal next to it.
 
 * Polaris
 ** Duel map, very small, set far to the north in the mountains. 4 rooms, asymmetrical, no rocket.
-
 * Plantation
 ** Large FFA/DAC map, asymmetrical, made a couple years ago by Rabidbutton
 
 == Maps to be kept, no change ==
+
 * Conflict
 ** Keep as-is, despite marginal layout
 * Darkness
+** Keep as-is
+* Decay
 ** Keep as-is
 * Fatal Error
 ** Keep as-is
@@ -49,12 +51,14 @@ Otherwise, you can find the reason for its removal next to it.
 * Suspended
 ** Keep as-is, may recieve facelift
 * Ubik
-** Keep as-is
+** Keep as-is, may recieve facelift/optimization
 * Wet
 ** Probably keeping as-is, despite somewhat plain layout
 
 
 == Maps to be kept, with remix ==
+
+These maps have adequate layouts; however, they do not meet Red Eclipse's art standards or its art direction.
 
 * Abuse
 ** Has remix: Toxic Abuse
@@ -66,8 +70,6 @@ Otherwise, you can find the reason for its removal next to it.
 ** Removed, unless Molexted comes up with something
 * Center
 ** Remix is planned
-* Decay
-** Keep as-is
 * Deli
 ** Keep with a remix
 * Depot
@@ -75,7 +77,7 @@ Otherwise, you can find the reason for its removal next to it.
 * Enyo
 ** Keep with a remix
 * Ghost
-** Keep with a remix
+** Keep with a remix, ghost-esport
 * Institute
 ** Undecided
 * Livefire
@@ -90,7 +92,7 @@ Otherwise, you can find the reason for its removal next to it.
 == Maps marked for removal ==
 
 * Affluence
-** Undecided
+** Undecided, simple layout
 * Ares 
 ** Removed, does not fit the theme of the game and the layout is too open. It is thus unsalvageable
 * Bath
@@ -100,9 +102,9 @@ Otherwise, you can find the reason for its removal next to it.
 * Biolytic
 ** Removed, people do not enjoy it
 * Campgrounds
-** Removed, very poor port of a Quake 3 Arena map
+** Removed, very poor port of a Quake 3 Arena map, fugly
 * Canyon
-** Undecided
+** Undecided, poor terrain geometry and middling layout
 * Cutec
 ** Removed, layout is too open
 * Deadsimple
@@ -128,7 +130,7 @@ Otherwise, you can find the reason for its removal next to it.
 * Mist
 ** Removed, poor layout, fugly
 * Oneiroi
-** Removed, unplayable
+** Removed, unplayable due to openness and low gravity
 * Processing
 ** Remove? Looks pretty terrible and layout is confusing
 * Tower
