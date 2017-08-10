@@ -54,14 +54,20 @@ Otherwise, you can find the reason for its removal next to it.
 ** Keep as-is, may recieve facelift/optimization
 * Wet
 ** Probably keeping as-is, despite somewhat plain layout
-
-
-== Maps to be kept, with remix ==
-
-These maps have adequate layouts; however, they do not meet Red Eclipse's art standards or its art direction.
+== Maps to be kept, have a remix ==
 
 * Abuse
 ** Has remix: Toxic Abuse
+* Panic
+** Remix is being made: ePanic
+* Pumpstation
+** Keeping as team map only, has remix
+
+== Maps to be kept, need a remix ==
+
+These maps have adequate layouts; however, they do not meet Red Eclipse's art standards or its art direction.
+
+
 * Bloodlust
 ** Has a remix in the pipeline: Bioluminescence
 * Cargo
@@ -82,10 +88,6 @@ These maps have adequate layouts; however, they do not meet Red Eclipse's art st
 ** Undecided
 * Livefire
 ** Keep with a remix
-* Panic
-** Keep, remix is being made
-* Pumpstation
-** Keeping as team map only, has remix
 * Tribal
 ** Keep with a remip and remix
 
