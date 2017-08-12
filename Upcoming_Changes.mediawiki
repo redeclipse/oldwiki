@@ -23,7 +23,7 @@ Maps that do not fit these criteria will be removed / rejected:
 * The general concensus points to people not liking the map
 
 
-The faith of most parkour map is undecided, and thus, they have not been included here.
+
 Some of the maps in this list have been reworked and have been marked as such.
 Otherwise, you can find the reason for its removal next to it.
 
@@ -91,10 +91,33 @@ These maps have adequate layouts; however, they do not meet Red Eclipse's art st
 * Tribal
 ** Keep with a remip and remix
 
-== Maps marked for removal ==
+== Maps under consideration ==
+
+These maps have relatively poor layouts but may be kept due to a shortage of maps or popular demand.
 
 * Affluence
 ** Undecided, simple layout
+* Canyon
+** Undecided, poor terrain geometry and middling layout
+* Discontinuity
+** Undecided
+* Dutility
+** Undecided, likely to be kept for reasons other than merit
+* Erosion
+** Undecided, confusing layout
+* Longestyard
+** Undecided, very small, simple, and ugly, but popular
+
+
+----
+
+*Tonaituh
+** May require special marking as a "bonus map" as was originally intended; not a pure speed race map due to multiple corridors, and does not fit theme
+
+== Maps marked for removal ==
+
+These maps are poorly laid out, making them impossible to fix. They may also have very poor texturing, but layout is the primary reason for dropping these maps.
+
 * Ares 
 ** Removed, does not fit the theme of the game and the layout is too open. It is thus unsalvageable
 * Bath
@@ -102,39 +125,31 @@ These maps have adequate layouts; however, they do not meet Red Eclipse's art st
 * Battlefield
 ** Removed, terrain unsuitable for current physics
 * Biolytic
-** Removed, people do not enjoy it
+** Removed, people do not enjoy it due to confusing, unbalanced layout
 * Campgrounds
 ** Removed, very poor port of a Quake 3 Arena map, fugly
-* Canyon
-** Undecided, poor terrain geometry and middling layout
 * Cutec
 ** Removed, layout is too open
 * Deadsimple
 ** Removed, poor quality, poor layout, people do not like it
 * Deathtrap
 ** Removed, poor quality
-* Discontinuity
-** Undecided
 * Dropzone
 ** Removed, too linear
-* Dutility
-** Undecided
 * Echo
 ** Removed, poor layout
-* Erosion
-** Undecided
 * Futuresport
 ** Removed, poor layout
-* Keystone
+* Keystone 2000
 ** Removed, poor layout, poor quality
-* Longestyard
-** Undecided
 * Mist
 ** Removed, poor layout, fugly
 * Oneiroi
 ** Removed, unplayable due to openness and low gravity
 * Processing
 ** Remove? Looks pretty terrible and layout is confusing
+* Spacetech
+** Remove, very flat, boring texturing and open, rifle friendly layout
 * Tower
 ** Remove, fugly, poor layout
 * Vault
@@ -142,6 +157,11 @@ These maps have adequate layouts; however, they do not meet Red Eclipse's art st
 * Venus
 ** Remove, performance problems and too open
 
+
+----
+
+*Relax
+** For a beginner race map, very disorienting and has little room for improvement
 
 
 [List is incomplete, please help molex]
