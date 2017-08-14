@@ -59,7 +59,7 @@ Otherwise, you can find the reason for its removal next to it.
 * Abuse
 ** Has remix: Toxic Abuse
 * Panic
-** Remix is being made: ePanic
+** Remix made: Tau
 * Pumpstation
 ** Keeping as team map only, has remix
 
