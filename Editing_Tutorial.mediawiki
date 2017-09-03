@@ -105,7 +105,7 @@ You have 10 materials:
 
 [[File:Editing tutorial 15.png|960x520px|Using allfaces on a cube]]
 
-Starting from bottom left:
+Starting from bottom left,
  * Light purple: Alpha, makes current selection transparent
  * Blue: Water, laggy, use sparingly; has four different states
  * Orange: Lava, kills on contact, needs lighting to look realistic
