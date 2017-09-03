@@ -1,6 +1,11 @@
 For Red Eclipse 1.5.8 (Elysium Patch 2)
 
-== Part 1: Making a New Map ==
+'''Tutorial is not complete; sections are missing.'''
+
+=== Making a New Map ===
+
+----
+
 After opening Red Eclipse, type 
 
  /edit [name]
@@ -19,7 +24,10 @@ To enter edit mode, use the f2 button. You should see black lines outlining righ
 To save the map, use the f8 key while in edit mode.
 
 
-== Part 2: The Octree ==
+=== The Octree ===
+
+----
+
 Cube 2 is based on an [[octree]] geometry system. An octree separates the world into nesting cubes: cubes may be "pushed" or "pulled" in order to create map geometry. Cubes can then be modified by moving their vertices inward to create nonsquare blocks (more on that later). To begin creating geometry, however, start by selecting a spot on the ground by left clicking it.
 
 [[File:Edit tutorial 2.png|960x520px|Selecting a single cube.]]
@@ -67,7 +75,10 @@ Like how we pushed an area of cubes with the cube brush, we can likewise manipul
 
 [[File:Editing tutorial 11.png|960x520px|Manipulating multiple cubes]]
 
-== Part 3: Texturing ==
+=== Texturing ===
+
+----
+
 
 While the default cube texture is nice for manipulating geometry with, finishing a map obviously requires a nice paint job. To apply a texture, select an area with the left mouse button and enter the texturing menu with [F1]. You will be greeted with a menu with a large list of textures, sorted alphabetically by the author's name. 
 
@@ -76,3 +87,7 @@ While the default cube texture is nice for manipulating geometry with, finishing
 To apply a texture to the selected surface, click on the desired texture.
 
 [[File:Editing tutorial 13.png|960x520px|A lovely warning texture]]
+
+Now, if you would like to cover the entire cube in a texture, use the [-] key to toggle allfaces mode. 
+
+[[File:Editing tutorial 14.png|960x520px|Using allfaces on a cube]]
