@@ -84,10 +84,34 @@ While the default cube texture is nice for manipulating geometry with, finishing
 
 [[File:Editing tutorial 12.png|960x520px|The texture menu]]
 
+
 To apply a texture to the selected surface, click on the desired texture.
 
 [[File:Editing tutorial 13.png|960x520px|A lovely warning texture]]
 
+
 Now, if you would like to cover the entire cube in a texture, use the [-] key to toggle allfaces mode. 
 
 [[File:Editing tutorial 14.png|960x520px|Using allfaces on a cube]]
+
+=== Materials ===
+
+----
+
+
+Red Eclipse can augment the abilities of the Cube 2 octree using materials. Materials are restricted to cube shapes only (cannot be push/pulled like octree cubes) and each have special properties. To access the materials menu, use the '''numpad''' 0 key. On TKL/laptop keyboards, you may need to use the Fn layer, since the top row 0 key will not work. 
+
+You have 10 materials:
+
+[[File:Editing tutorial 15.png|960x520px|Using allfaces on a cube]]
+
+Starting from bottom left:
+ * Light purple: Alpha, makes current selection transparent
+ * Blue: Water, laggy, use sparingly; has four different states
+ * Orange: Lava, kills on contact, needs lighting to look realistic
+ * Red: Noclip, creates an invisible barrier 
+ * Green: Clip, overrides octree geometry clipping and lets all players/entities through
+ * Yellow: AIclip, prevents AI from pathing, helps prevent AIs blundering off cliffs/into lava
+ * Black: Death, kills players whose feet enter it
+ * Purple: Ladder, allows players to climb vertically up it
+ * Sky blue: Glass, disrecommended due to alpha generally being more useful; still has some uses with nonsquare windows and geometry within windows
