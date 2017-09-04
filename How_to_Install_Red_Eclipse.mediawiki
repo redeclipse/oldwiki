@@ -9,9 +9,23 @@ If you get a permission denied error during install, right click the installer a
 
 == Linux ==
 
+=== Official packages ===
+
+* Install git, curl and the runtime dependencies of Red Eclipse.
+** On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command:
+*** <code>sudo apt-get install git curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0</code>
+** On a Fedora system, this can be done with the command:
+*** <code>dnf install curl SDL2 SDL2_mixer SDL2_image</code>
+* Download [http://redeclipse.net/download/linux the Linux tarball].
+* When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME = /home/username).
+* Extract the contents into your home directory using your favourite archive utility.
+** Terminal command: <code>tar -jxvf redeclipse_X.Y.Z_nix.tar.bz2</code>
+* Enter the resulting folder (which will be called <code>~/redeclipse-X.Y.Z</code> where X.Y.Z is the version number of the package).
+* Run <code>./redeclipse.sh</code>
+
 === Debian/Ubuntu repository ===
 
-There is a Red Eclipse package repository hosted on openSUSE Build Service that you can use to install game and/or server. The packages provided there are newer than distributions' packages, so if you prefer to install Red Eclipse via <code>apt</code>, you should install this repository.
+There is a Red Eclipse package repository hosted on openSUSE Build Service that you can use to install game and/or server. The packages provided there are newer than distributions' packages, so if you prefer to install Red Eclipse via <code>apt</code>, you should install this repository. ''These packages are created by third parties and aren't officially supported by the Red Eclipse project''.
 
 Beware that only the latest stable release is available on the repository. It will occasionally receive updates whenenever the <code>stable</code> branch on GitHub is updated. If you want to test the latest and greatest version of Red Eclipse, you need to either use an [[#AppImage]] or install Red Eclipse [[#Install from source|from source]].
 
@@ -25,7 +39,7 @@ The packages are a fork of the original Debian Red Eclipse packages, but have be
 
 === AppImage ===
 
-You can install Red Eclipse's stable and development editions as an [http://appimage.org AppImage]. At the moment, only 64-bit AppImages are provided. If you need a 32-bit version, please join our [http://redeclipse.net/chat chat] and let us know.
+You can install Red Eclipse's stable and development editions as an [http://appimage.org AppImage]. At the moment, only 64-bit AppImages are provided. If you need a 32-bit version, please join our [http://redeclipse.net/chat chat] and let us know. ''These packages are currently in testing and aren't officially supported by the Red Eclipse project''.
 
 ==== Stable version ====
 
@@ -44,20 +58,6 @@ You can easily update Red Eclipse's AppImage by using [https://github.com/probon
 <code>./AppImageUpdate-x86_64.AppImage redeclipse-master-x86_64.AppImage</code>
 
 For better desktop integration (like updating AppImages with just a few clicks), check out [https://github.com/probonopd/AppImageKit#appimaged-usage appimaged].
-
-=== Install from source ===
-
-* Install git, curl and the runtime dependencies of Red Eclipse.
-** On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command:
-*** <code>sudo apt-get install git curl libsdl2-mixer-2.0-0 libsdl2-image-2.0-0 libsdl2-2.0-0</code>
-** On a Fedora system, this can be done with the command:
-*** <code>dnf install curl SDL2 SDL2_mixer SDL2_image</code>
-* Download [http://redeclipse.net/download/linux the Linux tarball].
-* When it is done, move the resulting TAR.BZ2 file to your home directory (~/ or $HOME = /home/username).
-* Extract the contents into your home directory using your favourite archive utility.
-** Terminal command: <code>tar -jxvf redeclipse_X.Y.Z_nix.tar.bz2</code>
-* Enter the resulting folder (which will be called <code>~/redeclipse-X.Y.Z</code> where X.Y.Z is the version number of the package).
-* Run <code>./redeclipse.sh</code>
 
 == OS X ==
 
