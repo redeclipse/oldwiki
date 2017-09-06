@@ -130,14 +130,18 @@ These maps are poorly laid out, making them impossible to fix. They may also hav
 ** Removed, very poor port of a Quake 3 Arena map, fugly
 * Cutec
 ** Removed, layout is too open
+[[File:Cutec-annotated.jpg|thumb|Why cutec sucks]]
 * Deadsimple
 ** Removed, poor quality, poor layout, people do not like it
+[[File:Deadsimple-annotated.jpg|thumb|Why deadsimple sucks]]
 * Deathtrap
 ** Removed, poor quality
 * Dropzone
 ** Removed, too linear
+[[File:Dropzone-annotated.jpg|thumb|Why dropzone sucks]]
 * Echo
 ** Removed, poor layout
+[[File:Echo-annotated.jpg|thumb|Why echo sucks]]
 * Futuresport
 ** Removed, poor layout
 * Keystone 2000
@@ -150,6 +154,9 @@ These maps are poorly laid out, making them impossible to fix. They may also hav
 ** Remove? Looks pretty terrible and layout is confusing
 * Spacetech
 ** Remove, very flat, boring texturing and open, rifle friendly layout
+* Stone
+** Layout is Not Good
+[[File:Stone-annotated.jpg|thumb|Why stone sucks]]
 * Tower
 ** Remove, fugly, poor layout
 * Vault
