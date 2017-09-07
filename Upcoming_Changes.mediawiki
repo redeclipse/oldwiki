@@ -121,7 +121,7 @@ These maps are poorly laid out, making them impossible to fix. They may also hav
 * Ares 
 ** Removed, does not fit the theme of the game and the layout is too open. It is thus unsalvageable
 * Bath
-** Removed, design is unsalvageable
+** Removed, layout is unsalvageable
 * Battlefield
 ** Removed, terrain unsuitable for current physics
 * Biolytic
