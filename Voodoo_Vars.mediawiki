@@ -1,1 +1,7 @@
 Place your secret RE voodoo incantations in good hands that won't tell anyone else.
+
+=== Commands ===
+
+/dtoutline 0/1 renders all non-occluded triangles
+/testpvs <int> tests number of potentially viewable surfaces
+/wireframe 0/1 renders everything in wireframe, with wires the color of the texture inside the square
