@@ -11,15 +11,15 @@ Red Eclipse was branched from the now-defunct [https://sourceforge.net/projects/
 
 === Where can I get the game? ===
 Red Eclipse is available for download at no cost.
-* The [http://www.redeclipse.net/download latest release] can be downloaded for all operating systems on [http://www.indiedb.com/ IndieDB].
+* The [http://www.redeclipse.net/download latest release] can be downloaded for all supported operating systems.
 * GNU/Linux packages can also be found on:
-** [[How to install#Debian|Debian]]
-** [[How to install#Ubuntu|Ubuntu]]
+** [[How to install#Debian/Ubuntu repository|Debian]]
+** [[How to install#Debian/Ubuntu repository|Ubuntu]]
 ** [https://aur.archlinux.org/packages/redeclipse AUR]
-** [http://www.redeclipse.net/chakra The Chakra] <!-- link doesn't lead anywhere -->
+** [https://chakralinux.org/ccr/packages.php?O=0&K=redeclipse&do_Search=+Go+ Chakra]
 * BSD ports are available for:
 ** [https://www.freshports.org/games/redeclipse/ FreeBSD]
-** [ftp://ftp.openbsd.com/ports/games/redeclipse/ OpenBSD]
+** [http://ports.su/games/redeclipse,-main OpenBSD]
 * Or download the developmental [http://www.redeclipse.net/devel Git version], which is hosted by [https://github.com/red-eclipse/base GitHub].
 
 === What are my rights? ===
