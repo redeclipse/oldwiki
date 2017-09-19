@@ -114,6 +114,7 @@ Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offe
 * [[Editing_Info|Editing Info/Indicators]]
 * [[Mapping Tips]]
 * [[Editing Tutorial]]
+* [[Level Design]]
 * [http://sauerbraten.org/docs/editref.html Cube2 - Editing Reference (specifics may differ)]
 * [http://sauerbraten.org/docs/models.html Cube2 - Model Reference (specifics may differ)]  
 }}
