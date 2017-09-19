@@ -9,6 +9,7 @@ Making a level that flows in Red Eclipse is a unique challenge: you have to bala
 *Avoid rooms of larger than 64 meters in any direction; above this, players will burn lots of impulse to cross a featureless room. If you make rooms larger than this, adding geometry to break up the room is advisable.
 * Most duel maps have one atrium where the action is concentrated; two or more atriums in a duel map can lead to a hide-and-seek match. Multi-atrium duel maps, however, can be superior to single-atrium maps if designed well.
 *A jump pad is preferable to a teleporter if it is practical to implement. 
+*Stairs should have a slope of at least 2:3 or shallower; 2:1 is recommended whenever possible. 1:1 stairs are slow to climb and can jam a parkour slide.
 *The minimum width for a corridor should be 4 meters and the minimum height should be 5 meters. Any narrower and the player will be easily pinned down by rifle/smg/zapper fire; any shorter and the player feels cramped when trying to jump.
 *Do not place arbitrary clipping boundries in places where players may be able to interact with them; very few things are more immersion breaking.
 
@@ -36,3 +37,4 @@ Making a level that flows in Red Eclipse is a unique challenge: you have to bala
 *In the same vein, gameplay and map flow trump aesthetic considerations. If necessary, use of clip and noclip can be used to mask minor aesthetic geometry changes.
 *If you have a low-powered laptop with integrated graphics, consider using it to ensure performance remains adequate on lower end machines. A map of 120-150k triangles should be easily possible on an e.g. HD 3000, but a low-end machine can expose inefficiencies that a well-speced rig would not catch. Compare performance to well-established geometry-heavy maps like Ghost or Deli if needed to confirm performance is acceptable.
 *Avoid placing lots of water since it is a known performance hog, and one that is not likely to be fixed in the foreseeable future.
+*For slopes shallower than 4:1, ramps are recommended; anything steeper should be done with stairs. A slope of exactly 4:1 can be done with either stairs or a ramp.
