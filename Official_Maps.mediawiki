@@ -82,7 +82,7 @@ file:Purge.png |[[Map_Purge|Purge]]
 file:Singularity.png |[[Map_Singularity|'''Singularity''']]
 file:Torus.png |[[Map_Torus|'''Torus''']]
  </gallery>
-'''Note:''' Bold maps are gladiator-only.
+'''Note:''' Bold maps are gladiator-only; other maps are adapted from other game modes.
 
 ==Former maps==
 ===Removed in 1.5.8===
