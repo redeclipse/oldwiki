@@ -1,0 +1,27 @@
+Making a level that flows in Red Eclipse is a unique challenge: you have to balance the map to the weapons since they're not manually controlable via ammo like Quake; the verticality of the player's motion means that 
+
+
+"Flow" tips:
+*Free for all and duel maps should not be symmetrical. Symmetrical maps inherently mean that both players can hold equally high ground; in a duel, two high grounds lends itself to a standoff.
+*Team maps should be symmetrical unless extreme levels of care are taken to balance the two different teams' strengths.
+*Try to make every room have three exits, and try to have the central room(s) ("atriums") have at least 4 exits. 
+*Avoid vertical floor spacing of more than 64 cube units (8m); more than this will require a jump pad and will choke flow to the jump pad
+*Avoid rooms of larger than 64 meters in any direction; above this, players will burn lots of impulse to cross a featureless room. If you make rooms larger than this, adding geometry to break up the room is advisable.
+* Most duel maps have one atrium where the action is concentrated; two or more atriums in a duel map can lead to a hide-and-seek match. Multi-atrium duel maps, however, can be superior to single-atrium maps if designed well.
+*A jump pad is preferable to a teleporter if it is practical to implement. 
+*The minimum width for a corridor should be 4 meters and the minimum height should be 5 meters. Any narrower and the player will be easily pinned down by rifle/smg/zapper fire; any shorter and the player feels cramped when trying to jump.
+
+Weapon balance tips:
+*Try to avoid corridors or rooms of greater than 75 meters, especially without some way (vertical change, columns, snaking) to break up rifle fire. This is especially true in closed corridors, as opposed to open corridors running alongside a room.
+*On the other hand, maps should have one space of at least 40x20 meters in order not to totally exclude rifle usage. This corridor or room may be important, but try not to make it absolutely critical for movement across the map.
+*Be wary of adding a lot of mines in a map with a teleporter, as this can lead to excessive amounts of teleporter mining.
+*Be aware that, unlike in Quake, you cannot limit the use of any particular weapon by limiting its ammo supply or making its pickup dangerous to obtain. An overpowered weapon has to be balanced by physical changes in the map layout rather than artificially limiting its usage.
+
+Team-specific tips:
+*Try to make multiple equally fast routes between bases to prevent a single path dominating the play style (ala ''darkness''). Be sure that a base-to-base path has only marginally slower alternatives to allow a flag runner the ability to pick an unpredictable path.
+*Bases should not be exposed to 75+ meter lines of sight to increase the base's defensibility, and should never be directly visible from the other base.
+*The flag runner should be catchable from most of the map (e.g. an alpha player standing in a random spot on the map should be able to hit an omega flag runner before he reaches his base)
+*Try to avoid having the flag runner be forced to run through a rifle corridor or open area; the runner is already at an inherent disadvantage due to the speed debuff and the bright flag carried on their back.
+*If possible, the fastest path between the bases should also be the least defensible and the easiest for a flag runner to be killed on.
+*Be aware that any deathmat or infinite cliff can be used to discard the flag and send it back to its original base.
+*Try to make the base-to-base time of any CTF map and the bomb-to-base time of any bomber ball map at least 10 seconds. Much shorter and it becomes difficult to stop someone from streaking into a base.
