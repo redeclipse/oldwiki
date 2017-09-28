@@ -60,9 +60,10 @@ These weapons can be chosen in the ''profile'' game menu, and it is even possibl
 |secondary=Semi-automatic. Shoots out an air blast which greatly pushes yourself when directed at hard surfaces. Pushes others away when directed at them. Negates burning. Uses 5 units.
 |strategy=
 ''Flamer primary''
-* Don't flame an enemy once and hope the burn will finish them off. The continued firing of the flamer does significant damage if you can keep firing directly at the opponent at a short range.
+* Don't flame an enemy once and hope the burn will finish them off. The continued firing of the flamer does significant damage if you can keep firing directly at the opponent at a short range. Do, however, try to keep enemies lit, especially when changing a clip, since this both damages the opponent and places their regen on hold for several seconds.
 * Circle around enemies to minimize being hit. [[Impulse_moves#Impulse_dash|Impulse dashes]] and [[Impulse_moves#Double_jump|double jumps]] are especially useful. Quickly consume energy with the confidence that the secondary fire can allow for quick escapes.
 ''Flamer secondary''
+* Using the flamer secondary is counterproductive above 5 meters: you'll push the enemy out of flamer range and extinguish any flames while dealing negligible damage.
 * The air blast does not inflict damage on team mates or yourself - useful to extinguish flames, but annoying for those who get pushed around.
 * Blast jump: During a jump, fire on the ground to gain a mighty push. This works best if you either shoot precisely downwards or while jumping backwards. 
 * Blast boost: Use an [[Impulse_moves#Impulse_boost|impulse boost]] directly after a blast jump to redirect the push and gain an impressive amount of forward momentum. 
@@ -98,7 +99,7 @@ These weapons can be chosen in the ''profile'' game menu, and it is even possibl
 ''Zapper primary''
 * Plays like a [[#SMG|SMG]] just without the bounce and having less direct damage, so use similar strategy.
 * Compared to the SMG, zapper shots are more precise, travel more quickly and offer an even faster fire rate.
-* The damage output may be weak, but this fire mode works well to finish off weakened opponents.
+* The damage output may be weak, but this fire mode is occasionally adequate to finish off weakened opponents.
 ''Zapper secondary''
 * Inflict shock on enemy flag or bomb carriers to make them easy pickings.
 * When the enemy is shocked, you may want to switch to a more offensive weapon.
@@ -157,7 +158,7 @@ Explosive weapons can be collected from certain spots of the arena. Unlike other
 |strategy=
 ''Grenade notes''
 * If a player dies whilst charging up the primary or secondary fire, the grenade will explode.
-* Do not kamikaze - charging up your grenade when you know you're going to die to kill your enemy - as you will lose more points by suiciding.
+* Kamikaze (exploding oneself by holding the grenade) is counterproductive in deathmatch, where it will cost you 6 points; however, in certain situations in Defend and Control, kamikaze can help deny an opponent a capture point that you may not be able to deny in any other way.
 * Switch weapons or press reload whilst charging either the primary or secondary to stop throwing the grenade.
 * Failing to throw after most/all of the charge time has been used will result in suiciding.
 ''Grenade primary''
