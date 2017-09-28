@@ -1,3 +1,29 @@
+=== Graphical Settings ===
+Red Eclipse has several tunable settings to allow flexible performance on varying levels of computer performance.
+
+There are three main menus that deal with graphical settings: graphics, display, and resolution:
+
+[[File:graphics.png|960x520px|The graphics menu.]]
+
+The first is the graphics menu. It contains most of the effects that can be enabled or disabled. Let's go through them, one by one:
+
+*Shader detail: Disables many texture-based effects when disabled, including envmapping and specularity. It is recommended to leave this on unless the game is unplayable otherwise, since there generally is little to no performance penalty for enabling it.
+*Water: Reflection is a known performance hog, but it does make water appear much more realistic. Water refraction will make the water appear to have depth, and water envmapping will at least tint the water so that it somewhat approaches realism.  
+*Waterfalls: Reflection without refraction looks ugly; the other way around is acceptable. Disabling both won't compromise the visuals nearly as much as with water.
+*Soft shadows: Affects the smoothness of player and actor shadows; has no effect on static shadows. Since you generally don't spend a ton of time staring at your own shadow, disabling this is advisable if you have performance problems.
+*Glare: Burns a lot of GPU time, but does improve visuals significantly. Many players disable this regardless of performance issues since it can be distracting.
+*Motion blur: Pretty useless, (slightly) blurs things that go fast, which is pretty much everything in RE. Most people disable this.
+*Grass: "Fade" refers to the radius at which the renderer fades out the grass to save computational power. Set this to whatever you prefer; be aware that grass heavy maps (though there are few) can be very strenuous on a GPU. 
+*Dynamic lights: They are relatively rare, but are used to light places where lighting is not static (e.g. flickering lights). Disabling this may put you at a disadvantage in ability to see the map, but flickering effects may be annoying.
+*Soft particles: It's generally hard to pick up much detail in particles anyway, since most of them either move quickly or are too small to see clearly. Disabling this won't be a huge loss.
+*Glass: This applies to glass ''material'', not alpha applied to standard geometry. It is recommended to enable and disable this along with shader detail, since it looks odd if the alpha effects are different than the glass material effects.
+*Decals: These are the impacts that are left by bullets hitting stuff. Set this to whatever you prefer; decals don't generally pose a performance problem in normal gameplay.
+*T-joints: This should be the absolute last thing to disable, since disabling it leaves artifacts at geometry corners.
+*Textures: May help performance on single-channel integrated graphics where the GPU is bandwidth-bound; otherwise, set this to high.
+*Models: This includes you. Disabling this will make your hands, as well as other players and mapmodels, ugly.
+
+
+
 == User Content ==
 
 User Content in Red Eclipse consists of all user configuration files, and any other content that they have downloaded or created. Specifically, this directory includes:
