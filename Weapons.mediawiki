@@ -129,12 +129,19 @@ These weapons can be chosen in the ''profile'' game menu, and it is even possibl
 [[File:Shotguncol.png|64px]][[File:Riflecol.png|64px]]
 ''Shotgun and Rifle''
 
-This traditional choice of loadout weapons is very popular, especially in [[Deathmatch]] games. A player with these tools of destruction prioritizes the ability to inflict heavy damage - any time, anywhere, and over any distance.
+This traditional choice of loadout weapons is very popular, especially in [[Deathmatch]], [[Capture-the-flag]], [[Defend-and-control]], and [[Bomber-ball]] games. A player with these tools of destruction prioritizes the ability to inflict heavy damage - any time, anywhere, and over any distance. 
 
 [[File:Flamercol.png|64px]][[File:Zappercol.png|64px]]
 ''Flamer and Zapper''
 
-This pair of weapons optimizes a players ability to outrun his enemies and to support his team mates. It serves well for hit-and-run tactics, not only in [[Capture-the-flag]] games.
+This pair of weapons optimizes a players ability to outrun and annoy his enemies and to support his team mates. It serves well for hit-and-run tactics, not only in [[Capture-the-flag]] games. It is also very effective at getting enemies to waste time telling you in chat how "nooby" your weapon loadout is and attempt to convince you that other (read: shotgun/rifle) loadouts are what you "should" be using.
+
+[[File:Plasmacol.png|64px]][[File:Zappercol.png|64px]]
+''Plasma and Zapper''
+
+This pair of weapons optimizes the chances of being kicked by people who don't find getting shredded by "noob" weapons funny. The best way to exploit this is by teamkilling with plasma2 and accidentally using zapper2 on teammates. 
+
+This combo can really be very effective since the vast majority of duelists are used to facing the rifle/sword or rifle/shotgun combo.
 
 ==Explosives==
 Explosive weapons can be collected from certain spots of the arena. Unlike other weapons, they cannot be reloaded. 
