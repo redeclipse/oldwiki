@@ -42,6 +42,10 @@ This page lists common control options for editing mode. For more information, c
 |Change the Size of the Grid
 |Hold G Key + Mouse Scroll Wheel
 |-
+|-
+|Scroll through recent textures
+|Hold Y key + scroll wheel
+|-
 |Undo
 |Z Key
 |-
