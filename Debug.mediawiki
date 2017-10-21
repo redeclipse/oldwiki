@@ -33,4 +33,4 @@ Once Red Eclipse has crashed, GDB will catch this and present a prompt. At this 
 bt full
 </source>
 
-This will produce a backtrace, copy and paste this to the Red Eclipse forum.
+This will produce a backtrace, copy and paste this to an accessible place such as a crash report on the Red Eclipse forum or a paste service to be linked on IRC.
