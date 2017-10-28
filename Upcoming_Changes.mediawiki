@@ -2,6 +2,12 @@ With Red Eclipse 2.0 looming on the horizon, a lot of changes are being made.
 
 This page will be frequently edited to reflect the current ideology of the developers.
 
+=== '''Engine''' ===
+
+----
+
+Red Eclipse is moving to the Tesseract engine. The Tesseract engine is a totally redone fork of the Cube 2 engine and supports features such as volumetric lighting, dynamic lighting, realtime reflections, and realtime shadows. While it requires more GPU shading power than the Cube 2 engine, it is much more efficient CPU-wise and is a much more capable engine overall. 
+
 === '''Maps''' ===
 
 ----
@@ -79,6 +85,8 @@ These maps have adequate layouts; however, they do not meet Red Eclipse's art st
 ** Keep with a remix
 * Depot
 ** Remix is planned
+* Dutility
+** Quin's baby
 * Enyo
 ** Keep with a remix
 * Ghost
@@ -90,6 +98,7 @@ These maps have adequate layouts; however, they do not meet Red Eclipse's art st
 * Tribal
 ** Keep with a remip and remix
 
+
 == Maps under consideration ==
 
 These maps have relatively poor layouts but may be kept due to a shortage of maps or popular demand.
@@ -100,8 +109,6 @@ These maps have relatively poor layouts but may be kept due to a shortage of map
 ** Undecided, poor terrain geometry and middling layout
 * Discontinuity
 ** Undecided
-* Dutility
-** Undecided, likely to be kept for reasons other than merit
 * Erosion
 ** Undecided, confusing layout
 * Longestyard
@@ -144,7 +151,7 @@ These maps are poorly laid out, making them impossible to fix. They may also hav
 * Futuresport
 ** Removed, poor layout
 * Keystone 2000
-** Removed, poor layout, poor quality
+** Removed, poor layout, poor quality (could be kept as a multi map if enough people complain)
 * Mist
 ** Removed, poor layout, fugly
 * Oneiroi
