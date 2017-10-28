@@ -1,7 +1,6 @@
-With Red Eclipse 1.6.0 looming on the horizon, a lot of changes are being made.
+With Red Eclipse 2.0 looming on the horizon, a lot of changes are being made.
 
 This page will be frequently edited to reflect the current ideology of the developers.
-
 
 === '''Maps''' ===
 
