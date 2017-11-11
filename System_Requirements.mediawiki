@@ -98,3 +98,7 @@ Core 2 Quad
 ==RAM==
 
 2 GiB of whatever
+
+==Disk==
+
+20 minutes of pr0n <font size="-5">(Youtube 1080p, 8mbps)</font>
