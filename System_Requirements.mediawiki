@@ -1,68 +1,100 @@
-Red Eclipse has notably low minimum system requirements owing to its basis in the Cube 2 engine and large usage of static lightmaps. If your system doesn't meet these requirements, you can likely get one that does for under $100 USD used.
+The next release of Red Eclipse, 2.0, is based on the Tesseract engine, which is much more GPU heavy than the outgoing Cube 2 engine.
+To see if your current computer is up to the task of RE 2.0, check with the system requirements listed below.
 
-== GPU ==
-'''Any''' graphics card that supports DirectX 10/ Open GL 2 or newer ( If it can run Minecraft, you're good):
+==GPU==
 
+===AMD===
+HD 3000 series, 3850 and higher
 
-'''Intel:''' 
+HD 4000 series, 4670 and higher
 
-HD (Nehalem/ i*-***/Pentium/Celeron) or newer (2009) (includes HD 2000, HD 3000, HD 4000, HD 5000, HD 400, HD 500 series)
+HD 5000 series, 5570 and higher
 
+HD 6000 series, 6570 and higher
 
-'''ATi/AMD:''' 
+HD 7000 series, 7750 and higher
 
-HD 3000 series or newer (2009) (HD4000-HD8000, Rx 200, Rx 300, Rx 400)
+Rx 200 series, R7 250 and higher
 
-FireGL v*600 or newer (FireGL v*700, any FirePro, any Radeon Pro)
+Rx 300 series, R7 350 and higher
 
+Rx 400 series, any
 
-'''nVidia:'''
+Rx 500 series, any
 
-Geforce 8000 series or newer (2008) (9000, 200-1000 series)
+===nVidia===
+Geforce 8 series, 8800GS and higher
 
-Quadro FX *70 or newer ( FX *80, FX *600, any non FX newer than ten years old)
+Geforce 9 series, 9600GSO and higher
 
-== CPU ==
-'''Any''' CPU that can run Windows 7/ Ubuntu 14.04 smoothly:
+Geforce 200 series, GT 240 and higher
 
+Geforce 400 series, GT 420 and higher
 
-'''Intel:''' 
+Geforce 500 series, GT 520 and higher
 
-Pentium 4 Northwood or newer (S478)
+Geforce 600 series, GT 610 and higher
 
-Any Core 2 Duo/ Core Duo/ Core Solo
+Geforce 700 series, any
 
-Any Core i3/i5/i7
+Geforce 900 series, any
 
-Any Celeron/Pentium from 2006 onward
+Gefoce 1000 series, any
 
-Atom from Silvermont onward (2013)
+===Intel===
+ 
+Sandy Bridge, HD 3000 (i3-2***M, i5--2***M, i7--2***M, i5--25**K, i7--26**K)
 
-Xeon newer than Prestonia (why would you have one of these still?)
+Ivy Bridge, HD 4000 (i3-3***, i5-3***, i7-37**)
 
+Haswell, any (Celeron G18**, Pentium G32**, Pentium G34**, i3-4***, i5-4***, i7-47**)
 
-'''AMD:'''
+Broadwell, any  (i3-5***, i5-5***, i7-5***)
 
-Athlon 64 or newer
+Skylake, any (Celeron G3***, Pentium G45**, i3-6***, i5-6***, i7-6***)
 
-Any Athlon II
+Kaby Lake, any (i3-7***, i5-7***, i7-7***, i5-8***M, i7-8***M)
 
-Any Phenom/Phenom II
+Covfefe Lake, any (i3-8***, i5-8***, i7-8***)
 
-Any Sempron 
+'''Bay Trail (Celeron J, Celeron N, Atom Z3***, Pentium J, Pentium N) is not considered adequate'''
 
-Any FX (e.g. FX-4100, FX-6300, FX-8320)
+==CPU==
 
-Any A4/A6/A8/A10/A12
+===VIA===
+Lolno
 
-Any Opteron except Seattle (ARMv8)
+===AMD===
 
+K10, Athlon II/Phenom II, any
 
-'''VIA:'''
+K10.5, A6-3***/A8-3***, any
 
-haha
+Bulldozer, FX/A6/A8/A10, any
 
-== RAM ==
-1 GB DDR2 bare minimum (on Linux, with low texture sizes, with swap allocated)
+Zen, R3/R5/R7, any
 
-2 GB recommended
+===Intel===
+<s>'''Intel is not a supported CPU vendor at this time.'''</s>
+
+Core i3
+
+Core i5
+
+Core i7
+
+Pentium G****
+
+Celery G****
+
+Core 2 Duo P****
+
+Core 2 Duo T****
+
+Core 2 Duo E****
+
+Core 2 Quad
+
+==RAM==
+
+2 GiB of whatever
