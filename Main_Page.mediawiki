@@ -54,6 +54,8 @@ Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offe
 : Explanation of the icons right next to player names. 
 ; [[Glossary]]
 : Look up some commonly used acronyms and game-play terms.
+; [[System Requirements]]
+: Is your rig ready for RE 2.0?
 }}
 |}
 <!-- Some gap between them boxes -->
