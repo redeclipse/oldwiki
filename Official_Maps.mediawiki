@@ -1,4 +1,7 @@
-
+==Maps updated to 2.0 (Tesseract)==
+<gallery>
+file:Error.png |[[Map_Error|Error]]
+</gallery>
 ==Main maps==
 
 <gallery>
