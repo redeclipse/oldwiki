@@ -42,10 +42,14 @@ Geforce 900 series, any
 Gefoce 1000 series, any
 
 ===Intel===
- 
-Sandy Bridge, HD 3000 (i3-2***M, i5--2***M, i7--2***M, i5--25**K, i7--26**K)
+<s>why do you have such a shit gpu get a real card like a rayydeon or grillforce</s>
 
-Ivy Bridge, HD 4000 (i3-3***, i5-3***, i7-37**)
+
+'''Clarkdale/Arrandale Integrated (Ironlake, i3-***, i5-***, i7-***, Pentium G9***) is not supported.'''
+ 
+Sandy Bridge, HD 3000 (i3-2***M, i5--2***M, i7--2***M, i5--25**K, i7--26**K) '''Sandy Bridge GT1 (Pentium B8**,Pentium B9**, Pentium G6**) is not considered adequate.'''
+
+Ivy Bridge, HD 4000 (i3-3***, i5-3***, i7-37**) '''Ivy Bridge GT1 (Pentium G2***, Pentium 20**/21**M) is playable, but may be choppy.'''
 
 Haswell, any (Celeron G18**, Pentium G32**, Pentium G34**, i3-4***, i5-4***, i7-47**)
 
@@ -53,7 +57,9 @@ Broadwell, any  (i3-5***, i5-5***, i7-5***)
 
 Skylake, any (Celeron G3***, Pentium G45**, i3-6***, i5-6***, i7-6***)
 
-Kaby Lake, any (i3-7***, i5-7***, i7-7***, i5-8***M, i7-8***M)
+Kaby Lake, any (i3-7***, i5-7***, i7-7***) 
+
+Kaby Lake, any (i5-8***M, i7-8***M)<font size="-5">''mfw intel don't do this refresh shit''</font>
 
 Covfefe Lake, any (i3-8***, i5-8***, i7-8***)
 
@@ -62,7 +68,14 @@ Covfefe Lake, any (i3-8***, i5-8***, i7-8***)
 ==CPU==
 
 ===VIA===
-Lolno
+The integrated graphics on these chipsets are woefully inadequate, but if you put a GPU on one of these boards for some reason these CPUs should be playable:
+
+Nano L2100/2200
+
+Nano L3025/3050/3600
+
+Nano L4800E
+
 
 ===AMD===
 
@@ -77,11 +90,11 @@ Zen, R3/R5/R7, any
 ===Intel===
 <s>'''Intel is not a supported CPU vendor at this time.'''</s>
 
-Core i3
+Core i3/m3
 
-Core i5
+Core i5/m5
 
-Core i7
+Core i7/m7
 
 Pentium G****
 
@@ -95,9 +108,16 @@ Core 2 Duo E****
 
 Core 2 Quad
 
+Pentium E2***
+
+Pentium B***
+
+
 ==RAM==
 
-2 GiB of whatever
+2 GiB of whatever, DDR2 or higher (pls no RDRAM pentium 4s)
+
+For APUs/faster integrated graphics, dual channel operation is highly recommended. Tesseract is a rather bandwidth heavy game and neutering one of the RAM channels will impact performance significantly.
 
 ==Disk==
 
