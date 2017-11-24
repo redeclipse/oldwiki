@@ -23,23 +23,9 @@ If you get a permission denied error during install, right click the installer a
 * Enter the resulting folder (which will be called <code>~/redeclipse-X.Y.Z</code> where X.Y.Z is the version number of the package).
 * Run <code>./redeclipse.sh</code>
 
-=== Debian/Ubuntu repository ===
-
-There is a Red Eclipse package repository hosted on openSUSE Build Service that you can use to install game and/or server. The packages provided there are newer than distributions' packages, so if you prefer to install Red Eclipse via <code>apt</code>, you should install this repository. ''These packages are created by third parties and aren't officially supported by the Red Eclipse project''.
-
-Beware that only the latest stable release is available on the repository. It will occasionally receive updates whenenever the <code>stable</code> branch on GitHub is updated. If you want to test the latest and greatest version of Red Eclipse, you need to either use an [[#AppImage]] or install Red Eclipse [[#Install from source|from source]].
-
-The oldest supported distributions are Ubuntu 16.04 and Debian 8.0 for the client, and Ubuntu 14.04 and Debian 7.0 for the server.
-
-To install the client, just go to [https://software.opensuse.org/download/package?project=home:TheAssassin:RedEclipse&package=redeclipse this site] and follow the instructions.
-
-For the server, visit [https://software.opensuse.org/download/package?project=home:TheAssassin:RedEclipse&package=redeclipse-server this site] instead, and follow the instructions.
-
-The packages are a fork of the original Debian Red Eclipse packages, but have been improved to reduce the size of a server installation.
-
 === AppImage ===
 
-You can install Red Eclipse's stable and development editions as an [http://appimage.org AppImage]. At the moment, only 64-bit AppImages are provided.
+You can install Red Eclipse as an [http://appimage.org AppImage]. At the moment, only 64-bit AppImages are provided.
 
 ==== Stable version ====
 
@@ -58,6 +44,21 @@ Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x8
 * Run <code>redeclipse.app</code>.
 
 If this is the first time running the app, the operating system complains that it can't run an unsigned package, simply right (or cmd) click and select <code>Open</code>. In future you will be able to run the app as normal, this will override the warning for all future attempts. You can also do this [http://osxdaily.com/2015/07/15/add-remove-gatekeeper-app-command-line-mac-os-x/ from the command line].
+
+== Unofficial Builds ==
+=== Debian/Ubuntu repository ===
+
+There is a Red Eclipse package repository hosted on openSUSE Build Service that you can use to install game and/or server. The packages provided there are newer than distributions' packages, so if you prefer to install Red Eclipse via <code>apt</code>, you should install this repository. ''These packages are created by third parties and aren't officially supported by the Red Eclipse project''.
+
+Beware that only the latest stable release is available on the repository. It will occasionally receive updates whenenever the <code>stable</code> branch on GitHub is updated. If you want to test the latest and greatest version of Red Eclipse, you need to either use an [[#AppImage]] or install Red Eclipse [[#Install from source|from source]].
+
+The oldest supported distributions are Ubuntu 16.04 and Debian 8.0 for the client, and Ubuntu 14.04 and Debian 7.0 for the server.
+
+To install the client, just go to [https://software.opensuse.org/download/package?project=home:TheAssassin:RedEclipse&package=redeclipse this site] and follow the instructions.
+
+For the server, visit [https://software.opensuse.org/download/package?project=home:TheAssassin:RedEclipse&package=redeclipse-server this site] instead, and follow the instructions.
+
+The packages are a fork of the original Debian Red Eclipse packages, but have been improved to reduce the size of a server installation.
 
 == If you get stuck ==
 Don't panic! If you have trouble working out how to install and run the game, you can get assistance on our [http://redeclipse.net/chat live chat] or [http://redeclipse.net/forum forums]. Please be ready to provide as much information as possible, especially what operating system you're on and specifically which package you're trying to install!
