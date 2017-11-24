@@ -35,9 +35,9 @@ Download the latest [https://redeclipse.net/appimage/stable/redeclipse-stable-x8
 
 Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x86_64.AppImage development AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-master-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-master-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
 
-== OS X ==
+== macOS ==
 
-* Download [http://redeclipse.net/download/osx the OS X tarball].
+* Download [http://redeclipse.net/download/macos the macOS tarball].
 * When it is done, click the resulting TAR.BZ2 file in your downloads folder on the dock.
 * Archive utility will extract the contents into the same folder and open a Finder window with <code>redeclipse.app</code> highlighted.
 * Drag and drop the <code>redeclipse.app</code> package to your favourite location (Desktop, Applications folder, whatever).
