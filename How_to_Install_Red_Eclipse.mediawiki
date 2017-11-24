@@ -25,7 +25,7 @@ If you get a permission denied error during install, right click the installer a
 
 === AppImage ===
 
-You can install Red Eclipse as an [http://appimage.org AppImage]. At the moment, only 64-bit AppImages are provided.
+You can install Red Eclipse as an [http://appimage.org AppImage] with no dependency installation required. At the moment, only 64-bit AppImages are provided.
 
 ==== Stable version ====
 
