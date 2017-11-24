@@ -39,11 +39,11 @@ The packages are a fork of the original Debian Red Eclipse packages, but have be
 
 === AppImage ===
 
-You can install Red Eclipse's stable and development editions as an [http://appimage.org AppImage]. At the moment, only 64-bit AppImages are provided. If you need a 32-bit version, please join our [http://redeclipse.net/chat chat] and let us know. ''These packages are currently in testing and aren't officially supported by the Red Eclipse project''.
+You can install Red Eclipse's stable and development editions as an [http://appimage.org AppImage]. At the moment, only 64-bit AppImages are provided.
 
 ==== Stable version ====
 
-Download the latest [https://download.assassinate-you.net/red-eclipse/appimage/latest/redeclipse-stable-x86_64.AppImage stable AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-stable-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-stable-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
+Download the latest [https://redeclipse.net/appimage/stable/redeclipse-stable-x86_64.AppImage stable AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-stable-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-stable-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
 
 You can easily update Red Eclipse's AppImage by using [https://github.com/probonopd/AppImageUpdate AppImageUpdate]. To do so, [https://github.com/probonopd/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage download] the latest version, make it executable, and run it:
 
@@ -51,7 +51,7 @@ You can easily update Red Eclipse's AppImage by using [https://github.com/probon
 
 ==== Development version ====
 
-Download the latest [https://download.assassinate-you.net/red-eclipse/appimage/latest/redeclipse-master-x86_64.AppImage development AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-master-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-master-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
+Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x86_64.AppImage development AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-master-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-master-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
 
 You can easily update Red Eclipse's AppImage by using [https://github.com/probonopd/AppImageUpdate AppImageUpdate]. To do so, [https://github.com/probonopd/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage download] the latest version, make it executable, and run it:
 
