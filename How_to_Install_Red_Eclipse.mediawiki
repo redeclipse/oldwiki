@@ -9,7 +9,7 @@ If you get a permission denied error during install, right click the installer a
 
 == Linux ==
 
-=== Official packages ===
+=== Standard Package ===
 
 * Install git, curl and the runtime dependencies of Red Eclipse.
 ** On a Debian-like system (e.g. Ubuntu, Linux Mint), this can be done with the command:
