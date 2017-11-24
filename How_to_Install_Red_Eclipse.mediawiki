@@ -46,6 +46,8 @@ Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x8
 If this is the first time running the app, the operating system complains that it can't run an unsigned package, simply right (or cmd) click and select <code>Open</code>. In future you will be able to run the app as normal, this will override the warning for all future attempts. You can also do this [http://osxdaily.com/2015/07/15/add-remove-gatekeeper-app-command-line-mac-os-x/ from the command line].
 
 == Unofficial Builds ==
+'''These packages are created by third parties and aren't officially supported by the Red Eclipse project.'''
+
 === Debian/Ubuntu repository ===
 
 There is a Red Eclipse package repository hosted on openSUSE Build Service that you can use to install game and/or server. The packages provided there are newer than distributions' packages, so if you prefer to install Red Eclipse via <code>apt</code>, you should install this repository.
