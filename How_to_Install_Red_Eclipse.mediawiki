@@ -45,19 +45,9 @@ You can install Red Eclipse's stable and development editions as an [http://appi
 
 Download the latest [https://redeclipse.net/appimage/stable/redeclipse-stable-x86_64.AppImage stable AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-stable-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-stable-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
 
-You can easily update Red Eclipse's AppImage by using [https://github.com/probonopd/AppImageUpdate AppImageUpdate]. To do so, [https://github.com/probonopd/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage download] the latest version, make it executable, and run it:
-
-<code>./AppImageUpdate-x86_64.AppImage redeclipse-stable-x86_64.AppImage</code>
-
 ==== Development version ====
 
 Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x86_64.AppImage development AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-master-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-master-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
-
-You can easily update Red Eclipse's AppImage by using [https://github.com/probonopd/AppImageUpdate AppImageUpdate]. To do so, [https://github.com/probonopd/AppImageUpdate/releases/download/continuous/AppImageUpdate-x86_64.AppImage download] the latest version, make it executable, and run it:
-
-<code>./AppImageUpdate-x86_64.AppImage redeclipse-master-x86_64.AppImage</code>
-
-For better desktop integration (like updating AppImages with just a few clicks), check out [https://github.com/probonopd/AppImageKit#appimaged-usage appimaged].
 
 == OS X ==
 
