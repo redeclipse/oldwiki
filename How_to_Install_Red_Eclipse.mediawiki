@@ -48,7 +48,7 @@ If this is the first time running the app, the operating system complains that i
 == Unofficial Builds ==
 === Debian/Ubuntu repository ===
 
-There is a Red Eclipse package repository hosted on openSUSE Build Service that you can use to install game and/or server. The packages provided there are newer than distributions' packages, so if you prefer to install Red Eclipse via <code>apt</code>, you should install this repository. ''These packages are created by third parties and aren't officially supported by the Red Eclipse project''.
+There is a Red Eclipse package repository hosted on openSUSE Build Service that you can use to install game and/or server. The packages provided there are newer than distributions' packages, so if you prefer to install Red Eclipse via <code>apt</code>, you should install this repository.
 
 Beware that only the latest stable release is available on the repository. It will occasionally receive updates whenenever the <code>stable</code> branch on GitHub is updated. If you want to test the latest and greatest version of Red Eclipse, you need to either use an [[#AppImage]] or install Red Eclipse [[#Install from source|from source]].
 
