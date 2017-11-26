@@ -15,7 +15,7 @@ On Linux-based systems, you can use GDB to get a backtrace:
 
 First you must compile with debug symbols:
 <source lang="bash">
-make -Csrc clean && CXXFLAGS=-ggdb3 make -Csrc
+make -Csrc clean && CXXFLAGS=-ggdb3 make -Csrc install
 </source>
 
 Then run with GDB:
