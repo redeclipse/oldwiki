@@ -48,7 +48,7 @@ You can set the following environment variables to configure the AppImage's beha
 * REDECLIPSE_APPIMAGE_NOTERM
 ** If set, will prevent the automatic updating from opening a terminal to display progress.
 * REDECLIPSE_APPIMAGE_TERM
-** If set, will use the value of this variable as the terminal to display update progress.
+** If set, will use the value of this variable as the terminal program to display update progress.
 
 == macOS ==
 
