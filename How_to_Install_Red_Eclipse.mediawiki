@@ -35,9 +35,9 @@ Download the latest [https://redeclipse.net/appimage/stable/redeclipse-stable-x8
 
 Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x86_64.AppImage development AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-master-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-master-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
 
-==== Server AppImages ====
+==== Server builds ====
 
-Server AppImages are built as well, you can access all appimages at [https://redeclipse.net/appimage https://redeclipse.net/appimage].
+The standalone server is built as well, you can access all builds at [https://redeclipse.net/appimage https://redeclipse.net/appimage].
 
 == macOS ==
 
