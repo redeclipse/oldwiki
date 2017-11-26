@@ -26,6 +26,7 @@ If you get a permission denied error during install, right click the installer a
 === AppImage ===
 
 You can install Red Eclipse as an [http://appimage.org AppImage] with no dependency installation required. At the moment, only 64-bit AppImages are provided. They should work on any system from 2014 (such as Ubuntu 14.04) onward.
+After downloading the appimage, set it executable with your file manager or with <code>chmod +x <path to appimage></code>. You can then double-click on it or run it from the commandline. Updates will be automatically downloaded and applied.
 
 ==== Stable version ====
 
@@ -38,6 +39,16 @@ Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x8
 ==== Server builds ====
 
 The standalone server is built as well, you can access all builds at [https://redeclipse.net/appimage https://redeclipse.net/appimage].
+
+==== Advanced options ====
+
+You can set the following environment variables to configure the AppImage's behaviour:
+* REDECLIPSE_APPIMAGE_NO_UPDATE
+** If set, will prevent automatic updating.
+* REDECLIPSE_APPIMAGE_NOTERM
+** If set, will prevent the automatic updating from opening a terminal to display progress.
+* REDECLIPSE_APPIMAGE_TERM
+** If set, will use the value of this variable as the terminal to display update progress.
 
 == macOS ==
 
