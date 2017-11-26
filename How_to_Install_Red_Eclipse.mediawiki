@@ -37,7 +37,7 @@ Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x8
 
 ==== Server AppImages ====
 
-Server AppImages are built as well, you can access all appimages at [https://redeclipse.net/appimage].
+Server AppImages are built as well, you can access all appimages at [https://redeclipse.net/appimage https://redeclipse.net/appimage].
 
 == macOS ==
 
