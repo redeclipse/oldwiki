@@ -29,14 +29,15 @@ You can install Red Eclipse as an [http://appimage.org AppImage] with no depende
 After downloading the appimage, make it executable with your file manager or with <code>chmod +x <path to appimage></code>. You can then double-click on it or run it from the commandline. Updates will be automatically downloaded and applied.
 
 ==== Stable version ====
-
+Stable appimages will be available soon.
+<!---
 Download the latest [https://redeclipse.net/appimage/stable/redeclipse-stable-x86_64.AppImage stable AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-stable-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-stable-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
-
+-->
 ==== Development version ====
 
 Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x86_64.AppImage development AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-master-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-master-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
 
-==== Server builds ====
+==== Server ====
 
 The standalone server is built as well, you can access all builds at [https://redeclipse.net/appimage https://redeclipse.net/appimage].
 
