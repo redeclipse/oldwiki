@@ -26,7 +26,7 @@ If you get a permission denied error during install, right click the installer a
 === AppImage ===
 
 You can install Red Eclipse as an [http://appimage.org AppImage] with no dependency installation required. At the moment, only 64-bit AppImages are provided. They should work on any system from 2014 (such as Ubuntu 14.04) onward.
-After downloading the appimage, set it executable with your file manager or with <code>chmod +x <path to appimage></code>. You can then double-click on it or run it from the commandline. Updates will be automatically downloaded and applied.
+After downloading the appimage, make it executable with your file manager or with <code>chmod +x <path to appimage></code>. You can then double-click on it or run it from the commandline. Updates will be automatically downloaded and applied.
 
 ==== Stable version ====
 
