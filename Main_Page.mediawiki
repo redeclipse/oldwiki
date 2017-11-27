@@ -40,6 +40,8 @@ Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offe
 {{PContainers|header=New to Red Eclipse?||headerstyle=background:#ffe5e5|image=Ffa.png|content=
 ; [[FAQ_for_Red_Eclipse|FAQ]]
 : Frequently asked questions and general information.
+; [[How to install|Getting Red Eclipse]]
+: How to install and run the game.
 ; [[Guide|Beginner's guide]]
 : A short introduction to Red Eclipse, covering modes, weapons and controls.
 ; [[GameModes and Mutators|Modes and Mutators]]
@@ -88,7 +90,6 @@ Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offe
 <!-- Development -->
 {{PContainers|header=Development|headerstyle=background:#cedff2|image=Dev-icon.png|content=
 * [[Obtain development version]]
-* [[How to install]]
 * [[Cross-compile|Cross-compiling]]
 * [[Client_Command_Line_Options|Client command-line options]]
 * [[How to contribute]]
