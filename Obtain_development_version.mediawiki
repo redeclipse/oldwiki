@@ -86,7 +86,7 @@ This will download Red Eclipse to the "redeclipse-git" directory within the curr
 
 ===Using AppImages===
 * [https://redeclipse.net/wiki/How_to_install#Development_version Simple instructions].
-* Download all AppImages built from the master branch at [https://redeclipse.net/appimage/master https://redeclipse.net/appimage/master].
+* You can download other AppImages built from the master branch at [https://redeclipse.net/appimage/master https://redeclipse.net/appimage/master].
 
 ===Using git===
 ====Clone via Git====
