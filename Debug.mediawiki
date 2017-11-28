@@ -1,14 +1,31 @@
 To submit a [[Readme#Get_Involved|bug report]] that concerns a crash to the Red Eclipse Team, it is helpful to have a backtrace.
 
 == Windows ==
-On Windows, it is easiest to use Code::Blocks+mingw to compile a debug binary. 
 
-In Code::Blocks, click File->Open and navigate to the Red Eclipse folder on your computer, then open the sub folder named src.
-Open the redeclipse.cbp file. This is the project file for Red Eclipse.
-Go to Debug -> Start.
-Code::Blocks will then begin compiling a debug binary, and once finished open a Red Eclipse window.
-Replicate the crash, causing a window to appear showing a stack trace. Right click this and copy to clipboard.
-Paste the backtrace with a description of what you did to cause the crash to the Red Eclipse forums.
+[http://codeblocks.org You must download and install Code::Blocks for easiest building on Windows.]
+
+=== Setting up Code::Blocks (64 bit) ===
+* [https://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe/download Install TDM-GCC-64]
+* You may need to set the compiler to TDM-GCC-64, go to Settings -> Compiler -> Global Compiler Settings -> Toolchain Executables
+
+[[File:Win64dbg06.png|thumb|Example compiler settings for TDM-GCC-64, paths may need changed depending on where you installed it.]]
+
+=== Compiling Red Eclipse ===
+* Select the debug build (redeclipse-amd64-dbg)
+* Press the Build button.
+
+[[File:Win64dbg01.png|thumb|Selecting debug build.]]
+[[File:Win64dbg02.png|thumb|Pressing the build button.]]
+
+=== Running Red Eclipse and Retrieving the Backtrace ===
+* Press the Debug/Continue button.
+* Red Eclipse will now start, attempt to crash it.
+* Once crashed, you will see the debugger near the bottom of the screen with a Command input. Write 'bt full' in that command input and press enter.
+* This will produce a backtrace, copy and paste this to an accessible place such as a crash report on the Red Eclipse forum or a paste service to be linked on IRC.
+
+[[File:Win64dbg03.png|thumb|Pressing the debug button.]]
+[[File:Win64dbg04.png|thumb|Ready to type 'bt full'. (Command input line near the bottom.)]]
+
 
 == Linux ==
 On Linux-based systems, you can use GDB to get a backtrace:
