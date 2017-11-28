@@ -8,14 +8,9 @@ To submit a [[Readme#Get_Involved|bug report]] that concerns a crash to the Red 
 * [https://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe/download Install TDM-GCC-64]
 * You may need to set the compiler to TDM-GCC-64, go to Settings -> Compiler -> Global Compiler Settings -> Toolchain Executables
 
-[[File:Win64dbg06.png|thumb|Example compiler settings for TDM-GCC-64, paths may need changed depending on where you installed it.]]
-
 === Compiling Red Eclipse ===
 * Select the debug build (redeclipse-amd64-dbg)
 * Press the Build button.
-
-[[File:Win64dbg01.png|thumb|Selecting debug build.]]
-[[File:Win64dbg02.png|thumb|Pressing the build button.]]
 
 === Running Red Eclipse and Retrieving the Backtrace ===
 * Press the Debug/Continue button.
@@ -23,9 +18,15 @@ To submit a [[Readme#Get_Involved|bug report]] that concerns a crash to the Red 
 * Once crashed, you will see the debugger near the bottom of the screen with a Command input. Write 'bt full' in that command input and press enter.
 * This will produce a backtrace, copy and paste this to an accessible place such as a crash report on the Red Eclipse forum or a paste service to be linked on IRC.
 
-[[File:Win64dbg03.png|thumb|Pressing the debug button.]]
-[[File:Win64dbg04.png|thumb|Ready to type 'bt full'. (Command input line near the bottom.)]]
+=== Image Examples ===
 
+<gallery>
+File:Win64dbg06.png|Example compiler settings for TDM-GCC-64, paths may need changed depending on where you installed it.
+File:Win64dbg01.png|Selecting debug build.
+File:Win64dbg02.png|Pressing the Build button.
+File:Win64dbg03.png|Pressing the Debug button.
+File:Win64dbg04.png|Ready to type 'bt full'. (Command input line near the bottom.)
+</gallery>
 
 == Linux ==
 On Linux-based systems, you can use GDB to get a backtrace:
