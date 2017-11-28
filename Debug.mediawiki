@@ -9,6 +9,7 @@ To submit a [[Readme#Get_Involved|bug report]] that concerns a crash to the Red 
 * You may need to set the compiler to TDM-GCC-64, go to Settings -> Compiler -> Global Compiler Settings -> Toolchain Executables
 
 === Compiling Red Eclipse ===
+* Open redeclipse.cbp in Code::Blocks as a project.
 * Select the debug build (redeclipse-amd64-dbg)
 * Press the Build button.
 
