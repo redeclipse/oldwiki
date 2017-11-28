@@ -1,12 +1,12 @@
 To submit a [[Readme#Get_Involved|bug report]] that concerns a crash to the Red Eclipse Team, it is helpful to have a backtrace.
 
-== Windows ==
+== Windows (64 bit) ==
 
 [http://codeblocks.org You must download and install Code::Blocks for easiest building on Windows.]
 
-=== Setting up Code::Blocks (64 bit) ===
+=== Setting up Code::Blocks ===
 * [https://sourceforge.net/projects/tdm-gcc/files/TDM-GCC%20Installer/tdm64-gcc-5.1.0-2.exe/download Install TDM-GCC-64]
-* You may need to set the Code::Blocks compiler to TDM-GCC-64, go to Settings -> Compiler -> Global Compiler Settings -> Toolchain Executables
+* You may need to set the Code::Blocks compiler to TDM-GCC-64, open Code::Blocks and go to Settings -> Compiler -> Global Compiler Settings -> Toolchain Executables. See the image example below for setting information.
 
 === Compiling Red Eclipse ===
 * Open redeclipse.cbp in Code::Blocks as a project.
