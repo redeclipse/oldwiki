@@ -41,9 +41,8 @@ Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x8
 
 The standalone server is built as well, you can access all builds at [https://redeclipse.net/appimage https://redeclipse.net/appimage].
 
-<div class="mw-collapsible mw-collapsed">
 ==== Advanced options ====
-<div class="mw-collapsible-content">
+
 You can set the following environment variables to configure the AppImage's behaviour:
 * REDECLIPSE_APPIMAGE_NO_UPDATE
 ** If set, will prevent automatic updating.
@@ -51,8 +50,6 @@ You can set the following environment variables to configure the AppImage's beha
 ** If set, will prevent the automatic updating from opening a terminal to display progress.
 * REDECLIPSE_APPIMAGE_TERM
 ** If set, will use the value of this variable as the terminal program to display update progress.
-</div>
-</div>
 
 == macOS ==
 
