@@ -30,9 +30,8 @@ After downloading the appimage, make it executable with your file manager or wit
 
 ==== Stable version ====
 Stable appimages will be available soon.
-<!---
 Download the latest [https://redeclipse.net/appimage/stable/redeclipse-stable-x86_64.AppImage stable AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-stable-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-stable-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
--->
+
 ==== Development version ====
 
 Download the latest [https://redeclipse.net/appimage/master/redeclipse-master-x86_64.AppImage development AppImage], make it executable (using your file manager or running <code>chmod +x redeclipse-master-x86_64.AppImage</code>). Then, double click the file or run it from the commandline (<code>./redeclipse-master-x86_86.AppImage</code>). That's all you have to do, Red Eclipse should be up and running.
