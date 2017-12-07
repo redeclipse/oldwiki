@@ -1,0 +1,138 @@
+## Basic usage
+
+The texture menu (**F1** key) allows to preview all currently loaded textures. Clicking the preview will apply it to the currently selected geometry (cube faces). The list of available textures is sorted dynamically: Whenever a texture is used, it is moved to the top of the list.
+
+Recently used textures can be applied quickly to the current selection by holding the **Y** key and using the scroll wheel.
+
+The texture on the currently selected face can be moved to the top of the texture list using the **J** key or the command
+
+`   /gettex`
+
+To replace all occurrences of a texture, select any face with that texture, apply a new texture and then use the command
+
+`   /replace`
+
+## Culling and loading textures
+
+When finalizing a map, it is reasonable to remove all unneeded texture definitions from the configuration. This can be done with the command
+
+`   /texturecull`
+
+**Note:** The default set of textures can be added back to the map's texture list using
+
+`   /exec config/map/textures.cfg`
+
+There is also an alias that will perform both of these actions:
+
+`   /texturerehash`
+
+## Altering textures
+
+There are various *v*-commands to create texture variations, e.g. by altering the scale, tinting or shader properties. Whenever such a command is applied to the selected face, a new texture slot is added to the current texture list (**F1** menu/ **Y** key). Most of these commands will replace the corresponding parameter(s) of a texture.
+
+**Note**: If the texture command is preceded by a *vdelta* command, the settings are not overridden, but added or merged. For instance, repeatedly using
+
+`  vdelta voffset 0.125 0`
+
+will gradually shift the texture to the right, while the same command without a *vdelta* will keep an offset of *1/8 0*.
+
+The *vdelta* command is also necessary to apply different *vshader* settings to a texture, such changing the coloring of glow and specular lighting.
+
+## List of v-commands
+
+`   /vreset`
+
+resets a texture to its original settings, negating previous v-commands.
+
+`   /vscale `*`factor`*
+
+creates a scaled version of the texture
+
+**Note:** The factor must not be smaller than 0.125 nor greater than 8. Most textures are scaled to 0.5 by default.
+
+`   /voffset `*`dx` `dy`*` `
+
+creates a shifted version of the texture
+
+`   /vrotate `*`N`*
+
+creates a rotated or flipped version of the texture
+
+-   0: no transformation (default)
+-   1: rotate 90 degrees
+-   2: rotate 180 degrees
+-   3: rotate 270 degrees
+-   4: flipped left-to-right
+-   5: flipped top-to-bottom
+
+`   /vscroll `*`vx` `vy`*
+
+Creates a moving texture with the given horizontal and vertical scrolling speed.
+
+`   /vcolor `*`R` `G` `B`*
+
+Adjust the red, green and blue component of the texture's colour. R G B are factors form 0 to 1, use larger values only with caution.
+
+`   /valpha `*`outer` `inner`*
+
+Specifies the alpha value of a texture: 1.0 is fully opaque, smaller values are transparent.
+
+A second alpha value can be used to make the inner or reverse side of each face visible as well.
+
+**Note**: This only takes effect when the texture is inside alpha [material](materials "wikilink").
+
+`   /vpalette `*`N` `V`*
+
+applies the colour from set N with id V from a built-in palette.
+
+-   Set "0" - Pulse Colours
+    -   0: turn off all palette effects
+    -   1: dark fire pulse colours
+    -   2: bright fire pulse colours
+    -   3: disco pulse colours (bomber-ball)
+
+<!-- -->
+
+-   Set "1" - Team Colours
+    -   0/1/2/3: only enforced in teamplay games
+    -   4/5/6/7: enforced at all times
+
+<!-- -->
+
+-   Set "2" - Weapon Colours
+    -   0/1/2/3/4/5/6/7/8/9: only enforced when that weapon is able to spawn in the current game configuration
+    -   10/11/12/13/14/15/16/17/18/19: enforced at all times
+
+`   /vdelta vshaderparam specscale `*`R` `G` `B`*
+
+adjusts the specularity color and brightness of a texture
+
+ex: /vdelta vshaderparam specscale 0.2 0.2 1.0 will make the texture shine blue
+
+This needs a texture with a normalmap.
+
+`   /vdelta vshaderparam parallaxscale `*`scale`*` `*`offset`*
+
+adjusts the parallax, a deformation of the texture based on its normal map. Both the scale and offset for this distortion usually take small values, like 0.02. Larger values easily lead to strange effects due to negative "distances" to the observer (fish-eye).
+
+`   /vdelta vshaderparam glowcolor `*`R` `G` `B`*
+
+adjusts the 3d glow color of a texture.
+
+This needs a texture with a glowmap.
+
+`   /vcoastscale `*`factor`*
+
+This does not affect the visuals of a texture, but the mechanical properties of the face.
+
+The larger the value, the more difficult it gets to make sharp turns when walking on the surface.
+
+For example, a coastscale of 20 may be suitable for an ice texture.
+
+`   /vlayer `*`N`*
+
+Creates a two-layer texture for use with a [blendmap](blendmap "wikilink").
+
+`   /setgrass `*`texture`*
+
+Applies [grass](grass "wikilink") to the texture.

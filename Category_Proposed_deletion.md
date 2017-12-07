@@ -1,0 +1,1 @@
+This category contains articles that are no longer necessary for the wiki, because they list outdated information, are invalid, obsolete, or otherwise unneeded. Please don't directly categorize, but use the template [Proposed deletion](Template:Proposed_deletion "wikilink") for this purpose, like so: **{{Proposed deletion|reason=Old page.}}**

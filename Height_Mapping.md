@@ -1,0 +1,45 @@
+The heightmap tool allows to manipulate surface geometry while [editing](editing "wikilink") maps.
+
+## Heightmaps and cubes
+
+A heightmap is a piece of geometry where vertexes on a horizontal grid (xy) have different height values (z). This is typically used to create terrain geometry in outdoor areas (hills and valleys).
+
+Red Eclipse uses an [octree](octree "wikilink") representation of map geometry, so creating heightmaps is straight forward: Cube vertexes are pushed and pulled such that the surface geometry remains continuous (keeping vertexes of neighbouring cubes shared). This can be done conveniently with the heightmap tool, which does not only move the vertexes, but also pushes and pulls cubes automatically as needed.
+
+## Usage
+
+[thumb|An example of using the circle-2-1 brush for heightmapping](file:heightmapping.gif "wikilink")
+
+The **H** key allows to toggle heightmap mode on and off (per default). The left **Alt** key will also disable heightmap mode (and [blendmap](blendmap "wikilink") mode). When heightmap mode is active, the mouse wheel can be used to pull and push vertexes on the selected surface geometry. It is recommended to select an area before entering heightmap mode, such that there is a well defined boundary for heightmapping.
+
+## Brushes
+
+A set of different brushes is available which allow the heightmap tool to manipulate a group of vertexes:
+
+-   Circle 1-0
+-   Circle 2-1
+-   Circle 4-2-1
+-   Square 3x3
+-   Square 5x5
+-   Square 7x7
+-   Smooth 3x3
+-   Smooth 5x5
+-   Smooth 7x7
+-   Noise 25x25
+
+For example, *Square 3x3* means that a grid of 3 by 3 vertexes is moved up or down by the same amount. Circle brushes will move vertexes around the selection slightly. Smoothening brushes help to flatten out wiggles.
+
+To change the current heightmap brush, hold the **K** key (default) and use the mouse wheel.
+
+## Tipps & Tricks
+
+### Natural Terrain example
+
+-   Use standard-grid-size
+-   Use circle 4-2-1 brush to paint some terrain
+-   Use noise 25x25 brush to make the terrain looking more random
+-   Smooth the terrain with smooth 5x5 brush
+
+### Point brush
+
+The brush *Circle 1-0* moves a single vertex, so it is useful for fine-tuning the geometry. This can be useful not only when creating heightmap geometry. In some cases, this can be much more convenient than selecting vertexes with the middle mouse button.

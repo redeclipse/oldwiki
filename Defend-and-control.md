@@ -1,0 +1,28 @@
+|                                                                          |                                                                                                                                                                                                                                                                                                                  |
+|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="Defend.png" title="Defend.png" alt="Defend.png" width="128" /> | Secure and defend control points scattered around the map by standing near them for a set period of time. Overthrow enemy control points then secure them for your own team to gain an advantage. Every secured control point provides a steady stream of points, the team with the most points at the end wins! |
+
+## tips & strategy
+
+-   Secured control points provide a powerful buff when in close proximity that enhances attack, defense, health regeneration and max health.
+-   If your team is ahead and controls several more points than the enemy, switch focus to defense of the points you control.
+-   In Defend-and-Control mode the right side of the screen holds a quick reference to see which teams control which points, and which are neutral.
+-   Controlling the enemy base point for long is very difficult and rarely worth it, as enemy spawn points are often right next to this point. Concentrate first on the other points in the map unless the opportunity is too perfect to pass up.
+
+## mode-specific mutators
+
+### king
+
+|                                         |                                                                                                                                                                                                                        |
+|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [128px](file:defendking.png "wikilink") | There is only one control point in this mutator, located near the center of the map. To make things harder, points are only given when players are in proximity to it. The objective: make your team king of the hill. |
+
+### quick
+
+|                                          |                                                                                                                                                                               |
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [128px](file:defendquick.png "wikilink") | Control points are secured much more quickly in this mutator. When capturing enemy control points there is no neutral state, the point is captured immediately for your team. |
+
+## defend maps
+
+<file:Affluence.png> |[Affluence](Map_Affluence "wikilink") <file:Ares.png> |[Ares](Map_Ares "wikilink") <file:Bath.png> |[Bath](Map_Bath "wikilink") <file:Battlefield.png> |[Battlefield](Map_Battlefield "wikilink") <file:Biolytic.png> |[Biolytic](Map_Biolytic "wikilink") <file:Campgrounds.png> |[Campgrounds](Map_Campgrounds "wikilink") <file:Canals.png> |[Canals](Map_Canals "wikilink") <file:Canyon.png> |[Canyon](Map_Canyon "wikilink") <file:Cargo.png> |[Cargo](Map_Cargo "wikilink") <file:Center.png> |[Center](Map_Center "wikilink") <file:Colony.png> |[Colony](Map_Colony "wikilink") <file:Conflict.png> |[Conflict](Map_Conflict "wikilink") <file:Cutec.png> |[Cutec](Map_Cutec "wikilink") <file:Darkness.png> |[Darkness](Map_Darkness "wikilink") <file:Deadsimple.png> |[Deadsimple](Map_Deadsimple "wikilink") <file:Deathtrap.png> |[Deathtrap](Map_Deathtrap "wikilink") <file:Decay.png> |[Decay](Map_Decay "wikilink") <file:Deli.png> |[Deli](Map_Deli "wikilink") <file:Depot.png> |[Depot](Map_Depot "wikilink") <file:Dropzone.png> |[Dropzone](Map_Dropzone "wikilink") <file:Dutility.png> |[Dutility](Map_Dutility "wikilink") <file:Echo.png> |[Echo](Map_Echo "wikilink") <file:Enyo.png> |[Enyo](Map_Enyo "wikilink") <file:Erosion.png> |[Erosion](Map_Erosion "wikilink") <file:Futuresport.png> |[Futuresport](Map_Futuresport "wikilink") <file:Ghost.png> |[Ghost](Map_Ghost "wikilink") <file:Institute.png> |[Institute](Map_Institute "wikilink") <file:Keystone2k.png> |[Keystone2k](Map_Keystone2k "wikilink") <file:Linear.png> |[Linear](Map_Linear "wikilink") <file:Livefire.png> |[Livefire](Map_Livefire "wikilink") <file:Mist.png> |[Mist](Map_Mist "wikilink") <file:Nova.png> |[Nova](Map_Nova "wikilink") <file:Octavus.png> |[Octavus](Map_Octavus "wikilink") <file:Panic.png> |[Panic](Map_Panic "wikilink") <file:Processing.png> |[Processing](Map_Processing "wikilink") <file:Rooftop.png> |[Rooftop](Map_Rooftop "wikilink") <file:Stone.png> |[Stone](Map_Stone "wikilink") <file:Suspended.png> |[Suspended](Map_Suspended "wikilink") <file:Tower.png> |[Tower](Map_Tower "wikilink") <file:Tribal.png> |[Tribal](Map_Tribal "wikilink") <file:Ubik.png> |[Ubik](Map_Ubik "wikilink") <file:Vault.png> |[Vault](Map_Vault "wikilink") <file:Venus.png> |[Venus](Map_Venus "wikilink") <file:Warp.png> |[Warp](Map_Warp "wikilink") <file:Wet.png> |[Wet](Map_Wet "wikilink")

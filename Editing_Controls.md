@@ -1,0 +1,69 @@
+This page lists common control options for editing mode. For more information, check [Editing Info](Editing_Info "wikilink"). Also, look into [Saving/Loading Maps](Saving/Loading_Maps "wikilink") for some other map-related commands.
+
+## Basic Editing Keybinds
+
+|                                                         |                                                               |
+|---------------------------------------------------------|---------------------------------------------------------------|
+| Open Texture Palette                                    | F1 Key                                                        |
+| Toggle Walk / Edit Mode                                 | F2 Key                                                        |
+| Open Edit Menu                                          | F3 Key                                                        |
+| Select Cube Face(s)                                     | Left Mouse Button (drag)                                      |
+| Add to Selection                                        | Right Mouse Button                                            |
+| Select Corner(s)                                        | Middle Mouse Button (drag)                                    |
+| Deselect all                                            | Spacebar                                                      |
+| Create / Destroy Cube                                   | Mouse Scroll Wheel                                            |
+| Push / Pull Corner                                      | Hold Q Key + Place Edit Cursor on Corner + Scroll Mouse Wheel |
+| Push / Pull Selected Face                               | Hold F Key + Scroll Mouse Wheel                               |
+| Delete selected entities and/or geometry                | Backspace Key                                                 |
+| change entity properties                                | Hold a Number Keys (1 to 9) + Scroll Wheel                    |
+| Change the Size of the Grid                             | Hold G Key + Mouse Scroll Wheel                               |
+||
+| Scroll through recent textures                          | Hold Y key + scroll wheel                                     |
+| Undo                                                    | Z Key                                                         |
+| Redo                                                    | O Key                                                         |
+| Copy Selected Area                                      | C Key                                                         |
+| Paste Selected Area                                     | V Key                                                         |
+| Cut and paste on release                                | Move the selection while holding the U key                    |
+| Flip Selected Area                                      | X Key                                                         |
+| Rotate Selected Area Per Selected Face                  | Hold R Key + Mouse Scroll Wheel                               |
+| Toggle [Height Mapping](Height_Mapping "wikilink") mode | H Key                                                         |
+| Link Entities                                           | L Key                                                         |
+| Select All Entities Within Selection Area               | N Key                                                         |
+| Toggle Blank Geometry                                   | K Key                                                         |
+| Toggle Material Volumes                                 | Plus Key (+)                                                  |
+| Toggle Fullbright                                       | B Key                                                         |
+| Cycle paste-grid / cursor                               | Tab Key                                                       |
+| Open Console                                            | Tilde Key (~), Forward Slash (/) or use the chat window (t)   |
+| Optimize Geometry (Remip)                               | F4 Key                                                        |
+| Patch Existing Lightmap                                 | F5 Key                                                        |
+| Recalculate Lightmap Quickly                            | F6 Key                                                        |
+| Recalculate full Lightmap                               | F7 Key                                                        |
+| Save Map                                                | F8 Key                                                        |
+| Cycle Geometry Outline Color                            | F9 Key                                                        |
+| Toggle Geometry Outlines On / Off                       | Equals Key (=)                                                |
+| Open Console History                                    | F11 Key (Page Up/Page Down keys Scroll History)               |
+| [Take Screenshot](Taking_screenshots "wikilink")        | F12 Key (My Documents/my Games/Red Eclipse)                   |
+| Quick Texture Menu (recent textures)                    | Hold Y key + Scroll Wheel                                     |
+| Grab Texture From Selected Face                         | J key                                                         |
+| Apply Texture to Selected Faces                         | Click the large Texture Preview Thumbnail                     |
+| Toggle ALL FACES texturing style style                  | Minus Key (-)                                                 |
+| Toggle Texture Brush Modes                              | P Key                                                         |
+
+## Advanced Selection
+
+|               |                                                                                                                                                   |         |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| /entfind      | selects all entities of a specific type within the map. ex: /entfind light all lights                                                             
+                                                                                                                                                                    
+                 /entfind weapon 5 will select all of the weapon 5 entities within the map.                                                                         |         |
+| /entfindinsel | selects all entities of a specific type within the selected area. ex: /entfindinsel light will select all light entities within the selected area | key N   |
+| /entcancel    | deselects all entities while leaving area selected                                                                                                | END Key |
+
+## Online editing
+
+|          |                                                                    |            |
+|----------|--------------------------------------------------------------------|------------|
+| /getmap  | fetch/update [custom maps](custom_maps "wikilink") from the server | Delete Key |
+| /sendmap | upload map to server, so others can fetch it                       | Insert Key |
+
+

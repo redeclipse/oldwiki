@@ -1,0 +1,13 @@
+Windows
+
+------------------------------------------------------------------------
+
+In-game, to take screenshots use F12. This captures your screenshot into "My Documents/My Games/RedEclipse/"
+
+You can also use the console [command](Commands "wikilink"), /screenshot NAME to label the image however you wish.
+
+Linux
+
+------------------------------------------------------------------------
+
+The same commands to take the screenshots. The screenshots taken are saved in the <span style="font-family: monospace">~/.redeclipse/screenshots</span> folder.

@@ -1,0 +1,52 @@
+## The Basics
+
+-   [Red Eclipse](http://redeclipse.net) is a free arena first person shooter game.
+-   The game features fun innovations such as [parkour](Impulse_moves "wikilink"), impulse boosts, dashing, and other tricks.
+-   You can play it right now on your computer running Windows, OS X, Linux, or BSD.
+-   The current engine technology being used is the aging [Cube 2 Engine](http://cubeengine.com/).
+-   We have been given an opportunity to migrate to the upgraded engine used in [Tesseract](http://tesseract.gg/).
+-   To do this we need to raise US$3000 in order to contract the author to create an official port.
+
+## Text
+
+### What is this?
+
+This project is what we're calling Red Eclipse 2.0, because it is a significant step toward creating the next generation version of our game, and we hope to attract new fans to our fun and friendly community. We are contracting the author of Tesseract to recreate all the new features using our existing code in order to preserve everything possible that has made Red Eclipse great. It is an immense undertaking that will take several months, if not more.
+
+### What is Tesseract?
+
+Tesseract builds from Cube 2 with a focus on upgraded modern rendering techniques. The new rendering features include fully dynamic omnidirectional shadows, global illumination, HDR lighting, deferred shading, morphological/temporal/multisample anti-aliasing, and much more. You can find out more at [<http://tesseract.gg/>](http://tesseract.gg/).
+
+### Why the upgrade?
+
+Over the years, Cube 2 has had many innovations which were held back by the need to support legacy hardware. Red Eclipse has been under development using the Cube 2 engine for 8 years and has always been pushing the engine to its limits in order to deliver the awesome experience we already have today. Red Eclipse would benefit from the modern rendering improvements found in Tesseract, which people come to expect of modern video games.
+
+### Who is this author?
+
+The author of Tesseract is Lee "eihrul" Salzman, a leading developer in the area of modern open source games and related tools for over a decade and has provided support and new developments tailored to each project he has been involved with. He spent a majority of that time working on [Cube 2: Sauerbraten](http://sauerbraten.org/), where he advanced the underlying engine with support for shaders and a wider range of hardware, adding soft character shadows (for which he [developed an extremely cheap method](http://sauerbraten.org/lee/sssm.pdf)), water reflections, skeletal model/animation support, ragdolls, motion blur, glare, and many other visual enhancements.
+
+Historically, Lee wrote [ENet](http://enet.bespin.org/) in order to improve network communication in Cube. It is a relatively thin, simple and robust network communication layer on top of UDP (User Datagram Protocol). The primary feature it provides is optional reliable, in-order delivery of packets. This innovative technology is still being used today in all popular Cube engine games, as well as various other projects which rely on effective low latency communication.
+
+Lee also developed the [Inter-Quake Model Format](http://sauerbraten.org/iqm/) (IQM), a binary skeletal-animation format designed for extensibility, efficiency, and ease of loading; intended to serve as a replacement for the aging MD5 and SMD skeletal-animation formats used in Quake-derived and Quake-like 3D engines such as Cube 2 and Tesseract. Other notable projects to which he has contributed include [AssaultCube](http://assault.cubers.net/), [DarkPlaces](http://icculus.org/twilight/darkplaces/), and [0 A.D.](http://play0ad.com/)
+
+### Why should I care?
+
+This project will not only improve the visual fidelity of the game, but future improvements to Tesseract will be included in Red Eclipse as they are developed. This means we will remain on the bleeding edge for some time to come, extending the lifetime of our beloved game, and hopefully attracting new people to become part of our community.
+
+Additionally, Cube 2, Red Eclipse, and Tesseract are all open source software projects, the code for which is freely available under the [Zlib License](http://wikipedia.org/wiki/Zlib_License). Red Eclipse also has a strict policy on permissive licenses for all untrademarked content (often [CC-BY-SA](http://creativecommons.org/licenses/by-sa/3.0/)). This basically means that everything is free to player with or use, even in your own projects.
+
+A few random ideas that we can/might accomplish:
+
+-   "day" and "night" variations in maps, which can be voted for or transitioned between.
+-   More accurate hit detection, possibly being able to blow off specific limbs.
+-   Improved software colour palettes on weapon models held by the player.
+-   Much cleaner user interface using Tesseract's new widgets.
+
+## Video
+
+-   [Quin](Client_Command_Line_Options#AUTHORS "wikilink") introduces. (some joke about my beard and how it is trustworthy?)
+-   RE 1.5 release, and list a few cool new features.
+-   Explain (and show?) Tesseract's benefits.
+-   Some footage of parkour, gunplay, and stuff.
+-   Kittens for sympathy.
+

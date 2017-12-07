@@ -1,0 +1,24 @@
+# THIS CONTENT IS A DRAFT AND DOES NOT HOLD ANY AUTHORITY
+
+This page is intended to answer some common questions about the Red Eclipse [Trademark Policy](Trademark_Policy "wikilink"). These answers are intended to be brief, and will inevitably omit some information that exist in the policy. Nothing on this page replaces the actual policy text, and the policy always takes precedence if anything happens to be unclear or missing.
+
+## Can I monetize videos of Red Eclipse gameplay?
+
+Yes, the trademark policy does permit monetization as long as all other parts of the policy are also followed, in particular it is good if you indicate **clearly**:
+
+-   Where Red Eclipse comes from (conveniently in the form of a URL)
+-   If the gameplay has been modified compared to the gameplay of Red Eclipse as provided by the Red Eclipse project
+
+And you must **not** claim:
+
+-   That your content is in any way official content representing Red Eclipse or the Red Eclipse Team
+
+### Examples
+
+If no modifications was made to the game recorded, a notice like this would usually fulfill these requirements:
+
+`This is me and a couple of friends playing Red Eclipse, which is available from `[`http://redeclipse.net`](http://redeclipse.net)`.`
+
+Conversely, the following notice fails to fulfill the above requirements and is **not ok**:
+
+` Red Eclipse Trailer`

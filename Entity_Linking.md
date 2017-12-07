@@ -1,0 +1,206 @@
+# Linking an entity
+
+Several kinds of entities can be linked together to perform an action such as flashing a light or animating a mapmodel. In edit mode you can use the **L** key to link an entity object to one or more other entities. For this you first have to select the corresponding entities.
+
+## Selecting multiple entities
+
+The simplest way to add entities to your current selection is to click at them with the right mouse button. (Side note: If you chose to align your selection with the editing grid, */entselsnap 1*, the resulting moves may be unexpected, as the centre of mass is considered rather than the individual entities. Therefore, you may want to change *entselsnap* or undo these movements using the *'Y* key.)
+
+The command */entfind* will add all (matching) entities to your current selection. If you use the command with some argument, it will pick all entities that match the given properties. The syntax for this is the same as when creating a new entity with */newent*. The following examples will explain this in detail.
+
+Finally, you can use the command *entfindinsel* to pick all (matching) entities in a selected volume. Apart from this, the *entfindinsel* command works exactly the same as */entfind*. For this, you must first specify a volume by either right-clicking some spots on the map geometry or by dragging the left mouse button over some corner (e.g. from a wall to the ground).
+
+## A first example
+
+Use the entselect and entfind commands to add an entity to the selection.
+
+For example, add a sound entity with:
+
+`/newent sound`
+
+Add a playerstart entity:
+
+`/newent playerstart`
+
+Select both entitys:
+
+`/entfind playerstart`
+`/entfind sound`
+
+Press **L** to link them together. What this will do is, play a sound as the playerstart entity is activated. Each time a player spawns at that location, the sound will be played. Try to experiment with all of the different entity types, by replacing the sound for a particle or a dynamic light effect.
+
+Additionally, you can pass paramaters of any entities you want to add to the selection if more than one of the same type exists in the map. For example, if we have several lights, and we only want to link the green one to a lightfx entity, we'll first click (select) the lightfx entity and then search for the light by using:
+
+`/entfind light 150 0 255 0`
+
+Assuming that we added a light with the values *150 0 255 0*.
+
+If you want to search all values of one attribute, you can replace it with an asterisk (**\***):
+
+`/entfind light * * 255 *`
+
+Would find all lights that have a *255* green value.
+
+## Linkable Entity types
+
+When you select two or more entities and press the **L** key, the entities will be linked, such that the first entity controls the state of the other(s). The following entities can be controlled in this way:
+
+-   sound
+-   particles
+-   lightfx
+
+The following entities can control linked entities as the player interacts with them:
+
+-   trigger
+-   playerstart
+-   checkpoint
+-   pusher
+-   teleport
+
+Furthermore, the following entities can be linked with each other:
+
+-   triggers that control other triggers
+-   trigger with mapmodel (e.g. doors)
+-   lightfx with light
+-   teleport with teleport
+
+## Basic Linking
+
+Here are some examples to give you an idea of the effects that can be achieved with entity linking.
+
+### Teleports
+
+Create two teleport entities
+
+`/newent teleport`
+
+Select both of them, and press **L**. You'll notice that you can press **L** again, and the link chain turns red. This means that the entity is only linked in one direction. In this case, it allows you to make a one-way teleport. The orange link chain means you can traverse both ways through a linked teleport.
+
+### Lightfx
+
+You can link a lightfx entity to a light in order to create spotlights, pulsating lights, glowing areas, lightning and much more.
+
+Create a light entity.
+
+`/newent light 200 255 140 20`
+
+Add a lightfx entity.
+
+`/newent lightfx  `
+
+Link them together by pressing **L** and then adjust the lightfx parameters. The lightfx entity provides two types of lighting (dynamic and mapped). By default an unlinked light entity will be baked onto a lightmap and stored within the map file, the spotlight option on the lightfx shares this behaviour too by "aiming" the light at a particular area.
+
+Lightfx provides dynamic lighting for fixed, pulsing, and glowing effects. These lights can be seen without having to generate a lightmap and are updated in realtime within the editor, but be warned when adding them to a map that some players may have dynamic lighting disabled in the game options. You wouldn't want to have a very dark map relying on just dynamic lights!
+
+## Advanced Linking
+
+You can link more than two entities together.
+
+### Jumppads / Boosters
+
+<img src="Cutec-particle-booster.jpg" title="fig:The particle effects on &#39;cutec&#39;" alt="The particle effects on &#39;cutec&#39;" width="150" />A pusher entity can be used to provide a boost, jump or launch like a traditional jumppad. It can also be linked to sounds, particles and other entities. You can use this to create some pretty effects when being launched into the air by the pusher.
+
+Place a pusher entity
+
+`/newent pusher`
+
+and some particle effects
+
+`/newent particles 4 262 7 0 10 160 1 5 0 0 0 0`
+`/newent particles 4 259 7 0 10 160 1 5 0 0 0 0`
+
+<img src="Jumppad-link.jpg" title="fig:A pusher linked to multiple entities." alt="A pusher linked to multiple entities." width="150" />Link each particle entity to the pusher by adding them to the selection (one at a time, particles cannot be linked to particles) and then pressing **L** in the editor.
+
+To make things more interesting, find a suitable sound and link it to the pusher entity as well.
+
+=== Trigger activated doors ===
+
+In this example, we'll use a mapmodel, a sound, and a trigger. The goal is to have a trigger that can be interacted with, which plays a sound, and opens a door.
+
+<img src="Trigger-Mapmodel-1.jpg" title="fig:Selecting a door mapmodel" alt="Selecting a door mapmodel" width="200" /> Start by adding a new mapmodel entity.
+
+`/newent mapmodel`
+
+Press and hold "1" and scroll through until you find the door model you want. As of RE 1.4, there are 2 mapmodels which have door/opening animations. They are type: 8 and type: 9.
+
+<img src="Trigger-Mapmodel-2.jpg" title="fig:Adding a trigger entity" alt="Adding a trigger entity" width="200" /> Next up, you want to add a new trigger entity
+
+`/newent trigger`
+
+<img src="Trigger-Mapmodel-3.jpg" title="fig:Selecting multiple entities" alt="Selecting multiple entities" width="200" /> While the trigger is selected, add the mapmodel to the selection
+
+`/entfind mapmodel 9`
+
+<img src="Trigger-Mapmodel-4.jpg" title="fig:Linking entities together" alt="Linking entities together" width="200" /> Press **L** whilst both entities are selected to link them together.
+
+<img src="Trigger-Mapmodel-5.jpg" title="fig:Adjusting the trigger entity" alt="Adjusting the trigger entity" width="200" /> There are several methods to open the doors, the first one being proximity (they open automatically as you cross the radius on the trigger entity). To get this working, set "action" to 1.
+
+You might also want to set "type" to 1, so that it reads "link, proximity, off". This stops the door repeatedly opening/closing (spammy) while you are standing in the radius.
+
+<img src="Trigger-Mapmodel-7.jpg" title="fig:Opening the door" alt="Opening the door" width="200" /> By setting "action" to 2, you can make the doors open by pressing "E" to interact with the trigger. Useful for having a computer console or a keypad which opens the door.
+
+By changing the "state" parameter of the trigger, this makes it decide if the door defaults to being open or closed when the map is first loaded.
+
+To make things more interesting, you can also link a sound to the same trigger, so that when the door is opened or closed, a sound effect is played.
+
+To do this, add a new sound entity, and find the sound that you want to use
+
+`/newent sound `
+
+A good choice for doors is 'sounds/ambience/switch' (type: 25)
+
+Select the sound entity, and also the trigger entity
+
+`/entfind trigger`
+
+Finally, press **L** to link the trigger to the sound entity, and you should get a setup similar to this:
+
+<img src="Trigger-Mapmodel-8.jpg" title="The finished setup" alt="The finished setup" width="200" />
+
+You should now have a fully functioning door with sound fx.
+
+### Scriptable Events
+
+Assuming we have an animated door mapmodel (type 8 or 9) which is linked to a trigger entity using the script parameter. We can manipulate the map using script events within the config file.
+
+A trigger can be toggled with:
+
+`/exectrigger `<id>
+
+You should note the first sixteen (16) ids are reserved by the game, as the server will pick a random number between 1 and 16 and fire off all matching entities when the map starts. The random value allows the author to create effects that change each time the map is played, for instance *mapmodels* can be used to block certain routes depending on this value.
+
+Using *exectrigger* we can create a sleep loop / delay to open the door, and then close the door after 5 seconds. This could be useful for a situation where the player has to press a button on a wall, that opens a door elsewhere, and the player has to run through the door before it automatically closes.
+
+Example [cubescript](Scripting_Tutorial "wikilink") code:
+
+`on_trigger_26 = [`
+`    if (= $door_open 0) [`
+`        door_open = 1`
+`        exectrigger 27 //activate the door`
+`        exectrigger 30 //activate another trigger (particles? or maybe another door?)`
+`        sleep 5000 [`
+`            exectrigger 27`
+`            exectrigger 30`
+`            door_open = 0`
+`        ]`
+`    ] [`
+`        sound 76 //play an error sound if the door is already open`
+`    ]`
+`]`
+
+The example map [uf-sp\_puzzle](http://forum.freegamedev.net/viewtopic.php?t=4941&p=50984) by unixfreak shows some possibilities with linked entity scripting.
+
+Here's a snippet from the map *condensation* where the author executes triggers linked to lightfx entities to simulate lightning:
+
+`lightning = [0]`
+`lightningloop = [`
+`    lightning = (+ (rnd 5) 17)`
+`    exectrigger $lightning`
+`    sleep (+ (rnd 500) 500) [`
+`        exectrigger $lightning`
+`        sleep (+ (rnd 3000) 1000) [ lightningloop ]`
+`    ]`
+`]`
+`on_start = [ lightningloop ]`
+
+In this example, *exectrigger* is used to fire off triggers at intervals which has the "id" attribute set to a value between 17 and 21.
