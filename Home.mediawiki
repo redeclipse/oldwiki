@@ -1,1 +1,135 @@
-#REDIRECT [[Main Page]]
+<!-- Some template elements courtesy from Wikipedia and the Minecraft Wiki -->
+<!-- Header -->
+{| style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"
+| rowspan="2" |
+<!-- Logo -->
+{| style="width:320px; border:none; background:none;"
+| style="text-align:center; white-space:nowrap; color:#000;" |
+<div style="border:none; color:#000;">[[File:Re-wiki-logo.png|link=Main Page]]</div>
+<div style="top:+0.2em; font-size:95%;">the community run wiki for [http://redeclipse.net/ Red Eclipse].</div>
+|}
+<!-- Community navigation -->
+| style="width:20%" |
+* [http://www.redeclipse.net/forum Forums]
+* [https://kiwiirc.com/client/chat.freenode.net/?nick=guest|?#redeclipse IRC] [[IRC|(details)]]
+* [http://redflare.ofthings.net/ Public servers]
+| style="width:20%" |
+* [[Multiplayer_Guidelines|Multiplayer Guidelines]]
+* [[Trademark_Policy|Trademark Policy]]
+| style="width:20%" |
+* [[Contributors|Project contributors]]
+* [[Community:Discussion|Discuss the wiki]]
+|-
+| colspan="3" style="padding:0; margin:0; text-align:center;" |
+{{flatlist|
+* [[Special:RecentChanges|Recent changes]]
+* [[Special:NewPages|New pages]]
+* [[Special:WantedPages|Missing pages]]
+}}
+|}
+<!-- Main content -->
+{| style="width: 100%; margin:4px 0 0 0; background:none; border-spacing: 0px;"
+<!-- Left -->
+| style="width:45%; border:1px solid #cedff2; background:#fff4f4; vertical-align:top;"|
+{| style="width:100%; vertical-align:top;"
+{{PContainers|header=About the game||headerstyle=background:#ffe5e5|image=Team.png|content=
+Red Eclipse is an open-source arena shooter, created from the Cube2 engine. Offering an [[Guide#Basic_Parkour|innovative parkour system]] and distinct but all potent [[Weapons|weapons]], Red Eclipse provides fast paced and accessible gameplay. [http://redeclipse.net/wiki/What_is_Red_Eclipse Find out more]
+:What's '''new''' in Red Eclipse 1.5.8, [[Elysium Edition]]?
+}}
+|-
+{{PContainers|header=New to Red Eclipse?||headerstyle=background:#ffe5e5|image=Ffa.png|content=
+; [[FAQ_for_Red_Eclipse|FAQ]]
+: Frequently asked questions and general information.
+; [[How to install|Getting Red Eclipse]]
+: How to install and run the game.
+; [[Guide|Beginner's guide]]
+: A short introduction to Red Eclipse, covering modes, weapons and controls.
+; [[GameModes and Mutators|Modes and Mutators]]
+: Learn more about the various game types available. 
+; [[Official Maps]]
+: An overview of the maps that come packaged in the game.
+; [[Weapons]]
+: Detailed information on the available weapons, including tips and strategy guides.
+; [[impulse moves summary|Impulse moves]]
+: Learn more about parkour moves and agile game-play in Red-Eclipse.
+; [[Privileges|User accounts and privileges]]
+: Explanation of the icons right next to player names. 
+; [[Glossary]]
+: Look up some commonly used acronyms and game-play terms.
+; [[System Requirements]]
+: Is your rig ready for RE 2.0?
+}}
+|}
+<!-- Some gap between them boxes -->
+| style="border:1px solid transparent;" |
+<!-- Left -->
+| style="width:55%; border:1px solid #cef2e0; background:#f5faff; vertical-align:top; color:#000;" |
+<!-- Right-Left -->
+{| style="width:50%; vertical-align:top; float:left"
+<!-- General info -->
+{{PContainers|header=General info|headerstyle=background:#cedff2|image=Info_g.png|content=
+* [[Game_Settings|Settings and configuration]]
+* [[Custom maps|Custom maps in online games]]
+* [[Keybinding|How to bind keys]]
+* [[Demo|How to fetch and replay demos]]
+* [[Bot|Bot orders and settings]]
+* [[Deathmatch_Scoring|Details of the Scoring system]]
+* [[Vars and Commands Tables]], [[Vars_and_Commands_in_SVN|(devel version)]]
+}}
+|-
+<!-- Server hosting -->
+{{PContainers|header=Server hosting|headerstyle=background:#cedff2|image=Server.png|content=
+* [[Server Setup]]
+* [[Server_GameFilters|Game Filters]]
+* [[Server_Example_Configurations|Configuration Examples]]
+* [[Admin_Guide|Admin Guide]]
+* [[Server_Command_Line_Options|Server command-line options]]
+* [[Statistics System]]
+}}
+|-
+<!-- Development -->
+{{PContainers|header=Development|headerstyle=background:#cedff2|image=Dev-icon.png|content=
+* [[Obtain development version]]
+* [[Cross-compile|Cross-compiling]]
+* [[Debug|How to get Backtraces]]
+* [[Client_Command_Line_Options|Client command-line options]]
+* [[How to contribute]]
+* [[License]] [[Copyright_and_Licensing_for_Contributions|(for contributions)]]
+}}
+|}
+<!-- Right-Right -->
+{| style="width:50%; vertical-align:top; float:right;"
+<!-- Mapping -->
+{{PContainers|header=Mapping||headerstyle=background:#cedff2|image=Edit-icon.png|content=
+* [[Editing Controls]]
+* [[Octree]]
+* [[Console|Using the Console]]
+* [[Saving/Loading_Maps|Saving and Loading Maps]]
+* [[Texturing]]
+* [[Lighting]]
+* [[Blendmap]]
+* [[Entities]]
+* [[Materials]]
+* [[Grass]]
+* [[Mapmodels]]
+* [[Height_Mapping|Height Mapping/Terrain]]
+* [[Skybox|Skyboxes and Fog]]
+* [[Waypoints]]
+* [[Editing_Info|Editing Info/Indicators]]
+* [[Mapping Tips]]
+* [[Editing Tutorial]]
+* [[Level Design]]
+* [http://sauerbraten.org/docs/editref.html Cube2 - Editing Reference (specifics may differ)]
+* [http://sauerbraten.org/docs/models.html Cube2 - Model Reference (specifics may differ)]  
+}}
+|-
+<!-- Scripting -->
+{{PContainers|header=Scripting||headerstyle=background:#cedff2|image=File_edit.png|content=
+* [[CubeScript|Basic CubeScript Reference]]
+* [[CubeScript Manual|Advanced CubeScript Reference]]
+* [[Menus|Creating menus]]
+* [[Entity Linking#Scriptable Events|Scriptable Events]]
+}}
+|}
+|}
+__NOTOC__ __NOEDITSECTION__
