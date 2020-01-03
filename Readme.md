@@ -43,7 +43,7 @@ The project is Free and Open Source meaning that you can both use it for free, a
 
 ### Contributors, Developers and Supporters
 
--   Adam "lycanfox" Hobson
+-   "Lycanfox"
 -   Alex "ZeroKnight" George - Design/Testing, Support
 -   Anup "DOS\_WARRIOR" Debnath
 -   Cameron "Rhubarb" Dawdy
